@@ -1,0 +1,73 @@
+# ============================================================
+# LUDIS CONFIGURATION FILE (SAMPLE)
+# ============================================================
+# Copy this file to 'config.yaml' and customize for your setup
+#
+# Quick Start:
+#   1. Copy: cp config.yaml.sample config.yaml
+#   2. Edit paths below to match your system
+#   3. Run: python3 ludis.py
+# ============================================================
+
+# Ludis version (do not modify)
+version: "1.0"
+
+# ============================================================
+# PATH CONFIGURATION
+# ============================================================
+paths:
+  # LaunchBox data directory (where Platform and Playlist XMLs are stored)
+  # Default: "Data/" (relative to this script)
+  launchbox_data: "Data/"
+  
+  # Output directory for all generated CSVs
+  # Default: "LB_Exports/" (relative to this script)
+  output_directory: "LB_Exports/"
+  
+  # Windows root path (as used by LaunchBox internally)
+  # This is the path LaunchBox stores in its XML files
+  # Example: "Z:\\media\\games\\library"
+  windows_root: "Z:\\media\\games\\library"
+  
+  # Local filesystem root path (where files actually exist on your system)
+  # This is where the script will look for actual game files
+  # 
+  # Examples by OS:
+  #   macOS:   "/Volumes/The_Stacks/media/games/library"
+  #   Linux:   "/mnt/nas/games/library"
+  #   Windows: "Z:\\media\\games\\library"
+  local_root: "/Volumes/The_Stacks/media/games/library"
+
+# ============================================================
+# PROCESSING OPTIONS
+# ============================================================
+options:
+  # Enable filesystem scanning to build NAS inventory
+  # 
+  # If TRUE:  Scans local_root to build nas_inventory.csv and matches
+  #           LaunchBox entries to actual files on disk
+  # If FALSE: Skips filesystem scan, exports LaunchBox metadata only
+  #           (useful for metadata-only exports or when files aren't accessible)
+  # 
+  # Default: true
+  scan_filesystem: true
+  
+  # Enable verbose output (detailed logging)
+  # Default: false
+  verbose: false
+  
+  # Show progress bars for long operations
+  # Default: true
+  show_progress: true
+
+# ============================================================
+# EXPORT TARGETS (FUTURE USE)
+# ============================================================
+# These settings are reserved for future export functionality
+# (e.g., generating ES-DE game lists, creating symlink scripts, etc.)
+export_targets:
+  steam_deck:
+    enabled: false
+    path: ""
+    format: "esde"  # ES-DE format
+

@@ -1,0 +1,55 @@
+# LaunchBox Data Directory (large XML files)
+Data/
+
+# Generated Exports (can be regenerated)
+LB_Exports/
+
+# User-specific configuration (keep sample tracked)
+config.yaml
+
+# Archive/backup files
+archive/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
