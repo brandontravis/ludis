@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<gameList>
+  <game>
+    <path>./Batman Returns (USA, Europe).zip</path>
+    <name>Batman Returns</name>
+    <developer>Atari</developer>
+    <publisher>Atari</publisher>
+    <genre>Beat &apos;em Up</genre>
+    <releasedate>1992-01-01</releasedate>
+    <rating>0.41</rating>
+  </game>
+  <game>
+    <path>./Double Dragon (USA, Europe).zip</path>
+    <name>Double Dragon</name>
+    <developer>Knight Technologies</developer>
+    <publisher>Atari; Telegames</publisher>
+    <genre>Beat &apos;em Up</genre>
+    <releasedate>1993-01-01</releasedate>
+    <rating>0.52</rating>
+  </game>
+</gameList>

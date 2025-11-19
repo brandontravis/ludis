@@ -1,0 +1,2468 @@
+<?xml version="1.0"?>
+<gameList>
+  <game>
+    <path>./Alan Wake (World) (En,Ja,Fr,De,Es,It,Zh,Ko,Pl,Ru).iso</path>
+    <name>Alan Wake</name>
+    <developer>Remedy Entertainment</developer>
+    <publisher>Microsoft Game Studios</publisher>
+    <genre>Action; Adventure; Horror</genre>
+    <releasedate>2010-05-18</releasedate>
+    <rating>0.85</rating>
+  </game>
+  <game>
+    <path>./Alice - Madness Returns (USA, Europe) (En,Fr,De,Es,It).iso</path>
+    <name>Alice: Madness Returns</name>
+    <developer>Spicy Horse</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Horror; Platform; Beat &apos;em Up</genre>
+    <releasedate>2011-06-14</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./Amazing Spider-Man 2, The (USA, Europe) (En,Fr,De,Es,It).iso</path>
+    <name>The Amazing Spider-Man 2</name>
+    <developer>Beenox</developer>
+    <publisher>Activision</publisher>
+    <genre>Action</genre>
+    <releasedate>2014-04-29</releasedate>
+    <rating>0.57</rating>
+  </game>
+  <game>
+    <path>./Amazing Spider-Man, The (USA, Europe) (En,Fr,De,Es,It).iso</path>
+    <name>The Amazing Spider-Man</name>
+    <developer>Beenox</developer>
+    <publisher>Activision</publisher>
+    <genre>Action; Adventure; Sandbox</genre>
+    <releasedate>2012-06-26</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./Amped 3 (USA) (En,Fr,De,It).iso</path>
+    <name>Amped 3</name>
+    <developer>Indie Built</developer>
+    <publisher>2K Games</publisher>
+    <genre>Sports</genre>
+    <releasedate>2005-11-15</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Assassin&apos;s Creed (USA, Europe) (En,Fr,De,Es,It) (Rev 1).iso</path>
+    <name>Assassin&apos;s Creed</name>
+    <developer>Ubisoft Entertainment</developer>
+    <publisher>Ubisoft Entertainment</publisher>
+    <genre>Action; Adventure; Sandbox; Stealth</genre>
+    <releasedate>2007-11-13</releasedate>
+    <rating>0.73</rating>
+  </game>
+  <game>
+    <path>./Assassin&apos;s Creed - Brotherhood (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da).iso</path>
+    <name>Assassin&apos;s Creed: Brotherhood</name>
+    <developer>Ubisoft Montreal</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action; Adventure; Sandbox; Stealth</genre>
+    <releasedate>2010-11-16</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Assassin&apos;s Creed - Revelations (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da).iso</path>
+    <name>Assassin&apos;s Creed: Revelations</name>
+    <developer>Ubisoft Montreal</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action; Adventure; Sandbox; Stealth</genre>
+    <releasedate>2011-11-15</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./Assassin&apos;s Creed - Rogue (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Pl).iso</path>
+    <name>Assassin&apos;s Creed: Rogue</name>
+    <developer>Ubisoft Sofia</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action; Sandbox; Stealth</genre>
+    <releasedate>2014-11-11</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./Assassin&apos;s Creed II (World) (En,Fr,De,Es,It,Nl,Sv,No,Da).iso</path>
+    <name>Assassin&apos;s Creed 2</name>
+    <developer>Ubisoft Montreal</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action; Adventure; Sandbox; Stealth</genre>
+    <releasedate>2009-11-17</releasedate>
+    <rating>0.92</rating>
+  </game>
+  <game>
+    <path>./Assassin&apos;s Creed III (USA) (En,Fr,Es,Pt) (Disc 1) (Single-player) (Rev 1).iso</path>
+    <name>Assassin&apos;s Creed III</name>
+    <developer>Ubisoft Montreal</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action; Sandbox; Stealth</genre>
+    <releasedate>2012-10-30</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Assassin&apos;s Creed IV - Black Flag (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi) (Disc 1).iso</path>
+    <name>Assassin&apos;s Creed IV: Black Flag</name>
+    <developer>Ubisoft Entertainment</developer>
+    <publisher>Ubisoft Entertainment; Ak Tronic Software &amp; Services</publisher>
+    <genre>Action; Adventure; Stealth</genre>
+    <releasedate>2013-10-29</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./Assassin&apos;s Creed IV - Black Flag (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi) (Disc 2).iso</path>
+    <name>Assassin&apos;s Creed IV: Black Flag</name>
+    <developer>Ubisoft Entertainment</developer>
+    <publisher>Ubisoft Entertainment; Ak Tronic Software &amp; Services</publisher>
+    <genre>Action; Adventure; Stealth</genre>
+    <releasedate>2013-10-29</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./Back to the Future - The Game - 30th Anniversary Edition (USA) (En,Fr,De).iso</path>
+    <name>Back to the Future: The Game: 30th Anniversary Edition</name>
+    <developer>Telltale</developer>
+    <publisher>Telltale</publisher>
+    <genre>Adventure</genre>
+    <releasedate>2015-10-13</releasedate>
+    <rating>0.66</rating>
+  </game>
+  <game>
+    <path>./Banjo-Kazooie - Nuts &amp; Bolts (USA) (En,Ja,Fr,De,Es,It,Nl,Sv,No,Zh,Ko,Pl,Ru,Cs).iso</path>
+    <name>Banjo-Kazooie: Nuts &amp; Bolts</name>
+    <developer>Rare</developer>
+    <publisher>Microsoft Game Studios</publisher>
+    <genre>Adventure; Platform</genre>
+    <releasedate>2008-11-11</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Batman - Arkham Asylum - Game of the Year Edition (USA) (En,Fr,De,Es,It).iso</path>
+    <name>Batman: Arkham Asylum: Game of the Year Edition</name>
+    <developer>Rocksteady Studios</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Action; Adventure; Stealth</genre>
+    <releasedate>2010-05-11</releasedate>
+    <rating>0.89</rating>
+  </game>
+  <game>
+    <path>./Batman - Arkham City - Game of the Year Edition (USA, Europe) (En,Ja,Fr,De,Es,It,Pt,Ko,Pl,Ru) (Disc 1).iso</path>
+    <name>Batman: Arkham City: Game of the Year Edition</name>
+    <developer>Rocksteady Studios</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Action; Adventure; Stealth</genre>
+    <releasedate>2012-05-29</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./Batman - Arkham City - Game of the Year Edition (USA, Europe) (En,Ja,Fr,De,Es,It,Pt,Ko,Pl,Ru) (Disc 2).iso</path>
+    <name>Batman: Arkham City: Game of the Year Edition</name>
+    <developer>Rocksteady Studios</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Action; Adventure; Stealth</genre>
+    <releasedate>2012-05-29</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./Batman - Arkham Origins (USA, Europe) (En,Fr,De,Es,It,Ko,Pl,Ru) (Disc 1).iso</path>
+    <name>Batman: Arkham Origins</name>
+    <developer>WB Games Montreal</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <releasedate>2013-10-25</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Batman - Arkham Origins (USA, Europe) (En,Fr,De,Es,It,Ko,Pl,Ru) (Disc 2).iso</path>
+    <name>Batman: Arkham Origins</name>
+    <developer>WB Games Montreal</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <releasedate>2013-10-25</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Batman - The Telltale Series (USA) (En,Fr,De,Es,Pt,Zh,Ru).iso</path>
+    <name>Batman: The Telltale Series</name>
+    <developer>Telltale</developer>
+    <publisher>Telltale</publisher>
+    <releasedate>2016-08-02</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./Battlefield - Bad Company (USA) (Gold Edition).iso</path>
+    <name>Battlefield: Bad Company</name>
+    <developer>DiCE</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Action; Shooter</genre>
+    <releasedate>2008-06-23</releasedate>
+    <rating>0.69</rating>
+  </game>
+  <game>
+    <path>./Battlefield - Bad Company 2 (USA) (En,Fr) (Limited Edition).iso</path>
+    <name>Battlefield: Bad Company 2</name>
+    <developer>Electronic Arts DICE</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Action; Shooter</genre>
+    <releasedate>2010-03-02</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./Battlefield 2 - Modern Combat (USA).iso</path>
+    <name>Battlefield 2: Modern Combat</name>
+    <developer>DiCE</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2006-04-11</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./Battlefield 3 (USA, Europe) (En,Ja,Fr,De,Es,It,Zh,Ko,Pl,Ru) (Disc 2) (Single-Player Campaign).iso</path>
+    <name>Battlefield 3</name>
+    <developer>EA Digital Illusions</developer>
+    <publisher>Electronic Arts; Ak Tronic Software &amp; Services</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2011-10-25</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Battlefield 4 (USA, Europe) (En,Fr,De,Es,It,Pt,Pl,Ru,Cs) (Disc 1).iso</path>
+    <name>Battlefield 4</name>
+    <developer>DiCE</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2013-10-29</releasedate>
+    <rating>0.60</rating>
+  </game>
+  <game>
+    <path>./Battlefield 4 (USA, Europe) (En,Fr,De,Es,It,Pt,Pl,Ru,Cs) (Disc 2).iso</path>
+    <name>Battlefield 4</name>
+    <developer>DiCE</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2013-10-29</releasedate>
+    <rating>0.60</rating>
+  </game>
+  <game>
+    <path>./Battlefield Hardline (USA, Europe) (En,Ja,Fr,De,Es,It,Pt,Pl,Ru) (Disc 1) (Install-Multiplayer).iso</path>
+    <name>Battlefield: Hardline</name>
+    <developer>Visceral Games</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Shooter</genre>
+    <rating>0.48</rating>
+  </game>
+  <game>
+    <path>./Bionic Commando (USA, Europe) (En,Fr,De,Es,It,Ko).iso</path>
+    <name>Bionic Commando (2009)</name>
+    <developer>GRIN</developer>
+    <publisher>Capcom</publisher>
+    <genre>Action</genre>
+    <releasedate>2009-05-22</releasedate>
+    <rating>0.79</rating>
+  </game>
+  <game>
+    <path>./BioShock (World) (En,Fr,De,Es,It).iso</path>
+    <name>BioShock</name>
+    <developer>2K Australia; 2K Boston</developer>
+    <publisher>2K Games</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2007-08-21</releasedate>
+    <rating>0.94</rating>
+  </game>
+  <game>
+    <path>./BioShock - Ultimate Rapture Edition (USA) (BioShock - Bonus Content).iso</path>
+    <name>BioShock: Ultimate Rapture Edition</name>
+    <developer>Irrational Games</developer>
+    <genre>Action</genre>
+    <releasedate>2013-01-15</releasedate>
+    <rating>0.57</rating>
+  </game>
+  <game>
+    <path>./BioShock 2 (USA, Europe) (En,Fr,Es).iso</path>
+    <name>Bioshock 2</name>
+    <developer>Digital Extremes; Arkane Studios; 2K China; 2K Marin; 2K Australia</developer>
+    <publisher>2K Games</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2010-02-09</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./BioShock Infinite (USA, Europe).iso</path>
+    <name>BioShock Infinite</name>
+    <developer>Irrational Games</developer>
+    <publisher>2K Games</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2013-03-26</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./Borderlands (USA, Europe) (En,Fr,De,Es,It).iso</path>
+    <name>Borderlands</name>
+    <developer>Gearbox Software</developer>
+    <publisher>2K Games</publisher>
+    <genre>Role-Playing; Shooter</genre>
+    <releasedate>2009-10-20</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./Borderlands - Game of the Year Edition (USA) (Add-On Content Disc).iso</path>
+    <name>Borderlands: Game of the Year Edition</name>
+    <developer>Gearbox Software</developer>
+    <publisher>2K Games</publisher>
+    <genre>Role-Playing; Sandbox; Shooter</genre>
+    <releasedate>2010-10-12</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./Borderlands - The Pre-Sequel! (USA).iso</path>
+    <name>Borderlands: The Pre-Sequel!</name>
+    <developer>Gearbox Software</developer>
+    <publisher>2K Games</publisher>
+    <genre>Role-Playing; Shooter</genre>
+    <releasedate>2014-10-17</releasedate>
+    <rating>0.90</rating>
+  </game>
+  <game>
+    <path>./Borderlands 2 (World) (En,Ja,Fr,De,Es,It).iso</path>
+    <name>Borderlands 2</name>
+    <developer>Gearbox Software</developer>
+    <publisher>2K Games</publisher>
+    <genre>Role-Playing; Shooter</genre>
+    <releasedate>2012-09-18</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./Borderlands 2 - Add-On Content Pack (USA).iso</path>
+    <name>Borderlands 2: Add-On Content Pack</name>
+    <developer>Gearbox Software</developer>
+    <publisher>2K Games</publisher>
+    <genre>Role-Playing; Shooter</genre>
+    <releasedate>2013-02-26</releasedate>
+    <rating>0.63</rating>
+  </game>
+  <game>
+    <path>./Borderlands 2 - Game of the Year Edition (World) (Add-On Disc).iso</path>
+    <name>Borderlands 2: Game of the Year Edition</name>
+    <developer>Gearbox Software</developer>
+    <publisher>2K Games</publisher>
+    <genre>Adventure; Sandbox; Shooter</genre>
+    <releasedate>2013-10-08</releasedate>
+    <rating>0.93</rating>
+  </game>
+  <game>
+    <path>./Brink (USA).iso</path>
+    <name>BRINK</name>
+    <developer>Splash Damage</developer>
+    <publisher>Bethesda</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2011-05-10</releasedate>
+    <rating>0.50</rating>
+  </game>
+  <game>
+    <path>./Call of Duty - Advanced Warfare (USA, Europe) (En,Fr,De,Es,It,Pl,Ru) (Game Disc).iso</path>
+    <name>Call of Duty: Advanced Warfare</name>
+    <developer>Sledgehammer Games</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2014-11-04</releasedate>
+    <rating>0.64</rating>
+  </game>
+  <game>
+    <path>./Call of Duty - Black Ops (USA, Europe).iso</path>
+    <name>Call of Duty: Black Ops</name>
+    <developer>Treyarch</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2010-11-09</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./Call of Duty - Black Ops II (World).iso</path>
+    <name>Call of Duty: Black Ops 2</name>
+    <developer>Treyarch</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2012-11-13</releasedate>
+    <rating>0.91</rating>
+  </game>
+  <game>
+    <path>./Call of Duty - Black Ops III (USA, Europe) (En,Fr,De,Es,It,Pt,Pl,Ru).iso</path>
+    <name>Call of Duty: Black Ops III</name>
+    <developer>Treyarch</developer>
+    <publisher>Activision</publisher>
+    <genre>Action</genre>
+    <releasedate>2015-11-06</releasedate>
+    <rating>0.94</rating>
+  </game>
+  <game>
+    <path>./Call of Duty - Ghosts (USA, Europe) (Disc 1) (Game Disc).iso</path>
+    <name>Call of Duty: Ghosts</name>
+    <developer>Infinity Ward</developer>
+    <publisher>Activision</publisher>
+    <genre>Action; Shooter; Stealth</genre>
+    <releasedate>2013-11-05</releasedate>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./Call of Duty - Modern Warfare 2 (USA, Europe).iso</path>
+    <name>Call of Duty: Modern Warfare 2</name>
+    <developer>Infinity Ward</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2009-11-10</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./Call of Duty - Modern Warfare 3 (USA, Europe).iso</path>
+    <name>Call of Duty: Modern Warfare 3</name>
+    <developer>Infinity Ward; Raven Software; Sledgehammer Games</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2011-11-08</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Call of Duty - World at War (USA, Europe).iso</path>
+    <name>Call of Duty: World at War</name>
+    <developer>Treyarch</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2008-11-11</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Call of Duty 2 (USA).iso</path>
+    <name>Call of Duty 2</name>
+    <developer>Infinity Ward</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2005-10-25</releasedate>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./Call of Duty 3 (USA, Europe).iso</path>
+    <name>Call of Duty 3</name>
+    <developer>Treyarch</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2006-11-07</releasedate>
+    <rating>0.68</rating>
+  </game>
+  <game>
+    <path>./Call of Duty 4 - Modern Warfare (USA, Europe).iso</path>
+    <name>Call of Duty 4: Modern Warfare</name>
+    <developer>Infinity Ward</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2007-11-05</releasedate>
+    <rating>0.93</rating>
+  </game>
+  <game>
+    <path>./Capcom Digital Collection (USA, Europe).iso</path>
+    <name>Capcom Digital Collection</name>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Compilation</genre>
+    <releasedate>2012-03-27</releasedate>
+    <rating>1.00</rating>
+  </game>
+  <game>
+    <path>./Castlevania - Lords of Shadow (USA, Europe) (En,Fr,De,Es,It) (Disc 1).iso</path>
+    <name>Castlevania: Lords of Shadow</name>
+    <developer>MercurySteam</developer>
+    <publisher>Konami</publisher>
+    <genre>Action; Adventure; Horror; Role-Playing</genre>
+    <releasedate>2010-10-05</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./Castlevania - Lords of Shadow (USA, Europe) (En,Fr,De,Es,It) (Disc 2).iso</path>
+    <name>Castlevania: Lords of Shadow</name>
+    <developer>MercurySteam</developer>
+    <publisher>Konami</publisher>
+    <genre>Action; Adventure; Horror; Role-Playing</genre>
+    <releasedate>2010-10-05</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./Castlevania - Lords of Shadow 2 (USA) (En,Fr,De,Es,It,Pt).iso</path>
+    <name>Castlevania: Lords of Shadow 2</name>
+    <developer>MercurySteam</developer>
+    <publisher>Konami</publisher>
+    <genre>Action</genre>
+    <releasedate>2014-02-25</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./Command &amp; Conquer - Red Alert 3 (USA, Europe) (En,Fr).iso</path>
+    <name>Command &amp; Conquer: Red Alert 3</name>
+    <developer>Electronic Arts Los Angeles</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Strategy</genre>
+    <releasedate>2008-11-14</releasedate>
+    <rating>0.63</rating>
+  </game>
+  <game>
+    <path>./Command &amp; Conquer 3 - Kane&apos;s Wrath (USA).iso</path>
+    <name>Command &amp; Conquer 3: Kane&apos;s Wrath</name>
+    <developer>Electronic Arts</developer>
+    <publisher>BreakAway Games</publisher>
+    <genre>Strategy</genre>
+    <releasedate>2008-06-23</releasedate>
+    <rating>0.00</rating>
+  </game>
+  <game>
+    <path>./Command &amp; Conquer 3 - Tiberium Wars (USA).iso</path>
+    <name>Command &amp; Conquer 3: Tiberium Wars</name>
+    <developer>Electronic Arts Los Angeles</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Strategy</genre>
+    <releasedate>2007-05-10</releasedate>
+    <rating>0.60</rating>
+  </game>
+  <game>
+    <path>./Dark (USA, Europe).iso</path>
+    <name>Dark</name>
+    <developer>Realmforge Studios</developer>
+    <publisher>Kalypso Media</publisher>
+    <genre>Role-Playing; Stealth</genre>
+    <releasedate>2013-07-09</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Dark Souls (USA) (En,Fr,Es) (Rev 1).iso</path>
+    <name>Dark Souls</name>
+    <developer>FromSoftware</developer>
+    <publisher>Namco Bandai</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2011-10-04</releasedate>
+    <rating>0.84</rating>
+  </game>
+  <game>
+    <path>./Dark Souls II (World) (En,Ja,Fr,De,Es,It,Zh,Ko,Pl,Ru).iso</path>
+    <name>Dark Souls II</name>
+    <developer>FromSoftware</developer>
+    <publisher>Namco Bandai</publisher>
+    <genre>Action</genre>
+    <releasedate>2014-03-11</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./Dark Souls II - Scholar of the First Sin (USA, Europe) (En,Fr,Es,Pt) (Disc 1).iso</path>
+    <name>Dark Souls II: Scholar of the First Sin</name>
+    <developer>FromSoftware</developer>
+    <publisher>Namco Bandai Games America; Namco Bandai Games Europe</publisher>
+    <genre>Adventure; Role-Playing</genre>
+    <releasedate>2015-04-07</releasedate>
+    <rating>0.84</rating>
+  </game>
+  <game>
+    <path>./Dark Souls II - Scholar of the First Sin (USA, Europe) (En,Fr,Es,Pt) (Disc 2).iso</path>
+    <name>Dark Souls II: Scholar of the First Sin</name>
+    <developer>FromSoftware</developer>
+    <publisher>Namco Bandai Games America; Namco Bandai Games Europe</publisher>
+    <genre>Adventure; Role-Playing</genre>
+    <releasedate>2015-04-07</releasedate>
+    <rating>0.84</rating>
+  </game>
+  <game>
+    <path>./Dead Island - Game of the Year Edition (USA, Europe).iso</path>
+    <name>Dead Island: Game of the Year Edition</name>
+    <developer>Techland</developer>
+    <publisher>Deep Silver</publisher>
+    <genre>Action; Role-Playing; Shooter</genre>
+    <releasedate>2012-06-26</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Dead Island - Riptide (USA, Europe).iso</path>
+    <name>Dead Island: Riptide</name>
+    <developer>Techland</developer>
+    <publisher>Deep Silver</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2013-04-23</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./Dead or Alive 4 (USA, Europe) (En,Ja,Fr,De,Es,It,Zh,Ko) (Rev 1).iso</path>
+    <name>Dead or Alive 4</name>
+    <developer>Team Ninja</developer>
+    <publisher>Tecmo</publisher>
+    <genre>Fighting</genre>
+    <releasedate>2005-12-29</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Dead or Alive 5 (USA).iso</path>
+    <name>Dead or Alive 5</name>
+    <developer>Team Ninja</developer>
+    <publisher>Koei Tecmo</publisher>
+    <genre>Fighting</genre>
+    <releasedate>2012-09-25</releasedate>
+    <rating>0.79</rating>
+  </game>
+  <game>
+    <path>./Dead or Alive Xtreme 2 (USA) (En,Ja,Fr,De,Es,It,Zh,Ko,Pl).iso</path>
+    <name>Dead or Alive Xtreme 2</name>
+    <developer>Team Ninja</developer>
+    <publisher>Tecmo</publisher>
+    <genre>Sports; Casino</genre>
+    <releasedate>2006-11-13</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./Dead Space 2 (USA, Europe) (En,Fr,Es) (Disc 1).iso</path>
+    <name>Dead Space 2</name>
+    <developer>Visceral Games</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Horror; Shooter</genre>
+    <releasedate>2011-01-25</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./Dead Space 2 (USA, Europe) (En,Fr,Es) (Disc 2).iso</path>
+    <name>Dead Space 2</name>
+    <developer>Visceral Games</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Horror; Shooter</genre>
+    <releasedate>2011-01-25</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./Deus Ex - Human Revolution - Director&apos;s Cut (USA, Europe) (En,Fr,De,Es,It) (Disc 1).iso</path>
+    <name>Deus Ex: Human Revolution Director&apos;s Cut</name>
+    <developer>Eidos Montreal</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Action; Role-Playing; Shooter; Stealth</genre>
+    <releasedate>2013-10-22</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./Deus Ex - Human Revolution - Director&apos;s Cut (USA, Europe) (En,Fr,De,Es,It) (Disc 2).iso</path>
+    <name>Deus Ex: Human Revolution Director&apos;s Cut</name>
+    <developer>Eidos Montreal</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Action; Role-Playing; Shooter; Stealth</genre>
+    <releasedate>2013-10-22</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./Devil May Cry - HD Collection (USA) (En,Ja,Fr,De,Es,It).iso</path>
+    <name>Devil May Cry HD Collection</name>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Action</genre>
+    <releasedate>2012-04-03</releasedate>
+    <rating>0.85</rating>
+  </game>
+  <game>
+    <path>./Devil May Cry 4 (USA, Europe) (En,Fr,De,Es,It).iso</path>
+    <name>Devil May Cry 4</name>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Action</genre>
+    <releasedate>2008-02-05</releasedate>
+    <rating>0.79</rating>
+  </game>
+  <game>
+    <path>./Diablo III - Reaper of Souls - Ultimate Evil Edition (USA).iso</path>
+    <name>Diablo III: Reaper of Souls: Ultimate Evil Edition</name>
+    <developer>Blizzard Entertainment</developer>
+    <publisher>Blizzard Entertainment</publisher>
+    <genre>Action; Adventure; Role-Playing</genre>
+    <releasedate>2014-08-19</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./Dishonored (USA) (En,Fr,Es).iso</path>
+    <name>Dishonored</name>
+    <developer>Arkane Studios</developer>
+    <publisher>Bethesda Softworks</publisher>
+    <genre>Action; Adventure; Role-Playing; Stealth</genre>
+    <releasedate>2012-10-12</releasedate>
+    <rating>0.93</rating>
+  </game>
+  <game>
+    <path>./Dishonored - Game of the Year Edition (USA) (En,Fr,Es) (Disc 2).iso</path>
+    <name>Dishonored: Game of the Year Edition</name>
+    <developer>Arkane Studios</developer>
+    <publisher>Bethesda Softworks</publisher>
+    <genre>Action; Adventure; Role-Playing; Sandbox; Stealth</genre>
+    <releasedate>2013-10-08</releasedate>
+    <rating>0.00</rating>
+  </game>
+  <game>
+    <path>./Doom 3 - BFG Edition (USA) (En,Fr,Es).iso</path>
+    <name>Doom 3: BFG Edition</name>
+    <developer>id Software</developer>
+    <publisher>Bethesda Softworks</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2012-10-16</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./Dragon Age - Inquisition (USA, Europe) (Disc 1).iso</path>
+    <name>Dragon Age: Inquisition</name>
+    <developer>BioWare</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Adventure; Role-Playing</genre>
+    <releasedate>2014-11-18</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./Dragon Age - Inquisition (USA, Europe) (Disc 2).iso</path>
+    <name>Dragon Age: Inquisition</name>
+    <developer>BioWare</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Adventure; Role-Playing</genre>
+    <releasedate>2014-11-18</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./Dragon Age - Origins (USA, Europe) (En,Es,It).iso</path>
+    <name>Dragon Age: Origins</name>
+    <developer>BioWare</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2009-11-03</releasedate>
+    <rating>0.91</rating>
+  </game>
+  <game>
+    <path>./Dragon Age - Origins - Awakening (USA, Europe).iso</path>
+    <name>Dragon Age: Origins: Awakening</name>
+    <developer>BioWare</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Role-Playing; Strategy</genre>
+    <releasedate>2010-03-16</releasedate>
+    <rating>0.95</rating>
+  </game>
+  <game>
+    <path>./Dragon Age - Origins - Ultimate Edition (USA) (Disc 2) (Additional Content Packs Install Disc).iso</path>
+    <name>Dragon Age: Origins: Ultimate Edition</name>
+    <developer>BioWare</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Action; Role-Playing</genre>
+    <releasedate>2010-10-25</releasedate>
+    <rating>0.90</rating>
+  </game>
+  <game>
+    <path>./Dragon Age II (USA).iso</path>
+    <name>Dragon Age II</name>
+    <developer>BioWare</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2011-03-08</releasedate>
+    <rating>0.79</rating>
+  </game>
+  <game>
+    <path>./DuckTales Remastered [NTSCU].iso</path>
+    <name>Ducktales Remastered</name>
+    <developer>Capcom</developer>
+    <publisher>Microsoft</publisher>
+    <genre>Adventure; Platform</genre>
+    <releasedate>2013-11-09</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./Duke Nukem Forever (World) (En,Fr,De,Es,It).iso</path>
+    <name>Duke Nukem Forever</name>
+    <developer>Gearbox Software</developer>
+    <publisher>2K Games</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2011-06-14</releasedate>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./Elder Scrolls IV, The - Oblivion (USA, Europe) (Rev 1).iso</path>
+    <name>The Elder Scrolls IV: Oblivion</name>
+    <developer>Bethesda Game Studios</developer>
+    <publisher>2K Games; Bethesda Softworks</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2006-03-20</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./Elder Scrolls IV, The - Oblivion - Game of the Year Edition (USA) (Disc 1) (Rev 1).iso</path>
+    <name>The Elder Scrolls IV: Oblivion: Game of the Year Edition</name>
+    <developer>Bethesda Game Studios</developer>
+    <publisher>2K Games; Ak Tronic Software &amp; Services</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2007-09-10</releasedate>
+    <rating>0.85</rating>
+  </game>
+  <game>
+    <path>./Elder Scrolls IV, The - Oblivion - Game of the Year Edition (USA) (Disc 2) (Rev 1).iso</path>
+    <name>The Elder Scrolls IV: Oblivion: Game of the Year Edition</name>
+    <developer>Bethesda Game Studios</developer>
+    <publisher>2K Games; Ak Tronic Software &amp; Services</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2007-09-10</releasedate>
+    <rating>0.85</rating>
+  </game>
+  <game>
+    <path>./Elder Scrolls V, The - Skyrim (USA, Europe).iso</path>
+    <name>The Elder Scrolls V: Skyrim</name>
+    <developer>Bethesda Game Studios</developer>
+    <publisher>Bethesda Softworks</publisher>
+    <genre>Role-Playing; Sandbox</genre>
+    <releasedate>2011-11-11</releasedate>
+    <rating>0.93</rating>
+  </game>
+  <game>
+    <path>./Elder Scrolls V, The - Skyrim - Legendary Edition (USA) (Disc 2).iso</path>
+    <name>The Elder Scrolls V: Skyrim Legendary Edition</name>
+    <releasedate>2013-06-04</releasedate>
+    <rating>0.90</rating>
+  </game>
+  <game>
+    <path>./Escape Dead Island (USA).iso</path>
+    <name>Escape Dead Island</name>
+    <developer>Fatshark</developer>
+    <publisher>Deep Silver</publisher>
+    <genre>Action; Adventure; Horror; Stealth</genre>
+    <releasedate>2014-11-18</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./F.E.A.R. - First Encounter Assault Recon (USA, Europe) (En,Fr,Es,It).iso</path>
+    <name>F.E.A.R.</name>
+    <developer>Monolith Productions</developer>
+    <publisher>Sierra</publisher>
+    <genre>Horror; Shooter</genre>
+    <releasedate>2006-10-31</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./Fable - The Journey (USA) (En,Fr,Es).iso</path>
+    <name>Fable: The Journey</name>
+    <developer>Lionhead Studios</developer>
+    <publisher>Microsoft Studios</publisher>
+    <genre>Action; Adventure; Role-Playing</genre>
+    <releasedate>2012-10-09</releasedate>
+    <rating>0.58</rating>
+  </game>
+  <game>
+    <path>./Fable 2 [RF][En,Pl,Hu,Kr,Cz,Sk,Ch].iso</path>
+    <name>Fable II</name>
+    <developer>Lionhead Studios</developer>
+    <publisher>Microsoft Game Studios</publisher>
+    <genre>Action; Adventure; Role-Playing</genre>
+    <releasedate>2008-10-21</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./Fable Anniversary (USA, Europe) (En,Fr,Es,Pt).iso</path>
+    <name>Fable Anniversary</name>
+    <developer>Lionhead Studios</developer>
+    <publisher>Microsoft</publisher>
+    <genre>Adventure; Role-Playing</genre>
+    <releasedate>2014-02-04</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./Fable II - Game of the Year Edition (USA, Europe) (En,Zh,Ko,Pl,Cs,Hu).iso</path>
+    <name>Fable II: Game of the Year Edition</name>
+    <developer>Lionhead Studios</developer>
+    <publisher>Xbox Game Studios</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2009-09-18</releasedate>
+    <rating>0.92</rating>
+  </game>
+  <game>
+    <path>./Fable III (USA, Europe) (En,Zh,Ko,Pl,Ru,Cs,Hu,Sk).iso</path>
+    <name>Fable III</name>
+    <developer>Lionhead Studios</developer>
+    <publisher>Microsoft</publisher>
+    <genre>Adventure; Role-Playing</genre>
+    <releasedate>2010-10-25</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./Fallout - New Vegas (USA, Europe).iso</path>
+    <name>Fallout: New Vegas</name>
+    <developer>Obsidian Entertainment</developer>
+    <publisher>Bethesda Softworks</publisher>
+    <genre>Action; Role-Playing; Shooter</genre>
+    <releasedate>2010-10-19</releasedate>
+    <rating>0.92</rating>
+  </game>
+  <game>
+    <path>./Fallout - New Vegas - Ultimate Edition (USA) (Disc 2).iso</path>
+    <name>Fallout: New Vegas: Ultimate Edition</name>
+    <developer>Obsidian Entertainment</developer>
+    <publisher>Bethesda Softworks; Ak Tronic Software &amp; Services; ZeniMax Europe</publisher>
+    <genre>Action; Role-Playing</genre>
+    <releasedate>2012-02-07</releasedate>
+    <rating>0.89</rating>
+  </game>
+  <game>
+    <path>./Fallout 3 (USA).iso</path>
+    <name>Fallout 3</name>
+    <developer>Bethesda Game Studios</developer>
+    <publisher>Bethesda Softworks; ZeniMax Europe</publisher>
+    <genre>Action; Adventure; Role-Playing; Shooter</genre>
+    <releasedate>2008-10-28</releasedate>
+    <rating>0.94</rating>
+  </game>
+  <game>
+    <path>./Fallout 3 - Game of the Year Edition (USA) (Disc 2).iso</path>
+    <name>Fallout 3: Game of the Year Edition</name>
+    <developer>Bethesda Game Studios</developer>
+    <publisher>Bethesda Softworks</publisher>
+    <genre>Action</genre>
+    <releasedate>2009-10-21</releasedate>
+    <rating>0.79</rating>
+  </game>
+  <game>
+    <path>./Far Cry 2 (USA, Europe) (En,Fr,De,Es,It).iso</path>
+    <name>Far Cry 2</name>
+    <developer>Ubisoft Montreal</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2008-10-21</releasedate>
+    <rating>0.68</rating>
+  </game>
+  <game>
+    <path>./Far Cry 3 (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da).iso</path>
+    <name>Far Cry 3</name>
+    <developer>Red Storm Entertainment; Ubisoft Shanghai; Ubisoft Entertainment</developer>
+    <publisher>Ubisoft Entertainment; Ak Tronic Software &amp; Services</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2012-12-04</releasedate>
+    <rating>0.95</rating>
+  </game>
+  <game>
+    <path>./Far Cry 4 (USA).iso</path>
+    <name>Far Cry 4</name>
+    <developer>Ubisoft Entertainment</developer>
+    <publisher>Ubisoft Entertainment</publisher>
+    <genre>Action; Shooter</genre>
+    <releasedate>2014-11-18</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./Far Cry Instincts - Predator (USA, Europe) (En,Fr,De,Es,It).iso</path>
+    <name>Far Cry Instincts: Predator</name>
+    <developer>Ubisoft Montreal</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action; Adventure; Shooter</genre>
+    <releasedate>2006-03-27</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Final Fantasy XI - Online - Ultimate Collection - Seekers Edition (USA).iso</path>
+    <name>Final Fantasy XI Online: Ultimate Collection Seekers Edition</name>
+    <developer>Square Enix</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2013-03-26</releasedate>
+    <rating>0.60</rating>
+  </game>
+  <game>
+    <path>./Final Fantasy XI - Online - Vana&apos;diel Collection 2008 (USA).iso</path>
+    <name>Final Fantasy XI Online: Vana&apos;diel Collection 2008</name>
+    <developer>Square Enix</developer>
+    <publisher>Square Enix</publisher>
+    <genre>MMO</genre>
+    <releasedate>2008-04-15</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./Final Fantasy XI - Online - Wings of the Goddess Expansion Pack (USA).iso</path>
+    <name>Final Fantasy XI: Online: Wings of the Goddess Expansion Pack</name>
+    <developer>Square Enix</developer>
+    <publisher>Square Enix</publisher>
+    <genre>MMO; Role-Playing</genre>
+    <releasedate>2007-11-20</releasedate>
+    <rating>0.64</rating>
+  </game>
+  <game>
+    <path>./Final Fantasy XI - Seekers of Adoulin (USA).iso</path>
+    <name>Final Fantasy XI Online: Seekers of Adoulin</name>
+    <developer>Square Enix</developer>
+    <publisher>Square Enix</publisher>
+    <releasedate>2013-03-26</releasedate>
+    <rating>0.00</rating>
+  </game>
+  <game>
+    <path>./Final Fantasy XIII (USA, Europe) (En,Fr,De,Es,It) (Disc 1).iso</path>
+    <name>Final Fantasy XIII</name>
+    <developer>Square Enix</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2010-03-09</releasedate>
+    <rating>0.56</rating>
+  </game>
+  <game>
+    <path>./Final Fantasy XIII (USA, Europe) (En,Fr,De,Es,It) (Disc 2).iso</path>
+    <name>Final Fantasy XIII</name>
+    <developer>Square Enix</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2010-03-09</releasedate>
+    <rating>0.56</rating>
+  </game>
+  <game>
+    <path>./Final Fantasy XIII (USA, Europe) (En,Fr,De,Es,It) (Disc 3).iso</path>
+    <name>Final Fantasy XIII</name>
+    <developer>Square Enix</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2010-03-09</releasedate>
+    <rating>0.56</rating>
+  </game>
+  <game>
+    <path>./Final Fantasy XIII-2 (USA).iso</path>
+    <name>Final Fantasy XIII-2</name>
+    <developer>Square Enix</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2012-01-31</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./Forza Motorsport 2 (USA) (Bonus Disc).iso</path>
+    <name>Forza Motorsport 2</name>
+    <developer>Turn 10 Studios</developer>
+    <publisher>Microsoft Game Studios</publisher>
+    <genre>Racing</genre>
+    <releasedate>2007-05-29</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./Forza Motorsport 3 (USA) (En,Ja,Fr,De,Es,It,Zh,Ko,Pl,Ru,Cs,Hu) (Disc 1) (Play Disc).iso</path>
+    <name>Forza Motorsport 3</name>
+    <developer>Turn 10 Studios</developer>
+    <publisher>Microsoft Game Studios</publisher>
+    <genre>Racing</genre>
+    <releasedate>2009-10-27</releasedate>
+    <rating>0.85</rating>
+  </game>
+  <game>
+    <path>./Forza Motorsport 4 (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Zh,Ko,Pl,Ru,Cs,Hu) (Disc 1) (Play Disc).iso</path>
+    <name>Forza Motorsport 4</name>
+    <developer>Turn 10 Studios</developer>
+    <publisher>Microsoft; Ak Tronic Software &amp; Services</publisher>
+    <genre>Racing</genre>
+    <releasedate>2011-10-11</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./Game of Thrones (USA).iso</path>
+    <name>Game of Thrones</name>
+    <publisher>Index Digital Media</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2012-05-12</releasedate>
+    <rating>0.55</rating>
+  </game>
+  <game>
+    <path>./Game of Thrones - A Telltale Games Series (USA).iso</path>
+    <name>Game of Thrones: A Telltale Games Series</name>
+    <developer>Telltale Games</developer>
+    <publisher>Telltale Games</publisher>
+    <genre>Adventure</genre>
+    <releasedate>2014-12-03</releasedate>
+    <rating>1.00</rating>
+  </game>
+  <game>
+    <path>./Gears of War (USA) (Bonus Disc).iso</path>
+    <name>Gears of War</name>
+    <developer>Epic Games</developer>
+    <publisher>Microsoft Game Studios</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2006-11-07</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./Gears of War (USA) (Bonus Disc).iso</path>
+    <name>Gears of War</name>
+    <developer>Epic Games</developer>
+    <publisher>Microsoft Game Studios</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2006-11-07</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./Gears of War - Judgment (USA, Europe) (En,Fr,Es,Nl,No,Da,Fi,Zh,Ko,Pl,Ru,Cs).iso</path>
+    <name>Gears of War: Judgment</name>
+    <developer>Epic Games</developer>
+    <publisher>Microsoft Game Studios</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2013-03-19</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./Gears of War 2 (USA) (En,Fr,De,Es,It,Zh,Ko,Pl,Ru,Cs,Hu).iso</path>
+    <name>Gears of War 2</name>
+    <developer>Epic Games</developer>
+    <publisher>Microsoft Game Studios</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2008-11-07</releasedate>
+    <rating>0.85</rating>
+  </game>
+  <game>
+    <path>./Gears of War 3 [NTSCU][MEX].iso</path>
+    <name>Gears of War 3</name>
+    <developer>Epic Games</developer>
+    <publisher>Microsoft Game Studios; Microsoft; Ak Tronic Software &amp; Services</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2011-09-20</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./Grand Theft Auto - Episodes from Liberty City (USA, Europe) (En,Fr,De,Es,It).iso</path>
+    <name>Grand Theft Auto: Episodes from Liberty City</name>
+    <developer>Rockstar North</developer>
+    <publisher>Rockstar Games</publisher>
+    <genre>Action; Adventure; Sandbox</genre>
+    <releasedate>2009-10-29</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Grand Theft Auto - San Andreas (USA) (En,Fr,De,Es,It).iso</path>
+    <name>Grand Theft Auto: San Andreas</name>
+    <developer>War Drum Studios</developer>
+    <publisher>Rockstar Games</publisher>
+    <genre>Sandbox</genre>
+    <releasedate>2014-10-26</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Grand Theft Auto IV (USA) (En,Fr,De,Es,It).iso</path>
+    <name>Grand Theft Auto IV</name>
+    <developer>Rockstar North</developer>
+    <publisher>Capcom; Rockstar Games; Ak Tronic Software &amp; Services</publisher>
+    <genre>Action; Adventure; Shooter</genre>
+    <releasedate>2008-04-29</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./Grand Theft Auto V (World) (En,Fr,De,Es,It,Pt,Zh,Ko,Pl,Ru) (Disc 1) (Install).iso</path>
+    <name>Grand Theft Auto V</name>
+    <developer>Rockstar North</developer>
+    <publisher>Rockstar Games</publisher>
+    <genre>Action; Sandbox; Shooter</genre>
+    <releasedate>2013-09-17</releasedate>
+    <rating>0.90</rating>
+  </game>
+  <game>
+    <path>./Halo - Combat Evolved Anniversary (World) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko).iso</path>
+    <name>Halo: Combat Evolved Anniversary</name>
+    <developer>343 Industries; Saber Interactive; Bungie Studios</developer>
+    <publisher>Microsoft; Ak Tronic Software &amp; Services</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2011-11-15</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./Halo 3 [RF][ENG].iso</path>
+    <name>Halo 3</name>
+    <developer>Bungie</developer>
+    <publisher>Microsoft Game Studios</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2007-09-25</releasedate>
+    <rating>0.90</rating>
+  </game>
+  <game>
+    <path>./Halo 3 ODST [RF][DVD1][ENG].iso</path>
+    <name>Halo 3: ODST</name>
+    <developer>Bungie</developer>
+    <publisher>Microsoft Game Studios</publisher>
+    <genre>Action; Shooter</genre>
+    <releasedate>2009-09-22</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Halo 4 [RF][DVD1][ENG].iso</path>
+    <name>Halo 4</name>
+    <developer>343 Industries</developer>
+    <publisher>Microsoft Studios; Ak Tronic Software &amp; Services</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2012-11-06</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./Halo Reach [RF][ENG].iso</path>
+    <name>Halo: Reach</name>
+    <developer>Bungie</developer>
+    <publisher>Microsoft Game Studios</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2010-09-14</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./Halo Wars (USA).iso</path>
+    <name>Halo Wars</name>
+    <developer>Ensemble Studios</developer>
+    <publisher>Microsoft Game Studios</publisher>
+    <genre>Strategy</genre>
+    <releasedate>2009-03-03</releasedate>
+    <rating>0.71</rating>
+  </game>
+  <game>
+    <path>./Harry Potter and the Deathly Hallows - Part 1 (USA) (En,Fr,De,Es,It).iso</path>
+    <name>Harry Potter and the Deathly Hallows: Part 1</name>
+    <developer>Electronic Arts Bright Light</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Action; Shooter</genre>
+    <releasedate>2010-11-16</releasedate>
+    <rating>0.85</rating>
+  </game>
+  <game>
+    <path>./Harry Potter and the Deathly Hallows - Part 2 (USA) (En,Fr,De,Es,It).iso</path>
+    <name>Harry Potter and the Deathly Hallows: Part 2</name>
+    <developer>Electronic Arts Bright Light</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Action</genre>
+    <releasedate>2011-07-12</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./Harry Potter and the Half-Blood Prince (USA) (En,Fr,Es).iso</path>
+    <name>Harry Potter and the Half-Blood Prince</name>
+    <developer>Electronic Arts Bright Light</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Action</genre>
+    <releasedate>2009-06-30</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./Harry Potter and the Order of the Phoenix (USA).iso</path>
+    <name>Harry Potter and the Order of the Phoenix</name>
+    <developer>Electronic Arts UK</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Action</genre>
+    <releasedate>2007-06-25</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Hitman - Absolution (USA) (Rev 1).iso</path>
+    <name>Hitman: Absolution</name>
+    <developer>Io-Interactive</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Action</genre>
+    <releasedate>2012-11-20</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./Hitman - Blood Money (World).iso</path>
+    <name>Hitman: Blood Money</name>
+    <developer>Io-Interactive</developer>
+    <publisher>Eidos Interactive</publisher>
+    <genre>Shooter; Stealth</genre>
+    <releasedate>2006-05-30</releasedate>
+    <rating>0.90</rating>
+  </game>
+  <game>
+    <path>./Hitman HD Trilogy (USA, Europe) (En,Fr,De) (Disc 1).iso</path>
+    <name>Hitman HD Trilogy</name>
+    <developer>Io-Interactive</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Action; Adventure; Stealth</genre>
+    <releasedate>2013-01-29</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Homefront (USA, Europe).iso</path>
+    <name>Homefront</name>
+    <developer>Kaos</developer>
+    <publisher>THQ</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2011-03-15</releasedate>
+    <rating>0.53</rating>
+  </game>
+  <game>
+    <path>./Injustice Gods Among Us Ultimate Edition [RF].iso</path>
+    <name>Injustice: Gods Among Us: Ultimate Edition</name>
+    <developer>NetherRealm Studios</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Fighting</genre>
+    <releasedate>2013-11-12</releasedate>
+    <rating>0.90</rating>
+  </game>
+  <game>
+    <path>./Just Cause (USA, Europe) (En,Fr,De,Es,It).iso</path>
+    <name>Just Cause</name>
+    <developer>Avalanche Studios</developer>
+    <publisher>Eidos Interactive</publisher>
+    <genre>Action</genre>
+    <releasedate>2006-09-26</releasedate>
+    <rating>0.63</rating>
+  </game>
+  <game>
+    <path>./Just Cause 2 (USA, Europe) (En,Fr,De,Es,It).iso</path>
+    <name>Just Cause 2</name>
+    <developer>Avalanche Studios</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Sandbox; Shooter</genre>
+    <releasedate>2010-03-23</releasedate>
+    <rating>0.69</rating>
+  </game>
+  <game>
+    <path>./King&apos;s Quest - The Complete Collection (USA).iso</path>
+    <name>King&apos;s Quest: The Complete Collection</name>
+    <developer>The Odd Gentlemen</developer>
+    <publisher>Sierra</publisher>
+    <genre>Adventure</genre>
+    <releasedate>2015-07-28</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Konami Classics Vol. 1 (USA) (En,Ja,Fr,De,Es,It,Zh,Ko).iso</path>
+    <name>Konami Classics Vol. 1</name>
+    <developer>Konami</developer>
+    <publisher>Konami</publisher>
+    <genre>Compilation</genre>
+    <releasedate>2009-12-18</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./Konami Classics Vol. 2 (USA) (En,Ja,Fr,De,Es,It,Zh,Ko).iso</path>
+    <name>Konami Classics Vol. 2</name>
+    <developer>Konami</developer>
+    <publisher>Konami</publisher>
+    <genre>Platform</genre>
+    <releasedate>2009-12-15</releasedate>
+    <rating>0.85</rating>
+  </game>
+  <game>
+    <path>./L.A. Noire - The Complete Edition (USA, Europe) (En,Fr,De,Es,It) (Disc 1).iso</path>
+    <name>L.A. Noire: The Complete Edition</name>
+    <developer>Team Bondi</developer>
+    <publisher>Rockstar Games</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2011-11-15</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./L.A. Noire - The Complete Edition (USA, Europe) (En,Fr,De,Es,It) (Disc 2).iso</path>
+    <name>L.A. Noire: The Complete Edition</name>
+    <developer>Team Bondi</developer>
+    <publisher>Rockstar Games</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2011-11-15</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./L.A. Noire - The Complete Edition (USA, Europe) (En,Fr,De,Es,It) (Disc 3).iso</path>
+    <name>L.A. Noire: The Complete Edition</name>
+    <developer>Team Bondi</developer>
+    <publisher>Rockstar Games</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2011-11-15</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./L.A. Noire - The Complete Edition (USA, Europe) (En,Fr,De,Es,It) (Disc 4).iso</path>
+    <name>L.A. Noire: The Complete Edition</name>
+    <developer>Team Bondi</developer>
+    <publisher>Rockstar Games</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2011-11-15</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./Left 4 Dead - Game of the Year Edition (USA).iso</path>
+    <name>Left 4 Dead: Game of the Year Edition</name>
+    <developer>Valve</developer>
+    <publisher>Valve</publisher>
+    <genre>Action</genre>
+    <releasedate>2009-05-12</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./Left 4 Dead 2 (World) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko,Pl,Ru).iso</path>
+    <name>Left 4 Dead 2</name>
+    <developer>Valve</developer>
+    <publisher>Valve</publisher>
+    <genre>Horror; Shooter</genre>
+    <releasedate>2009-11-17</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./Legend of Spyro, The - Dawn of the Dragon (USA) (En,Fr,De,Es,It,Nl).iso</path>
+    <name>The Legend of Spyro: Dawn of the Dragon</name>
+    <developer>Étranges Libellules</developer>
+    <publisher>Activision</publisher>
+    <genre>Action</genre>
+    <releasedate>2008-10-22</releasedate>
+    <rating>0.69</rating>
+  </game>
+  <game>
+    <path>./Leisure Suit Larry - Box Office Bust (USA, Europe) (En,Fr,De,Es,It).iso</path>
+    <name>Leisure Suit Larry: Box Office Bust</name>
+    <developer>Team17 Software</developer>
+    <publisher>Funsta</publisher>
+    <genre>Adventure; Puzzle</genre>
+    <releasedate>2009-03-31</releasedate>
+    <rating>0.38</rating>
+  </game>
+  <game>
+    <path>./Mafia II (USA, Europe) (Add-On Content Disc).iso</path>
+    <name>Mafia II</name>
+    <developer>2K Czech</developer>
+    <publisher>2K Games</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2010-08-24</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./Mafia II (USA, Europe) (Add-On Content Disc).iso</path>
+    <name>Mafia II</name>
+    <developer>2K Czech</developer>
+    <publisher>2K Games</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2010-08-24</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./Mass Effect (USA) (En,Es) (Rev 1).iso</path>
+    <name>Mass Effect</name>
+    <developer>BioWare</developer>
+    <publisher>Microsoft Game Studios</publisher>
+    <genre>Adventure; Role-Playing; Shooter</genre>
+    <releasedate>2007-11-20</releasedate>
+    <rating>0.90</rating>
+  </game>
+  <game>
+    <path>./Mass Effect 2 (USA, Europe) (En,Es) (Disc 1).iso</path>
+    <name>Mass Effect 2</name>
+    <developer>BioWare</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Adventure; Role-Playing; Shooter</genre>
+    <releasedate>2010-01-26</releasedate>
+    <rating>0.89</rating>
+  </game>
+  <game>
+    <path>./Mass Effect 2 (USA, Europe) (En,Es) (Disc 2).iso</path>
+    <name>Mass Effect 2</name>
+    <developer>BioWare</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Adventure; Role-Playing; Shooter</genre>
+    <releasedate>2010-01-26</releasedate>
+    <rating>0.89</rating>
+  </game>
+  <game>
+    <path>./Mass Effect 3 (World) (En,Ja,Fr,De,Es,It,Pl,Ru) (Disc 1).iso</path>
+    <name>Mass Effect 3</name>
+    <developer>BioWare</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Adventure; Role-Playing; Shooter</genre>
+    <releasedate>2012-03-06</releasedate>
+    <rating>0.96</rating>
+  </game>
+  <game>
+    <path>./Mass Effect 3 (World) (En,Ja,Fr,De,Es,It,Pl,Ru) (Disc 2).iso</path>
+    <name>Mass Effect 3</name>
+    <developer>BioWare</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Adventure; Role-Playing; Shooter</genre>
+    <releasedate>2012-03-06</releasedate>
+    <rating>0.96</rating>
+  </game>
+  <game>
+    <path>./Max Payne 3 (USA, Europe) (En,Fr,De,Es,It,Ru) (Disc 1) (Single Player Disc 1 and Multiplayer).iso</path>
+    <name>Max Payne 3</name>
+    <developer>Rockstar Vancouver</developer>
+    <publisher>Rockstar Games</publisher>
+    <genre>Action; Shooter</genre>
+    <releasedate>2012-05-15</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Medal of Honor (USA) (En,Fr).iso</path>
+    <name>Medal of Honor</name>
+    <developer>Danger Close; EA Digital Illusions</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2010-10-12</releasedate>
+    <rating>0.69</rating>
+  </game>
+  <game>
+    <path>./Medal of Honor - Airborne (USA).iso</path>
+    <name>Medal of Honor: Airborne</name>
+    <developer>Electronic Arts Los Angeles</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2007-09-04</releasedate>
+    <rating>0.73</rating>
+  </game>
+  <game>
+    <path>./Medal of Honor - Warfighter (USA, Europe) (En,Fr,Es) (Disc 1).iso</path>
+    <name>Medal of Honor: Warfighter</name>
+    <developer>Danger Close; EA Digital Illusions</developer>
+    <publisher>Electronic Arts; Ak Tronic Software &amp; Services</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2012-10-23</releasedate>
+    <rating>0.90</rating>
+  </game>
+  <game>
+    <path>./Medal of Honor - Warfighter (USA, Europe) (En,Fr,Es) (Disc 2).iso</path>
+    <name>Medal of Honor: Warfighter</name>
+    <developer>Danger Close; EA Digital Illusions</developer>
+    <publisher>Electronic Arts; Ak Tronic Software &amp; Services</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2012-10-23</releasedate>
+    <rating>0.90</rating>
+  </game>
+  <game>
+    <path>./Metal Gear Rising - Revengeance (USA, Europe) (En,Ja,Fr,De,Es,It,Pt).iso</path>
+    <name>Metal Gear Rising: Revengeance</name>
+    <developer>Kojima Productions; PlatinumGames</developer>
+    <publisher>Konami</publisher>
+    <genre>Action</genre>
+    <releasedate>2013-02-19</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./Metal Gear Solid - HD Collection (USA) (En,Fr,Es) (Disc 1).iso</path>
+    <name>Metal Gear Solid HD Collection</name>
+    <developer>Kojima Productions</developer>
+    <publisher>Konami</publisher>
+    <genre>Stealth</genre>
+    <releasedate>2011-11-08</releasedate>
+    <rating>0.85</rating>
+  </game>
+  <game>
+    <path>./Metal Gear Solid - HD Collection (USA) (En,Fr,Es) (Disc 2).iso</path>
+    <name>Metal Gear Solid HD Collection</name>
+    <developer>Kojima Productions</developer>
+    <publisher>Konami</publisher>
+    <genre>Stealth</genre>
+    <releasedate>2011-11-08</releasedate>
+    <rating>0.85</rating>
+  </game>
+  <game>
+    <path>./Metal Gear Solid V - Ground Zeroes (USA, Europe) (En,Ja,Fr,De,Es,It,Pt,Ru).iso</path>
+    <name>Metal Gear Solid V: Ground Zeroes</name>
+    <developer>Kojima Productions</developer>
+    <publisher>Konami</publisher>
+    <genre>Action; Adventure; Role-Playing; Stealth</genre>
+    <releasedate>2014-03-18</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Metal Gear Solid V - The Phantom Pain (USA, Europe) (En,Ja,Fr,De,Es,It,Pt,Ru) (Disc 1).iso</path>
+    <name>Metal Gear Solid V: The Phantom Pain</name>
+    <developer>Kojima Productions</developer>
+    <publisher>Konami</publisher>
+    <genre>Sandbox; Shooter; Stealth</genre>
+    <releasedate>2015-09-01</releasedate>
+    <rating>0.71</rating>
+  </game>
+  <game>
+    <path>./Metal Gear Solid V - The Phantom Pain (USA, Europe) (En,Ja,Fr,De,Es,It,Pt,Ru) (Disc 2).iso</path>
+    <name>Metal Gear Solid V: The Phantom Pain</name>
+    <developer>Kojima Productions</developer>
+    <publisher>Konami</publisher>
+    <genre>Sandbox; Shooter; Stealth</genre>
+    <releasedate>2015-09-01</releasedate>
+    <rating>0.71</rating>
+  </game>
+  <game>
+    <path>./Metro - Last Light (USA, Korea) (En,Fr,De,Es,It,Nl,Pl,Ru,Cs).iso</path>
+    <name>Metro: Last Light</name>
+    <developer>4A Games</developer>
+    <publisher>Deep Silver</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2013-05-14</releasedate>
+    <rating>0.85</rating>
+  </game>
+  <game>
+    <path>./Metro 2033 (USA, Europe) (En,Fr,Es,It,Nl).iso</path>
+    <name>Metro 2033</name>
+    <developer>4A Games</developer>
+    <publisher>THQ</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2010-03-16</releasedate>
+    <rating>0.71</rating>
+  </game>
+  <game>
+    <path>./Middle-Earth - Shadow of Mordor (USA) (En,Fr,De,Es,It,Pl,Ru) (Disc 1) (Rev 1).iso</path>
+    <name>Middle-Earth: Shadow of Mordor</name>
+    <developer>Monolith Productions</developer>
+    <publisher>Warner Bros. Interactive Entertainment; Ak Tronic Software &amp; Services</publisher>
+    <genre>Action; Adventure; Role-Playing</genre>
+    <releasedate>2014-09-30</releasedate>
+    <rating>0.98</rating>
+  </game>
+  <game>
+    <path>./Middle-Earth - Shadow of Mordor (USA) (En,Fr,De,Es,It,Pl,Ru) (Disc 2) (Rev 1).iso</path>
+    <name>Middle-Earth: Shadow of Mordor</name>
+    <developer>Monolith Productions</developer>
+    <publisher>Warner Bros. Interactive Entertainment; Ak Tronic Software &amp; Services</publisher>
+    <genre>Action; Adventure; Role-Playing</genre>
+    <releasedate>2014-09-30</releasedate>
+    <rating>0.98</rating>
+  </game>
+  <game>
+    <path>./Midway Arcade Origins (USA).iso</path>
+    <name>Midway Arcade Origins</name>
+    <developer>Backbone Entertainment</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Compilation</genre>
+    <releasedate>2012-11-13</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Minecraft - Story Mode - A Telltale Games Series - The Complete Adventure (USA).iso</path>
+    <name>Minecraft: Story Mode</name>
+    <developer>Telltale Games</developer>
+    <publisher>Telltale Games</publisher>
+    <genre>Adventure</genre>
+    <releasedate>2015-10-14</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Minecraft - Story Mode - Season Two - The Telltale Series (USA, Europe).iso</path>
+    <name>Minecraft: Story Mode: Season Two</name>
+    <developer>Telltale Games</developer>
+    <publisher>Telltale Games</publisher>
+    <genre>Adventure</genre>
+    <releasedate>2017-07-10</releasedate>
+    <rating>0.79</rating>
+  </game>
+  <game>
+    <path>./Minecraft - Xbox 360 Edition (World).iso</path>
+    <name>Minecraft: Xbox 360 Edition</name>
+    <developer>Mojang</developer>
+    <publisher>4JStudios</publisher>
+    <genre>Action; Adventure; Construction and Management Simulation; Sandbox</genre>
+    <releasedate>2013-06-04</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./Mirror&apos;s Edge (USA) (En,Fr,Es).iso</path>
+    <name>Mirror&apos;s Edge</name>
+    <developer>DiCE</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Platform</genre>
+    <releasedate>2008-11-12</releasedate>
+    <rating>0.89</rating>
+  </game>
+  <game>
+    <path>./Mortal Kombat (USA, Europe) (En,Fr,De,Es,It,Pt).iso</path>
+    <name>Mortal Kombat</name>
+    <developer>NetherRealm Studios</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Fighting</genre>
+    <releasedate>2011-04-21</releasedate>
+    <rating>0.68</rating>
+  </game>
+  <game>
+    <path>./Mortal Kombat - Komplete Edition (Europe) (En,Fr,De,Es,It,Pt).iso</path>
+    <name>Mortal Kombat: Komplete Edition</name>
+    <developer>NetherRealm Studios</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Fighting</genre>
+    <releasedate>2012-02-28</releasedate>
+    <rating>0.85</rating>
+  </game>
+  <game>
+    <path>./Namco Museum - Virtual Arcade (USA) (En,Fr) (Rev 1).iso</path>
+    <name>Namco Museum: Virtual Arcade</name>
+    <developer>Namco Bandai Games</developer>
+    <publisher>Namco Bandai Games</publisher>
+    <genre>Compilation</genre>
+    <releasedate>2008-11-04</releasedate>
+    <rating>0.50</rating>
+  </game>
+  <game>
+    <path>./Ninja Gaiden 3 (USA).iso</path>
+    <name>Ninja Gaiden 3</name>
+    <developer>Team Ninja</developer>
+    <publisher>Tecmo Koei America; Tecmo Koei Europe</publisher>
+    <genre>Adventure; Beat &apos;em Up</genre>
+    <releasedate>2012-03-20</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Ninja Gaiden 3 - Razor&apos;s Edge (USA).iso</path>
+    <name>Ninja Gaiden 3: Razor&apos;s Edge</name>
+    <releasedate>2013-04-02</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./Ninja Gaiden II (World) (En,Ja,Fr,De,Es,It,Zh,Ko,Pl,Ru).iso</path>
+    <name>Ninja Gaiden II</name>
+    <developer>Team Ninja</developer>
+    <publisher>Tecmo</publisher>
+    <genre>Action</genre>
+    <releasedate>2008-06-03</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./Orange Box, The (World) (En,Fr,De).iso</path>
+    <name>The Orange Box</name>
+    <developer>Valve</developer>
+    <publisher>Valve</publisher>
+    <genre>Action; Adventure; Platform; Puzzle; Shooter</genre>
+    <releasedate>2007-10-09</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./Prince of Persia (USA, Europe) (En,Fr,De,Es,It,Nl).iso</path>
+    <name>Prince of Persia</name>
+    <developer>Ubisoft Montreal</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action; Adventure; Platform</genre>
+    <releasedate>2008-12-02</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Prince of Persia - The Forgotten Sands (USA, Europe) (En,Fr,De,Es,It,Nl).iso</path>
+    <name>Prince of Persia: The Forgotten Sands</name>
+    <developer>Ubisoft</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action</genre>
+    <releasedate>2010-05-18</releasedate>
+    <rating>0.65</rating>
+  </game>
+  <game>
+    <path>./Rabbids Invasion - The Interactive TV Show (USA).iso</path>
+    <name>Rabbids Invasion : The Interactive TV Show</name>
+    <developer>Ubisoft Barcelona</developer>
+    <publisher>Ubisoft</publisher>
+    <releasedate>2014-11-17</releasedate>
+    <rating>1.00</rating>
+  </game>
+  <game>
+    <path>./Rage (USA) (Disc 1).iso</path>
+    <name>Rage</name>
+    <developer>id Software</developer>
+    <publisher>Bethesda Softworks</publisher>
+    <genre>Racing; Shooter</genre>
+    <releasedate>2011-10-04</releasedate>
+    <rating>0.67</rating>
+  </game>
+  <game>
+    <path>./Rage (USA) (Disc 2).iso</path>
+    <name>Rage</name>
+    <developer>id Software</developer>
+    <publisher>Bethesda Softworks</publisher>
+    <genre>Racing; Shooter</genre>
+    <releasedate>2011-10-04</releasedate>
+    <rating>0.67</rating>
+  </game>
+  <game>
+    <path>./Rage (USA) (Disc 3).iso</path>
+    <name>Rage</name>
+    <developer>id Software</developer>
+    <publisher>Bethesda Softworks</publisher>
+    <genre>Racing; Shooter</genre>
+    <releasedate>2011-10-04</releasedate>
+    <rating>0.67</rating>
+  </game>
+  <game>
+    <path>./Rayman - Raving Rabbids (USA) (En,Fr,De,Es,It,Nl).iso</path>
+    <name>Rayman Raving Rabbids</name>
+    <developer>Ubisoft</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Party</genre>
+    <releasedate>2007-04-24</releasedate>
+    <rating>0.00</rating>
+  </game>
+  <game>
+    <path>./Rayman Legends (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Fi).iso</path>
+    <name>Rayman Legends</name>
+    <developer>Ubisoft Montpellier</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Platform</genre>
+    <releasedate>2013-09-03</releasedate>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./Rayman Origins (USA, Europe) (En,Fr,De,Es,It,Nl,Pt).iso</path>
+    <name>Rayman Origins</name>
+    <developer>Ubisoft</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action</genre>
+    <releasedate>2011-11-15</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./Red Dead Redemption - Game of the Year Edition (USA, Europe) (En,Fr,De,Es,It) (Disc 1) (Red Dead Redemption Single Player).iso</path>
+    <name>Red Dead Redemption: Game of the Year Edition</name>
+    <developer>Rockstar San Diego</developer>
+    <publisher>Rockstar Games</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2011-10-11</releasedate>
+    <rating>0.95</rating>
+  </game>
+  <game>
+    <path>./Resident Evil - Operation Raccoon City (USA, Europe) (En,Fr,De,Es,It,Pl,Ru).iso</path>
+    <name>Resident Evil: Operation Raccoon City</name>
+    <developer>Slant Six Games</developer>
+    <publisher>Capcom</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2012-03-20</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Resident Evil - Revelations 2 (USA, Europe) (En,Ja,Fr,De,Es,It,Pt,Zh,Ko,Pl,Ru).iso</path>
+    <name>Resident Evil: Revelations 2</name>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2015-03-17</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./Resident Evil - Revelations ~ Biohazard - Revelations - Unveiled Edition (World) (En,Ja,Fr,De,Es,It,Nl,Pt,Pl,Ru).iso</path>
+    <name>Resident Evil: Revelations</name>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Horror; Shooter</genre>
+    <releasedate>2013-03-25</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./Resident Evil 5 ~ Biohazard 5 (World) (En,Ja,Fr,De,Es,It).iso</path>
+    <name>Resident Evil 5</name>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Action; Horror; Shooter</genre>
+    <releasedate>2009-03-05</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./Resident Evil 6 (USA, Europe) (En,Fr,De,Es,It,Pt,Pl,Ru) (Disc 2) (Voice Over Pack).iso</path>
+    <name>Resident Evil 6</name>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Action; Adventure; Horror; Shooter</genre>
+    <releasedate>2012-10-02</releasedate>
+    <rating>0.67</rating>
+  </game>
+  <game>
+    <path>./Rise of the Tomb Raider (USA, Europe) (En,Fr,Es,Nl).iso</path>
+    <name>Rise of the Tomb Raider</name>
+    <developer>Crystal Dynamics</developer>
+    <publisher>Microsoft Game Studios</publisher>
+    <releasedate>2015-11-10</releasedate>
+    <rating>0.89</rating>
+  </game>
+  <game>
+    <path>./Saints Row (World) (En,Fr,De,Es,It).iso</path>
+    <name>Saints Row</name>
+    <developer>Volition</developer>
+    <publisher>THQ</publisher>
+    <genre>Action</genre>
+    <releasedate>2006-08-29</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./Saints Row - Gat out of Hell (USA, Europe).iso</path>
+    <name>Saints Row: Gat Out of Hell</name>
+    <developer>Volition; High Voltage Software</developer>
+    <publisher>Deep Silver</publisher>
+    <genre>Racing; Shooter</genre>
+    <releasedate>2015-01-25</releasedate>
+    <rating>0.93</rating>
+  </game>
+  <game>
+    <path>./Saints Row - The Third (USA, Europe).iso</path>
+    <name>Saints Row: The Third</name>
+    <developer>Volition</developer>
+    <publisher>THQ</publisher>
+    <genre>Sandbox</genre>
+    <releasedate>2011-11-15</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Saints Row - The Third - The Full Package (USA, Europe) (Disc 1) (DLC Installer).iso</path>
+    <name>Saints Row: The Third: The Full Package</name>
+    <developer>Volition</developer>
+    <publisher>THQ</publisher>
+    <genre>Adventure; Sandbox</genre>
+    <releasedate>2012-11-06</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Saints Row 2 (USA, Europe) (En,Fr,De,Es,It,Nl,Sv,Da).iso</path>
+    <name>Saints Row 2</name>
+    <developer>Volition</developer>
+    <publisher>THQ</publisher>
+    <genre>Racing; Shooter</genre>
+    <releasedate>2008-10-14</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./Saints Row IV - National Treasure Edition (USA, Europe) (Disc 1) (Installation Disc).iso</path>
+    <name>Saints Row IV: National Treasure Edition</name>
+    <developer>Volition</developer>
+    <publisher>Deep Silver</publisher>
+    <genre>Action; Sandbox</genre>
+    <releasedate>2008-07-08</releasedate>
+    <rating>0.00</rating>
+  </game>
+  <game>
+    <path>./Saw (USA).iso</path>
+    <name>Saw</name>
+    <genre>Action; Adventure; Horror</genre>
+    <releasedate>2009-10-06</releasedate>
+    <rating>0.85</rating>
+  </game>
+  <game>
+    <path>./Saw II - Flesh &amp; Blood (USA, Europe) (En,Fr,De,Es,It).iso</path>
+    <name>Saw II: Flesh &amp; Blood</name>
+    <developer>Zombie Studios</developer>
+    <publisher>Konami Digital Entertainment</publisher>
+    <genre>Adventure; Horror</genre>
+    <releasedate>2010-10-19</releasedate>
+    <rating>0.66</rating>
+  </game>
+  <game>
+    <path>./Shaun White Skateboarding (USA).iso</path>
+    <name>Shaun White Skateboarding</name>
+    <genre>Sports</genre>
+    <releasedate>2010-10-24</releasedate>
+    <rating>0.90</rating>
+  </game>
+  <game>
+    <path>./Shaun White Snowboarding (USA).iso</path>
+    <name>Shaun White Snowboarding</name>
+    <developer>Ubisoft</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Sports</genre>
+    <releasedate>2008-11-13</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Sid Meier&apos;s Civilization Revolution (USA) (En,Fr,De,Es,It).iso</path>
+    <name>Sid Meier&apos;s Civilization Revolution</name>
+    <developer>Firaxis Games</developer>
+    <publisher>2K Games</publisher>
+    <genre>Construction and Management Simulation; Strategy</genre>
+    <releasedate>2008-07-08</releasedate>
+    <rating>0.63</rating>
+  </game>
+  <game>
+    <path>./Silent Hill - Downpour (USA, Europe) (En,Fr,De,Es,It,Pt).iso</path>
+    <name>Silent Hill: Downpour</name>
+    <developer>Vatra</developer>
+    <publisher>Konami</publisher>
+    <genre>Adventure; Horror</genre>
+    <releasedate>2012-03-13</releasedate>
+    <rating>0.65</rating>
+  </game>
+  <game>
+    <path>./Silent Hill - HD Collection (USA, Europe).iso</path>
+    <name>Silent Hill HD Collection</name>
+    <developer>Konami</developer>
+    <publisher>Konami</publisher>
+    <genre>Horror</genre>
+    <releasedate>2012-03-20</releasedate>
+    <rating>0.61</rating>
+  </game>
+  <game>
+    <path>./Silent Hill - Homecoming (USA) (En,Fr,De,Es,It).iso</path>
+    <name>Silent Hill: Homecoming</name>
+    <developer>Double Helix Games</developer>
+    <publisher>Konami Digital Entertainment</publisher>
+    <genre>Action; Horror</genre>
+    <releasedate>2008-09-30</releasedate>
+    <rating>0.65</rating>
+  </game>
+  <game>
+    <path>./Simpsons Game, The (USA).iso</path>
+    <name>The Simpsons Game</name>
+    <developer>Electronic Arts Redwood Shores Studio</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>2007-10-30</releasedate>
+    <rating>0.69</rating>
+  </game>
+  <game>
+    <path>./Sims 3, The (USA, Europe).iso</path>
+    <name>The Sims 3</name>
+    <developer>The Sims Studio</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Life Simulation</genre>
+    <releasedate>2010-10-26</releasedate>
+    <rating>0.60</rating>
+  </game>
+  <game>
+    <path>./Sims 3, The - Pets (World).iso</path>
+    <name>The Sims 3: Pets</name>
+    <developer>The Sims Studio</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Life Simulation</genre>
+    <releasedate>2011-10-18</releasedate>
+    <rating>0.53</rating>
+  </game>
+  <game>
+    <path>./Skate 2 (USA).iso</path>
+    <name>Skate 2</name>
+    <developer>Electronic Arts Black Box</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Racing; Sports</genre>
+    <releasedate>2009-01-21</releasedate>
+    <rating>0.79</rating>
+  </game>
+  <game>
+    <path>./Skate 3 (USA, Europe) (En,Fr,De,Es,It,Nl).iso</path>
+    <name>Skate 3</name>
+    <developer>Electronic Arts Black Box</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Sports</genre>
+    <releasedate>2010-05-11</releasedate>
+    <rating>0.91</rating>
+  </game>
+  <game>
+    <path>./Skate. (USA).iso</path>
+    <name>Skate</name>
+    <developer>Electronic Arts Black Box</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Sports</genre>
+    <releasedate>2007-09-13</releasedate>
+    <rating>0.84</rating>
+  </game>
+  <game>
+    <path>./Skylanders - Giants (USA, Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi).iso</path>
+    <name>Skylanders: Giants</name>
+    <developer>Toys for Bob</developer>
+    <publisher>Activision</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>2012-10-21</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Skylanders - Imaginators (USA).iso</path>
+    <name>Skylanders: Imaginators</name>
+    <developer>Toys for Bob</developer>
+    <publisher>Activision</publisher>
+    <genre>Action</genre>
+    <releasedate>2016-10-16</releasedate>
+    <rating>1.00</rating>
+  </game>
+  <game>
+    <path>./Skylanders - Spyro&apos;s Adventure (USA, Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da,Fi).iso</path>
+    <name>Skylanders: Spyro&apos;s Adventure</name>
+    <developer>Toys for Bob</developer>
+    <publisher>Activision</publisher>
+    <genre>Action; Adventure; Platform</genre>
+    <releasedate>2011-10-16</releasedate>
+    <rating>0.20</rating>
+  </game>
+  <game>
+    <path>./Skylanders - SuperChargers (USA).iso</path>
+    <name>Skylanders: SuperChargers</name>
+    <developer>Vicarious Visions</developer>
+    <publisher>Activision</publisher>
+    <genre>Action; Platform</genre>
+    <rating>0.00</rating>
+  </game>
+  <game>
+    <path>./Skylanders - Swap Force (USA).iso</path>
+    <name>Skylanders: Swap Force</name>
+    <developer>N-Space</developer>
+    <publisher>Activision</publisher>
+    <genre>Action</genre>
+    <rating>0.33</rating>
+  </game>
+  <game>
+    <path>./Skylanders - Trap Team (USA).iso</path>
+    <name>Skylanders: Trap Team</name>
+    <developer>Beenox</developer>
+    <publisher>Activision</publisher>
+    <genre>Adventure; Platform</genre>
+    <releasedate>2014-10-05</releasedate>
+    <rating>1.00</rating>
+  </game>
+  <game>
+    <path>./Sniper Elite III - Ultimate Edition (USA, Europe).iso</path>
+    <name>Sniper Elite III: Ultimate Edition</name>
+    <developer>Rebellion</developer>
+    <publisher>505 Games</publisher>
+    <genre>Action; Shooter; Stealth</genre>
+    <releasedate>2015-03-10</releasedate>
+    <rating>0.00</rating>
+  </game>
+  <game>
+    <path>./Sniper Elite V2 - Silver Star Edition (USA, Europe).iso</path>
+    <name>Sniper Elite V2: Silver Star Edition</name>
+    <developer>Rebellion Developments</developer>
+    <publisher>505 Games</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2013-03-20</releasedate>
+    <rating>1.00</rating>
+  </game>
+  <game>
+    <path>./Sonic Generations (USA, Europe).iso</path>
+    <name>Sonic Generations</name>
+    <developer>Sonic Team</developer>
+    <publisher>Sega</publisher>
+    <genre>Platform</genre>
+    <releasedate>2011-11-01</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./Sonic the Hedgehog (USA, Europe) (En,Ja,Fr,De,Es,It).iso</path>
+    <name>Sonic the Hedgehog (2006)</name>
+    <developer>Sonic Team</developer>
+    <publisher>Sega</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>2006-11-14</releasedate>
+    <rating>0.66</rating>
+  </game>
+  <game>
+    <path>./Sonic Unleashed (USA) (En,Ja,Fr,De,Es,It).iso</path>
+    <name>Sonic Unleashed</name>
+    <developer>Sonic Team</developer>
+    <publisher>Sega</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>2008-11-18</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./Sonic&apos;s Ultimate Genesis Collection (USA).iso</path>
+    <name>Sonic&apos;s Ultimate Genesis Collection</name>
+    <developer>Backbone Entertainment</developer>
+    <publisher>Sega of America; SEGA Europe</publisher>
+    <genre>Compilation</genre>
+    <releasedate>2009-02-10</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./Soulcalibur IV (USA, Europe) (En,Ja,Fr,De,Es,It).iso</path>
+    <name>SoulCalibur IV</name>
+    <developer>Project Soul</developer>
+    <publisher>Namco</publisher>
+    <genre>Fighting</genre>
+    <releasedate>2008-07-29</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./Soulcalibur V (World).iso</path>
+    <name>SoulCalibur V</name>
+    <developer>Project Soul</developer>
+    <publisher>Namco Bandai Games</publisher>
+    <genre>Fighting</genre>
+    <releasedate>2012-01-31</releasedate>
+    <rating>0.71</rating>
+  </game>
+  <game>
+    <path>./South Park - The Stick of Truth (USA) (En,Fr,De,Es,It,Pt).iso</path>
+    <name>South Park: The Stick of Truth</name>
+    <developer>Obsidian Entertainment</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2014-03-04</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./Spec Ops - The Line (USA, Europe) (En,Ja,Fr,De,Es,It).iso</path>
+    <name>Spec Ops: The Line</name>
+    <developer>Yager Development; Darkside Game Studios</developer>
+    <publisher>2K Games</publisher>
+    <genre>Action</genre>
+    <releasedate>2012-06-26</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Spider-Man 3 (USA, Europe).iso</path>
+    <name>Spider-Man 3</name>
+    <developer>Treyarch</developer>
+    <publisher>Activision</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2007-05-04</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./SSX (USA) (En,Fr,De,Es,It).iso</path>
+    <name>SSX</name>
+    <developer>Electronic Arts Canada</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Sports</genre>
+    <releasedate>2012-02-28</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./Star Wars - The Force Unleashed - Ultimate Sith Edition (USA, Europe) (En,Fr,De,Es,It) (Disc 1).iso</path>
+    <name>Star Wars: The Force Unleashed: Ultimate Sith Edition</name>
+    <developer>LucasArts</developer>
+    <publisher>LucasArts</publisher>
+    <genre>Action</genre>
+    <releasedate>2009-11-03</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./Star Wars - The Force Unleashed - Ultimate Sith Edition (USA, Europe) (En,Fr,De,Es,It) (Disc 2).iso</path>
+    <name>Star Wars: The Force Unleashed: Ultimate Sith Edition</name>
+    <developer>LucasArts</developer>
+    <publisher>LucasArts</publisher>
+    <genre>Action</genre>
+    <releasedate>2009-11-03</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./Star Wars - The Force Unleashed II (USA, Europe) (En,Fr,De,Es,It).iso</path>
+    <name>Star Wars: The Force Unleashed II</name>
+    <developer>LucasArts</developer>
+    <publisher>LucasArts</publisher>
+    <genre>Action</genre>
+    <releasedate>2010-10-26</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./Street Fighter IV (World) (En,Ja,Fr,De,Es,It,Ko).iso</path>
+    <name>Street Fighter IV</name>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Fighting</genre>
+    <releasedate>2009-02-17</releasedate>
+    <rating>0.90</rating>
+  </game>
+  <game>
+    <path>./Street Fighter X Tekken (World).iso</path>
+    <name>Street Fighter X Tekken</name>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Fighting</genre>
+    <releasedate>2012-03-06</releasedate>
+    <rating>0.73</rating>
+  </game>
+  <game>
+    <path>./Teenage Mutant Ninja Turtles - Mutants in Manhattan (USA, Europe).iso</path>
+    <name>Teenage Mutant Ninja Turtles: Mutants in Manhattan</name>
+    <developer>PlatinumGames</developer>
+    <publisher>Activision Publishing</publisher>
+    <genre>Action; Beat &apos;em Up</genre>
+    <releasedate>2016-05-24</releasedate>
+    <rating>1.00</rating>
+  </game>
+  <game>
+    <path>./Thief (USA, Europe) (En,Fr,Es).iso</path>
+    <name>Thief</name>
+    <developer>Square Enix</developer>
+    <publisher>Eidos Montreal</publisher>
+    <genre>Action; Adventure; Stealth</genre>
+    <releasedate>2014-02-14</releasedate>
+    <rating>0.84</rating>
+  </game>
+  <game>
+    <path>./TMNT (USA) (En,Fr,De,Es,It).iso</path>
+    <name>TMNT</name>
+    <developer>Ubisoft Montreal</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action; Beat &apos;em Up</genre>
+    <releasedate>2007-03-20</releasedate>
+    <rating>0.57</rating>
+  </game>
+  <game>
+    <path>./Tom Clancy&apos;s Splinter Cell - Blacklist (USA) (En,Fr,Es,Nl,Sv,No,Da) (Disc 1) (Campaign Part 1 &amp; Multiplayer).iso</path>
+    <name>Tom Clancy&apos;s Splinter Cell: Blacklist</name>
+    <developer>Ubisoft</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action; Adventure; Shooter; Stealth</genre>
+    <releasedate>2013-08-20</releasedate>
+    <rating>0.79</rating>
+  </game>
+  <game>
+    <path>./Tom Clancy&apos;s Splinter Cell - Conviction (USA, Europe) (En,Fr,De,Es,It,Nl,Sv,No,Da).iso</path>
+    <name>Tom Clancy&apos;s Splinter Cell: Conviction</name>
+    <developer>Ubisoft Montreal</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action; Stealth</genre>
+    <releasedate>2010-04-13</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./Tomb Raider (USA, Europe) (En,Es,Nl,Pt).iso</path>
+    <name>Tomb Raider</name>
+    <developer>Crystal Dynamics</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2013-03-05</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./Tony Hawk - Ride (USA).iso</path>
+    <name>Tony Hawk RIDE</name>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Tony Hawk - Shred (USA).iso</path>
+    <name>Tony Hawk Shred</name>
+    <genre>Sports</genre>
+    <releasedate>2010-10-26</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Tony Hawks American Wasteland [RF].iso</path>
+    <name>Tony Hawk&apos;s American Wasteland</name>
+    <developer>Neversoft</developer>
+    <publisher>Activision</publisher>
+    <genre>Adventure; Sports</genre>
+    <releasedate>2005-11-22</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Tony Hawk&apos;s Pro Skater 5 (USA) (En,Fr,De,Es,It).iso</path>
+    <name>Tony Hawk&apos;s Pro Skater 5</name>
+    <developer>Robomodo</developer>
+    <publisher>Activision</publisher>
+    <genre>Sports</genre>
+    <rating>0.57</rating>
+  </game>
+  <game>
+    <path>./Tony Hawk&apos;s Proving Ground (Europe).iso</path>
+    <name>Tony Hawk&apos;s Proving Ground</name>
+    <developer>Neversoft Entertainment</developer>
+    <publisher>Activision</publisher>
+    <genre>Sports</genre>
+    <releasedate>2007-10-15</releasedate>
+    <rating>0.57</rating>
+  </game>
+  <game>
+    <path>./Tony Hawks American Wasteland [RF].iso</path>
+    <name>Tony Hawk&apos;s American Wasteland</name>
+    <developer>Neversoft</developer>
+    <publisher>Activision</publisher>
+    <genre>Adventure; Sports</genre>
+    <releasedate>2005-11-22</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Tropico 3 (USA, Europe) (En,Fr,De,Es,It).iso</path>
+    <name>Tropico 3</name>
+    <developer>Haemimont Games</developer>
+    <publisher>Kalypso Media</publisher>
+    <genre>Strategy</genre>
+    <releasedate>2009-11-13</releasedate>
+    <rating>0.50</rating>
+  </game>
+  <game>
+    <path>./Tropico 4 - Gold Edition (USA, Europe) (En,Ja,Fr,De,Es,It).iso</path>
+    <name>Tropico 4: Gold Edition</name>
+    <developer>Haemimont Games</developer>
+    <publisher>Kalypso Media</publisher>
+    <genre>Strategy</genre>
+    <releasedate>2012-11-13</releasedate>
+    <rating>0.50</rating>
+  </game>
+  <game>
+    <path>./Tropico 5 (USA, Europe).iso</path>
+    <name>Tropico 5</name>
+    <developer>Haemimont Games</developer>
+    <publisher>Kalypso Media Digital</publisher>
+    <genre>Construction and Management Simulation</genre>
+    <releasedate>2014-11-07</releasedate>
+    <rating>0.00</rating>
+  </game>
+  <game>
+    <path>./Turok (USA, Europe).iso</path>
+    <name>Turok</name>
+    <developer>Propaganda Games</developer>
+    <publisher>Disney Interactive Studios</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2008-02-05</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Ultra Street Fighter IV (World) (En,Ja,Fr,De,Es,It,Ko).iso</path>
+    <name>Ultra Street Fighter IV</name>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Fighting</genre>
+    <releasedate>2014-06-04</releasedate>
+    <rating>0.91</rating>
+  </game>
+  <game>
+    <path>./Walking Dead, The - A Telltale Games Series - Game of the Year Edition (USA, Europe).iso</path>
+    <name>The Walking Dead</name>
+    <developer>Telltale Games</developer>
+    <publisher>Telltale Games</publisher>
+    <genre>Adventure; Horror</genre>
+    <releasedate>2012-12-11</releasedate>
+    <rating>0.95</rating>
+  </game>
+  <game>
+    <path>./Walking Dead, The - Season Two - A Telltale Games Series (USA, Europe).iso</path>
+    <name>The Walking Dead: Season Two</name>
+    <developer>Telltale Games</developer>
+    <publisher>Telltale Games</publisher>
+    <genre>Adventure</genre>
+    <releasedate>2014-10-14</releasedate>
+    <rating>0.73</rating>
+  </game>
+  <game>
+    <path>./Walking Dead, The - Survival Instinct (USA, Europe).iso</path>
+    <name>The Walking Dead: Survival Instinct</name>
+    <developer>Terminal Reality</developer>
+    <publisher>Activision</publisher>
+    <genre>Horror; Shooter</genre>
+    <releasedate>2013-03-19</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Watch_Dogs (USA, Europe) (En,Fr,De,Es,It) (Disc 1) (Installation Disc).iso</path>
+    <name>Watch Dogs</name>
+    <developer>Ubisoft Paris; Ubisoft Entertainment; Ubisoft Reflections</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Sandbox; Shooter; Stealth</genre>
+    <releasedate>2014-05-27</releasedate>
+    <rating>1.00</rating>
+  </game>
+  <game>
+    <path>./Witcher 2, The - Assassins of Kings - Enhanced Edition (USA) (En,Fr,Es) (Silver Box).iso</path>
+    <name>The Witcher 2: Assassins of Kings: Enhanced Edition</name>
+    <developer>CD Projekt RED</developer>
+    <publisher>Atari</publisher>
+    <genre>Action; Role-Playing</genre>
+    <releasedate>2012-04-17</releasedate>
+    <rating>0.92</rating>
+  </game>
+  <game>
+    <path>./Wolfenstein (USA, Europe) (En,Fr,De,Es,It,Ru).iso</path>
+    <name>Wolfenstein</name>
+    <developer>id Software</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2009-08-18</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Wolfenstein - The New Order (USA, Brazil) (En,Fr,Es,It,Pl,Ru) (Disc 1).iso</path>
+    <name>Wolfenstein: The New Order</name>
+    <developer>Machinegames</developer>
+    <publisher>Bethesda</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2014-04-20</releasedate>
+    <rating>0.92</rating>
+  </game>
+  <game>
+    <path>./Wolfenstein - The New Order (USA, Brazil) (En,Fr,Es,It,Pl,Ru) (Disc 2).iso</path>
+    <name>Wolfenstein: The New Order</name>
+    <developer>Machinegames</developer>
+    <publisher>Bethesda</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2014-04-20</releasedate>
+    <rating>0.92</rating>
+  </game>
+  <game>
+    <path>./Wolfenstein - The New Order (USA, Brazil) (En,Fr,Es,It,Pl,Ru) (Disc 3).iso</path>
+    <name>Wolfenstein: The New Order</name>
+    <developer>Machinegames</developer>
+    <publisher>Bethesda</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2014-04-20</releasedate>
+    <rating>0.92</rating>
+  </game>
+  <game>
+    <path>./Wolfenstein - The New Order (USA, Brazil) (En,Fr,Es,It,Pl,Ru) (Disc 4).iso</path>
+    <name>Wolfenstein: The New Order</name>
+    <developer>Machinegames</developer>
+    <publisher>Bethesda</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2014-04-20</releasedate>
+    <rating>0.92</rating>
+  </game>
+  <game>
+    <path>./XCOM - Enemy Unknown (USA, Europe).iso</path>
+    <name>XCOM: Enemy Unknown</name>
+    <developer>Firaxis Games</developer>
+    <publisher>2K Games</publisher>
+    <genre>Strategy</genre>
+    <releasedate>2012-10-12</releasedate>
+    <rating>0.57</rating>
+  </game>
+</gameList>

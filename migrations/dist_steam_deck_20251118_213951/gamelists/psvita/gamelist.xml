@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<gameList>
+  <game>
+    <path>./PCSA00126.txt</path>
+    <name>God of War Collection</name>
+    <developer>SCE Studio Santa Monica</developer>
+    <publisher>Sony Computer Entertainment America</publisher>
+    <genre>Action</genre>
+    <releasedate>2014-05-05</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./PCSE00283.txt</path>
+    <name>Final Fantasy X/X-2: HD Remaster</name>
+    <developer>Square Enix</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2013-12-26</releasedate>
+    <rating>0.83</rating>
+  </game>
+</gameList>

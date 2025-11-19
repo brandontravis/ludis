@@ -61,13 +61,117 @@ options:
   show_progress: true
 
 # ============================================================
-# EXPORT TARGETS (FUTURE USE)
+# EXPORT TARGETS
 # ============================================================
-# These settings are reserved for future export functionality
-# (e.g., generating ES-DE game lists, creating symlink scripts, etc.)
+# Configure destinations for ROM migrations (e.g., Steam Deck, Retro handheld)
+# Multiple targets can be defined but only one can be active per migration
 export_targets:
   steam_deck:
+    enabled: true
+    format: "esde"  # ES-DE format (EmulationStation Desktop Edition)
+    
+    # Base paths for ROM storage locations
+    # These are filled in during first migration or can be pre-configured
+    storage_locations:
+      internal_ssd:
+        path: ""  # e.g., "/home/deck/Emulation/roms"
+        label: "Internal SSD"
+      sd_card:
+        path: ""  # e.g., "/run/media/mmcblk0p1/Emulation/roms"
+        label: "SD Card"
+    
+    # Platform storage defaults - configures where each platform goes by default
+    # This is configured via "Configure Platform Storage Defaults" menu option
+    # Values: "internal_ssd", "sd_card", "custom"
+    # Example:
+    # platform_storage_defaults:
+    #   "Nintendo Entertainment System": "internal_ssd"
+    #   "Nintendo Wii U": "sd_card"
+    #   "Sony Playstation 3": "custom"
+    
+    # Default migration preferences (can be changed per migration)
+    defaults:
+      operation: "copy"  # "copy" or "symlink"
+      
+      # Filter preferences - which games to include
+      # Each filter corresponds to a LaunchBox custom field or playlist
+      filters:
+        include_platform_best: false           # CUSTOM_The Best (platform-specific best games)
+        include_all_time_favorites: false      # CUSTOM_All Time Favorites
+        include_favorites: false               # Favorite field (LaunchBox favorites)
+        include_backlog: false                 # CUSTOM_Backlog
+        include_goty_winner: false             # CUSTOM_GOTY Winner
+        include_goty_nominee: false            # CUSTOM_GOTY Nominee
+        include_on_deck: false                 # CUSTOM_On Deck
+        include_retro: false                   # CUSTOM_Retro Collection
+        include_classic_titles: false          # IsInClassicCollection (curated playlists)
+        include_franchises: false              # IsInFranchise (any franchise)
+        force_manual_include: true             # Always include ManualInclude=true
+        force_manual_exclude: true             # Always exclude ManualExclude=true
+        
+        # Custom field filters - for any additional LaunchBox custom fields
+        # Use this for fields not listed above or for temporary/project-specific filters
+        custom_fields: []
+        # Examples:
+        # - "CUSTOM_Finished"
+        # - "CUSTOM_Multiplayer Focus"
+  
+  # Example: Another handheld device
+  retroid_pocket:
     enabled: false
-    path: ""
-    format: "esde"  # ES-DE format
+    format: "esde"
+    storage_locations:
+      internal:
+        path: ""
+        label: "Internal Storage"
+      sd_card:
+        path: ""
+        label: "SD Card"
+    defaults:
+      operation: "copy"
+      filters:
+        include_platform_best: false
+        include_all_time_favorites: false
+        include_favorites: false
+        include_backlog: false
+        include_goty_winner: false
+        include_goty_nominee: false
+        include_on_deck: false
+        include_retro: false
+        include_classic_titles: false
+        include_franchises: false
+        force_manual_include: true
+        force_manual_exclude: true
+        custom_fields: []
+
+# ============================================================
+# MIGRATION HISTORY
+# ============================================================
+# Stores configurations from previous migrations
+# This allows you to quickly reuse previous settings
+# (Auto-populated by Build Migration Script - do not edit manually)
+migration_history:
+  last_migration: null  # Timestamp of most recent migration
+  
+  configurations: []
+    # Example entry (auto-generated):
+    # - timestamp: "2025-11-18T15:30:00"
+    #   export_target: "steam_deck"
+    #   operation: "symlink"
+    #   platforms:
+    #     - name: "Nintendo Wii U"
+    #       storage: "sd_card"
+    #       game_count: 754
+    #     - name: "Sony Playstation 3"
+    #       storage: "internal_ssd"
+    #       game_count: 1234
+    #   filters:
+    #     include_platform_best: true
+    #     include_franchises: false
+    #     include_goty: true
+    #     include_favorites: true
+    #     force_manual_include: true
+    #     force_manual_exclude: true
+    #   total_games: 1988
+    #   total_size_bytes: 524288000000
 

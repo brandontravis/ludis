@@ -1,0 +1,2124 @@
+<?xml version="1.0"?>
+<gameList>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Alice: Madness Returns</name>
+    <developer>Spicy Horse</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Adventure; Platform; Beat &apos;em Up</genre>
+    <releasedate>2011-06-14</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Assassin&apos;s Creed</name>
+    <developer>Ubisoft Entertainment</developer>
+    <publisher>Ubisoft Entertainment; Ak Tronic Software &amp; Services</publisher>
+    <genre>Action; Adventure; Sandbox; Stealth</genre>
+    <releasedate>2007-11-13</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Assassin&apos;s Creed II</name>
+    <developer>Ubisoft Montreal</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action; Adventure; Sandbox; Stealth</genre>
+    <releasedate>2009-11-13</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Assassin&apos;s Creed IV: Black Flag</name>
+    <developer>Ubisoft Montreal</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action; Adventure; Sandbox; Stealth</genre>
+    <releasedate>2013-10-29</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Assassin&apos;s Creed: Brotherhood</name>
+    <developer>Ubisoft Montreal</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action; Adventure; Sandbox; Stealth</genre>
+    <releasedate>2010-11-16</releasedate>
+    <rating>0.85</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Assassin&apos;s Creed III</name>
+    <developer>Ubisoft Montreal; Ubisoft Annecy</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action; Adventure; Sandbox; Stealth</genre>
+    <releasedate>2012-10-30</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Assassin&apos;s Creed: Revelations</name>
+    <developer>Ubisoft Montreal</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action; Adventure; Sandbox; Stealth</genre>
+    <releasedate>2011-11-15</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Assassin&apos;s Creed Rogue</name>
+    <developer>Ubisoft Sofia</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action; Adventure; Sandbox; Stealth</genre>
+    <releasedate>2014-11-11</releasedate>
+    <rating>0.71</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Back to the Future: The Game</name>
+    <developer>Telltale</developer>
+    <publisher>Telltale</publisher>
+    <genre>Adventure</genre>
+    <releasedate>2011-10-25</releasedate>
+    <rating>0.66</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Batman: Arkham Asylum: Game of the Year Edition</name>
+    <developer>Rocksteady Studios</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Action</genre>
+    <releasedate>2010-05-10</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Batman: Arkham City: Game of the Year Edition</name>
+    <genre>Action; Adventure; Stealth</genre>
+    <releasedate>2012-03-29</releasedate>
+    <rating>0.89</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Batman: Arkham Origins</name>
+    <developer>Splash Damage; WB Games Montreal</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Action; Adventure; Stealth</genre>
+    <releasedate>2013-10-25</releasedate>
+    <rating>0.84</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Battlefield: Bad Company 2</name>
+    <developer>DiCE</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2010-03-02</releasedate>
+    <rating>0.66</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Battlefield 4</name>
+    <developer>DiCE</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2013-10-29</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Battlefield: Bad Company</name>
+    <developer>DiCE</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2008-06-23</releasedate>
+    <rating>0.71</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Battlefield Hardline</name>
+    <developer>Visceral Games</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2015-03-17</releasedate>
+    <rating>0.57</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Bionic Commando</name>
+    <developer>GRIN</developer>
+    <publisher>Capcom</publisher>
+    <genre>Adventure; Shooter</genre>
+    <releasedate>2009-05-19</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>BioShock</name>
+    <developer>2K Australia; 2K Boston</developer>
+    <publisher>2K Games</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2008-10-21</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>BioShock 2</name>
+    <developer>Digital Extremes; Arkane Studios; 2K Marin; 2K Australia</developer>
+    <publisher>2K Games</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2010-02-09</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>BioShock Infinite: Complete Edition</name>
+    <developer>Irrational Games; 2K Games</developer>
+    <genre>Action; Shooter</genre>
+    <releasedate>2014-11-04</releasedate>
+    <rating>1.00</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Borderlands 2</name>
+    <developer>Gearbox Software</developer>
+    <publisher>2K Games</publisher>
+    <genre>Role-Playing; Sandbox; Shooter</genre>
+    <releasedate>2012-09-18</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Borderlands</name>
+    <developer>Gearbox Software</developer>
+    <publisher>2K Games</publisher>
+    <genre>Role-Playing; Sandbox; Shooter</genre>
+    <releasedate>2009-10-20</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Borderlands: The Pre-Sequel!</name>
+    <developer>Gearbox Software; 2K Australia</developer>
+    <publisher>2K Games</publisher>
+    <genre>Role-Playing; Sandbox; Shooter</genre>
+    <releasedate>2014-10-24</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Call of Duty 3</name>
+    <developer>Treyarch</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2006-11-07</releasedate>
+    <rating>0.64</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Call of Duty 4: Modern Warfare</name>
+    <developer>Infinity Ward</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2007-11-06</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Call of Duty: Advanced Warfare</name>
+    <developer>High Moon Studios</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2014-11-04</releasedate>
+    <rating>0.53</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Call of Duty: Black Ops</name>
+    <developer>Treyarch</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2010-11-09</releasedate>
+    <rating>0.84</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Call of Duty: Black Ops II</name>
+    <developer>Treyarch</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2012-11-13</releasedate>
+    <rating>0.91</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Call of Duty: Black Ops III</name>
+    <developer>Beenox; Mercenary Technology</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2015-11-06</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Call of Duty: Ghosts</name>
+    <developer>Infinity Ward</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2013-11-05</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Call of Duty: Modern Warfare 2</name>
+    <developer>Infinity Ward</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2009-11-10</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Call of Duty: Modern Warfare 3</name>
+    <developer>Infinity Ward; Sledgehammer Games</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2011-11-08</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Call of Duty: World at War</name>
+    <developer>Treyarch</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2008-11-11</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Castlevania: Lords of Shadow</name>
+    <developer>Kojima Productions; Mercury Steam</developer>
+    <publisher>Konami</publisher>
+    <genre>Action; Adventure; Horror</genre>
+    <releasedate>2010-10-05</releasedate>
+    <rating>0.79</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Castlevania: Lords of Shadow 2</name>
+    <developer>MercurySteam</developer>
+    <publisher>Konami</publisher>
+    <genre>Action; Adventure; Horror</genre>
+    <releasedate>2014-02-25</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Command &amp; Conquer: Red Alert 3 Ultimate Edition</name>
+    <developer>Electronic Arts Los Angeles</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Strategy</genre>
+    <releasedate>2009-03-23</releasedate>
+    <rating>0.90</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Dark Souls</name>
+    <developer>FromSoftware</developer>
+    <publisher>Namco Bandai</publisher>
+    <genre>Role-Playing; Beat &apos;em Up</genre>
+    <releasedate>2011-09-22</releasedate>
+    <rating>0.91</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Dark Souls II</name>
+    <developer>FromSoftware</developer>
+    <publisher>Namco Bandai Games America; Namco Bandai Games Europe</publisher>
+    <genre>Beat &apos;em Up; Role-Playing</genre>
+    <releasedate>2014-03-11</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Darksiders</name>
+    <developer>Vigil Games</developer>
+    <publisher>THQ</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2010-01-05</releasedate>
+    <rating>0.73</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Darksiders II</name>
+    <developer>Vigil Games</developer>
+    <publisher>THQ</publisher>
+    <genre>Action; Adventure; Role-Playing</genre>
+    <releasedate>2012-08-14</releasedate>
+    <rating>0.89</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Dead Island</name>
+    <developer>Techland</developer>
+    <publisher>Deep Silver</publisher>
+    <genre>Action; Horror; Role-Playing</genre>
+    <releasedate>2011-09-06</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Dead Island: Riptide</name>
+    <developer>Techland</developer>
+    <publisher>Deep Silver</publisher>
+    <genre>Action; Horror; Role-Playing</genre>
+    <releasedate>2013-04-23</releasedate>
+    <rating>0.60</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Dead or Alive 5 Ultimate</name>
+    <developer>Team Ninja</developer>
+    <publisher>Tecmo Koei</publisher>
+    <genre>Fighting</genre>
+    <releasedate>2013-09-03</releasedate>
+    <rating>0.84</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Dead Space</name>
+    <developer>Electronic Arts Redwood Shores Studio</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Adventure; Horror; Shooter</genre>
+    <releasedate>2008-10-13</releasedate>
+    <rating>0.91</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Destiny</name>
+    <developer>Bungie</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2014-09-09</releasedate>
+    <rating>0.62</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Deus Ex Human Revolution Director&apos;s Cut</name>
+    <developer>Eidos Montreal</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Role-Playing; Shooter; Stealth</genre>
+    <releasedate>2013-10-22</releasedate>
+    <rating>0.65</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Devil May Cry 4</name>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Adventure; Beat &apos;em Up</genre>
+    <releasedate>2008-01-31</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Devil May Cry HD Collection</name>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Compilation</genre>
+    <releasedate>2012-03-22</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Diablo III: Reaper of Souls: Ultimate Evil Edition</name>
+    <developer>Blizzard Entertainment</developer>
+    <publisher>Blizzard Entertainment</publisher>
+    <genre>Action; Adventure; Role-Playing</genre>
+    <releasedate>2013-09-03</releasedate>
+    <rating>0.79</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Dishonored</name>
+    <developer>Arkane Studios</developer>
+    <publisher>Bethesda Softworks</publisher>
+    <genre>Action; Adventure; Shooter; Stealth</genre>
+    <releasedate>2012-10-09</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>DuckTales: Remastered</name>
+    <developer>WayForward</developer>
+    <publisher>Capcom</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>2013-08-20</releasedate>
+    <rating>0.84</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>DmC: Devil May Cry</name>
+    <developer>Ninja Theory</developer>
+    <publisher>Capcom</publisher>
+    <genre>Adventure; Beat &apos;em Up</genre>
+    <releasedate>2013-01-15</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>DOOM 3: BFG Edition</name>
+    <developer>id Software</developer>
+    <publisher>Bethesda Softworks</publisher>
+    <genre>Horror; Shooter</genre>
+    <releasedate>2012-10-16</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Dragon Age II</name>
+    <developer>BioWare</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Action; Role-Playing</genre>
+    <releasedate>2011-03-08</releasedate>
+    <rating>0.69</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Dragon Age: Inquisition</name>
+    <developer>BioWare</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Action; Adventure; Role-Playing</genre>
+    <releasedate>2014-11-18</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Dragon Age: Origins: Ultimate Edition</name>
+    <developer>BioWare</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Action; Role-Playing</genre>
+    <releasedate>2010-10-25</releasedate>
+    <rating>0.93</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Duke Nukem Forever</name>
+    <developer>Gearbox Software; Piranha Games; 3D Realms Entertainment; Triptych Games</developer>
+    <publisher>2K Games; Ak Tronic Software &amp; Services</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2011-06-14</releasedate>
+    <rating>0.58</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Escape Dead Island</name>
+    <developer>Fatshark</developer>
+    <publisher>Deep Silver</publisher>
+    <genre>Action; Adventure; Horror</genre>
+    <releasedate>2014-11-18</releasedate>
+    <rating>0.65</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Fallout 3: Game of the Year Edition</name>
+    <developer>Bethesda Game Studios</developer>
+    <publisher>Bethesda Softworks</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2009-10-21</releasedate>
+    <rating>0.93</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Fallout: New Vegas Ultimate Edition</name>
+    <developer>Obsidian Entertainment</developer>
+    <publisher>Bethesda Softworks</publisher>
+    <genre>Action; Role-Playing</genre>
+    <releasedate>2012-02-07</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Family Guy: Back to the Multiverse</name>
+    <developer>Heavy Iron Studios</developer>
+    <publisher>Activision Publishing</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2012-11-20</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Far Cry 2</name>
+    <developer>Ubisoft Montreal</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2008-10-21</releasedate>
+    <rating>0.62</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Far Cry 3</name>
+    <developer>Ubisoft Montreal</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Sandbox; Shooter</genre>
+    <releasedate>2012-12-04</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Far Cry 4</name>
+    <developer>Red Storm Entertainment; Ubisoft Shanghai; Ubisoft Toronto; Ubisoft Entertainment</developer>
+    <publisher>Ubisoft Entertainment; Ak Tronic Software &amp; Services</publisher>
+    <genre>Sandbox; Shooter</genre>
+    <releasedate>2014-11-18</releasedate>
+    <rating>0.61</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Final Fantasy XIII-2</name>
+    <developer>Square Enix</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2012-01-31</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Game of Thrones</name>
+    <developer>Cyanide</developer>
+    <publisher>Atlus USA</publisher>
+    <genre>Action; Role-Playing</genre>
+    <releasedate>2012-05-15</releasedate>
+    <rating>0.64</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Ghostbusters: The Video Game</name>
+    <developer>Terminal Reality</developer>
+    <publisher>Sony Computer Entertainment Europe; Atari</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2009-06-16</releasedate>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>God of War III</name>
+    <developer>SCE Studio Santa Monica</developer>
+    <publisher>Sony Computer Entertainment Europe; Sony Computer Entertainment America</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2010-03-16</releasedate>
+    <rating>0.89</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>God of War Collection</name>
+    <developer>Bluepoint Games; SCE Studio Santa Monica</developer>
+    <publisher>Sony Computer Entertainment America; Sony Computer Entertainment Asia</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2009-11-17</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>God of War Origins Collection</name>
+    <developer>Ready at Dawn Studios; SCE Studio Santa Monica</developer>
+    <publisher>Sony Computer Entertainment America</publisher>
+    <genre>Compilation</genre>
+    <releasedate>2011-09-13</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Gran Turismo 5</name>
+    <developer>Polyphony Digital</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Racing</genre>
+    <releasedate>2010-11-24</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Gran Turismo 6</name>
+    <developer>Polyphony Digital</developer>
+    <publisher>Sony Computer Entertainment America</publisher>
+    <genre>Racing</genre>
+    <releasedate>2013-12-06</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Grand Theft Auto IV: The Complete Edition</name>
+    <releasedate>2010-10-26</releasedate>
+    <rating>0.79</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Grand Theft Auto: San Andreas</name>
+    <developer>War Drum Studios</developer>
+    <publisher>Rockstar Games</publisher>
+    <genre>Action</genre>
+    <releasedate>2015-12-01</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Grand Theft Auto V</name>
+    <developer>Rockstar North</developer>
+    <publisher>Rockstar Games; Rockstar New England; Rockstar San Diego; Rockstar Leeds; Rockstar Games Toronto</publisher>
+    <genre>Adventure; Role-Playing; Sandbox; Shooter</genre>
+    <releasedate>2013-09-17</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>The Orange Box</name>
+    <developer>Valve</developer>
+    <publisher>Valve</publisher>
+    <genre>Compilation</genre>
+    <releasedate>2007-10-09</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Harry Potter and the Deathly Hallows: Part 1</name>
+    <developer>Electronic Arts Bright Light</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2010-11-16</releasedate>
+    <rating>0.67</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Harry Potter and the Deathly Hallows: Part 2</name>
+    <developer>Electronic Arts Bright Light</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2011-07-12</releasedate>
+    <rating>0.67</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Harry Potter and the Half-Blood Prince</name>
+    <developer>Electronic Arts Bright Light</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2009-06-30</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Harry Potter and the Order of the Phoenix</name>
+    <developer>Electronic Arts Bright Light</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2007-06-25</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Hitman: Absolution</name>
+    <developer>Io-Interactive</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Shooter; Stealth</genre>
+    <releasedate>2012-11-20</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Hitman HD Trilogy</name>
+    <developer>Activision Publishing</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Action; Adventure; Stealth</genre>
+    <releasedate>2013-01-29</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>inFAMOUS</name>
+    <developer>Sucker Punch Productions</developer>
+    <publisher>Sony Computer Entertainment Europe; Sony Computer Entertainment America</publisher>
+    <genre>Action; Sandbox</genre>
+    <releasedate>2009-05-26</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Infamous 2</name>
+    <developer>Sucker Punch Productions</developer>
+    <publisher>Sony Computer Entertainment America</publisher>
+    <genre>Action; Adventure; Sandbox</genre>
+    <releasedate>2011-06-07</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Jak and Daxter Collection</name>
+    <developer>Mass Media Games</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Compilation</genre>
+    <releasedate>2012-02-07</releasedate>
+    <rating>0.89</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Journey Collector&apos;s Edition</name>
+    <developer>ThatGameCompany</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Adventure</genre>
+    <releasedate>2012-08-28</releasedate>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Just Cause 2</name>
+    <developer>Avalanche Studios</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Action; Sandbox; Shooter</genre>
+    <releasedate>2010-03-23</releasedate>
+    <rating>0.65</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Killzone 2</name>
+    <developer>Guerrilla Games</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2009-02-27</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Killzone 3</name>
+    <developer>Guerrilla Games</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2011-02-22</releasedate>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Kingdom Hearts HD 1.5 ReMIX</name>
+    <developer>Square Enix</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Action; Role-Playing</genre>
+    <releasedate>2013-03-14</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Kingdom Hearts HD 2.5 ReMIX</name>
+    <developer>Square Enix</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Action; Adventure; Role-Playing</genre>
+    <releasedate>2014-12-02</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LEGO Batman 2: DC Super Heroes</name>
+    <developer>Traveller&apos;s Tales (UK)</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2012-06-19</releasedate>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LEGO Batman 3: Beyond Gotham</name>
+    <developer>Traveller&apos;s Tales (UK)</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Action</genre>
+    <releasedate>2014-11-11</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LEGO Batman: The Videogame</name>
+    <developer>Traveller&apos;s Tales</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2008-09-23</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LEGO Dimensions</name>
+    <developer>Traveller&apos;s Tales (UK)</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2015-09-27</releasedate>
+    <rating>0.67</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LEGO Harry Potter: Years 1-4</name>
+    <developer>Traveller&apos;s Tales</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>2010-06-29</releasedate>
+    <rating>0.65</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LEGO Harry Potter: Years 5-7</name>
+    <developer>Traveller&apos;s Tales</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2011-11-11</releasedate>
+    <rating>0.56</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LEGO Indiana Jones 2: The Adventure Continues</name>
+    <developer>Traveller&apos;s Tales</developer>
+    <publisher>LucasArts</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2009-11-17</releasedate>
+    <rating>0.57</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LEGO Indiana Jones: The Original Adventures</name>
+    <developer>Traveller&apos;s Tales</developer>
+    <publisher>LucasArts</publisher>
+    <genre>Action</genre>
+    <releasedate>2008-06-03</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LEGO Jurassic World</name>
+    <developer>TT Fusion</developer>
+    <publisher>Warner Bros. Interactive Entertainment; Ak Tronic Software &amp; Services</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2015-06-30</releasedate>
+    <rating>0.64</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LEGO Marvel Super Heroes</name>
+    <developer>Traveller&apos;s Tales (UK)</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Action</genre>
+    <releasedate>2013-10-22</releasedate>
+    <rating>0.93</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LEGO Marvel&apos;s Avengers</name>
+    <developer>Traveller&apos;s Tales (UK)</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2016-01-26</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LEGO: The LEGO Movie Videogame</name>
+    <developer>Traveller&apos;s Tales; TT Fusion</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2014-02-14</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LEGO Pirates of the Caribbean: The Video Game</name>
+    <developer>Traveller&apos;s Tales (UK)</developer>
+    <publisher>Disney Interactive Studios</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2011-05-10</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LEGO Rock Band</name>
+    <releasedate>2009-11-03</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LEGO Star Wars III: The Clone Wars</name>
+    <developer>Traveller&apos;s Tales</developer>
+    <publisher>LucasArts</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2011-03-22</releasedate>
+    <rating>0.95</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LEGO Star Wars: The Complete Saga</name>
+    <developer>Traveller&apos;s Tales</developer>
+    <publisher>LucasArts</publisher>
+    <genre>Action</genre>
+    <releasedate>2007-11-06</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LEGO Star Wars: The Force Awakens</name>
+    <developer>TT Fusion</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2016-06-28</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LEGO The Hobbit</name>
+    <developer>Traveller&apos;s Tales (UK)</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2014-04-08</releasedate>
+    <rating>0.96</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LEGO The Lord of the Rings</name>
+    <developer>Traveller&apos;s Tales (UK)</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2012-11-13</releasedate>
+    <rating>0.93</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Leisure Suit Larry: Box Office Bust</name>
+    <developer>Team17 Software</developer>
+    <publisher>Sierra Entertainment</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2009-05-05</releasedate>
+    <rating>0.40</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LittleBigPlanet 2: Extras Edition</name>
+    <developer>Media Molecule</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Platform</genre>
+    <releasedate>2013-02-17</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LittleBigPlanet 3</name>
+    <developer>Sumo Digital</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Platform; Puzzle; Sandbox</genre>
+    <releasedate>2014-11-18</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>LittleBigPlanet</name>
+    <developer>Media Molecule</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Platform; Puzzle; Sandbox</genre>
+    <releasedate>2008-10-27</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Mass Effect</name>
+    <developer>BioWare; Edge Of Reality</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Role-Playing; Shooter</genre>
+    <releasedate>2012-12-04</releasedate>
+    <rating>0.85</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Mass Effect 2</name>
+    <developer>BioWare</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Adventure; Role-Playing; Shooter</genre>
+    <releasedate>2011-01-18</releasedate>
+    <rating>0.95</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Mass Effect 3</name>
+    <developer>BioWare</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Adventure; Role-Playing; Shooter</genre>
+    <releasedate>2012-03-06</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Metal Gear Rising: Revengeance</name>
+    <developer>Kojima Productions; PlatinumGames</developer>
+    <publisher>Konami Computer Entertainment</publisher>
+    <genre>Action</genre>
+    <releasedate>2013-02-19</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Metal Gear Solid 4: Guns of the Patriots</name>
+    <developer>Kojima Productions</developer>
+    <publisher>Konami</publisher>
+    <genre>Adventure; Shooter; Stealth</genre>
+    <releasedate>2008-06-12</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Metal Gear Solid HD Collection</name>
+    <developer>Kojima Productions</developer>
+    <publisher>Konami</publisher>
+    <genre>Adventure; Shooter; Stealth</genre>
+    <releasedate>2011-11-08</releasedate>
+    <rating>0.95</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Metal Gear Solid V: Ground Zeroes</name>
+    <developer>Kojima Productions</developer>
+    <publisher>Konami</publisher>
+    <genre>Action; Adventure; Role-Playing; Stealth</genre>
+    <releasedate>2014-03-18</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Metal Gear Solid V: The Phantom Pain</name>
+    <developer>Kojima Productions</developer>
+    <publisher>Konami</publisher>
+    <genre>Sandbox; Shooter; Stealth</genre>
+    <releasedate>2015-09-01</releasedate>
+    <rating>0.71</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Metro: Last Light</name>
+    <developer>4A Games</developer>
+    <publisher>Deep Silver</publisher>
+    <genre>Action; Shooter</genre>
+    <releasedate>2013-05-14</releasedate>
+    <rating>0.63</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Middle-Earth: Shadow of Mordor</name>
+    <developer>Monolith Productions</developer>
+    <publisher>Warner Bros. Interactive Entertainment</publisher>
+    <genre>Action; Adventure; Role-Playing</genre>
+    <releasedate>2014-09-30</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Minecraft Story Mode</name>
+    <developer>Telltale Games</developer>
+    <publisher>Telltale Games</publisher>
+    <genre>Adventure</genre>
+    <releasedate>2015-10-13</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Mirror&apos;s Edge</name>
+    <developer>EA Digital Illusions</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2009-01-13</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Monkey Island: Special Edition Collection</name>
+    <developer>LucasArts</developer>
+    <publisher>LucasArts</publisher>
+    <genre>Adventure</genre>
+    <releasedate>2011-09-09</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Mortal Kombat vs. DC Universe</name>
+    <developer>Midway Games</developer>
+    <publisher>Midway Games</publisher>
+    <genre>Fighting</genre>
+    <releasedate>2008-11-16</releasedate>
+    <rating>0.69</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>MySims SkyHeroes</name>
+    <releasedate>2010-09-28</releasedate>
+    <rating>0.40</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>NBA Jam</name>
+    <developer>Electronic Arts</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Sports</genre>
+    <releasedate>2010-11-16</releasedate>
+    <rating>0.89</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Need for Speed: Carbon</name>
+    <developer>Electronic Arts Canada</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Racing</genre>
+    <releasedate>2006-11-16</releasedate>
+    <rating>0.84</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Need for Speed: Most Wanted</name>
+    <developer>Criterion Games</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Racing</genre>
+    <releasedate>2012-10-30</releasedate>
+    <rating>0.67</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Need for Speed: ProStreet</name>
+    <developer>Electronic Arts Black Box</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Racing</genre>
+    <releasedate>2007-11-13</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Need for Speed: Rivals</name>
+    <developer>Ghost Games; Ghost Games UK</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Racing</genre>
+    <releasedate>2013-11-19</releasedate>
+    <rating>0.54</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Need for Speed: Shift</name>
+    <developer>Slightly Mad Studios</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Racing</genre>
+    <releasedate>2009-09-15</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Need for Speed: The Run</name>
+    <developer>Electronic Arts Black Box</developer>
+    <publisher>Electronic Arts; Ak Tronic Software &amp; Services</publisher>
+    <genre>Racing</genre>
+    <releasedate>2011-11-15</releasedate>
+    <rating>0.84</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Need for Speed: Undercover</name>
+    <developer>Electronic Arts Black Box</developer>
+    <publisher>Electronic Arts; Ak Tronic Software &amp; Services</publisher>
+    <genre>Racing</genre>
+    <releasedate>2008-11-18</releasedate>
+    <rating>0.60</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Ninja Gaiden 3</name>
+    <developer>Team Ninja</developer>
+    <publisher>Tecmo Koei America</publisher>
+    <genre>Adventure; Beat &apos;em Up</genre>
+    <releasedate>2012-03-20</releasedate>
+    <rating>0.66</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Ninja Gaiden 3: Razor&apos;s Edge</name>
+    <developer>Team Ninja</developer>
+    <publisher>Tecmo Koei America</publisher>
+    <genre>Beat &apos;em Up</genre>
+    <releasedate>2013-04-02</releasedate>
+    <rating>0.93</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>NINJA GAIDEN Σ</name>
+    <developer>Team Ninja</developer>
+    <publisher>Tecmo</publisher>
+    <genre>Action</genre>
+    <releasedate>2007-07-03</releasedate>
+    <rating>0.84</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Ninja Gaiden Sigma 2</name>
+    <developer>Team Ninja</developer>
+    <publisher>Tecmo</publisher>
+    <genre>Beat &apos;em Up</genre>
+    <releasedate>2009-09-29</releasedate>
+    <rating>0.84</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Pac-Man and the Ghostly Adventures</name>
+    <developer>Monkey Bar Games</developer>
+    <publisher>Namco Bandai Games America</publisher>
+    <genre>Action; Adventure; Platform</genre>
+    <releasedate>2013-10-29</releasedate>
+    <rating>0.62</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Pac-Man and the Ghostly Adventures 2</name>
+    <developer>Bandai Namco Entertainment</developer>
+    <publisher>Bandai Namco Games</publisher>
+    <genre>Platform</genre>
+    <releasedate>2014-10-14</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Persona 5</name>
+    <developer>Atlus</developer>
+    <publisher>Atlus</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2017-04-04</releasedate>
+    <rating>0.93</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Portal 2</name>
+    <developer>Valve; Nuclear Monkey Software</developer>
+    <publisher>Valve</publisher>
+    <genre>Puzzle; Shooter</genre>
+    <releasedate>2011-04-19</releasedate>
+    <rating>0.97</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Prince of Persia</name>
+    <developer>Ubisoft</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action; Adventure; Platform</genre>
+    <releasedate>2008-12-02</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Prince of Persia: The Forgotten Sands</name>
+    <developer>Ubisoft</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Adventure</genre>
+    <releasedate>2010-05-18</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Prince of Persia Trilogy</name>
+    <developer>Ubisoft Montreal</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action; Adventure; Platform</genre>
+    <releasedate>2011-04-19</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Rage</name>
+    <developer>id Software</developer>
+    <publisher>Bethesda Softworks</publisher>
+    <genre>Action; Racing; Role-Playing</genre>
+    <releasedate>2011-10-04</releasedate>
+    <rating>0.68</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Ratchet &amp; Clank: All 4 One</name>
+    <developer>Insomniac Games</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>2011-10-18</releasedate>
+    <rating>0.59</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Ratchet &amp; Clank: Full Frontal Assault</name>
+    <developer>Insomniac Games</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Action; Platform; Strategy</genre>
+    <releasedate>2012-11-27</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Ratchet &amp; Clank Future: A Crack in Time</name>
+    <developer>Insomniac Games</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Action; Platform; Shooter</genre>
+    <releasedate>2009-10-27</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Ratchet &amp; Clank: Quest for Booty</name>
+    <developer>Insomniac Games</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Action; Platform; Shooter</genre>
+    <releasedate>2008-08-21</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Ratchet &amp; Clank: Nexus</name>
+    <developer>Insomniac Games</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Platform; Shooter</genre>
+    <releasedate>2013-11-12</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Ratchet &amp; Clank: Tools of Destruction</name>
+    <developer>Insomniac Games</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Platform; Shooter</genre>
+    <releasedate>2007-10-23</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>The Ratchet &amp; Clank Trilogy</name>
+    <developer>Insomniac Games; Idol Minds</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Action; Platform; Shooter</genre>
+    <releasedate>2012-06-28</releasedate>
+    <rating>0.91</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Rayman Legends</name>
+    <developer>Ubisoft Montpellier</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Platform</genre>
+    <releasedate>2013-09-03</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Rayman Origins</name>
+    <developer>Ubisoft Montpellier</developer>
+    <publisher>Ubisoft Entertainment; Ak Tronic Software &amp; Services</publisher>
+    <genre>Platform</genre>
+    <releasedate>2011-11-24</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Red Dead Redemption: Game of the Year Edition</name>
+    <developer>Rockstar San Diego</developer>
+    <publisher>Rockstar Games</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2011-10-11</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Resident Evil: Operation Raccoon City</name>
+    <developer>Capcom; Slant Six Games</developer>
+    <publisher>Capcom; Ak Tronic Software &amp; Services</publisher>
+    <genre>Action; Shooter</genre>
+    <releasedate>2012-03-20</releasedate>
+    <rating>0.69</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Resident Evil 5: Gold Edition</name>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Horror; Shooter</genre>
+    <releasedate>2010-02-18</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Resident Evil 6</name>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Horror; Shooter</genre>
+    <releasedate>2012-10-02</releasedate>
+    <rating>0.64</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Resident Evil: Revelations</name>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Adventure; Horror; Shooter</genre>
+    <releasedate>2013-05-21</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Resident Evil: Revelations 2</name>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2015-03-17</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Resistance 2</name>
+    <developer>Insomniac Games</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2008-11-04</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Resistance: Fall of Man</name>
+    <developer>Insomniac Games</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2006-11-17</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Saints Row 2</name>
+    <developer>Volition</developer>
+    <publisher>THQ</publisher>
+    <genre>Sandbox; Shooter</genre>
+    <releasedate>2008-10-14</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Saints Row IV</name>
+    <developer>Volition</developer>
+    <publisher>Deep Silver</publisher>
+    <genre>Adventure; Sandbox; Shooter</genre>
+    <releasedate>2013-08-20</releasedate>
+    <rating>0.65</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Saints Row: Gat Out of Hell</name>
+    <developer>Volition; High Voltage Software</developer>
+    <publisher>Deep Silver</publisher>
+    <genre>Sandbox; Shooter</genre>
+    <releasedate>2015-01-20</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Saints Row IV: Game of the Century Edition</name>
+    <developer>Deep Silver Volition</developer>
+    <publisher>Koch Media</publisher>
+    <genre>Adventure; Shooter</genre>
+    <releasedate>2014-07-15</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Saints Row: The Third: The Full Package</name>
+    <developer>Volition</developer>
+    <publisher>THQ</publisher>
+    <genre>Sandbox; Shooter</genre>
+    <releasedate>2012-11-06</releasedate>
+    <rating>0.40</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Sonic&apos;s Ultimate Genesis Collection</name>
+    <developer>Backbone Entertainment</developer>
+    <publisher>Sega</publisher>
+    <genre>Compilation</genre>
+    <releasedate>2009-02-10</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Shaun White Skateboarding</name>
+    <releasedate>2010-10-24</releasedate>
+    <rating>1.00</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Shaun White Snowboarding</name>
+    <developer>Ubisoft</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Sports</genre>
+    <releasedate>2008-11-16</releasedate>
+    <rating>0.94</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Silent Hill: HD Collection</name>
+    <developer>Konami</developer>
+    <publisher>Konami</publisher>
+    <genre>Horror</genre>
+    <releasedate>2012-03-20</releasedate>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Silent Hill: Homecoming</name>
+    <developer>Double Helix Games</developer>
+    <publisher>Konami Digital Entertainment</publisher>
+    <genre>Action; Horror</genre>
+    <releasedate>2008-09-30</releasedate>
+    <rating>0.69</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Skate</name>
+    <publisher>Electronic Arts</publisher>
+    <genre>Sports</genre>
+    <releasedate>2007-08-01</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Skate 2</name>
+    <developer>Electronic Arts Black Box</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Sports</genre>
+    <releasedate>2009-01-21</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Skate 3</name>
+    <developer>Electronic Arts Black Box</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Sports</genre>
+    <releasedate>2010-05-11</releasedate>
+    <rating>0.89</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Skylanders: Giants</name>
+    <developer>Toys for Bob; XPEC Entertainment</developer>
+    <publisher>Activision Publishing</publisher>
+    <genre>Adventure</genre>
+    <releasedate>2012-10-21</releasedate>
+    <rating>1.00</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Skylanders: Spyro&apos;s Adventure</name>
+    <releasedate>2011-10-16</releasedate>
+    <rating>0.64</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Skylanders: Swap Force</name>
+    <developer>Toys for Bob; Beenox; Vicarious Visions</developer>
+    <publisher>Activision Publishing</publisher>
+    <genre>Action</genre>
+    <releasedate>2013-10-13</releasedate>
+    <rating>1.00</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Skylanders: Trap Team</name>
+    <developer>Beenox</developer>
+    <publisher>Activision</publisher>
+    <genre>Platform</genre>
+    <releasedate>2014-10-10</releasedate>
+    <rating>0.90</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Sniper Elite III</name>
+    <developer>Rebellion</developer>
+    <publisher>505 Games</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2014-06-27</releasedate>
+    <rating>1.00</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Sniper Elite V2</name>
+    <developer>Rebellion</developer>
+    <publisher>505 Games</publisher>
+    <genre>Shooter; Stealth</genre>
+    <releasedate>2012-05-03</releasedate>
+    <rating>0.68</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Sonic &amp; All-Stars Racing Transformed</name>
+    <developer>Sumo Digital</developer>
+    <publisher>Sega</publisher>
+    <genre>Racing</genre>
+    <releasedate>2012-11-18</releasedate>
+    <rating>0.91</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Sonic &amp; SEGA All-Stars Racing</name>
+    <developer>Sumo Digital</developer>
+    <publisher>Sega</publisher>
+    <genre>Racing</genre>
+    <releasedate>2010-02-23</releasedate>
+    <rating>0.79</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Sonic Generations</name>
+    <developer>Sonic Team</developer>
+    <publisher>Sega</publisher>
+    <genre>Action; Adventure; Platform</genre>
+    <releasedate>2011-11-01</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Sonic Unleashed</name>
+    <developer>Sonic Team</developer>
+    <publisher>Sega</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>2008-11-27</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>SoulCalibur IV</name>
+    <developer>Project Soul</developer>
+    <publisher>Ubisoft Entertainment; Namco Bandai Games America; Ak Tronic Software &amp; Services; Namco Bandai Games Europe</publisher>
+    <genre>Fighting</genre>
+    <releasedate>2008-07-29</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>SoulCalibur V</name>
+    <developer>Project Soul</developer>
+    <publisher>Namco Bandai</publisher>
+    <genre>Fighting</genre>
+    <releasedate>2012-01-31</releasedate>
+    <rating>0.84</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>South Park: The Stick of Truth</name>
+    <developer>Obsidian Entertainment</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2014-03-04</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>SSX</name>
+    <developer>Electronic Arts Canada</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Sports</genre>
+    <releasedate>2012-02-28</releasedate>
+    <rating>0.64</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Star Wars: The Force Unleashed II</name>
+    <developer>LucasArts</developer>
+    <publisher>LucasArts</publisher>
+    <genre>Action</genre>
+    <releasedate>2010-10-26</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Star Wars: The Clone Wars: Republic Heroes</name>
+    <developer>Krome Studios</developer>
+    <publisher>LucasArts</publisher>
+    <genre>Action; Adventure; Role-Playing</genre>
+    <releasedate>2009-10-06</releasedate>
+    <rating>0.57</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Star Wars: The Force Unleashed: Ultimate Sith Edition</name>
+    <developer>LucasArts</developer>
+    <publisher>LucasArts</publisher>
+    <genre>Action</genre>
+    <releasedate>2009-11-03</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Street Fighter X Tekken</name>
+    <developer>Capcom; Dimps</developer>
+    <publisher>Capcom</publisher>
+    <genre>Action</genre>
+    <releasedate>2012-03-06</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Super Street Fighter IV: Arcade Edition</name>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Fighting</genre>
+    <releasedate>2011-06-28</releasedate>
+    <rating>0.73</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Teenage Mutant Ninja Turtles: Danger of the Ooze</name>
+    <developer>WayForward Technologies</developer>
+    <publisher>Activision</publisher>
+    <genre>Adventure</genre>
+    <releasedate>2014-10-28</releasedate>
+    <rating>0.66</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Teenage Mutant Ninja Turtles: Mutants in Manhattan</name>
+    <developer>PlatinumGames</developer>
+    <publisher>Activision</publisher>
+    <genre>Action</genre>
+    <releasedate>2016-05-24</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Tekken 6</name>
+    <developer>Namco Bandai Games</developer>
+    <publisher>Namco Bandai Games</publisher>
+    <genre>Fighting</genre>
+    <releasedate>2009-10-27</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>The Elder Scrolls IV: Oblivion</name>
+    <developer>Bethesda Game Studios</developer>
+    <publisher>Bethesda Softworks; Ubisoft Entertainment</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2007-03-20</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>The Elder Scrolls V: Skyrim</name>
+    <developer>Bethesda Game Studios</developer>
+    <publisher>Bethesda Softworks</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2011-11-11</releasedate>
+    <rating>0.88</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>ICO &amp; Shadow of the Colossus Classics HD</name>
+    <developer>Team ICO; Bluepoint Games</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Action; Adventure; Platform</genre>
+    <releasedate>2011-09-27</releasedate>
+    <rating>0.94</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>The Last of Us</name>
+    <developer>Naughty Dog</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Action; Adventure; Horror; Stealth</genre>
+    <releasedate>2013-06-14</releasedate>
+    <rating>0.92</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>The Legend of Spyro: Dawn of the Dragon</name>
+    <developer>Étranges Libellules</developer>
+    <publisher>Sierra Entertainment</publisher>
+    <genre>Platform</genre>
+    <releasedate>2008-10-21</releasedate>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>The Simpsons Game</name>
+    <developer>Electronic Arts Redwood Shores Studio</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>2007-10-30</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>The Sims 3</name>
+    <developer>The Sims Studio</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Life Simulation</genre>
+    <releasedate>2010-10-26</releasedate>
+    <rating>0.69</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>The Sims 3: Pets</name>
+    <developer>The Sims Studio</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Life Simulation</genre>
+    <releasedate>2011-10-18</releasedate>
+    <rating>0.45</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>The Walking Dead</name>
+    <developer>Telltale Games</developer>
+    <publisher>Telltale Games</publisher>
+    <genre>Adventure; Horror</genre>
+    <releasedate>2012-12-11</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>The Walking Dead: Season 2</name>
+    <developer>Telltale Games</developer>
+    <publisher>Skybound Games</publisher>
+    <genre>Adventure; Horror</genre>
+    <releasedate>2013-12-16</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>The Walking Dead: Survival Instinct</name>
+    <developer>Terminal Reality</developer>
+    <publisher>Activision</publisher>
+    <genre>Adventure; Horror; Shooter</genre>
+    <releasedate>2013-03-19</releasedate>
+    <rating>0.20</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Tom Clancy&apos;s Splinter Cell: Blacklist</name>
+    <developer>Ubisoft</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Action; Shooter; Stealth</genre>
+    <releasedate>2013-08-20</releasedate>
+    <rating>0.84</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Tom Clancy&apos;s Splinter Cell: Double Agent</name>
+    <developer>Ubisoft Shanghai; Ubisoft Annecy; Ubisoft Studios</developer>
+    <publisher>Ubisoft Entertainment</publisher>
+    <genre>Shooter; Stealth</genre>
+    <releasedate>2007-08-07</releasedate>
+    <rating>0.53</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Tomb Raider</name>
+    <developer>Crystal Dynamics</developer>
+    <publisher>Square Enix</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2013-03-05</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Tomb Raider Trilogy: Legend (7)</name>
+    <developer>Crystal Dynamics; Buzz Monkey Software</developer>
+    <publisher>Eidos Interactive</publisher>
+    <genre>Action; Adventure; Shooter</genre>
+    <releasedate>2011-03-22</releasedate>
+    <rating>0.90</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Tomb Raider: Underworld</name>
+    <developer>Crystal Dynamics</developer>
+    <publisher>Eidos Interactive; Warner Bros. Interactive Entertainment; Ak Tronic Software &amp; Services</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2008-11-18</releasedate>
+    <rating>0.73</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Tony Hawk: Shred Stand-Alone Software</name>
+    <developer>Robomodo</developer>
+    <publisher>Activision</publisher>
+    <genre>Sports</genre>
+    <releasedate>2010-10-26</releasedate>
+    <rating>0.67</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Tony Hawk&apos;s Pro Skater 5</name>
+    <developer>Robomodo</developer>
+    <publisher>Activision</publisher>
+    <genre>Sports</genre>
+    <rating>0.66</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Tony Hawk&apos;s Project 8</name>
+    <developer>Neversoft</developer>
+    <publisher>Activision</publisher>
+    <genre>Sports</genre>
+    <releasedate>2006-11-17</releasedate>
+    <rating>0.73</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Turok</name>
+    <developer>Propaganda Games</developer>
+    <publisher>Disney Interactive Studios</publisher>
+    <genre>Action; Shooter</genre>
+    <releasedate>2008-02-05</releasedate>
+    <rating>0.69</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Twisted Metal</name>
+    <developer>Eat Sleep Play</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Racing</genre>
+    <releasedate>2012-02-14</releasedate>
+    <rating>0.71</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Ultimate Marvel Vs. Capcom 3</name>
+    <developer>Capcom; Eighting</developer>
+    <publisher>Capcom</publisher>
+    <genre>Fighting</genre>
+    <releasedate>2011-11-15</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Uncharted 2: Among Thieves</name>
+    <developer>Naughty Dog</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2009-10-13</releasedate>
+    <rating>0.93</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Uncharted: Drake&apos;s Fortune</name>
+    <developer>Naughty Dog</developer>
+    <publisher>Sony Computer Entertainment</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2007-11-19</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Unreal Tournament 3</name>
+    <developer>Epic Games; Psyonix</developer>
+    <publisher>Midway Home Entertainment</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2007-12-10</releasedate>
+    <rating>0.57</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Virtua Fighter 5</name>
+    <developer>Sega AM2</developer>
+    <publisher>Sega</publisher>
+    <genre>Fighting</genre>
+    <releasedate>2007-02-20</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Watch Dogs</name>
+    <developer>Ubisoft Montreal</developer>
+    <publisher>Ubisoft</publisher>
+    <genre>Sandbox; Shooter; Stealth</genre>
+    <releasedate>2014-05-27</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Wipeout 2</name>
+    <developer>Behaviour Interactive</developer>
+    <publisher>Activision Value Publishing</publisher>
+    <genre>Action</genre>
+    <releasedate>2011-10-11</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>WipEout HD Fury</name>
+    <developer>SCE Studio Liverpool</developer>
+    <publisher>Sony Computer Entertainment Europe</publisher>
+    <genre>Racing</genre>
+    <releasedate>2009-07-23</releasedate>
+    <rating>0.92</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Wolfenstein</name>
+    <developer>id Software</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2009-08-18</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Wolfenstein: The New Order</name>
+    <developer>Machinegames</developer>
+    <publisher>Bethesda</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2014-05-20</releasedate>
+    <rating>0.90</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>XCOM: Enemy Unknown</name>
+    <developer>Firaxis Games</developer>
+    <publisher>2K Games</publisher>
+    <genre>Strategy</genre>
+    <releasedate>2012-10-09</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>You Don&apos;t Know Jack</name>
+    <publisher>THQ</publisher>
+    <genre>Quiz; Party</genre>
+    <releasedate>2011-02-08</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Tomb Raider Trilogy: Underworld (8)</name>
+    <developer>Crystal Dynamics; Buzz Monkey Software</developer>
+    <publisher>Eidos Interactive</publisher>
+    <genre>Action; Adventure; Shooter</genre>
+    <releasedate>2011-03-22</releasedate>
+    <rating>0.90</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Tomb Raider Trilogy: 10th Anniversary</name>
+    <developer>Crystal Dynamics; Buzz Monkey Software</developer>
+    <publisher>Eidos Interactive</publisher>
+    <genre>Action; Adventure; Shooter</genre>
+    <releasedate>2011-03-22</releasedate>
+    <rating>0.90</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>God of War: Ascension</name>
+    <developer>SCE Studio Santa Monica</developer>
+    <publisher>Sony Computer Entertainment America</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>2013-03-12</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./EBOOT.BIN</path>
+    <name>Tomb Raider Trilogy</name>
+    <developer>Crystal Dynamics; Buzz Monkey Software</developer>
+    <publisher>Eidos Interactive</publisher>
+    <genre>Action; Adventure; Shooter</genre>
+    <releasedate>2011-03-22</releasedate>
+    <rating>0.90</rating>
+  </game>
+</gameList>

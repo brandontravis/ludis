@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<gameList>
+  <game>
+    <path>./Doom (USA).cue</path>
+    <name>DOOM</name>
+    <developer>Logicware</developer>
+    <publisher>Art Data Interactive</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1996-04-26</releasedate>
+    <rating>0.57</rating>
+  </game>
+  <game>
+    <path>./Jurassic Park Interactive (USA).cue</path>
+    <name>Jurassic Park Interactive</name>
+    <developer>Studio 3do</developer>
+    <publisher>Universal Interactive</publisher>
+    <genre>Action; Racing</genre>
+    <releasedate>1994-05-10</releasedate>
+    <rating>0.43</rating>
+  </game>
+</gameList>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<gameList>
+  <game>
+    <path>./Battletoads (Europe).zip</path>
+    <name>Battletoads</name>
+    <developer>Rare</developer>
+    <publisher>Mindscape</publisher>
+    <genre>Platform; Beat &apos;em Up</genre>
+    <releasedate>1994-01-01</releasedate>
+    <rating>0.54</rating>
+  </game>
+</gameList>

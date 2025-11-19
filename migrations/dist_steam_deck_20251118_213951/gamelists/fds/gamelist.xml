@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<gameList>
+  <game>
+    <path>./Donkey Kong (Japan) (Disk Writer).7z</path>
+    <name>Donkey Kong</name>
+    <developer>Nintendo</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Platform</genre>
+    <releasedate>1988-04-08</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Donkey Kong Jr. (Japan) (Disk Writer).7z</path>
+    <name>Donkey Kong Jr.</name>
+    <developer>Nintendo</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Platform</genre>
+    <releasedate>1988-07-19</releasedate>
+    <rating>0.67</rating>
+  </game>
+  <game>
+    <path>./Link no Bouken - The Legend of Zelda 2 (Japan) (Rev 1) (Collector&apos;s Edition).7z</path>
+    <name>Link no Bouken: The Legend of Zelda 2</name>
+    <developer>Nintendo</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Action; Role-Playing</genre>
+    <releasedate>1987-01-14</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Link no Bouken - The Legend of Zelda 2 (Japan) (Rev 1) (Collector&apos;s Edition).7z</path>
+    <name>Link no Bouken: The Legend of Zelda 2</name>
+    <developer>Nintendo</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Action; Role-Playing</genre>
+    <releasedate>1987-01-14</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Zelda no Densetsu - The Hyrule Fantasy (Japan) (Collector&apos;s Edition).7z</path>
+    <name>The Hyrule Fantasy: The Legend of Zelda</name>
+    <developer>Nintendo R&amp;D4</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>1986-02-21</releasedate>
+    <rating>0.87</rating>
+  </game>
+</gameList>

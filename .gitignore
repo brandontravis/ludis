@@ -6,6 +6,8 @@ LB_Exports/
 
 # User-specific configuration (keep sample tracked)
 config.yaml
+config.includes.json
+config.excludes.json
 
 # Archive/backup files
 archive/

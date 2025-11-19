@@ -1,0 +1,773 @@
+<?xml version="1.0"?>
+<gameList>
+  <game>
+    <path>./Addams Family, The (World).7z</path>
+    <name>The Addams Family</name>
+    <developer>Arc Developments</developer>
+    <publisher>Flying Edge</publisher>
+    <genre>Platform</genre>
+    <releasedate>1993-12-01</releasedate>
+    <rating>0.63</rating>
+  </game>
+  <game>
+    <path>./Adventures of Batman &amp; Robin, The (USA, Europe).7z</path>
+    <name>The Adventures of Batman &amp; Robin</name>
+    <developer>Novotrade International</developer>
+    <publisher>Sega of America; Sega Enterprises</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>1995-01-01</releasedate>
+    <rating>0.54</rating>
+  </game>
+  <game>
+    <path>./Arcade Classics (USA).7z</path>
+    <name>Arcade Classics</name>
+    <developer>Al Baker &amp; Associates</developer>
+    <publisher>Sega of America</publisher>
+    <genre>Action</genre>
+    <releasedate>1996-01-01</releasedate>
+    <rating>0.66</rating>
+  </game>
+  <game>
+    <path>./Arch Rivals - The Arcade Game (USA).7z</path>
+    <name>Arch Rivals: The Arcade Game</name>
+    <developer>Arc Developments</developer>
+    <publisher>Flying Edge</publisher>
+    <genre>Sports</genre>
+    <releasedate>1992-12-01</releasedate>
+    <rating>0.61</rating>
+  </game>
+  <game>
+    <path>./Baku Baku (USA).7z</path>
+    <name>Baku Baku</name>
+    <developer>Minato Giken</developer>
+    <publisher>Sega Enterprises</publisher>
+    <genre>Puzzle</genre>
+    <releasedate>1996-01-26</releasedate>
+    <rating>0.68</rating>
+  </game>
+  <game>
+    <path>./Batman Forever (World).7z</path>
+    <name>Batman Forever</name>
+    <developer>Probe Entertainment</developer>
+    <publisher>Acclaim Entertainment</publisher>
+    <genre>Beat &apos;em Up</genre>
+    <releasedate>1995-09-07</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Batman Returns (World).7z</path>
+    <name>Batman Returns</name>
+    <developer>Aspect</developer>
+    <publisher>Sega of America; Sega Enterprises; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Platform</genre>
+    <releasedate>1992-09-01</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./Battletoads (USA).7z</path>
+    <name>Battletoads</name>
+    <developer>Rare</developer>
+    <publisher>Tradewest; Sega Enterprises</publisher>
+    <genre>Platform; Beat &apos;em Up</genre>
+    <releasedate>1993-12-01</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./Beavis and Butt-Head (USA, Europe).7z</path>
+    <name>Beavis and Butt-Head</name>
+    <developer>NuFX</developer>
+    <publisher>Viacom New Media</publisher>
+    <genre>Action; Puzzle</genre>
+    <releasedate>1994-01-01</releasedate>
+    <rating>0.58</rating>
+  </game>
+  <game>
+    <path>./Bubble Bobble (USA).7z</path>
+    <name>Bubble Bobble</name>
+    <developer>Taito</developer>
+    <publisher>Taito America</publisher>
+    <genre>Action</genre>
+    <releasedate>1994-01-01</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Bugs Bunny in Double Trouble (USA, Europe).7z</path>
+    <name>Bugs Bunny in Double Trouble</name>
+    <developer>Probe Entertainment; Atod</developer>
+    <publisher>Sega Enterprises; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Platform</genre>
+    <releasedate>1996-07-01</releasedate>
+    <rating>0.73</rating>
+  </game>
+  <game>
+    <path>./Castle of Illusion Starring Mickey Mouse (USA, Europe, Brazil) (En).7z</path>
+    <name>Castle of Illusion Starring Mickey Mouse</name>
+    <developer>Sega Enterprises</developer>
+    <publisher>Sega of America; Sega Enterprises; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Platform</genre>
+    <releasedate>1991-03-21</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Chuck Rock (World).7z</path>
+    <name>Chuck Rock</name>
+    <developer>Core Design</developer>
+    <publisher>Sega of America; Sega Enterprises; Tec Toy Indústria de Brinquedos; SEGA Europe</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>1992-09-01</releasedate>
+    <rating>0.62</rating>
+  </game>
+  <game>
+    <path>./Columns (USA, Europe, Brazil) (En) (Rev 2).7z</path>
+    <name>Columns</name>
+    <developer>Sega Enterprises</developer>
+    <publisher>Sega of America; Sega Enterprises; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Puzzle</genre>
+    <releasedate>1990-10-06</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./Defenders of Oasis (USA, Europe).7z</path>
+    <name>Defenders of Oasis</name>
+    <developer>Sega Enterprises</developer>
+    <publisher>Sega of America; Sega Enterprises</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>1992-09-18</releasedate>
+    <rating>0.62</rating>
+  </game>
+  <game>
+    <path>./Desert Strike - Return to the Gulf (USA).7z</path>
+    <name>Desert Strike: Return to the Gulf</name>
+    <developer>Tiertex</developer>
+    <publisher>Domark</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1994-01-01</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./Double Dragon (USA, Europe).7z</path>
+    <name>Double Dragon</name>
+    <developer>Virgin Interactive Entertainment</developer>
+    <publisher>Virgin Games</publisher>
+    <genre>Beat &apos;em Up</genre>
+    <releasedate>1993-01-01</releasedate>
+    <rating>0.69</rating>
+  </game>
+  <game>
+    <path>./Dr. Robotnik&apos;s Mean Bean Machine (USA, Europe).7z</path>
+    <name>Dr. Robotnik&apos;s Mean Bean Machine</name>
+    <developer>Compile</developer>
+    <publisher>Sega of America; Sega Enterprises; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Puzzle</genre>
+    <releasedate>1993-12-01</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./Dynamite Headdy (USA, Europe).7z</path>
+    <name>Dynamite Headdy</name>
+    <developer>Minato Giken</developer>
+    <publisher>Sega Enterprises</publisher>
+    <genre>Platform</genre>
+    <releasedate>1994-08-05</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Earthworm Jim (USA).7z</path>
+    <name>Earthworm Jim</name>
+    <developer>Eurocom Entertainment Software</developer>
+    <publisher>Playmates Interactive Entertainment</publisher>
+    <genre>Platform; Shooter</genre>
+    <releasedate>1995-09-21</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Ecco - The Tides of Time (USA, Europe, Brazil) (En).7z</path>
+    <name>Ecco: The Tides of Time</name>
+    <developer>Novotrade Software</developer>
+    <publisher>Sega of America; Sega Enterprises; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Platform</genre>
+    <releasedate>1994-11-01</releasedate>
+    <rating>0.71</rating>
+  </game>
+  <game>
+    <path>./Ecco The Dolphin (USA, Europe, Brazil) (En).7z</path>
+    <name>Ecco the Dolphin</name>
+    <developer>Novotrade Software</developer>
+    <publisher>Sega of America; Sega Enterprises</publisher>
+    <genre>Action</genre>
+    <releasedate>1994-03-11</releasedate>
+    <rating>0.64</rating>
+  </game>
+  <game>
+    <path>./Factory Panic (Europe, Brazil) (En).7z</path>
+    <name>Factory Panic</name>
+    <developer>Japan System House</developer>
+    <publisher>Sega Enterprises</publisher>
+    <genre>Action; Puzzle</genre>
+    <releasedate>1991-06-21</releasedate>
+    <rating>0.68</rating>
+  </game>
+  <game>
+    <path>./Fatal Fury Special (USA).7z</path>
+    <name>Fatal Fury Special</name>
+    <developer>Takara; Aspect</developer>
+    <publisher>Takara</publisher>
+    <genre>Action; Fighting</genre>
+    <releasedate>1994-11-25</releasedate>
+    <rating>0.67</rating>
+  </game>
+  <game>
+    <path>./Frogger (USA) (Proto).7z</path>
+    <name>Frogger</name>
+    <developer>Sega</developer>
+    <genre>Action</genre>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./Galaga 2 (Europe).7z</path>
+    <name>Galaga 2</name>
+    <developer>Namco</developer>
+    <publisher>Namco</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1991-10-25</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Home Alone (USA, Europe, Brazil) (En).7z</path>
+    <name>Home Alone</name>
+    <developer>Al Baker &amp; Associates</developer>
+    <publisher>Sega of America; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Action</genre>
+    <releasedate>1992-01-01</releasedate>
+    <rating>0.58</rating>
+  </game>
+  <game>
+    <path>./Hook (USA).7z</path>
+    <name>Hook</name>
+    <developer>Spidersoft</developer>
+    <publisher>Sony Imagesoft</publisher>
+    <genre>Action</genre>
+    <releasedate>1992-01-01</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./Itchy &amp; Scratchy Game, The (USA, Europe).7z</path>
+    <name>The Itchy &amp; Scratchy Game</name>
+    <developer>BITS</developer>
+    <publisher>Acclaim Entertainment</publisher>
+    <genre>Platform</genre>
+    <releasedate>1995-01-01</releasedate>
+    <rating>0.66</rating>
+  </game>
+  <game>
+    <path>./Jungle Strike (USA).7z</path>
+    <name>Jungle Strike</name>
+    <developer>Unexpected Development</developer>
+    <publisher>Black Pearl Software</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1995-01-01</releasedate>
+    <rating>0.64</rating>
+  </game>
+  <game>
+    <path>./Jurassic Park (USA, Europe, Brazil) (En).7z</path>
+    <name>Jurassic Park</name>
+    <developer>Sega Enterprises</developer>
+    <publisher>Sega Enterprises</publisher>
+    <genre>Action</genre>
+    <releasedate>1993-07-30</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Krusty&apos;s Fun House (USA, Europe).7z</path>
+    <name>Krusty&apos;s Fun House</name>
+    <developer>Audiogenic Software</developer>
+    <publisher>Flying Edge</publisher>
+    <genre>Platform</genre>
+    <releasedate>1993-01-01</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./Legend of Illusion Starring Mickey Mouse (USA, Europe).7z</path>
+    <name>Legend of Illusion Starring Mickey Mouse</name>
+    <developer>Aspect; Sega Enterprises</developer>
+    <publisher>Sega Enterprises; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>1995-01-13</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Lemmings (World).7z</path>
+    <name>Lemmings</name>
+    <developer>Probe Software</developer>
+    <publisher>Sega Enterprises</publisher>
+    <genre>Puzzle</genre>
+    <releasedate>1992-11-01</releasedate>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./Lion King, The (USA).7z</path>
+    <name>The Lion King</name>
+    <developer>Syrox Developments</developer>
+    <publisher>Sega of America; Sega Enterprises; Virgin Interactive Entertainment (Europe); Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Platform</genre>
+    <releasedate>1994-11-01</releasedate>
+    <rating>0.73</rating>
+  </game>
+  <game>
+    <path>./Lost World, The - Jurassic Park (USA).7z</path>
+    <name>The Lost World: Jurassic Park</name>
+    <developer>Aspect</developer>
+    <publisher>Sega of America</publisher>
+    <genre>Action</genre>
+    <releasedate>1997-08-26</releasedate>
+    <rating>0.64</rating>
+  </game>
+  <game>
+    <path>./Marble Madness (USA, Europe).7z</path>
+    <name>Marble Madness</name>
+    <developer>Tengen</developer>
+    <publisher>Tengen</publisher>
+    <genre>Action</genre>
+    <releasedate>1992-09-24</releasedate>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./Mega Man (USA).7z</path>
+    <name>Mega Man</name>
+    <developer>Freestyle</developer>
+    <publisher>U.S. Gold</publisher>
+    <genre>Platform; Shooter</genre>
+    <releasedate>1995-10-01</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Mortal Kombat (USA, Europe).7z</path>
+    <name>Mortal Kombat</name>
+    <developer>Probe Software</developer>
+    <publisher>Arena Entertainment; Acclaim Japan</publisher>
+    <genre>Fighting</genre>
+    <releasedate>1993-09-13</releasedate>
+    <rating>0.69</rating>
+  </game>
+  <game>
+    <path>./Mortal Kombat 3 (Europe).7z</path>
+    <name>Mortal Kombat 3</name>
+    <developer>Software Creations</developer>
+    <publisher>Acclaim Entertainment</publisher>
+    <genre>Fighting</genre>
+    <releasedate>1996-01-01</releasedate>
+    <rating>0.66</rating>
+  </game>
+  <game>
+    <path>./Mortal Kombat II (World).7z</path>
+    <name>Mortal Kombat II</name>
+    <developer>Probe Software</developer>
+    <publisher>Acclaim Entertainment; Acclaim Japan</publisher>
+    <genre>Fighting</genre>
+    <releasedate>1994-09-09</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./Ms. Pac-Man (USA).7z</path>
+    <name>Ms. Pac-Man</name>
+    <developer>Namco</developer>
+    <publisher>Namco</publisher>
+    <genre>Action; Puzzle</genre>
+    <releasedate>1993-01-01</releasedate>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./NBA Jam (USA) (Rev 1).7z</path>
+    <name>NBA Jam</name>
+    <developer>Iguana Entertainment</developer>
+    <publisher>Arena Entertainment</publisher>
+    <genre>Sports</genre>
+    <releasedate>1994-03-04</releasedate>
+    <rating>0.59</rating>
+  </game>
+  <game>
+    <path>./NBA Jam - Tournament Edition (World).7z</path>
+    <name>NBA Jam Tournament Edition</name>
+    <developer>Iguana Entertainment</developer>
+    <publisher>Acclaim Entertainment; Acclaim Japan</publisher>
+    <genre>Sports</genre>
+    <releasedate>1995-02-23</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./Ninja Gaiden (USA, Europe, Brazil) (En).7z</path>
+    <name>Ninja Gaiden</name>
+    <developer>Sega Enterprises</developer>
+    <publisher>Sega of America; Sega Enterprises</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>1991-11-01</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./OutRun (Europe, Brazil) (En).7z</path>
+    <name>OutRun</name>
+    <developer>Sanritsu Denki</developer>
+    <publisher>Sega Enterprises</publisher>
+    <genre>Racing</genre>
+    <releasedate>1991-08-09</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./OutRun Europa (USA).7z</path>
+    <name>OutRun Europa</name>
+    <developer>Probe Software</developer>
+    <publisher>U.S. Gold; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Racing</genre>
+    <releasedate>1992-06-01</releasedate>
+    <rating>0.54</rating>
+  </game>
+  <game>
+    <path>./Pac-Attack (USA).7z</path>
+    <name>Pac-Attack</name>
+    <developer>Namco</developer>
+    <publisher>Namco</publisher>
+    <genre>Puzzle</genre>
+    <releasedate>1994-06-01</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Pac-in-Time (USA) (Proto).7z</path>
+    <name>Pac-in-Time</name>
+    <developer>Kalisto Entertainment</developer>
+    <genre>Action; Platform</genre>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Pac-Man (USA).7z</path>
+    <name>Pac-Man</name>
+    <developer>Namco</developer>
+    <publisher>Namco</publisher>
+    <genre>Action</genre>
+    <releasedate>1991-01-29</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./Paperboy (USA, Europe).7z</path>
+    <name>Paperboy</name>
+    <developer>Tiertex</developer>
+    <publisher>Tengen</publisher>
+    <genre>Action</genre>
+    <releasedate>1992-07-01</releasedate>
+    <rating>0.64</rating>
+  </game>
+  <game>
+    <path>./Paperboy 2 (USA).7z</path>
+    <name>Paperboy 2</name>
+    <developer>Manley &amp; Associates</developer>
+    <publisher>Tengen</publisher>
+    <genre>Action</genre>
+    <releasedate>1993-06-01</releasedate>
+    <rating>0.68</rating>
+  </game>
+  <game>
+    <path>./Primal Rage (USA, Europe).7z</path>
+    <name>Primal Rage</name>
+    <developer>Probe Entertainment</developer>
+    <publisher>Time Warner Interactive</publisher>
+    <genre>Fighting</genre>
+    <releasedate>1995-08-25</releasedate>
+    <rating>0.64</rating>
+  </game>
+  <game>
+    <path>./Prince of Persia (USA, Europe).7z</path>
+    <name>Prince of Persia</name>
+    <developer>Domark Software</developer>
+    <publisher>Domark Software</publisher>
+    <genre>Platform</genre>
+    <releasedate>1992-09-01</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./R.B.I. Baseball &apos;94 (USA).7z</path>
+    <name>R.B.I. Baseball &apos;94</name>
+    <developer>Al Baker &amp; Associates</developer>
+    <publisher>Time Warner Interactive</publisher>
+    <genre>Sports</genre>
+    <releasedate>1994-10-01</releasedate>
+    <rating>0.60</rating>
+  </game>
+  <game>
+    <path>./Shaq Fu (USA).7z</path>
+    <name>Shaq Fu</name>
+    <developer>Tiertex</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Fighting</genre>
+    <releasedate>1995-01-01</releasedate>
+    <rating>0.67</rating>
+  </game>
+  <game>
+    <path>./Shining Force - The Sword of Hajya (USA).7z</path>
+    <name>Shining Force: The Sword of Hajya</name>
+    <developer>Sonic Co.</developer>
+    <publisher>Sega of America; Sega Enterprises</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>1993-06-25</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Shinobi (World) (Rev A).7z</path>
+    <name>GG Shinobi ~ Shinobi</name>
+    <developer>Sega Enterprises</developer>
+    <publisher>Sega of America; Sega Enterprises; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>1991-04-26</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./Shinobi II - The Silent Fury (World).7z</path>
+    <name>Shinobi II: The Silent Fury</name>
+    <developer>Sega Enterprises</developer>
+    <publisher>Sega of America; Sega Enterprises; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>1992-12-11</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./Simpsons, The - Bart vs. the Space Mutants (USA, Europe).7z</path>
+    <name>The Simpsons: Bart vs. the Space Mutants</name>
+    <developer>Arc Developments</developer>
+    <publisher>Flying Edge</publisher>
+    <genre>Platform</genre>
+    <releasedate>1992-12-01</releasedate>
+    <rating>0.71</rating>
+  </game>
+  <game>
+    <path>./Simpsons, The - Bart vs. the World (World).7z</path>
+    <name>The Simpsons: Bart vs. the World</name>
+    <developer>Arc Developments</developer>
+    <publisher>Flying Edge</publisher>
+    <genre>Adventure; Platform</genre>
+    <releasedate>1993-06-25</releasedate>
+    <rating>0.66</rating>
+  </game>
+  <game>
+    <path>./Simpsons, The - Bartman Meets Radioactive Man (USA).7z</path>
+    <name>The Simpsons: Bartman Meets Radioactive Man</name>
+    <developer>Teeny Weeny Games</developer>
+    <publisher>Acclaim Entertainment</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>1994-02-01</releasedate>
+    <rating>0.57</rating>
+  </game>
+  <game>
+    <path>./Sonic Blast (World).7z</path>
+    <name>G-Sonic: Sonic Blast</name>
+    <developer>Aspect</developer>
+    <publisher>Sega of America; Sega Enterprises</publisher>
+    <genre>Platform</genre>
+    <releasedate>1996-11-14</releasedate>
+    <rating>0.59</rating>
+  </game>
+  <game>
+    <path>./Sonic Chaos (USA, Europe, Brazil) (En).7z</path>
+    <name>Sonic Chaos</name>
+    <developer>Aspect</developer>
+    <publisher>Sega of America; Sega Enterprises; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Platform</genre>
+    <releasedate>1993-11-19</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Sonic Drift 2 (World).7z</path>
+    <name>Sonic Drift 2</name>
+    <developer>Sega Enterprises</developer>
+    <publisher>Sega Enterprises</publisher>
+    <genre>Racing</genre>
+    <releasedate>1995-11-01</releasedate>
+    <rating>0.69</rating>
+  </game>
+  <game>
+    <path>./Sonic Labyrinth (USA, Europe) (Virtual Console).7z</path>
+    <name>Sonic Labyrinth</name>
+    <developer>Minato Giken</developer>
+    <publisher>Sega of America; Sega Enterprises</publisher>
+    <genre>Platform</genre>
+    <releasedate>1995-10-01</releasedate>
+    <rating>0.68</rating>
+  </game>
+  <game>
+    <path>./Sonic Spinball (USA, Europe, Brazil) (En).7z</path>
+    <name>Sonic Spinball</name>
+    <developer>Sega Technical Institute</developer>
+    <publisher>Sega of America; Sega Enterprises; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Platform; Pinball</genre>
+    <releasedate>1994-08-01</releasedate>
+    <rating>0.71</rating>
+  </game>
+  <game>
+    <path>./Sonic The Hedgehog (World) (Rev 1) (Virtual Console).7z</path>
+    <name>Sonic the Hedgehog</name>
+    <developer>Ancient</developer>
+    <publisher>Sega of America; Sega Enterprises; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Platform</genre>
+    <releasedate>1991-12-28</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./Sonic The Hedgehog - Triple Trouble (USA, Europe, Brazil) (En).7z</path>
+    <name>Sonic the Hedgehog: Triple Trouble</name>
+    <developer>Aspect</developer>
+    <publisher>Sega Enterprises</publisher>
+    <genre>Platform</genre>
+    <releasedate>1994-11-11</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Sonic The Hedgehog 2 (World).7z</path>
+    <name>Sonic the Hedgehog 2</name>
+    <developer>Aspect</developer>
+    <publisher>Sega of America; Sega Enterprises; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>1992-11-21</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./Star Trek - The Next Generation - The Advanced Holodeck Tutorial (USA).7z</path>
+    <name>Star Trek: The Next Generation: Advanced Holodeck Tutorial</name>
+    <developer>Absolute Entertainment</developer>
+    <publisher>Absolute Entertainment</publisher>
+    <genre>Flight Simulator</genre>
+    <releasedate>1994-10-01</releasedate>
+    <rating>0.69</rating>
+  </game>
+  <game>
+    <path>./Star Trek Generations - Beyond the Nexus (USA).7z</path>
+    <name>Star Trek: Generations: Beyond the Nexus</name>
+    <developer>Absolute Entertainment</developer>
+    <publisher>Absolute Entertainment</publisher>
+    <genre>Flight Simulator</genre>
+    <releasedate>1994-12-01</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./Star Wars (USA, Europe).7z</path>
+    <name>Star Wars</name>
+    <developer>Tiertex</developer>
+    <publisher>U.S. Gold</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>1993-10-01</releasedate>
+    <rating>0.67</rating>
+  </game>
+  <game>
+    <path>./Stargate (World).7z</path>
+    <name>Stargate</name>
+    <developer>Probe Software</developer>
+    <publisher>Acclaim Entertainment; Acclaim Japan</publisher>
+    <genre>Puzzle</genre>
+    <releasedate>1994-01-01</releasedate>
+    <rating>0.50</rating>
+  </game>
+  <game>
+    <path>./Street Battle (USA) (Proto) (Unl).7z</path>
+    <name>Street Fighter II</name>
+    <developer>Open</developer>
+    <publisher>Sieco</publisher>
+    <genre>Fighting</genre>
+    <releasedate>1993-01-01</releasedate>
+    <rating>0.57</rating>
+  </game>
+  <game>
+    <path>./Streets of Rage (World).7z</path>
+    <name>Bare Knuckle ~ Streets of Rage</name>
+    <developer>Sega Enterprises</developer>
+    <publisher>Sega of America; Sega Enterprises; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Beat &apos;em Up</genre>
+    <releasedate>1992-12-01</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Streets of Rage 2 (World).7z</path>
+    <name>Bare Knuckle II: Streets of Rage 2: Streets of Rage II</name>
+    <developer>Japan System House</developer>
+    <publisher>Sega of America; Sega Enterprises; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Beat &apos;em Up</genre>
+    <releasedate>1993-08-01</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./Super Columns (USA, Europe).7z</path>
+    <name>Super Columns</name>
+    <developer>Sega Enterprises</developer>
+    <publisher>Sega of America; Sega Enterprises</publisher>
+    <genre>Puzzle</genre>
+    <releasedate>1995-01-01</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./Super Star Wars - Return of the Jedi (USA, Europe).7z</path>
+    <name>Super Star Wars: Return of the Jedi</name>
+    <developer>Realtime Associates</developer>
+    <publisher>Black Pearl Software</publisher>
+    <genre>Action</genre>
+    <releasedate>1995-01-01</releasedate>
+    <rating>0.66</rating>
+  </game>
+  <game>
+    <path>./Tails Adventure (World) (En,Ja).7z</path>
+    <name>Tails Adventure</name>
+    <developer>Aspect</developer>
+    <publisher>Sega Enterprises</publisher>
+    <genre>Adventure; Platform</genre>
+    <releasedate>1995-09-22</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./TaleSpin (USA, Europe, Brazil) (En).7z</path>
+    <name>TaleSpin</name>
+    <developer>Sega Enterprises</developer>
+    <publisher>Sega of America; Sega Enterprises; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1993-01-01</releasedate>
+    <rating>0.59</rating>
+  </game>
+  <game>
+    <path>./Taz in Escape from Mars (USA, Europe, Brazil) (En).7z</path>
+    <name>Taz in Escape from Mars</name>
+    <developer>Al Baker &amp; Associates</developer>
+    <publisher>Sega of America; Sega Enterprises; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Platform</genre>
+    <releasedate>1994-01-01</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Urban Strike (USA).7z</path>
+    <name>Urban Strike</name>
+    <developer>Borta</developer>
+    <publisher>Black Pearl Software</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1995-01-01</releasedate>
+    <rating>0.79</rating>
+  </game>
+  <game>
+    <path>./Vampire - Master of Darkness (USA).7z</path>
+    <name>Vampire: Master of Darkness</name>
+    <developer>SIMS</developer>
+    <publisher>Sega of America; SIMS; Sega Enterprises</publisher>
+    <genre>Platform</genre>
+    <releasedate>1992-10-23</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./Wonder Boy - The Dragon&apos;s Trap (Europe).7z</path>
+    <name>Wonder Boy III: The Dragon&apos;s Trap</name>
+    <developer>Westone</developer>
+    <publisher>Sega Enterprises</publisher>
+    <genre>Adventure</genre>
+    <releasedate>1992-03-27</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./X-Men (USA).7z</path>
+    <name>X-Men</name>
+    <developer>Sega of America</developer>
+    <publisher>Sega of America</publisher>
+    <genre>Action</genre>
+    <releasedate>1994-01-01</releasedate>
+    <rating>0.66</rating>
+  </game>
+</gameList>

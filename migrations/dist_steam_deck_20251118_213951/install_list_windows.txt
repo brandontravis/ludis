@@ -1,0 +1,198 @@
+# Windows Games Install List
+# Generated: 20251118_213951
+# Total: 191 games
+
+# These games need to be manually installed/configured
+# (Cloud launchers, pirated games, etc.)
+
+ARK: Survival Evolved
+Alan Wake 2
+Alan Wake Remastered
+Among Us
+Assassin's Creed
+Assassin's Creed Brotherhood
+Assassin's Creed II
+Assassin's Creed II
+Assassin's Creed III
+Assassin's Creed III Remastered
+Assassin's Creed IV Black Flag
+Assassin's Creed Odyssey
+Assassin's Creed Origins
+Assassin's Creed Revelations
+Assassin's Creed Rogue
+Assassin's Creed Syndicate
+Assassin's Creed Unity
+Assassin's Creed: Liberation HD
+Baldur's Gate 3
+Baldur's Gate II: Enhanced Edition
+Baldur's Gate: Enhanced Edition
+Batman: Arkham Asylum GOTY Edition
+Batman: Arkham Asylum Game of the Year Edition
+Batman: Arkham City GOTY
+Batman: Arkham City: Game of the Year Edition
+Batman: Arkham Knight
+Batman: Arkham Origins
+Batman: Arkham VR
+BioShock 2 Remastered
+BioShock Infinite
+BioShock Remastered
+Borderlands 2
+Borderlands 3
+Borderlands GOTY Enhanced
+Borderlands: The Pre-Sequel
+Borderlands: The Pre-Sequel!
+Chained Together
+Chernobylite
+Cities: Skylines
+Cities: Skylines II
+Command & Conquer Remastered Collection
+Cyberpunk 2077
+Cyberpunk 2077 - EP1
+Cyberpunk 2077 REDmod
+DARK SOULS II: Scholar of the First Sin
+DARK SOULS III
+DEATHLOOP
+DOOM
+DOOM VFR
+Dark Souls: Remastered
+Days Gone
+Destiny 2
+Diablo
+Diablo II + Lord of Destruction
+Dishonored
+Dishonored 2
+Dishonored: Death of the Outsider
+Divinity: Original Sin II: Definitive Edition
+Dragon Age II
+Dragon Age Inquisition
+Dragon Age: Origins: Ultimate Edition
+Drug Dealer Simulator 2
+Elden Ring
+Eschalon: Book I
+Fallout
+Fallout 2
+Fallout 3 - Game of the Year Edition
+Fallout 4
+Fallout 4 VR
+Fallout 76
+Fallout Tactics
+Fallout: New Vegas
+Far Cry 3
+Far Cry 5
+Far Cry New Dawn
+Final Fantasy VII Remake Intergrade
+Frostpunk
+Frostpunk 2
+Galactic Civilizations III
+Galactic Civilizations III
+Goat Simulator
+Goat Simulator 3
+God of War
+Grand Theft Auto III
+Grand Theft Auto IV: The Complete Edition
+Grand Theft Auto V
+Grand Theft Auto V Enhanced
+Grand Theft Auto: San Andreas
+Grand Theft Auto: Vice City
+HITMAN 2
+Half-Life
+Half-Life 2
+Half-Life 2: Episode One
+Half-Life 2: Episode Two
+Halo Infinite
+Halo: The Master Chief Collection
+Hitman
+Hitman III
+Hogwarts Legacy
+Horizon Forbidden West: Complete Edition
+Horizon Zero Dawn Complete Edition
+Human Resource Machine
+Icewind Dale: Enhanced Edition
+Just Cause 3
+Just Cause 4
+L.A. Noire
+LEGO Batman 2: DC Super Heroes
+LEGO Batman 3: Beyond Gotham
+LEGO Batman: The Videogame
+METAL GEAR SOLID
+METAL GEAR SOLID V: THE PHANTOM PAIN
+Manhunt
+Marvel’s Spider-Man Remastered
+Marvel’s Spider-Man: Miles Morales
+Max Payne
+Max Payne 2: The Fall of Max Payne
+Max Payne 3
+Metro 2033
+Metro Last Light Redux
+Middle-earth: Shadow of Mordor
+Mortal Kombat X
+Myst III: Exile
+Myst IV: Revelation
+Myst V: End of Ages Limited Edition
+Neverwinter Nights: Enhanced Edition
+Night of the Dead
+No Man's Sky
+Obduction
+Outcast - A New Beginning
+Outer Wilds
+Pine
+Planescape: Torment: Enhanced Edition
+Portal
+Portal 2
+Prey
+Red Dead Redemption II
+Riven
+SOUTH PARK: SNOW DAY!
+STAR WARS Knights of the Old Republic
+Saints Row 2
+Saints Row IV: Re-Elected
+Saints Row: Gat out of Hell
+Saints Row: The Third: The Full Package
+Shadow of the Tomb Raider
+Sid Meier's Civilization IV
+Sid Meier's Civilization IV
+Sid Meier's Civilization IV: Beyond the Sword
+Sid Meier's Civilization IV: Beyond the Sword
+Sid Meier's Civilization IV: Colonization
+Sid Meier's Civilization IV: Warlords
+Sid Meier's Civilization IV: Warlords
+Sid Meier's Civilization V
+Sid Meier's Civilization VI
+Sid Meier's Civilization: Beyond Earth
+South Park The Fractured But Whole
+South Park: The Stick of Truth
+Splinter Cell Blacklist
+Splinter Cell Conviction
+Starfield
+Stray Gods: The Roleplaying Musical
+Teenage Mutant Ninja Turtles Arcade: Wrath of the Mutants
+The Elder Scrolls III: Morrowind
+The Elder Scrolls IV: Oblivion
+The Elder Scrolls V: Skyrim Special Edition
+The Genesis Order
+The Last of Us: Part I
+The Outer Worlds
+The Sims 4 (For Rent Update)
+The Stanley Parable
+The Witcher 2: Assassins of Kings Enhanced Edition
+The Witcher 3: Wild Hunt
+The Witcher: Enhanced Edition
+The Witcher: Enhanced Edition
+Thief Simulator
+Thief Simulator 2
+This War of Mine
+Tomb Raider
+Tomb Raider I-III Remastered
+Tony Hawk's™ Pro Skater™ 1 + 2
+TrackMania
+Ultima IX - Ascension
+Uncharted: Legacy of Thieves Collection (4: A Thief's End)
+Uncharted: Legacy of Thieves Collection (The Lost Legacy)
+Uru: Complete Chronicles
+WATCH_DOGS2
+Watch_Dogs
+Watch_Dogs: Complete Edition
+Wolfenstein II: The New Colossus
+Workers & Resources: Soviet Republic
+World War Z
+realMyst: Masterpiece Edition

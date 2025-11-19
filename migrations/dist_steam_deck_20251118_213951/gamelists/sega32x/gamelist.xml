@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<gameList>
+  <game>
+    <path>./Doom (Japan, USA) (En).7z</path>
+    <name>DOOM</name>
+    <developer>Sega of America</developer>
+    <publisher>Sega of America; Sega Enterprises; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1994-11-21</releasedate>
+    <rating>0.71</rating>
+  </game>
+</gameList>

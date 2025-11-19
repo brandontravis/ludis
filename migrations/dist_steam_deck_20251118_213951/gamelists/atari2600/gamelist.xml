@@ -1,0 +1,515 @@
+<?xml version="1.0"?>
+<gameList>
+  <game>
+    <path>./Adventure (USA).7z</path>
+    <name>Adventure</name>
+    <developer>Warren Robinett</developer>
+    <publisher>Atari; Sears, Roebuck and Co.</publisher>
+    <genre>Adventure</genre>
+    <releasedate>1980-07-01</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Adventure (USA).7z</path>
+    <name>Adventure</name>
+    <developer>Warren Robinett</developer>
+    <publisher>Atari; Sears, Roebuck and Co.</publisher>
+    <genre>Adventure</genre>
+    <releasedate>1980-07-01</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Asteroids (USA) (Atari Anthology).7z</path>
+    <name>Asteroids</name>
+    <developer>Bradley G. Stewart</developer>
+    <publisher>Atari</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1981-01-01</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Atlantis (USA).7z</path>
+    <name>Atlantis</name>
+    <developer>Dennis Koble</developer>
+    <publisher>Imagic; Zellers</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1982-01-01</releasedate>
+    <rating>0.71</rating>
+  </game>
+  <game>
+    <path>./Bachelor Party (USA).7z</path>
+    <name>Bachelor Party</name>
+    <developer>Mystique</developer>
+    <publisher>PlayAround</publisher>
+    <genre>Platform</genre>
+    <releasedate>1982-01-01</releasedate>
+    <rating>0.68</rating>
+  </game>
+  <game>
+    <path>./Bachelorette Party (USA).7z</path>
+    <name>Bachelorette Party</name>
+    <developer>Mystique</developer>
+    <publisher>PlayAround</publisher>
+    <genre>Action</genre>
+    <releasedate>1982-01-01</releasedate>
+    <rating>0.59</rating>
+  </game>
+  <game>
+    <path>./Berzerk (Japan, USA) (En).7z</path>
+    <name>Berzerk</name>
+    <developer>Dan Hitchens</developer>
+    <publisher>Atari</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1982-08-01</releasedate>
+    <rating>0.79</rating>
+  </game>
+  <game>
+    <path>./BurgerTime (USA).7z</path>
+    <name>BurgerTime</name>
+    <developer>Ron Surratt</developer>
+    <publisher>Mattel Electronics</publisher>
+    <genre>Platform</genre>
+    <releasedate>1982-01-01</releasedate>
+    <rating>0.60</rating>
+  </game>
+  <game>
+    <path>./Centipede (Japan, USA) (En).7z</path>
+    <name>Centipede</name>
+    <developer>Atari</developer>
+    <publisher>Atari</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1982-01-01</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./Combat (USA, Europe) (Atari Anthology).7z</path>
+    <name>Combat</name>
+    <developer>Atari</developer>
+    <publisher>Atari</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1977-09-11</releasedate>
+    <rating>0.69</rating>
+  </game>
+  <game>
+    <path>./Defender (USA).7z</path>
+    <name>Defender</name>
+    <developer>Atari</developer>
+    <publisher>Atari; Zellers; Sears, Roebuck and Co.</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1982-01-01</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./Demon Attack (USA) (Rev 1).7z</path>
+    <name>Demon Attack</name>
+    <developer>Imagic</developer>
+    <publisher>Imagic</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1982-01-01</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./Dig Dug (USA).7z</path>
+    <name>Dig Dug</name>
+    <developer>General Computer</developer>
+    <publisher>Atari</publisher>
+    <genre>Action; Puzzle</genre>
+    <releasedate>1982-01-01</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./Donkey Kong (USA).7z</path>
+    <name>Donkey Kong</name>
+    <developer>Coleco Industries</developer>
+    <publisher>Coleco Industries</publisher>
+    <genre>Platform</genre>
+    <releasedate>1982-01-01</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Donkey Kong Junior (USA).7z</path>
+    <name>Donkey Kong Junior</name>
+    <developer>Coleco Industries</developer>
+    <publisher>Atari; Coleco Industries</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>1983-01-01</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Double Dragon (USA).7z</path>
+    <name>Double Dragon</name>
+    <developer>Imagineering</developer>
+    <publisher>Activision</publisher>
+    <genre>Beat &apos;em Up</genre>
+    <releasedate>1988-01-01</releasedate>
+    <rating>0.42</rating>
+  </game>
+  <game>
+    <path>./Dune (USA) (Proto).7z</path>
+    <name>Dune</name>
+    <developer>Atari</developer>
+    <publisher>Unreleased Prototype</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>1984-01-01</releasedate>
+    <rating>0.64</rating>
+  </game>
+  <game>
+    <path>./E.T. - The Extra-Terrestrial (USA).7z</path>
+    <name>E.T. the Extra-Terrestrial</name>
+    <developer>Howard Scott Warshaw</developer>
+    <publisher>Atari</publisher>
+    <genre>Adventure</genre>
+    <releasedate>1982-01-01</releasedate>
+    <rating>0.56</rating>
+  </game>
+  <game>
+    <path>./Frogger (USA).7z</path>
+    <name>Frogger</name>
+    <developer>Parker Brothers</developer>
+    <publisher>Parker Brothers; Home Entertainment Suppliers</publisher>
+    <genre>Action</genre>
+    <releasedate>1981-01-01</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Frogger II - Threeedeep! (USA).7z</path>
+    <name>Frogger II: Threeedeep!</name>
+    <developer>Parker Brothers</developer>
+    <publisher>Parker Brothers</publisher>
+    <genre>Action</genre>
+    <releasedate>1984-01-01</releasedate>
+    <rating>0.65</rating>
+  </game>
+  <game>
+    <path>./Ghostbusters (USA).7z</path>
+    <name>Ghostbusters</name>
+    <developer>Activision</developer>
+    <publisher>Activision</publisher>
+    <genre>Adventure</genre>
+    <releasedate>1985-01-01</releasedate>
+    <rating>0.67</rating>
+  </game>
+  <game>
+    <path>./Ghostbusters II (Europe).7z</path>
+    <name>Ghostbusters II</name>
+    <developer>Activision</developer>
+    <publisher>Salu</publisher>
+    <genre>Action</genre>
+    <releasedate>1992-01-01</releasedate>
+    <rating>0.62</rating>
+  </game>
+  <game>
+    <path>./Halo 2600 (World) (Aftermarket) (Homebrew).7z</path>
+    <name>Halo 2600</name>
+    <developer>Ed Fries</developer>
+    <publisher>AtariAge</publisher>
+    <genre>Action; Adventure; Shooter</genre>
+    <releasedate>2010-07-31</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./Harem (USA) (Proto).7z</path>
+    <name>Harem</name>
+    <developer>Michael Case</developer>
+    <publisher>Unreleased Prototype</publisher>
+    <genre>Action</genre>
+    <releasedate>1982-01-01</releasedate>
+    <rating>0.84</rating>
+  </game>
+  <game>
+    <path>./Joust (USA).7z</path>
+    <name>Joust</name>
+    <developer>General Computer</developer>
+    <publisher>Atari</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>1983-01-01</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./Jr. Pac-Man (USA).7z</path>
+    <name>Jr. Pac-Man</name>
+    <developer>Atari</developer>
+    <publisher>Atari</publisher>
+    <genre>Action</genre>
+    <releasedate>1984-01-01</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Jungle Hunt (USA).7z</path>
+    <name>Jungle Hunt</name>
+    <developer>John Allred; Michael Feinstein</developer>
+    <publisher>Atari</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>1982-01-01</releasedate>
+    <rating>0.73</rating>
+  </game>
+  <game>
+    <path>./Mario Bros. (USA).7z</path>
+    <name>Mario Bros.</name>
+    <developer>Atari</developer>
+    <publisher>Atari</publisher>
+    <genre>Platform</genre>
+    <releasedate>1983-07-06</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./McDonald&apos;s - Golden Arches Adventure (USA) (Proto).7z</path>
+    <name>McDonald&apos;s: Golden Arches Adventure</name>
+    <developer>Dave Engman; Isabel Garret</developer>
+    <publisher>Unreleased Prototype</publisher>
+    <genre>Action; Adventure</genre>
+    <rating>0.39</rating>
+  </game>
+  <game>
+    <path>./Millipede (USA).7z</path>
+    <name>Millipede</name>
+    <developer>Atari</developer>
+    <publisher>Atari</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1984-01-01</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Missile Command (USA).7z</path>
+    <name>Missile Command</name>
+    <developer>Atari</developer>
+    <publisher>Atari</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1981-01-01</releasedate>
+    <rating>0.79</rating>
+  </game>
+  <game>
+    <path>./Missile Control (Europe).7z</path>
+    <name>Missile Control</name>
+    <developer>Video Gems</developer>
+    <publisher>Video Gems</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1983-01-01</releasedate>
+    <rating>0.61</rating>
+  </game>
+  <game>
+    <path>./Ms. Pac-Man (USA).7z</path>
+    <name>Ms. Pac-Man</name>
+    <developer>Mark Ackerman; Glenn Parker</developer>
+    <publisher>Atari</publisher>
+    <genre>Action; Puzzle</genre>
+    <releasedate>1983-01-01</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./Official Frogger, The (USA).7z</path>
+    <name>The Official Frogger</name>
+    <developer>Starpath</developer>
+    <publisher>Starpath</publisher>
+    <genre>Action</genre>
+    <releasedate>1983-01-01</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./Pac-Man (USA).7z</path>
+    <name>Pac-Man</name>
+    <developer>Atari</developer>
+    <publisher>Atari</publisher>
+    <genre>Action</genre>
+    <releasedate>1982-01-01</releasedate>
+    <rating>0.63</rating>
+  </game>
+  <game>
+    <path>./Pitfall II - Lost Caverns (USA).7z</path>
+    <name>Pitfall II: Lost Caverns</name>
+    <developer>David Crane</developer>
+    <publisher>Activision</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>1984-01-01</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./Pitfall! - Pitfall Harry&apos;s Jungle Adventure (USA).7z</path>
+    <name>Pitfall!: Pitfall Harry&apos;s Jungle Adventure</name>
+    <developer>Activision</developer>
+    <publisher>Activision</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>1982-04-20</releasedate>
+    <rating>0.85</rating>
+  </game>
+  <game>
+    <path>./Pole Position (USA).7z</path>
+    <name>Pole Position</name>
+    <developer>Atari</developer>
+    <publisher>Atari</publisher>
+    <genre>Racing</genre>
+    <releasedate>1983-01-01</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./Q-bert (USA).7z</path>
+    <name>Q-bert</name>
+    <developer>Dave Hampton</developer>
+    <publisher>Parker Brothers</publisher>
+    <genre>Platform; Puzzle</genre>
+    <releasedate>1983-01-01</releasedate>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./Raiders of the Lost Ark (USA).7z</path>
+    <name>Raiders of the Lost Ark</name>
+    <developer>Atari</developer>
+    <publisher>Atari</publisher>
+    <genre>Action</genre>
+    <releasedate>1982-01-01</releasedate>
+    <rating>0.61</rating>
+  </game>
+  <game>
+    <path>./Rampage! (USA).7z</path>
+    <name>Rampage</name>
+    <developer>Bally Midway</developer>
+    <publisher>Activision</publisher>
+    <genre>Action</genre>
+    <releasedate>1989-01-01</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./River Raid (USA).7z</path>
+    <name>River Raid</name>
+    <developer>Carol Shaw</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1982-01-01</releasedate>
+    <rating>0.89</rating>
+  </game>
+  <game>
+    <path>./Space Invaders (USA).7z</path>
+    <name>Space Invaders</name>
+    <developer>Atari</developer>
+    <publisher>Atari; Polyvox; Sears, Roebuck and Co.</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1980-03-10</releasedate>
+    <rating>0.84</rating>
+  </game>
+  <game>
+    <path>./Spy Hunter (USA).7z</path>
+    <name>Spy Hunter</name>
+    <developer>Sega Enterprises</developer>
+    <publisher>Sega Enterprises</publisher>
+    <genre>Racing</genre>
+    <releasedate>1983-01-01</releasedate>
+    <rating>0.51</rating>
+  </game>
+  <game>
+    <path>./Star Wars - Jedi Arena (USA).7z</path>
+    <name>Star Wars: Jedi Arena</name>
+    <developer>Parker Brothers</developer>
+    <publisher>Parker Brothers</publisher>
+    <genre>Action</genre>
+    <releasedate>1983-01-01</releasedate>
+    <rating>0.47</rating>
+  </game>
+  <game>
+    <path>./Star Wars - Return of the Jedi - Death Star Battle (USA).7z</path>
+    <name>Star Wars: Return of the Jedi: Death Star Battle</name>
+    <developer>Parker Brothers</developer>
+    <publisher>Parker Brothers</publisher>
+    <genre>Action</genre>
+    <releasedate>1983-01-01</releasedate>
+    <rating>0.66</rating>
+  </game>
+  <game>
+    <path>./Star Wars - Return of the Jedi - Ewok Adventure (USA) (Proto).7z</path>
+    <name>Star Wars: Return of the Jedi: Ewok Adventure</name>
+    <developer>Parker Brothers</developer>
+    <publisher>Parker Brothers</publisher>
+    <genre>Action</genre>
+    <releasedate>1997-01-01</releasedate>
+    <rating>0.50</rating>
+  </game>
+  <game>
+    <path>./Star Wars - The Arcade Game (USA).7z</path>
+    <name>Star Wars: The Arcade Game</name>
+    <developer>Imagic</developer>
+    <publisher>Parker Brothers</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1983-01-01</releasedate>
+    <rating>0.57</rating>
+  </game>
+  <game>
+    <path>./Star Wars - The Empire Strikes Back (USA).7z</path>
+    <name>Star Wars: The Empire Strikes Back</name>
+    <developer>Parker Brothers</developer>
+    <publisher>Parker Brothers</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1982-01-01</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Super Breakout (USA, Europe) (Atari Anthology).7z</path>
+    <name>Super Breakout</name>
+    <developer>Nick Turner; Carol Shaw</developer>
+    <publisher>Atari</publisher>
+    <genre>Action</genre>
+    <releasedate>1981-01-01</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./SwordQuest - EarthWorld (USA, Europe) (Atari Anthology).7z</path>
+    <name>Swordquest: EarthWorld</name>
+    <developer>Atari</developer>
+    <publisher>Atari</publisher>
+    <genre>Action</genre>
+    <releasedate>1982-01-01</releasedate>
+    <rating>0.57</rating>
+  </game>
+  <game>
+    <path>./SwordQuest - FireWorld (USA).7z</path>
+    <name>Swordquest: FireWorld</name>
+    <developer>Atari</developer>
+    <publisher>Atari</publisher>
+    <genre>Action</genre>
+    <releasedate>1983-01-01</releasedate>
+    <rating>0.60</rating>
+  </game>
+  <game>
+    <path>./SwordQuest - WaterWorld (USA).7z</path>
+    <name>Swordquest: WaterWorld</name>
+    <developer>Atari</developer>
+    <publisher>Atari</publisher>
+    <genre>Adventure; Puzzle</genre>
+    <releasedate>1983-01-01</releasedate>
+    <rating>0.65</rating>
+  </game>
+  <game>
+    <path>./Tapper (USA).7z</path>
+    <name>Tapper</name>
+    <developer>Beck-Tech</developer>
+    <publisher>Sega Enterprises</publisher>
+    <genre>Action</genre>
+    <releasedate>1984-01-01</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./Warlords (USA).7z</path>
+    <name>Warlords</name>
+    <developer>Atari</developer>
+    <publisher>Atari</publisher>
+    <genre>Action</genre>
+    <releasedate>1981-05-01</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./X-Man (USA).7z</path>
+    <name>X-Man</name>
+    <developer>Universal Gamex</developer>
+    <publisher>Universal Gamex</publisher>
+    <genre>Action</genre>
+    <releasedate>1983-01-01</releasedate>
+    <rating>0.46</rating>
+  </game>
+  <game>
+    <path>./Yars&apos; Revenge (USA).7z</path>
+    <name>Yars&apos; Revenge</name>
+    <developer>Atari</developer>
+    <publisher>Atari</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1982-05-03</releasedate>
+    <rating>0.81</rating>
+  </game>
+</gameList>

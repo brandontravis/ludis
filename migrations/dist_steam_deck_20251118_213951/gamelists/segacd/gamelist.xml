@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<gameList>
+  <game>
+    <path>./Adventures of Batman &amp; Robin, The.chd</path>
+    <name>The Adventures of Batman &amp; Robin</name>
+    <developer>Clockwork Tortoise</developer>
+    <publisher>Sega of America</publisher>
+    <genre>Action; Racing</genre>
+    <releasedate>1995-07-01</releasedate>
+    <rating>0.67</rating>
+  </game>
+  <game>
+    <path>./Earthworm Jim - Special Edition.chd</path>
+    <name>Earthworm Jim: Special Edition</name>
+    <developer>Shiny Entertainment</developer>
+    <publisher>Interplay Productions</publisher>
+    <genre>Platform; Shooter</genre>
+    <releasedate>1995-03-15</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./Ecco - The Tides of Time.chd</path>
+    <name>Ecco: The Tides of Time</name>
+    <developer>Novotrade Software</developer>
+    <publisher>Sega of America; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>1994-08-25</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Ecco the Dolphin.chd</path>
+    <name>Ecco the Dolphin</name>
+    <developer>Novotrade International</developer>
+    <publisher>Sega of America; Sega Enterprises; Tec Toy Indústria de Brinquedos</publisher>
+    <genre>Adventure</genre>
+    <releasedate>1993-06-23</releasedate>
+    <rating>0.84</rating>
+  </game>
+  <game>
+    <path>./Final Fight CD.chd</path>
+    <name>Final Fight CD</name>
+    <developer>A Wave</developer>
+    <publisher>Sega Enterprises</publisher>
+    <genre>Beat &apos;em Up</genre>
+    <releasedate>1993-04-02</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./Shining Force CD.chd</path>
+    <name>Shining Force CD</name>
+    <developer>Sonic Co.</developer>
+    <publisher>Sega of America; Sega Enterprises</publisher>
+    <genre>Role-Playing; Strategy</genre>
+    <releasedate>1994-07-22</releasedate>
+    <rating>0.87</rating>
+  </game>
+  <game>
+    <path>./Sonic the Hedgehog CD.chd</path>
+    <name>Sonic The Hedgehog CD</name>
+    <developer>Sega Enterprises</developer>
+    <publisher>Sega of America; Sega Enterprises; Tec Toy Indústria de Brinquedos; SEGA Europe</publisher>
+    <genre>Adventure; Platform</genre>
+    <releasedate>1993-09-23</releasedate>
+    <rating>0.85</rating>
+  </game>
+</gameList>

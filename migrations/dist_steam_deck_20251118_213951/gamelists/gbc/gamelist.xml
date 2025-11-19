@@ -1,0 +1,1084 @@
+<?xml version="1.0"?>
+<gameList>
+  <game>
+    <path>./720 Degrees (USA, Europe) (GB Compatible).7z</path>
+    <name>720 Degrees</name>
+    <developer>Game Brains</developer>
+    <publisher>Midway Home Entertainment</publisher>
+    <genre>Sports</genre>
+    <releasedate>1999-03-01</releasedate>
+    <rating>0.61</rating>
+  </game>
+  <game>
+    <path>./Aladdin (USA).7z</path>
+    <name>Aladdin</name>
+    <developer>Crawfish Interactive</developer>
+    <publisher>Ubi Soft Entertainment Software</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>2000-12-08</releasedate>
+    <rating>0.61</rating>
+  </game>
+  <game>
+    <path>./Asteroids (USA, Europe) (GB Compatible).7z</path>
+    <name>Asteroids</name>
+    <developer>Syrox Developments</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1999-09-01</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./Batman - Chaos in Gotham (USA).7z</path>
+    <name>Batman: Chaos in Gotham</name>
+    <developer>Digital Eclipse Software</developer>
+    <publisher>Ubi Soft Entertainment Software</publisher>
+    <genre>Platform</genre>
+    <releasedate>2001-04-16</releasedate>
+    <rating>0.71</rating>
+  </game>
+  <game>
+    <path>./Batman Beyond - Return of the Joker (USA).7z</path>
+    <name>Batman Beyond: Return of the Joker</name>
+    <developer>Kemco</developer>
+    <publisher>Ubi Soft Entertainment Software</publisher>
+    <genre>Action</genre>
+    <releasedate>2000-11-30</releasedate>
+    <rating>0.59</rating>
+  </game>
+  <game>
+    <path>./Bionic Commando - Elite Forces (USA, Australia).7z</path>
+    <name>Bionic Commando: Elite Forces</name>
+    <developer>Nintendo</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Platform</genre>
+    <releasedate>2000-01-24</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./Boarder Zone (USA).7z</path>
+    <name>Boarder Zone</name>
+    <developer>Software Creations</developer>
+    <publisher>Infogrames</publisher>
+    <genre>Sports</genre>
+    <releasedate>1999-01-01</releasedate>
+    <rating>0.66</rating>
+  </game>
+  <game>
+    <path>./Casper (USA) (Rev 1) (Proto).7z</path>
+    <name>Casper</name>
+    <developer>G3 Interactive</developer>
+    <publisher>Interplay Entertainment</publisher>
+    <genre>Adventure</genre>
+    <releasedate>2000-05-01</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./Classic Bubble Bobble (USA) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Classic Bubble Bobble</name>
+    <developer>Dreams</developer>
+    <publisher>Metro3D</publisher>
+    <genre>Puzzle</genre>
+    <releasedate>1999-01-01</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Croc (USA, Europe).7z</path>
+    <name>Croc</name>
+    <developer>Virtucraft; Argonaut Games</developer>
+    <publisher>THQ</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>2000-06-06</releasedate>
+    <rating>0.63</rating>
+  </game>
+  <game>
+    <path>./Croc 2 (USA, Europe).7z</path>
+    <name>Croc 2</name>
+    <developer>Natsume</developer>
+    <publisher>THQ</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>2001-01-25</releasedate>
+    <rating>0.68</rating>
+  </game>
+  <game>
+    <path>./Crystalis (USA).7z</path>
+    <name>Crystalis</name>
+    <developer>Nintendo STC</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Action; Role-Playing</genre>
+    <releasedate>2000-06-26</releasedate>
+    <rating>0.73</rating>
+  </game>
+  <game>
+    <path>./Dave Mirra Freestyle BMX (USA, Europe).7z</path>
+    <name>Dave Mirra Freestyle BMX</name>
+    <developer>NEON Software</developer>
+    <publisher>Acclaim Entertainment</publisher>
+    <genre>Sports</genre>
+    <releasedate>2000-11-09</releasedate>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./Deja Vu I &amp; II - The Casebooks of Ace Harding (USA).7z</path>
+    <name>Deja Vu I &amp; II: The Casebooks of Ace Harding</name>
+    <developer>Kemco</developer>
+    <publisher>Kemco; Vatical Entertainment</publisher>
+    <genre>Adventure</genre>
+    <releasedate>1999-10-15</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Donkey Kong Country (USA, Europe) (En,Fr,De,Es,It).7z</path>
+    <name>Donkey Kong Country</name>
+    <developer>Rare</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Platform</genre>
+    <releasedate>2000-11-23</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./Doug&apos;s Big Game (USA).7z</path>
+    <name>Doug&apos;s Big Game</name>
+    <developer>Magellan Interactive</developer>
+    <publisher>NewKidCo</publisher>
+    <genre>Action</genre>
+    <releasedate>2000-12-15</releasedate>
+    <rating>0.57</rating>
+  </game>
+  <game>
+    <path>./Dragon Ball Z - Legendary Super Warriors (USA).7z</path>
+    <name>Dragon Ball Z: Legendary Super Warriors</name>
+    <developer>Flight-Plan</developer>
+    <publisher>Infogrames; Banpresto</publisher>
+    <genre>Role-Playing; Strategy</genre>
+    <releasedate>2002-08-09</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Dragon Warrior I &amp; II (USA) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Dragon Warrior I &amp; II</name>
+    <developer>TOSE</developer>
+    <publisher>Enix; Enix America</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2000-09-27</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./Dragon Warrior III (USA).7z</path>
+    <name>Dragon Warrior III</name>
+    <developer>TOSE</developer>
+    <publisher>Enix; Enix America</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2001-07-16</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./Dragon Warrior Monsters (USA, Europe) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Dragon Warrior Monsters</name>
+    <developer>TOSE</developer>
+    <publisher>Eidos Interactive</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>1998-09-25</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./Dragon Warrior Monsters 2 - Cobi&apos;s Journey (USA) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Dragon Warrior Monsters 2: Cobi&apos;s Journey</name>
+    <developer>TOSE</developer>
+    <publisher>Enix America</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2001-09-15</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Dragon Warrior Monsters 2 - Tara&apos;s Adventure (USA) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Dragon Warrior Monsters 2: Tara&apos;s Adventure</name>
+    <developer>TOSE</developer>
+    <publisher>Enix America</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2001-09-15</releasedate>
+    <rating>0.79</rating>
+  </game>
+  <game>
+    <path>./Duke Nukem (USA) (En,Fr,De,Es,It).7z</path>
+    <name>Duke Nukem</name>
+    <developer>Torus Games</developer>
+    <publisher>GT Interactive Software</publisher>
+    <genre>Platform; Shooter</genre>
+    <releasedate>1999-09-02</releasedate>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./Earthworm Jim - Menace 2 the Galaxy (USA, Europe) (GB Compatible).7z</path>
+    <name>Earthworm Jim: Menace 2 the Galaxy</name>
+    <developer>David A. Palmer Productions</developer>
+    <publisher>Crave Entertainment</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>1999-11-10</releasedate>
+    <rating>0.65</rating>
+  </game>
+  <game>
+    <path>./Emperor&apos;s New Groove, The (USA).7z</path>
+    <name>The Emperor&apos;s New Groove</name>
+    <developer>Sandbox Studios</developer>
+    <publisher>Ubi Soft Entertainment Software</publisher>
+    <genre>Platform</genre>
+    <releasedate>2000-11-01</releasedate>
+    <rating>0.59</rating>
+  </game>
+  <game>
+    <path>./Extreme Ghostbusters (Europe) (En,Fr,De,Es,It,Pt).7z</path>
+    <name>Extreme Ghostbusters</name>
+    <developer>Game Quest</developer>
+    <publisher>Wanadoo Edition; Light &amp; Shadow Production</publisher>
+    <genre>Action</genre>
+    <releasedate>2001-04-02</releasedate>
+    <rating>0.65</rating>
+  </game>
+  <game>
+    <path>./Frogger (USA) (Rev 2) (GB Compatible).7z</path>
+    <name>Frogger</name>
+    <developer>Morning Star Multimedia</developer>
+    <publisher>Majesco Sales</publisher>
+    <genre>Action</genre>
+    <releasedate>1998-12-31</releasedate>
+    <rating>0.73</rating>
+  </game>
+  <game>
+    <path>./Frogger 2 (USA) (Rev 1).7z</path>
+    <name>Frogger 2: Swampy&apos;s Revenge</name>
+    <developer>Game Titan</developer>
+    <publisher>Hasbro Interactive</publisher>
+    <genre>Action</genre>
+    <releasedate>2000-09-21</releasedate>
+    <rating>0.62</rating>
+  </game>
+  <game>
+    <path>./Galaga - Destination Earth (USA).7z</path>
+    <name>Galaga: Destination Earth</name>
+    <developer>Pipe Dream Interactive</developer>
+    <publisher>Hasbro Interactive</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2000-09-25</releasedate>
+    <rating>0.65</rating>
+  </game>
+  <game>
+    <path>./Game &amp; Watch Gallery 2 (USA, Europe) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Game &amp; Watch Gallery 2</name>
+    <developer>TOSE</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Action</genre>
+    <releasedate>1998-11-01</releasedate>
+    <rating>0.79</rating>
+  </game>
+  <game>
+    <path>./Game &amp; Watch Gallery 3 (USA, Europe) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Game &amp; Watch Gallery 3</name>
+    <developer>Nintendo</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Compilation</genre>
+    <releasedate>1999-12-06</releasedate>
+    <rating>0.71</rating>
+  </game>
+  <game>
+    <path>./Gex - Enter the Gecko (USA, Europe) (GB Compatible).7z</path>
+    <name>Gex: Enter the Gecko</name>
+    <developer>David A. Palmer Productions</developer>
+    <publisher>Crave Entertainment</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>1998-12-01</releasedate>
+    <rating>0.63</rating>
+  </game>
+  <game>
+    <path>./Gex 3 - Deep Pocket Gecko (USA).7z</path>
+    <name>Gex 3: Deep Pocket Gecko</name>
+    <developer>David A. Palmer Productions</developer>
+    <publisher>Eidos Interactive</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>1999-12-01</releasedate>
+    <rating>0.68</rating>
+  </game>
+  <game>
+    <path>./Grand Theft Auto (USA) (GB Compatible).7z</path>
+    <name>Grand Theft Auto</name>
+    <developer>Tarantula Studios</developer>
+    <publisher>Rockstar Games</publisher>
+    <genre>Action</genre>
+    <releasedate>1999-11-01</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Grand Theft Auto 2 (USA).7z</path>
+    <name>Grand Theft Auto 2</name>
+    <developer>Tarantula Studios</developer>
+    <publisher>Rockstar Games</publisher>
+    <genre>Sandbox</genre>
+    <releasedate>2000-12-15</releasedate>
+    <rating>0.64</rating>
+  </game>
+  <game>
+    <path>./Hamtaro - Ham-Hams Unite! (USA).7z</path>
+    <name>HamTaro: Ham-Hams Unite!</name>
+    <developer>Pax Softnica</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2001-04-21</releasedate>
+    <rating>0.68</rating>
+  </game>
+  <game>
+    <path>./Harry Potter 3 (USA) (Unl).7z</path>
+    <name>Harry Potter 3 &amp; the Mystical Halo</name>
+    <developer>Vast Fame</developer>
+    <publisher>Vast Fame</publisher>
+    <genre>Shooter</genre>
+    <releasedate>2002-01-01</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./Harry Potter and the Chamber of Secrets (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,Da).7z</path>
+    <name>Harry Potter and the Chamber of Secrets</name>
+    <developer>Griptonite</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2002-11-01</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./Harry Potter and the Sorcerer&apos;s Stone (USA, Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi).7z</path>
+    <name>Harry Potter and the Sorcerer&apos;s Stone</name>
+    <developer>Griptonite</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Action; Adventure; Role-Playing</genre>
+    <releasedate>2001-11-15</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Harvest Moon 2 GBC (USA) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Harvest Moon 2 GBC</name>
+    <developer>Victor Interactive Software</developer>
+    <publisher>Victor Interactive Software</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2000-11-07</releasedate>
+    <rating>0.79</rating>
+  </game>
+  <game>
+    <path>./Harvest Moon 3 GBC (USA).7z</path>
+    <name>Harvest Moon 3 GBC</name>
+    <developer>Natsume; Victor Interactive Software</developer>
+    <publisher>Natsume; Victor Interactive Software</publisher>
+    <genre>Construction and Management Simulation; Life Simulation</genre>
+    <releasedate>2001-11-14</releasedate>
+    <rating>0.73</rating>
+  </game>
+  <game>
+    <path>./Harvest Moon GBC (USA) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Harvest Moon GBC</name>
+    <developer>Victor Interactive Software</developer>
+    <publisher>Natsume</publisher>
+    <genre>Life Simulation; Role-Playing</genre>
+    <releasedate>1999-11-01</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Hugo - Black Diamond Fever (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi).7z</path>
+    <name>Hugo: Black Diamond Fever</name>
+    <developer>ITE Media</developer>
+    <publisher>ITE Media</publisher>
+    <genre>Platform</genre>
+    <releasedate>2001-12-07</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Hugo - The Evil Mirror (Europe) (En,Fr,De,Es,It,Nl,Pt,Sv,No,Da,Fi).7z</path>
+    <name>Hugo: The Evil Mirror</name>
+    <developer>ITE Media</developer>
+    <publisher>ITE Media</publisher>
+    <genre>Action</genre>
+    <releasedate>2002-09-17</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./Kirby - Tilt &apos;n&apos; Tumble (USA).7z</path>
+    <name>Kirby Tilt &apos;n&apos; Tumble</name>
+    <developer>Nintendo; HAL Laboratory</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Action</genre>
+    <releasedate>2000-08-23</releasedate>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./Konami GB Collection Vol.1 (Europe) (GB Compatible).7z</path>
+    <name>Konami GB Collection: Vol.1</name>
+    <developer>TOSE</developer>
+    <publisher>Konami</publisher>
+    <genre>Compilation</genre>
+    <releasedate>2000-02-01</releasedate>
+    <rating>0.91</rating>
+  </game>
+  <game>
+    <path>./Konami GB Collection Vol.2 (Europe) (GB Compatible).7z</path>
+    <name>Konami GB Collection: Vol.2</name>
+    <developer>TOSE</developer>
+    <publisher>Konami</publisher>
+    <genre>Compilation</genre>
+    <releasedate>2000-02-01</releasedate>
+    <rating>0.67</rating>
+  </game>
+  <game>
+    <path>./Konami GB Collection Vol.3 (Europe) (GB Compatible).7z</path>
+    <name>Konami GB Collection: Vol.3</name>
+    <developer>TOSE</developer>
+    <publisher>Konami</publisher>
+    <genre>Compilation</genre>
+    <releasedate>2000-05-01</releasedate>
+    <rating>0.61</rating>
+  </game>
+  <game>
+    <path>./Konami GB Collection Vol.4 (Europe) (GB Compatible).7z</path>
+    <name>Konami GB Collection: Vol.4</name>
+    <developer>TOSE</developer>
+    <publisher>Konami</publisher>
+    <genre>Action; Platform; Shooter</genre>
+    <releasedate>2000-07-01</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Legend of the River King 2 (USA) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Legend of the River King 2</name>
+    <developer>Natsume; Victor Interactive Software</developer>
+    <publisher>Natsume; Victor Interactive Software</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2001-04-17</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./Legend of the River King GBC (USA) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Legend of the River King GBC</name>
+    <developer>Natsume</developer>
+    <publisher>Natsume</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>1999-11-23</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Legend of Zelda, The - Link&apos;s Awakening DX (USA, Europe) (Rev 2) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>The Legend of Zelda: Link&apos;s Awakening DX</name>
+    <developer>Nintendo EAD</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Action; Adventure</genre>
+    <releasedate>1998-12-12</releasedate>
+    <rating>0.92</rating>
+  </game>
+  <game>
+    <path>./Legend of Zelda, The - Oracle of Ages (USA, Australia).7z</path>
+    <name>The Legend of Zelda: Oracle of Ages</name>
+    <developer>Capcom; Flagship</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Action; Adventure; Role-Playing</genre>
+    <releasedate>2001-05-14</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./Legend of Zelda, The - Oracle of Seasons (USA, Australia).7z</path>
+    <name>The Legend of Zelda: Oracle of Seasons</name>
+    <developer>Capcom; Flagship</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Action; Adventure; Role-Playing</genre>
+    <releasedate>2001-05-14</releasedate>
+    <rating>0.85</rating>
+  </game>
+  <game>
+    <path>./LEGO Alpha Team (USA).7z</path>
+    <name>LEGO Alpha Team</name>
+    <developer>The Climax Group</developer>
+    <publisher>Lego Media</publisher>
+    <genre>Puzzle</genre>
+    <releasedate>2000-11-01</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./LEGO Island 2 - The Brickster&apos;s Revenge (USA) (En,Fr,Es).7z</path>
+    <name>LEGO Island 2: The Brickster&apos;s Revenge</name>
+    <developer>Crawfish Interactive</developer>
+    <publisher>Lego Media</publisher>
+    <genre>Action</genre>
+    <releasedate>2001-03-01</releasedate>
+    <rating>0.69</rating>
+  </game>
+  <game>
+    <path>./LEGO Racers (USA) (En,Fr,Es).7z</path>
+    <name>LEGO Racers</name>
+    <developer>The Climax Group</developer>
+    <publisher>Lego Media</publisher>
+    <genre>Racing</genre>
+    <releasedate>2000-12-29</releasedate>
+    <rating>0.68</rating>
+  </game>
+  <game>
+    <path>./LEGO Stunt Rally (USA).7z</path>
+    <name>LEGO Stunt Rally</name>
+    <developer>Graphic State</developer>
+    <publisher>Lego Media</publisher>
+    <genre>Racing</genre>
+    <releasedate>2000-12-29</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./Lufia - The Legend Returns (USA).7z</path>
+    <name>Lufia: The Legend Returns</name>
+    <developer>Natsume</developer>
+    <publisher>Natsume</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2001-09-20</releasedate>
+    <rating>0.68</rating>
+  </game>
+  <game>
+    <path>./Marble Madness (USA, Europe).7z</path>
+    <name>Marble Madness</name>
+    <developer>Digital Eclipse Software</developer>
+    <publisher>Midway Home Entertainment</publisher>
+    <genre>Action</genre>
+    <releasedate>1999-12-01</releasedate>
+    <rating>0.71</rating>
+  </game>
+  <game>
+    <path>./Mario Golf (USA).7z</path>
+    <name>Mario Golf</name>
+    <developer>Camelot Software Planning</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Sports</genre>
+    <releasedate>1999-10-01</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Mario Tennis (USA).7z</path>
+    <name>Mario Tennis</name>
+    <developer>Camelot Software Planning</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Sports</genre>
+    <releasedate>2001-01-16</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./Mat Hoffman&apos;s Pro BMX (USA, Europe).7z</path>
+    <name>Mat Hoffman&apos;s Pro BMX</name>
+    <developer>HotGen Studios</developer>
+    <publisher>Activision</publisher>
+    <genre>Sports</genre>
+    <releasedate>2001-05-14</releasedate>
+    <rating>0.64</rating>
+  </game>
+  <game>
+    <path>./Mega Man Xtreme (USA, Europe) (GB Compatible).7z</path>
+    <name>Mega Man Xtreme</name>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Platform; Shooter</genre>
+    <releasedate>2001-01-10</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./Mega Man Xtreme 2 (USA, Europe).7z</path>
+    <name>Mega Man Xtreme 2</name>
+    <developer>Capcom</developer>
+    <publisher>Capcom</publisher>
+    <genre>Platform; Shooter</genre>
+    <releasedate>2001-07-19</releasedate>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./Metal Gear Solid (USA).7z</path>
+    <name>Metal Gear Solid</name>
+    <developer>TOSE; Konami Computer Entertainment Japan</developer>
+    <publisher>Konami</publisher>
+    <genre>Action; Stealth</genre>
+    <releasedate>2000-04-24</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Mickey&apos;s Racing Adventure (USA, Europe) (En,Fr,De,Es,It).7z</path>
+    <name>Mickey&apos;s Racing Adventure</name>
+    <developer>Rare</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Racing</genre>
+    <releasedate>1999-11-22</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Midway Presents Arcade Hits - Joust &amp; Defender (USA, Europe) (GB Compatible).7z</path>
+    <name>Arcade Hits: Joust &amp; Defender</name>
+    <developer>Digital Eclipse Software</developer>
+    <publisher>Midway Home Entertainment</publisher>
+    <genre>Platform; Shooter</genre>
+    <releasedate>1999-03-01</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./Midway Presents Arcade Hits - Moon Patrol &amp; Spy Hunter (USA, Europe) (GB Compatible).7z</path>
+    <name>Arcade Hits: Moon Patrol &amp; Spy Hunter</name>
+    <developer>Digital Eclipse Software</developer>
+    <publisher>Midway Home Entertainment</publisher>
+    <genre>Racing; Shooter</genre>
+    <releasedate>1999-05-01</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Mortal Kombat 4 (USA, Europe) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Mortal Kombat 4</name>
+    <developer>Digital Eclipse Software</developer>
+    <publisher>Midway Home Entertainment</publisher>
+    <genre>Fighting</genre>
+    <releasedate>1998-12-01</releasedate>
+    <rating>0.56</rating>
+  </game>
+  <game>
+    <path>./Mr. Driller (USA).7z</path>
+    <name>Mr. Driller</name>
+    <developer>Namco</developer>
+    <publisher>Namco</publisher>
+    <genre>Action; Puzzle</genre>
+    <releasedate>2000-08-01</releasedate>
+    <rating>0.73</rating>
+  </game>
+  <game>
+    <path>./Ms. Pac-Man - Special Color Edition (USA) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Ms. Pac-Man: Special Color Edition</name>
+    <developer>Namco</developer>
+    <publisher>Namco</publisher>
+    <genre>Action</genre>
+    <releasedate>1999-11-02</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./MTV Sports - Pure Ride (USA, Europe).7z</path>
+    <name>MTV Sports: Pure Ride</name>
+    <developer>Visual Impact</developer>
+    <publisher>THQ</publisher>
+    <genre>Sports</genre>
+    <releasedate>2000-12-06</releasedate>
+    <rating>0.71</rating>
+  </game>
+  <game>
+    <path>./MTV Sports - Skateboarding Featuring Andy MacDonald (USA, Europe).7z</path>
+    <name>MTV Sports: Skateboarding Featuring Andy Macdonald</name>
+    <developer>Yellowbelly</developer>
+    <publisher>THQ</publisher>
+    <genre>Sports</genre>
+    <releasedate>2000-08-28</releasedate>
+    <rating>0.65</rating>
+  </game>
+  <game>
+    <path>./MTV Sports - T.J. Lavin&apos;s Ultimate BMX (USA, Europe).7z</path>
+    <name>MTV Sports: T.J. Lavin&apos;s Ultimate BMX</name>
+    <developer>Handheld Games</developer>
+    <publisher>THQ</publisher>
+    <genre>Sports</genre>
+    <releasedate>2000-12-15</releasedate>
+    <rating>0.59</rating>
+  </game>
+  <game>
+    <path>./NBA Jam 2001 (USA, Europe).7z</path>
+    <name>NBA Jam 2001</name>
+    <developer>Beam Software</developer>
+    <publisher>Acclaim Entertainment</publisher>
+    <genre>Sports</genre>
+    <releasedate>2000-11-28</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Oddworld Adventures 2 (USA) (En,Fr,De,Es,It) (GB Compatible).7z</path>
+    <name>Oddworld Adventures 2</name>
+    <developer>Saffire</developer>
+    <publisher>GT Interactive Software</publisher>
+    <genre>Platform</genre>
+    <releasedate>2000-01-01</releasedate>
+    <rating>0.68</rating>
+  </game>
+  <game>
+    <path>./Pac-Man - Special Color Edition (USA) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Pac-Man: Special Color Edition</name>
+    <developer>Namco</developer>
+    <publisher>Namco</publisher>
+    <genre>Action</genre>
+    <releasedate>1999-08-01</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Paperboy (USA, Europe).7z</path>
+    <name>Paperboy</name>
+    <developer>GameBrains</developer>
+    <publisher>Midway Home Entertainment</publisher>
+    <genre>Action</genre>
+    <releasedate>1999-01-01</releasedate>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Perfect Dark (USA, Europe) (En,Fr,De,Es,It) (Rumble Version).7z</path>
+    <name>Perfect Dark</name>
+    <developer>Rare</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Action</genre>
+    <releasedate>2000-08-28</releasedate>
+    <rating>0.69</rating>
+  </game>
+  <game>
+    <path>./Pitfall - Beyond the Jungle (USA, Europe) (GB Compatible).7z</path>
+    <name>Pitfall: Beyond the Jungle</name>
+    <developer>David A. Palmer Productions</developer>
+    <publisher>Interplay Entertainment; Crave Entertainment; Pony Canyon</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>1998-12-01</releasedate>
+    <rating>0.51</rating>
+  </game>
+  <game>
+    <path>./Pocket Bomberman (USA, Europe) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Pocket Bomberman</name>
+    <developer>Hudson Soft</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Platform</genre>
+    <releasedate>1998-12-14</releasedate>
+    <rating>0.71</rating>
+  </game>
+  <game>
+    <path>./Pokemon - Crystal Version (USA).7z</path>
+    <name>Pokemon: Crystal Version</name>
+    <developer>Nintendo; Game Freak; Creatures</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>2000-12-14</releasedate>
+    <rating>0.89</rating>
+  </game>
+  <game>
+    <path>./Pokemon - Gold Version (USA, Europe) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Pokémon Gold Version</name>
+    <developer>Game Freak</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Adventure; Role-Playing</genre>
+    <releasedate>1999-11-21</releasedate>
+    <rating>0.89</rating>
+  </game>
+  <game>
+    <path>./Pokemon - Silver Version (USA, Europe) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Pokémon Silver Version</name>
+    <developer>Game Freak</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Adventure; Role-Playing</genre>
+    <releasedate>1999-11-21</releasedate>
+    <rating>0.91</rating>
+  </game>
+  <game>
+    <path>./Pokemon - Yellow Version (UE) (C).gbc</path>
+    <name>Pokemon: Yellow Version</name>
+    <rating>0.00</rating>
+  </game>
+  <game>
+    <path>./Pokemon Pinball (USA, Australia) (Rumble Version) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Pokemon Pinball</name>
+    <developer>Jupiter</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Pinball</genre>
+    <releasedate>1999-04-14</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Pokemon Puzzle Challenge (USA, Australia).7z</path>
+    <name>Pokemon Puzzle Challenge</name>
+    <developer>Intelligent Systems</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Puzzle</genre>
+    <releasedate>2000-09-21</releasedate>
+    <rating>0.74</rating>
+  </game>
+  <game>
+    <path>./Pokemon Trading Card Game (USA, Australia) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Pokémon Trading Card Game</name>
+    <developer>Hudson Soft; Creatures</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Role-Playing</genre>
+    <releasedate>1998-12-18</releasedate>
+    <rating>0.79</rating>
+  </game>
+  <game>
+    <path>./Prince of Persia (USA, Europe) (En,Fr,De,Es,It) (GB Compatible).7z</path>
+    <name>Prince of Persia</name>
+    <developer>Red Orb</developer>
+    <publisher>Red Orb</publisher>
+    <genre>Action</genre>
+    <releasedate>1999-01-01</releasedate>
+    <rating>0.67</rating>
+  </game>
+  <game>
+    <path>./R-Type DX (USA, Europe) (GB Compatible).7z</path>
+    <name>R-Type DX</name>
+    <developer>Bits Studios</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1999-06-01</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Rampage - World Tour (USA, Europe) (GB Compatible).7z</path>
+    <name>Rampage: World Tour</name>
+    <developer>Digital Eclipse Software</developer>
+    <publisher>Midway Home Entertainment</publisher>
+    <genre>Action</genre>
+    <releasedate>1998-12-01</releasedate>
+    <rating>0.60</rating>
+  </game>
+  <game>
+    <path>./Rampage 2 - Universal Tour (USA, Europe).7z</path>
+    <name>Rampage 2: Universal Tour</name>
+    <developer>Digital Eclipse Software</developer>
+    <publisher>Midway Home Entertainment</publisher>
+    <genre>Action</genre>
+    <releasedate>1999-11-01</releasedate>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./Rayman (USA) (En,Fr,De,Es,It,Nl).7z</path>
+    <name>Rayman</name>
+    <developer>Ubi Soft Studios</developer>
+    <publisher>Ubi Soft Entertainment Software</publisher>
+    <genre>Platform</genre>
+    <releasedate>2000-03-29</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./Rayman 2 (USA) (En,Fr,De,Es,It).7z</path>
+    <name>Rayman 2</name>
+    <developer>Ubi Studios UK</developer>
+    <publisher>Ubi Soft Entertainment Software</publisher>
+    <genre>Platform</genre>
+    <releasedate>2001-12-14</releasedate>
+    <rating>0.71</rating>
+  </game>
+  <game>
+    <path>./Razor Freestyle Scooter (USA).7z</path>
+    <name>Razor: Freestyle Scooter</name>
+    <developer>Crawfish Interactive</developer>
+    <publisher>Crave Entertainment</publisher>
+    <genre>Sports</genre>
+    <releasedate>2001-05-10</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Resident Evil (World) (Proto 2).7z</path>
+    <name>Resident Evil</name>
+    <developer>HotGen Studios</developer>
+    <genre>Horror; Shooter</genre>
+    <rating>0.72</rating>
+  </game>
+  <game>
+    <path>./Resident Evil Gaiden (USA).7z</path>
+    <name>Resident Evil Gaiden</name>
+    <developer>M4 Ltd.</developer>
+    <publisher>Capcom</publisher>
+    <genre>Action; Horror</genre>
+    <releasedate>2001-12-14</releasedate>
+    <rating>0.69</rating>
+  </game>
+  <game>
+    <path>./Road Rash (USA, Europe).7z</path>
+    <name>Road Rash</name>
+    <developer>3d6 Games</developer>
+    <publisher>Electronic Arts</publisher>
+    <genre>Racing</genre>
+    <releasedate>2000-11-29</releasedate>
+    <rating>0.66</rating>
+  </game>
+  <game>
+    <path>./Shantae (USA).7z</path>
+    <name>Shantae</name>
+    <developer>WayForward Technologies</developer>
+    <publisher>Capcom</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>2002-06-02</releasedate>
+    <rating>0.80</rating>
+  </game>
+  <game>
+    <path>./Shaun Palmer&apos;s Pro Snowboarder (USA, Australia).7z</path>
+    <name>Shaun Palmer&apos;s Pro Snowboarder</name>
+    <developer>ITL</developer>
+    <publisher>Activision</publisher>
+    <genre>Sports</genre>
+    <releasedate>2001-11-01</releasedate>
+    <rating>0.65</rating>
+  </game>
+  <game>
+    <path>./South Park (USA) (Proto).7z</path>
+    <name>South Park</name>
+    <publisher>Unreleased Prototype</publisher>
+    <genre>Platform</genre>
+    <rating>0.70</rating>
+  </game>
+  <game>
+    <path>./Space Invaders (USA, Europe) (GB Compatible).7z</path>
+    <name>Space Invaders</name>
+    <developer>Crawfish Interactive</developer>
+    <publisher>Activision</publisher>
+    <genre>Shooter</genre>
+    <releasedate>1999-10-27</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./Star Wars Episode I - Obi-Wan&apos;s Adventures (USA).7z</path>
+    <name>Star Wars Episode I: Obi-Wan&apos;s Adventures</name>
+    <developer>HotGen Studios</developer>
+    <publisher>THQ</publisher>
+    <genre>Action</genre>
+    <releasedate>2000-11-27</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./Star Wars Episode I - Racer (USA, Europe) (Rumble Version).7z</path>
+    <name>Star Wars Episode I: Racer</name>
+    <developer>Pax Softnica</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Racing</genre>
+    <releasedate>1999-12-01</releasedate>
+    <rating>0.64</rating>
+  </game>
+  <game>
+    <path>./Street Fighter Alpha - Warriors&apos; Dreams (USA).7z</path>
+    <name>Street Fighter Alpha: Warriors&apos; Dreams</name>
+    <developer>Crawfish Interactive</developer>
+    <publisher>Capcom</publisher>
+    <genre>Fighting</genre>
+    <releasedate>2000-03-01</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Super Mario Bros. Deluxe (USA, Europe) (Rev 1).7z</path>
+    <name>Super Mario Bros. Deluxe</name>
+    <developer>Nintendo</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Platform</genre>
+    <releasedate>1999-04-30</releasedate>
+    <rating>0.81</rating>
+  </game>
+  <game>
+    <path>./Survival Kids (USA) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Survival Kids</name>
+    <developer>Konami Computer Entertainment Sapporo</developer>
+    <publisher>Konami</publisher>
+    <genre>Adventure; Role-Playing</genre>
+    <releasedate>1999-06-17</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./Tech Deck Skateboarding (USA, Europe).7z</path>
+    <name>Tech Deck Skateboarding</name>
+    <developer>Handheld Games</developer>
+    <publisher>Activision</publisher>
+    <genre>Sports</genre>
+    <releasedate>2001-03-25</releasedate>
+    <rating>0.75</rating>
+  </game>
+  <game>
+    <path>./Tetris DX (World) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Tetris DX</name>
+    <developer>Nintendo</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Puzzle</genre>
+    <releasedate>1998-10-21</releasedate>
+    <rating>0.86</rating>
+  </game>
+  <game>
+    <path>./Toki Tori (USA, Europe) (En,Ja,Fr,De,Es).7z</path>
+    <name>Toki Tori</name>
+    <developer>Two Tribes Publishing</developer>
+    <publisher>Capcom</publisher>
+    <genre>Action; Puzzle</genre>
+    <releasedate>2001-09-12</releasedate>
+    <rating>0.61</rating>
+  </game>
+  <game>
+    <path>./Tom Clancy&apos;s Rainbow Six (USA, Europe) (En,Fr,De).7z</path>
+    <name>Tom Clancy&apos;s Rainbow Six</name>
+    <developer>Crawfish Interactive</developer>
+    <publisher>Red Storm Entertainment; SouthPeak Games</publisher>
+    <genre>Shooter; Strategy</genre>
+    <releasedate>2000-04-13</releasedate>
+    <rating>0.78</rating>
+  </game>
+  <game>
+    <path>./Tomb Raider (USA, Europe) (En,Fr,De,Es,It).7z</path>
+    <name>Tomb Raider</name>
+    <developer>Core Design</developer>
+    <publisher>THQ</publisher>
+    <genre>Action</genre>
+    <releasedate>2000-06-07</releasedate>
+    <rating>0.76</rating>
+  </game>
+  <game>
+    <path>./Tomb Raider - Curse of the Sword (USA, Europe).7z</path>
+    <name>Tomb Raider: Curse of the Sword</name>
+    <developer>Core Design</developer>
+    <publisher>Activision</publisher>
+    <genre>Platform</genre>
+    <releasedate>2001-07-27</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Tony Hawk&apos;s Pro Skater (USA, Europe).7z</path>
+    <name>Tony Hawk&apos;s Pro Skater</name>
+    <developer>Natsume</developer>
+    <publisher>Activision</publisher>
+    <genre>Sports</genre>
+    <releasedate>2000-03-30</releasedate>
+    <rating>0.59</rating>
+  </game>
+  <game>
+    <path>./Tony Hawk&apos;s Pro Skater 2 (USA, Europe).7z</path>
+    <name>Tony Hawk&apos;s Pro Skater 2</name>
+    <developer>Natsume</developer>
+    <publisher>Activision</publisher>
+    <genre>Sports</genre>
+    <releasedate>2000-11-01</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Tony Hawk&apos;s Pro Skater 3 (USA, Europe).7z</path>
+    <name>Tony Hawk&apos;s Pro Skater 3</name>
+    <developer>HotGen Studios</developer>
+    <publisher>Activision</publisher>
+    <genre>Sports</genre>
+    <releasedate>2001-11-16</releasedate>
+    <rating>0.64</rating>
+  </game>
+  <game>
+    <path>./Wario Land 3 (World) (En,Ja).7z</path>
+    <name>Wario Land 3</name>
+    <developer>Nintendo R&amp;D1</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Platform</genre>
+    <releasedate>2000-05-30</releasedate>
+    <rating>0.83</rating>
+  </game>
+  <game>
+    <path>./Wario Land II (USA, Europe) (SGB Enhanced) (GB Compatible).7z</path>
+    <name>Wario Land II</name>
+    <developer>Nintendo R&amp;D1</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Action; Platform</genre>
+    <releasedate>1999-02-10</releasedate>
+    <rating>0.82</rating>
+  </game>
+  <game>
+    <path>./Warlocked (USA).7z</path>
+    <name>Warlocked</name>
+    <developer>Bits Studios</developer>
+    <publisher>Nintendo</publisher>
+    <genre>Strategy</genre>
+    <releasedate>2000-06-24</releasedate>
+    <rating>0.77</rating>
+  </game>
+  <game>
+    <path>./Yu-Gi-Oh! - Dark Duel Stories (USA).7z</path>
+    <name>Yu-Gi-Oh! Dark Duel Stories</name>
+    <developer>Konami Computer Entertainment Japan</developer>
+    <publisher>Konami</publisher>
+    <genre>Strategy</genre>
+    <releasedate>2000-07-13</releasedate>
+    <rating>0.66</rating>
+  </game>
+</gameList>

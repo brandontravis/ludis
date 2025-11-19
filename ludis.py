@@ -303,13 +303,10 @@ class Pipeline:
         """Extract manual include/exclude selections from master inventory to JSON files"""
         output_dir = self.config.get_path('paths.output_directory')
         master_csv = output_dir / "master_inventory.csv"
-        selections_dir = output_dir / "manual_selections"
         
         if not master_csv.exists():
             print(f"ERROR: Master inventory not found: {master_csv}")
             return False
-        
-        selections_dir.mkdir(parents=True, exist_ok=True)
         
         # Determine what to extract
         if include_only:
@@ -336,7 +333,7 @@ class Pipeline:
             reader = csv.DictReader(f)
             for row in reader:
                 platform = row.get('Platform', '').strip()
-                game_id = row.get('ID', '').strip()
+                game_id = row.get('LBID', '').strip()
                 manual_include = row.get('ManualInclude', '').strip().lower()
                 manual_exclude = row.get('ManualExclude', '').strip().lower()
                 
@@ -351,11 +348,11 @@ class Pipeline:
                 if "exclude" in extract_types and manual_exclude == 'true':
                     excludes_by_platform[platform].append(game_id)
         
-        # Write JSON files
+        # Write JSON files to project root
         files_written = []
         
         if "include" in extract_types:
-            include_file = selections_dir / "manual_includes.json"
+            include_file = SCRIPT_DIR / "config.includes.json"
             with open(include_file, 'w', encoding='utf-8') as f:
                 json.dump(dict(includes_by_platform), f, indent=2, sort_keys=True)
             
@@ -365,7 +362,7 @@ class Pipeline:
             files_written.append(include_file)
         
         if "exclude" in extract_types:
-            exclude_file = selections_dir / "manual_excludes.json"
+            exclude_file = SCRIPT_DIR / "config.excludes.json"
             with open(exclude_file, 'w', encoding='utf-8') as f:
                 json.dump(dict(excludes_by_platform), f, indent=2, sort_keys=True)
             
@@ -387,7 +384,6 @@ class Pipeline:
         """Apply manual selections from JSON files to master inventory"""
         output_dir = self.config.get_path('paths.output_directory')
         master_csv = output_dir / "master_inventory.csv"
-        selections_dir = output_dir / "manual_selections"
         
         if not master_csv.exists():
             print(f"ERROR: Master inventory not found: {master_csv}")
@@ -410,12 +406,12 @@ class Pipeline:
             print("=" * 60)
             apply_types = ["include", "exclude"]
         
-        # Load JSON files
+        # Load JSON files from project root
         include_ids = set()
         exclude_ids = set()
         
         if "include" in apply_types:
-            include_file = selections_dir / "manual_includes.json"
+            include_file = SCRIPT_DIR / "config.includes.json"
             if include_file.exists():
                 with open(include_file, 'r', encoding='utf-8') as f:
                     includes_by_platform = json.load(f)
@@ -426,7 +422,7 @@ class Pipeline:
                 print(f"⚠ No manual includes file found: {include_file}")
         
         if "exclude" in apply_types:
-            exclude_file = selections_dir / "manual_excludes.json"
+            exclude_file = SCRIPT_DIR / "config.excludes.json"
             if exclude_file.exists():
                 with open(exclude_file, 'r', encoding='utf-8') as f:
                     excludes_by_platform = json.load(f)
@@ -451,7 +447,7 @@ class Pipeline:
             fieldnames = reader.fieldnames
             
             for row in reader:
-                game_id = row.get('ID', '').strip()
+                game_id = row.get('LBID', '').strip()
                 
                 # Apply manual include
                 if "include" in apply_types and game_id in include_ids:
@@ -679,29 +675,28 @@ def show_menu(config: Config, deps: dict) -> str:
         choices.append("Re-run YAML Setup (reconfigure)")
         choices.append("Exit")
     else:
-        # ADVANCED MENU: After pipeline is complete, show hierarchical rebuild options
-        choices.append("Rebuild Everything (all steps)")
-        choices.append("---")  # Visual separator
-        
-        # Hierarchical options - each forces subsequent steps
-        choices.append("Re-run from: Filesystem Scan (→ platforms → playlists → inventory → enrichment)")
-        choices.append("Re-run from: Platform Export (→ playlists → inventory → enrichment)")
-        choices.append("Re-run from: Playlist Export (→ inventory → enrichment)")
-        choices.append("Re-run from: Master Inventory (→ enrichment)")
-        choices.append("Re-run from: Playlist Enrichment (final step only)")
-        
-        choices.append("---")  # Visual separator
-        
-        # Manual selection management
+        # ADVANCED MENU: After pipeline is complete
+        choices.append("Re-run filesystem scan (will force a rebuild of everything)")
+        choices.append("Re-build master inventory")
         choices.append("Extract Manual Selections")
-        choices.append("Extract Manual Includes")
-        choices.append("Extract Manual Excludes")
+        choices.append("Drop-in Manual Selections")
+        
+        # Check if platform storage defaults are configured for any enabled export target
+        storage_configured = False
+        export_targets = config.get('export_targets', {})
+        for target_name, target_config in export_targets.items():
+            if target_config.get('enabled') and 'platform_storage_defaults' in target_config:
+                storage_configured = True
+                break
         
         choices.append("---")  # Visual separator
         
-        choices.append("Drop-in Manual Selections")
-        choices.append("Drop-in Manual Includes")
-        choices.append("Drop-in Manual Excludes")
+        if storage_configured:
+            choices.append("Reconfigure Platform Storage Defaults")
+            choices.append("Create Migration Script")
+        else:
+            choices.append("Configure Platform Storage Defaults")
+            # Hide "Create Migration Script" until defaults are configured
         
         choices.append("---")  # Visual separator
         choices.append("Validate Existing Data")
@@ -807,10 +802,16 @@ def main():
                 pipeline.run_full_pipeline()
                 deps = checker.check_all()
         
-        elif action == "Rebuild Everything (all steps)":
+        elif action == "Re-run filesystem scan (will force a rebuild of everything)":
             confirm = inquirer.confirm("This will rebuild all data from scratch. Continue?", default=True)
             if confirm:
                 pipeline.run_full_pipeline()
+                deps = checker.check_all()
+        
+        elif action == "Re-build master inventory":
+            confirm = inquirer.confirm("Run: inventory → enrichment?", default=True)
+            if confirm:
+                run_pipeline_from_step(pipeline, 'inventory', config)
                 deps = checker.check_all()
         
         elif action == "Re-run YAML Setup (reconfigure)":
@@ -826,66 +827,25 @@ def main():
                 deps = checker.check_all()
                 checker.print_status()
         
-        # Hierarchical rebuild options
-        elif "Re-run from: Filesystem Scan" in action:
-            confirm = inquirer.confirm("Run: scan → platforms → playlists → inventory → enrichment?", default=True)
-            if confirm:
-                run_pipeline_from_step(pipeline, 'scan', config)
-                deps = checker.check_all()
-        
-        elif "Re-run from: Platform Export" in action:
-            confirm = inquirer.confirm("Run: platforms → playlists → inventory → enrichment?", default=True)
-            if confirm:
-                run_pipeline_from_step(pipeline, 'platforms', config)
-                deps = checker.check_all()
-        
-        elif "Re-run from: Playlist Export" in action:
-            confirm = inquirer.confirm("Run: playlists → inventory → enrichment?", default=True)
-            if confirm:
-                run_pipeline_from_step(pipeline, 'playlists', config)
-                deps = checker.check_all()
-        
-        elif "Re-run from: Master Inventory" in action:
-            confirm = inquirer.confirm("Run: inventory → enrichment?", default=True)
-            if confirm:
-                run_pipeline_from_step(pipeline, 'inventory', config)
-                deps = checker.check_all()
-        
-        elif "Re-run from: Playlist Enrichment" in action:
-            confirm = inquirer.confirm("Run: enrichment only?", default=True)
-            if confirm:
-                run_pipeline_from_step(pipeline, 'enrich', config)
-                deps = checker.check_all()
-        
         elif action == "Extract Manual Selections":
-            confirm = inquirer.confirm("Extract both includes and excludes to JSON files?", default=True)
+            confirm = inquirer.confirm("Extract includes and excludes to JSON files?", default=True)
             if confirm:
                 pipeline.extract_manual_selections()
         
-        elif action == "Extract Manual Includes":
-            confirm = inquirer.confirm("Extract manual includes to JSON file?", default=True)
-            if confirm:
-                pipeline.extract_manual_selections(include_only=True)
-        
-        elif action == "Extract Manual Excludes":
-            confirm = inquirer.confirm("Extract manual excludes to JSON file?", default=True)
-            if confirm:
-                pipeline.extract_manual_selections(exclude_only=True)
-        
         elif action == "Drop-in Manual Selections":
-            confirm = inquirer.confirm("Apply both includes and excludes from JSON files?", default=True)
+            confirm = inquirer.confirm("Apply includes and excludes from JSON files?", default=True)
             if confirm:
                 pipeline.dropin_manual_selections()
         
-        elif action == "Drop-in Manual Includes":
-            confirm = inquirer.confirm("Apply manual includes from JSON file?", default=True)
-            if confirm:
-                pipeline.dropin_manual_selections(include_only=True)
+        elif action in ("Configure Platform Storage Defaults", "Reconfigure Platform Storage Defaults"):
+            # Run the platform storage defaults configuration
+            from scripts import migration_builder
+            migration_builder.configure_storage_defaults(config)
         
-        elif action == "Drop-in Manual Excludes":
-            confirm = inquirer.confirm("Apply manual excludes from JSON file?", default=True)
-            if confirm:
-                pipeline.dropin_manual_selections(exclude_only=True)
+        elif action == "Create Migration Script":
+            # Run the migration script builder
+            from scripts import migration_builder
+            migration_builder.run_interactive(config)
         
         elif action == "Validate Existing Data":
             deps = checker.check_all()

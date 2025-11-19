@@ -663,6 +663,10 @@
     "folder": "xbox",
     "description": "A home video game console developed by Microsoft."
   },
+  "Xbox 360": {
+    "folder": "xbox360",
+    "description": "A home video game console developed by Microsoft."
+  },
   "ZX-81": {
     "folder": "zx81",
     "description": "A home computer developed by Sinclair Research."

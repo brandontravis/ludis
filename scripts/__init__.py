@@ -12,6 +12,9 @@ __all__ = [
     'export_all_playlists',
     'build_master_inventory',
     'enrich_with_playlists',
+    'migration_builder',
+    'platform_mapper',
+    'inventory_scanner',
 ]
 
 __version__ = '1.0.0'
