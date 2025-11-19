@@ -497,11 +497,23 @@ def create_config_interactively() -> bool:
     import platform
     
     print("\n" + "=" * 60)
-    print("FIRST RUN SETUP")
+    print("WELCOME TO LUDIS!")
     print("=" * 60)
-    print("\nNo configuration file found. Let's create one!")
-    print("\nI'll ask you a few questions to set up your environment.")
-    print("(You can always edit config.yaml later)")
+    print("\nLudis is a platform-agnostic ROM library migration tool used to")
+    print("assist you with migrating a monolithic Windows LaunchBox library to")
+    print("smaller, more curated formats.")
+    print("\nThis means Ludis can run:")
+    print("  • On Windows where LaunchBox is installed")
+    print("  • On macOS/Linux where your NAS is mounted")
+    print("  • On a remote server with access to your files")
+    print("  • Anywhere with access to your LaunchBox XML data")
+    print("\nI'll ask you a few questions to understand YOUR setup:")
+    print("  1. Where are your LaunchBox XML files?")
+    print("  2. Where did LaunchBox THINK your games were located?")
+    print("  3. Where are your games ACTUALLY located on THIS machine?")
+    print("  4. What platforms do you want to export to?")
+    print("\nLet's begin!")
+    print("\n(You can always edit config.yaml later)")
     
     # Load defaults from sample config if it exists
     defaults = {
@@ -523,43 +535,17 @@ def create_config_interactively() -> bool:
         except:
             pass  # If sample config can't be loaded, use hardcoded defaults
     
-    # Ask if user wants to use defaults or start blank
     print("\n" + "-" * 60)
-    print("CONFIGURATION MODE")
-    print("-" * 60)
-    
-    if defaults['windows_root'] and defaults['local_root']:
-        print("I found default values in config.yaml.sample.")
-        print("\nDefault paths:")
-        print(f"  LaunchBox Data: {defaults['launchbox_data']}")
-        print(f"  Windows Root:   {defaults['windows_root']}")
-        print(f"  Local Root:     {defaults['local_root']}")
-        print("\nWould you like to:")
-        print("  1. Use these defaults (you can edit each one)")
-        print("  2. Start with blank values")
-        
-        choice = input("\nChoice (1/2) [default: 1]: ").strip() or "1"
-        use_defaults = choice == "1"
-    else:
-        use_defaults = False
-        print("No defaults found. Starting with blank values.")
-    
-    # If not using defaults, clear them
-    if not use_defaults:
-        defaults['launchbox_data'] = 'Data/'  # Keep this default
-        defaults['windows_root'] = ''
-        defaults['local_root'] = ''
-    
-    print("\n" + "-" * 60)
-    print("STEP 1: LaunchBox Data Directory")
+    print("STEP 1: LaunchBox XML Data")
     print("-" * 60)
     print("Where is your LaunchBox Data directory?")
-    print("(This contains Platforms/ and Playlists/ folders)")
-    if use_defaults:
-        print(f"\n→ Press ENTER to use default: {defaults['launchbox_data']}")
-        print("  Or type a new path to override")
+    print("This contains the Platforms/ and Playlists/ folders with XML files.")
+    print("\n  Examples:")
+    print("    • Data/                    (if running from Ludis)")
+    print("    • /path/to/LaunchBox/Data/ (if running elsewhere)")
     
-    lb_data = input(f"\nPath: ").strip() or defaults['launchbox_data']
+    print(f"\n  [default: {defaults['launchbox_data']}]")
+    lb_data = input("  Path: ").strip() or defaults['launchbox_data']
     
     # Validate LaunchBox directory
     lb_path = Path(lb_data)
@@ -573,55 +559,77 @@ def create_config_interactively() -> bool:
             return False
     
     print("\n" + "-" * 60)
-    print("STEP 2: Windows Root Path")
+    print("STEP 2: LaunchBox Installation Context")
     print("-" * 60)
-    print("What path does LaunchBox use in its XML files?")
-    print("(This is usually a Windows path like Z:\\media\\games\\library)")
+    print("What path does LaunchBox use in its XML files for game ROMs?")
+    print("\nLaunchBox stores paths IN the XML as they were on the Windows")
+    print("machine where LaunchBox is installed.")
+    print("\n  Example: Z:\\media\\games\\library")
+    print("  (This is what's IN the XML, even if you're running on Mac/Linux)")
     
-    if use_defaults and defaults['windows_root']:
-        print(f"\n→ Press ENTER to use default: {defaults['windows_root']}")
-        print("  Or type a new path to override")
-        windows_root = input(f"\nPath: ").strip() or defaults['windows_root']
+    if defaults['windows_root']:
+        print(f"\n  [default: {defaults['windows_root']}]")
+        windows_root = input("  Path: ").strip() or defaults['windows_root']
     else:
-        windows_root = input(f"\nPath: ").strip()
+        windows_root = input("\n  Path: ").strip()
     
     if not windows_root:
-        print("ERROR: Windows root path is required")
+        print("\n  ERROR: LaunchBox installation path is required")
         return False
     
     print("\n" + "-" * 60)
-    print("STEP 3: Local Filesystem Path")
+    print("STEP 3: Actual Game Location (THIS Machine)")
     print("-" * 60)
-    print("Where are your game files actually located on THIS system?")
-    print(f"Detected OS: {platform.system()}")
+    print("Where are your game files ACTUALLY located relative to THIS machine running Ludis?")
+    print("\nThis is where the files physically exist right now, which might be")
+    print("different from what LaunchBox thinks.")
+    print("\n  Examples:")
+    print("    • /Volumes/NAS/media/games/library  (macOS with NAS mounted)")
+    print("    • /mnt/nas/media/games/library      (Linux with NAS mounted)")
+    print("    • C:\\Program Files\\LaunchBox\\Games  (Windows, same as LaunchBox)")
+    print(f"\n  Detected OS: {platform.system()}")
     
-    if use_defaults and defaults['local_root']:
-        print(f"\n→ Press ENTER to use default: {defaults['local_root']}")
-        print("  Or type a new path to override")
-        local_root = input(f"\nPath: ").strip() or defaults['local_root']
+    if defaults['local_root']:
+        print(f"\n  [default: {defaults['local_root']}]")
+        local_root = input("  Path: ").strip() or defaults['local_root']
     else:
-        local_root = input(f"\nPath: ").strip()
+        local_root = input("\n  Path: ").strip()
     
     # Validate local root if filesystem scanning is enabled
-    local_path = Path(local_root)
-    if local_path.exists():
-        print(f"✓ Directory found: {local_path}")
-    else:
-        print(f"⚠ WARNING: Directory not found: {local_path}")
-        print("(You can still use Ludis for metadata-only exports)")
+    if local_root:
+        local_path = Path(local_root)
+        if local_path.exists():
+            print(f"\n  ✓ Directory found: {local_path}")
+        else:
+            print(f"\n  ⚠ WARNING: Directory not found: {local_path}")
+            print("  (You can still use Ludis for metadata-only exports)")
     
     print("\n" + "-" * 60)
-    print("STEP 4: Filesystem Scanning")
+    print("STEP 4: Export Targets")
     print("-" * 60)
-    print("Do you want to scan your filesystem to match files with LaunchBox entries?")
-    print("(Required for file matching, but can be skipped for metadata-only exports)")
+    print("What platforms do you want to export game libraries to?")
+    print("\n  [X] ES-DE (EmulationStation Desktop Edition)")
+    print("      For Steam Deck, Retro handhelds, etc.")
+    print("\n  [ ] RetroPie")
+    print("      (Future support)")
+    print("\n  [ ] Batocera")
+    print("      (Future support)")
+    print("\nNote: You can enable/configure export targets later in config.yaml")
     
-    default_scan = 'y' if defaults['scan_filesystem'] else 'n'
-    if use_defaults:
-        print(f"\n→ Press ENTER to use default: {'Yes' if default_scan == 'y' else 'No'}")
-        print("  Or type 'y' or 'n' to override")
+    input("\n  Press ENTER to continue...")
+    enable_esde = True  # Default to enabled for now
     
-    scan_choice = input(f"\nEnable? (y/n): ").lower().strip() or default_scan
+    print("\n" + "-" * 60)
+    print("STEP 5: Filesystem Scanning")
+    print("-" * 60)
+    print("Do you want to scan your filesystem to match files with")
+    print("LaunchBox entries?")
+    print("\n  Yes: Required for file size calculations and file existence validation")
+    print("  No:  Metadata-only mode (faster, but no file verification)")
+    
+    default_scan = 'Y' if defaults['scan_filesystem'] else 'n'
+    print(f"\n  [default: {default_scan}]")
+    scan_choice = input("  Enable filesystem scanning? (Y/n): ").lower().strip() or default_scan.lower()
     scan_filesystem = scan_choice == 'y'
     
     # Create config dictionary
@@ -640,14 +648,50 @@ def create_config_interactively() -> bool:
         },
         'export_targets': {
             'steam_deck': {
-                'enabled': False,
-                'path': '',
+                'enabled': enable_esde,
                 'format': 'esde',
+                'storage_locations': {
+                    'internal_ssd': {
+                        'path': '',
+                        'label': 'Internal SSD'
+                    },
+                    'sd_card': {
+                        'path': '',
+                        'label': 'SD Card'
+                    }
+                },
+                'defaults': {
+                    'operation': 'copy',
+                    'filters': {
+                        'include_platform_best': False,
+                        'include_all_time_favorites': False,
+                        'include_favorites': False,
+                        'include_backlog': False,
+                        'include_goty_winner': False,
+                        'include_goty_nominee': False,
+                        'include_on_deck': False,
+                        'include_retro': False,
+                        'include_classic_titles': False,
+                        'include_franchises': False,
+                        'force_manual_include': True,
+                        'force_manual_exclude': True,
+                        'custom_fields': []
+                    }
+                }
             }
         }
     }
     
     # Write config file
+    print("\n" + "=" * 60)
+    print("CONFIGURATION SUMMARY")
+    print("=" * 60)
+    print(f"\n  LaunchBox XML Data:  {lb_data}")
+    print(f"  LaunchBox Path (XML): {windows_root}")
+    print(f"  Actual Files (Ludis): {local_root}")
+    print(f"  Filesystem Scanning:  {'Enabled' if scan_filesystem else 'Disabled'}")
+    print(f"  Export Targets:       ES-DE ({'Enabled' if enable_esde else 'Disabled'})")
+    
     print("\n" + "-" * 60)
     print("Creating config.yaml...")
     print("-" * 60)
@@ -655,9 +699,9 @@ def create_config_interactively() -> bool:
     with open(CONFIG_FILE, 'w') as f:
         yaml.dump(config_data, f, default_flow_style=False, sort_keys=False)
     
-    print(f"✓ Created {CONFIG_FILE}")
-    print("\nConfiguration saved! You can edit this file anytime.")
-    print(f"Sample config is available at: {CONFIG_SAMPLE}")
+    print(f"\n  ✓ Created {CONFIG_FILE}")
+    print("\n  Configuration saved! You can edit this file anytime.")
+    print(f"  Sample config is available at: {CONFIG_SAMPLE}")
     
     return True
 
