@@ -608,16 +608,23 @@ def create_config_interactively() -> bool:
     print("STEP 4: Export Targets")
     print("-" * 60)
     print("What platforms do you want to export game libraries to?")
-    print("\n  [X] ES-DE (EmulationStation Desktop Edition)")
-    print("      For Steam Deck, Retro handhelds, etc.")
-    print("\n  [ ] RetroPie")
-    print("      (Future support)")
-    print("\n  [ ] Batocera")
-    print("      (Future support)")
-    print("\nNote: You can enable/configure export targets later in config.yaml")
+    print("\nCurrently supported:")
+    print("  • ES-DE (EmulationStation Desktop Edition)")
+    print("    For Steam Deck, Retro handhelds, etc.")
+    print("\nFuture support:")
+    print("  • RetroPie")
+    print("  • Batocera")
     
-    input("\n  Press ENTER to continue...")
-    enable_esde = True  # Default to enabled for now
+    print("\n  [default: Y]")
+    enable_esde_choice = input("  Enable ES-DE export? (Y/n): ").lower().strip() or 'y'
+    enable_esde = enable_esde_choice == 'y'
+    
+    target_name = 'steam_deck'  # Default name
+    if enable_esde:
+        print("\nWhat would you like to name this export target?")
+        print("  Common names: steam_deck, retroid_pocket, anbernic, etc.")
+        print("\n  [default: steam_deck]")
+        target_name = input("  Target name: ").strip() or 'steam_deck'
     
     print("\n" + "-" * 60)
     print("STEP 5: Filesystem Scanning")
@@ -646,51 +653,56 @@ def create_config_interactively() -> bool:
             'verbose': False,
             'show_progress': True,
         },
-        'export_targets': {
-            'steam_deck': {
-                'enabled': enable_esde,
-                'format': 'esde',
-                'storage_locations': {
-                    'internal_ssd': {
-                        'path': '',
-                        'label': 'Internal SSD'
-                    },
-                    'sd_card': {
-                        'path': '',
-                        'label': 'SD Card'
-                    }
+        'export_targets': {}
+    }
+    
+    # Add export target if ES-DE is enabled
+    if enable_esde:
+        config_data['export_targets'][target_name] = {
+            'enabled': True,
+            'format': 'esde',
+            'storage_locations': {
+                'internal_ssd': {
+                    'path': '',
+                    'label': 'Internal SSD'
                 },
-                'defaults': {
-                    'operation': 'copy',
-                    'filters': {
-                        'include_platform_best': False,
-                        'include_all_time_favorites': False,
-                        'include_favorites': False,
-                        'include_backlog': False,
-                        'include_goty_winner': False,
-                        'include_goty_nominee': False,
-                        'include_on_deck': False,
-                        'include_retro': False,
-                        'include_classic_titles': False,
-                        'include_franchises': False,
-                        'force_manual_include': True,
-                        'force_manual_exclude': True,
-                        'custom_fields': []
-                    }
+                'sd_card': {
+                    'path': '',
+                    'label': 'SD Card'
+                }
+            },
+            'defaults': {
+                'operation': 'copy',
+                'filters': {
+                    'include_platform_best': False,
+                    'include_all_time_favorites': False,
+                    'include_favorites': False,
+                    'include_backlog': False,
+                    'include_goty_winner': False,
+                    'include_goty_nominee': False,
+                    'include_on_deck': False,
+                    'include_retro': False,
+                    'include_classic_titles': False,
+                    'include_franchises': False,
+                    'force_manual_include': True,
+                    'force_manual_exclude': True,
+                    'custom_fields': []
                 }
             }
         }
-    }
     
     # Write config file
     print("\n" + "=" * 60)
     print("CONFIGURATION SUMMARY")
     print("=" * 60)
-    print(f"\n  LaunchBox XML Data:  {lb_data}")
+    print(f"\n  LaunchBox XML Data:   {lb_data}")
     print(f"  LaunchBox Path (XML): {windows_root}")
     print(f"  Actual Files (Ludis): {local_root}")
     print(f"  Filesystem Scanning:  {'Enabled' if scan_filesystem else 'Disabled'}")
-    print(f"  Export Targets:       ES-DE ({'Enabled' if enable_esde else 'Disabled'})")
+    if enable_esde:
+        print(f"  Export Targets:       ES-DE (target: {target_name})")
+    else:
+        print(f"  Export Targets:       None (can add later in config.yaml)")
     
     print("\n" + "-" * 60)
     print("Creating config.yaml...")
