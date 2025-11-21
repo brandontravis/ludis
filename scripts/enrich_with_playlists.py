@@ -2,14 +2,9 @@
 """
 Enrich master_inventory.csv with playlist membership data.
 
-Adds 7 columns:
-- IsPlatformBest (Boolean)
-- IsInFranchise (Boolean)
-- Franchises (Text - semicolon-separated)
-- IsInCurated (Boolean)
-- CuratedPlaylists (Text - semicolon-separated)
-- IsInClassicCollection (Boolean)
-- PlaylistCount (Integer)
+Adds 2 columns:
+- InAnyPlaylist (Boolean) - True if game appears in any playlist
+- Playlists (Text) - Semicolon-separated list of all playlists containing this game
 """
 
 import csv
@@ -26,42 +21,14 @@ def st(x):
     """Safe text extraction"""
     return (x or "").strip()
 
-def categorize_playlist(playlist_name: str) -> str:
-    """Determine playlist category from name prefix or content"""
-    name = st(playlist_name)
-    if name.startswith("BEST_"):
-        return "BEST"
-    elif name.startswith("FRANCHISE_"):
-        return "FRANCHISE"
-    elif name.startswith("CURATED_"):
-        return "CURATED"
-    elif name.startswith("CLASSIC_"):
-        return "CLASSIC"
-    else:
-        return "OTHER"
-
 def read_all_playlists(csv_path: Path) -> dict:
     """
-    Read all_playlists.csv and build a map of LBID -> playlist memberships.
+    Read all_playlists.csv and build a map of LBID -> list of playlists.
     
     Returns:
-        dict: {
-            LBID: {
-                'best': set(),
-                'franchise': set(),
-                'curated': set(),
-                'classic': set(),
-                'count': int
-            }
-        }
+        dict: {LBID: [playlist1, playlist2, ...]}
     """
-    playlist_index = defaultdict(lambda: {
-        'best': set(),
-        'franchise': set(),
-        'curated': set(),
-        'classic': set(),
-        'count': 0
-    })
+    playlist_index = defaultdict(list)
     
     if not csv_path.exists():
         print(f"ERROR: {csv_path} not found!")
@@ -76,37 +43,8 @@ def read_all_playlists(csv_path: Path) -> dict:
             if not lbid or not playlist:
                 continue
             
-            # Determine category from the actual playlist CSV filename pattern
-            # We need to infer the category from the playlist name itself
-            category = None
-            
-            # Check for "The Best" playlists
-            if "the best" in playlist.lower():
-                category = "BEST"
-            # Check for classic collections
-            elif any(keyword in playlist.lower() for keyword in [" mini", " classic"]):
-                category = "CLASSIC"
-            # Check for curated playlists
-            elif any(keyword in playlist.lower() for keyword in [
-                "goty", "backlog", "all time favorites", 
-                "play it again", "on deck", "retro remakes"
-            ]):
-                category = "CURATED"
-            # Everything else is likely a franchise
-            else:
-                category = "FRANCHISE"
-            
-            # Add to appropriate set
-            if category == "BEST":
-                playlist_index[lbid]['best'].add(playlist)
-            elif category == "FRANCHISE":
-                playlist_index[lbid]['franchise'].add(playlist)
-            elif category == "CURATED":
-                playlist_index[lbid]['curated'].add(playlist)
-            elif category == "CLASSIC":
-                playlist_index[lbid]['classic'].add(playlist)
-            
-            playlist_index[lbid]['count'] += 1
+            # Simply add playlist to this game's list
+            playlist_index[lbid].append(playlist)
     
     return playlist_index
 
@@ -130,37 +68,17 @@ def enrich_inventory(inventory_path: Path, playlist_index: dict, output_path: Pa
         for row in reader:
             lbid = st(row.get('LBID', ''))
             
-            # Get playlist data for this game
-            playlist_data = playlist_index.get(lbid, {
-                'best': set(),
-                'franchise': set(),
-                'curated': set(),
-                'classic': set(),
-                'count': 0
-            })
+            # Get list of playlists for this game
+            playlists = playlist_index.get(lbid, [])
             
             # Add new columns
-            row['IsPlatformBest'] = 'True' if playlist_data['best'] else 'False'
-            row['IsInFranchise'] = 'True' if playlist_data['franchise'] else 'False'
-            row['Franchises'] = ';'.join(sorted(playlist_data['franchise']))
-            row['IsInCurated'] = 'True' if playlist_data['curated'] else 'False'
-            row['CuratedPlaylists'] = ';'.join(sorted(playlist_data['curated']))
-            row['IsInClassicCollection'] = 'True' if playlist_data['classic'] else 'False'
-            row['PlaylistCount'] = str(playlist_data['count'])
+            row['InAnyPlaylist'] = 'True' if playlists else 'False'
+            row['Playlists'] = ';'.join(sorted(playlists))
             
             rows.append(row)
     
-    # Define new header order
-    # IsPlatformBest already exists in original headers, so we'll update it
-    # Add the other new columns
-    new_columns_to_add = [
-        'IsInFranchise',
-        'Franchises',
-        'IsInCurated',
-        'CuratedPlaylists',
-        'IsInClassicCollection',
-        'PlaylistCount'
-    ]
+    # Add new columns to header
+    new_columns_to_add = ['InAnyPlaylist', 'Playlists']
     
     # Use original headers and add only the new ones
     new_headers = list(original_headers) + new_columns_to_add
@@ -175,16 +93,18 @@ def enrich_inventory(inventory_path: Path, playlist_index: dict, output_path: Pa
     print(f"✓ Enriched {len(rows)} rows with playlist data")
     
     # Print summary statistics
-    best_count = sum(1 for r in rows if r.get('IsPlatformBest') == 'True')
-    franchise_count = sum(1 for r in rows if r.get('IsInFranchise') == 'True')
-    curated_count = sum(1 for r in rows if r.get('IsInCurated') == 'True')
-    classic_count = sum(1 for r in rows if r.get('IsInClassicCollection') == 'True')
+    in_playlist_count = sum(1 for r in rows if r.get('InAnyPlaylist') == 'True')
+    
+    # Count unique playlists
+    all_playlists = set()
+    for r in rows:
+        playlists_str = r.get('Playlists', '')
+        if playlists_str:
+            all_playlists.update(p.strip() for p in playlists_str.split(';') if p.strip())
     
     print(f"\nPlaylist Membership Summary:")
-    print(f"  Platform Best:       {best_count:5} games")
-    print(f"  Franchise:           {franchise_count:5} games")
-    print(f"  Curated:             {curated_count:5} games")
-    print(f"  Classic Collection:  {classic_count:5} games")
+    print(f"  Games in playlists:  {in_playlist_count:5} games")
+    print(f"  Total playlists:     {len(all_playlists):5} unique playlists")
     print(f"\nWrote: {output_path}")
 
 def main():

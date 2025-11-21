@@ -12,6 +12,7 @@ Usage:
 """
 
 import sys
+import csv
 from pathlib import Path
 from typing import Dict, Optional, List
 
@@ -28,6 +29,78 @@ from .platform_mapper import PlatformMapper
 # Project root
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
+
+
+def create_export_target_interactively(config) -> Optional[Dict]:
+    """
+    Create a new export target interactively when none exist.
+    
+    Returns:
+        Dictionary with target name and configuration, or None if cancelled
+    """
+    import yaml
+    
+    print("\n" + "-" * 60)
+    print("Export Target Setup")
+    print("-" * 60)
+    
+    # Ask for target name
+    print("\nWhat would you like to call this export target?")
+    print("  Examples: steam_deck, retroid_pocket, anbernic, desktop")
+    target_name = input("\n  Target name: ").strip().lower()
+    
+    if not target_name:
+        print("\n✗ Target name is required")
+        return None
+    
+    # Currently only ES-DE is supported
+    print("\nFormat: ES-DE (EmulationStation Desktop Edition)")
+    print("  ✓ Compatible with: Steam Deck, Retro handhelds, Desktop Linux/Windows")
+    
+    confirm = inquirer.confirm(
+        message=f"Create '{target_name}' as an ES-DE export target?",
+        default=True
+    )
+    
+    if not confirm:
+        return None
+    
+    # Create target configuration
+    target_config = {
+        'enabled': True,
+        'format': 'esde',
+        'storage_locations': {},  # Will be configured via "Configure Platform Storage Defaults"
+        'defaults': {
+            'operation': 'copy',
+            'filters': {}  # Will be set during migration creation
+        }
+    }
+    
+    # Save to config.yaml
+    config_path = PROJECT_ROOT / "config.yaml"
+    try:
+        with open(config_path, 'r') as f:
+            config_data = yaml.safe_load(f)
+        
+        if 'export_targets' not in config_data:
+            config_data['export_targets'] = {}
+        
+        config_data['export_targets'][target_name] = target_config
+        
+        with open(config_path, 'w') as f:
+            yaml.dump(config_data, f, default_flow_style=False, sort_keys=False)
+        
+        print(f"\n✓ Created export target: {target_name}")
+        print("\nNext: Configure platform storage defaults before creating your first migration")
+        
+        return {
+            'name': target_name,
+            'config': target_config
+        }
+        
+    except Exception as e:
+        print(f"\n✗ Error saving config: {e}")
+        return None
 
 
 def select_export_target(config) -> Optional[Dict]:
@@ -53,14 +126,15 @@ def select_export_target(config) -> Optional[Dict]:
     export_targets = config.get('export_targets', {})
     
     if not export_targets:
-        print("\n✗ No export targets configured in config.yaml")
-        print("\nTo use this feature:")
-        print("1. Edit config.yaml")
-        print("2. Add an export target (see config.yaml.sample for examples)")
-        print("3. Set 'enabled: true' for the target")
-        print("4. Run this command again")
-        input("\nPress Enter to continue...")
-        return None
+        print("\n⚠ No export targets configured yet.")
+        print("\nLet's create your first export target!")
+        
+        # Create target interactively
+        target = create_export_target_interactively(config)
+        if not target:
+            return None
+        
+        return target
     
     # Find enabled targets
     enabled_targets = {}
@@ -140,11 +214,34 @@ def select_export_target(config) -> Optional[Dict]:
     }
 
 
+def discover_playlists(config) -> List[str]:
+    """
+    Scan master_inventory.csv to discover all unique playlists.
+    
+    Returns:
+        Sorted list of unique playlist names
+    """
+    inventory_csv = PROJECT_ROOT / config.paths.output_directory / "master_inventory.csv"
+    
+    if not inventory_csv.exists():
+        print(f"⚠ Warning: {inventory_csv} not found. No playlists available.")
+        return []
+    
+    unique_playlists = set()
+    with open(inventory_csv, 'r', encoding='utf-8-sig') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            playlists = row.get('Playlists', '').split(';')
+            unique_playlists.update(p.strip() for p in playlists if p.strip())
+    
+    return sorted(unique_playlists)
+
+
 def configure_filters(config, target_config) -> Optional[Dict]:
     """
     Interactive filter configuration.
     
-    Allows user to select which games to include based on various filters.
+    Dynamically builds filter list from discovered playlists in master_inventory.
     
     Args:
         config: Config object from ludis.py
@@ -157,6 +254,12 @@ def configure_filters(config, target_config) -> Optional[Dict]:
     print("CONFIGURE FILTERS")
     print("=" * 60)
     print("\nSelect which games to include in this migration:")
+    
+    # Discover available playlists
+    print("\nScanning master inventory for playlists...")
+    available_playlists = discover_playlists(config)
+    if available_playlists:
+        print(f"✓ Found {len(available_playlists)} playlist(s)")
     
     # Get default filters from target config
     defaults = target_config.get('defaults', {})
@@ -173,45 +276,35 @@ def configure_filters(config, target_config) -> Optional[Dict]:
         default='defaults'
     )
     
-    # Determine defaults based on quick selection
+    # Determine which filters to enable based on quick selection
     if quick_select == 'all':
-        # Select all filters
-        preset_defaults = {
-            'include_overrides': True,
-            'include_favorites': True,
-            'include_platform_best': True,
-            'include_classic_titles': True,
-            'include_all_time_favorites': True,
-            'include_backlog': True,
-            'include_goty_winner': True,
-            'include_goty_nominee': True,
-            'include_on_deck': True,
-            'include_retro': True,
-            'include_franchises': True,
-        }
+        select_all = True
     elif quick_select == 'defaults':
-        # Use config.yaml defaults
-        preset_defaults = default_filters.copy()
-        preset_defaults['include_overrides'] = True  # Always include overrides
+        select_all = False  # Use config defaults
     else:  # custom
-        # Use config.yaml defaults as starting point
-        preset_defaults = default_filters.copy()
-        preset_defaults['include_overrides'] = True
+        select_all = False  # User will select manually
     
-    # Build filter options in the specified order
-    filter_options = [
-        ('include_overrides', 'Include Overrides (ManualInclude/ManualExclude)', preset_defaults.get('include_overrides', True)),
-        ('include_favorites', 'Include Favorites (LaunchBox favorites)', preset_defaults.get('include_favorites', False)),
-        ('include_platform_best', 'Include Platform Best (CUSTOM_The Best)', preset_defaults.get('include_platform_best', False)),
-        ('include_classic_titles', 'Include Classic Console Titles (curated playlists)', preset_defaults.get('include_classic_titles', False)),
-        ('include_all_time_favorites', 'Include All-Time Favorites (CUSTOM_All Time Favorites)', preset_defaults.get('include_all_time_favorites', False)),
-        ('include_backlog', 'Include Backlog (CUSTOM_Backlog)', preset_defaults.get('include_backlog', False)),
-        ('include_goty_winner', 'Include GOTY Winners (CUSTOM_GOTY Winner)', preset_defaults.get('include_goty_winner', False)),
-        ('include_goty_nominee', 'Include GOTY Nominees (CUSTOM_GOTY Nominee)', preset_defaults.get('include_goty_nominee', False)),
-        ('include_on_deck', 'Include On Deck (CUSTOM_On Deck)', preset_defaults.get('include_on_deck', False)),
-        ('include_retro', 'Include Retro Collection (CUSTOM_Retro Collection)', preset_defaults.get('include_retro', False)),
-        ('include_franchises', 'Include Franchises (any franchise)', preset_defaults.get('include_franchises', False)),
-    ]
+    # Build filter options dynamically
+    filter_options = []
+    
+    # Always include overrides first
+    filter_options.append(
+        ('include_overrides', 'Include Overrides (ManualInclude/ManualExclude)', True)
+    )
+    
+    # Add LaunchBox Favorites
+    filter_options.append(
+        ('favorites', 'Include LaunchBox Favorites', 
+         select_all or default_filters.get('favorites', False))
+    )
+    
+    # Add playlist-based filters dynamically
+    for playlist in available_playlists:
+        filter_key = f"playlist_{playlist.replace(' ', '_').replace('-', '_').lower()}"
+        filter_display = f"Playlist: {playlist}"
+        # Check if this playlist is in defaults (unlikely, but support it)
+        is_default = select_all or default_filters.get(filter_key, False)
+        filter_options.append((filter_key, filter_display, is_default))
     
     # Create checkbox list
     print()
@@ -245,13 +338,10 @@ def configure_filters(config, target_config) -> Optional[Dict]:
         else:
             filters[filter_key] = True
     
-    # Set all other filters to False
-    all_filter_keys = [
-        'force_manual_include', 'force_manual_exclude',
-        'include_favorites', 'include_platform_best', 'include_classic_titles',
-        'include_all_time_favorites', 'include_backlog', 'include_goty_winner',
-        'include_goty_nominee', 'include_on_deck', 'include_retro', 'include_franchises'
-    ]
+    # Set all other filter keys to False (those not selected)
+    all_filter_keys = ['force_manual_include', 'force_manual_exclude']
+    all_filter_keys.extend([key for key, display, default in filter_options])
+    
     for key in all_filter_keys:
         if key not in filters:
             filters[key] = False
@@ -1432,24 +1522,118 @@ def generate_gamelists(dist_dir: Path, file_list: Dict):
     return count
 
 
-def generate_windows_install_list(dist_dir: Path, windows_games: List[str], timestamp: str):
-    """Generate Windows games install list."""
+def generate_windows_install_list(dist_dir: Path, windows_games: List[Dict], timestamp: str):
+    """
+    Generate Windows games install list, grouped by type.
+    
+    Args:
+        dist_dir: Distribution directory path
+        windows_games: List of dicts with keys: title, type, storefront, method, path
+        timestamp: Timestamp string for header
+    
+    Returns:
+        Path to generated install list file
+    """
     if not windows_games:
         return None
     
     install_list_path = dist_dir / 'install_list_windows.txt'
     
+    # Group games by type
+    grouped = {
+        'steam': [],
+        'epic': [],
+        'gog': [],
+        'origin': [],
+        'ubisoft': [],
+        'manual_install': [],
+        'standalone': [],
+        'unknown': [],
+    }
+    
+    for game in windows_games:
+        game_type = game.get('type', 'unknown')
+        grouped[game_type].append(game)
+    
     lines = []
-    lines.append("# Windows Games Install List")
-    lines.append(f"# Generated: {timestamp}")
-    lines.append(f"# Total: {len(windows_games)} games")
-    lines.append("")
-    lines.append("# These games need to be manually installed/configured")
-    lines.append("# (Cloud launchers, pirated games, etc.)")
+    lines.append("═" * 60)
+    lines.append("WINDOWS GAME INSTALL LIST")
+    lines.append(f"Generated: {timestamp}")
+    lines.append(f"Total: {len(windows_games)} games")
+    lines.append("═" * 60)
     lines.append("")
     
-    for game_title in sorted(windows_games):
-        lines.append(game_title)
+    # Cloud launchers section
+    cloud_total = len(grouped['steam']) + len(grouped['epic']) + len(grouped['gog']) + len(grouped['origin']) + len(grouped['ubisoft'])
+    if cloud_total > 0:
+        lines.append("CLOUD LAUNCHERS")
+        lines.append("─" * 60)
+        lines.append("")
+        
+        if grouped['steam']:
+            lines.append(f"  STEAM ({len(grouped['steam'])} games)")
+            lines.append("  " + "─" * 55)
+            for game in sorted(grouped['steam'], key=lambda g: g['title']):
+                lines.append(f"  • {game['title']}")
+            lines.append("")
+        
+        if grouped['epic']:
+            lines.append(f"  EPIC GAMES ({len(grouped['epic'])} games)")
+            lines.append("  " + "─" * 55)
+            for game in sorted(grouped['epic'], key=lambda g: g['title']):
+                lines.append(f"  • {game['title']}")
+            lines.append("")
+        
+        if grouped['gog']:
+            lines.append(f"  GOG ({len(grouped['gog'])} games)")
+            lines.append("  " + "─" * 55)
+            for game in sorted(grouped['gog'], key=lambda g: g['title']):
+                lines.append(f"  • {game['title']}")
+            lines.append("")
+        
+        if grouped['origin']:
+            lines.append(f"  EA/ORIGIN ({len(grouped['origin'])} games)")
+            lines.append("  " + "─" * 55)
+            for game in sorted(grouped['origin'], key=lambda g: g['title']):
+                lines.append(f"  • {game['title']}")
+            lines.append("")
+        
+        if grouped['ubisoft']:
+            lines.append(f"  UBISOFT CONNECT ({len(grouped['ubisoft'])} games)")
+            lines.append("  " + "─" * 55)
+            for game in sorted(grouped['ubisoft'], key=lambda g: g['title']):
+                lines.append(f"  • {game['title']}")
+            lines.append("")
+    
+    # Manual installs section
+    if grouped['manual_install']:
+        lines.append("MANUAL INSTALLS")
+        lines.append("─" * 60)
+        lines.append("⚠ These require manual installation or copying")
+        lines.append("")
+        for game in sorted(grouped['manual_install'], key=lambda g: g['title']):
+            path_info = f" (Folder: {game['path']})" if game.get('path') else ""
+            lines.append(f"  • {game['title']}{path_info}")
+        lines.append("")
+    
+    # Standalone executables section
+    if grouped['standalone']:
+        lines.append("STANDALONE EXECUTABLES")
+        lines.append("─" * 60)
+        lines.append("⚠ These are portable .exe files - copy directly")
+        lines.append("")
+        for game in sorted(grouped['standalone'], key=lambda g: g['title']):
+            lines.append(f"  • {game['title']}")
+        lines.append("")
+    
+    # Unknown section
+    if grouped['unknown']:
+        lines.append("UNKNOWN / UNCATEGORIZED")
+        lines.append("─" * 60)
+        lines.append("")
+        for game in sorted(grouped['unknown'], key=lambda g: g['title']):
+            lines.append(f"  • {game['title']}")
+        lines.append("")
     
     with open(install_list_path, 'w') as f:
         f.write('\n'.join(lines))
@@ -1599,9 +1783,15 @@ def build_file_list(config, target: Dict, migration_config: Dict) -> Dict:
             print(f"  ⚠ Skipping {platform_name} (not supported by ES-DE)")
             continue
         
-        # Special handling for Windows - just collect titles
+        # Special handling for Windows - collect game data for install list
         if platform_name == 'Windows':
-            windows_games = [row.get('Title', 'Unknown') for row in rows]
+            windows_games = [{
+                'title': row.get('Title', 'Unknown'),
+                'type': row.get('WindowsGameType', 'unknown'),
+                'storefront': row.get('WindowsStorefront', ''),
+                'method': row.get('WindowsInstallMethod', ''),
+                'path': row.get('NASPath', ''),
+            } for row in rows]
             print(f"  ✓ Windows: {len(windows_games)} games (install list only)")
             continue
         

@@ -1,0 +1,3748 @@
+<?xml version="1.0" standalone="yes"?>
+<LaunchBox>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\King of Fighters R-2 - Pocket Fighting Series (World) (En,Ja).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.114573-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:45.439988-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>51bb3898-50bf-443e-ad64-423f38bff222</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Mix it up in COLOR with King Of Fighters R-2 now on NEOGEO Pocket Color! Get SKILLS in the MAKING Mode and create your very own custom-made character! You can also play two-player VS. MODE battles and trade SKILLS using the NEOGEO Pocket Link Cable! 14 characters to choose from including 2 new characters make King Of Fighters R-2 H-O-T!
+
+Linkable to Sega Dreamcast's The King of Fighters: Dream Match 1999.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-03-19</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.4107144</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>28</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18483</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/King_of_Fighters_R-2</WikipediaURL>
+    <Title>King of Fighters R-2: Pocket Fighting Series</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(World) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>World</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=RWwGFuFvXN8</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Pac-Man (World) (En,Ja).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1628516-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:48.8468043-04:00</DateModified>
+    <Developer>Namco</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>fced9412-ebe1-400b-ad8e-169ba347ed0a</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>The original Pac-Man returns, now on NEOGEO Pocket Color! Featuring: Totally cool game screen designs! 2 types of displays to select from! Gobble up fruit to rack up bonus points! Gulp the Power Pellets and strike back against the ghosts! Enjoy the legendary "Coffee Break" screen!</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>Namco</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-08-26</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.9565217</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>24</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18510</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Pac-Man</WikipediaURL>
+    <Title>Pac-Man</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(World) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>World</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Metal Slug - 1st Mission (World) (En,Ja).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1589507-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:49.2017427-04:00</DateModified>
+    <Developer>Ukiyotei</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>c2c09c89-fb87-469d-9c93-c3dc449a13a2</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>As a member of the elite forces squad "Peregrine Falcons," your mission is to eliminate the evil Colonel Bildegaarn. Using the Metal Slug multi-function tank and the Slug Flyer as well as your wits and handgun blast through up to 17 missions in your quest to make the world safe from tyranny. Multiple stage progressions and a gameplay ranking system give reason to play through more than once. In-game save lets the player on the go turn off the Neo Geo Pocket and not lose progress.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-05-27</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.7857144</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>35</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18485</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Metal_Slug_1st_Mission</WikipediaURL>
+    <Title>Metal Slug: 1st Mission</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(World) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>World</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Shooter</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Puzzle Link 2 (USA, Europe).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1145088-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:50.2818486-04:00</DateModified>
+    <Developer>Yumekobo</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>8010283d-5397-4bf6-9dc3-796847208dfc</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>The gameplay of Puzzle Link 2 is generally identical to the first game: Puzzle Link is a game where blocks of matching color have to be dissolved. New blocks constantly scroll into the screen from the top. The game is over when the first blocks reach the bottom of the screen. You can dissolve blocks by shooting at them. The shots form a line where they impact. If that line connects otherwise unconnected blocks of the same color they will dissolve.
+
+There are new modes in Puzzle Link 2. Like the original, there are the standard challenge and puzzle rounds. But new to the series is the marathon-style game where you continue eliminating pieces as the game gradually increases speed. In this mode, more power-ups appear as the player performs faster. Here, you get three shots that will eliminate the same color tile from the board. The game also has link cable support for two players.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-11-11</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.1111112</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>9</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18508</DatabaseID>
+    <WikipediaURL />
+    <Title>Puzzle Link 2</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(USA, Europe)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>North America, Europe</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Puzzle</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Biomotor Unitron (USA, Europe).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1590005-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:50.6923695-04:00</DateModified>
+    <Developer>Yumekobo</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>39c1a55f-7dcf-43dc-8f3a-dfa3428dbf75</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Using the ore mined from the Unitice meteor, humans have been able to develop the man-shaped robots known as UNITRONS. As a Unitron master, you control one of these mighty machines as you explore mysterious dungeons and fight for the ultimate prize in the Unitron Arena! Create - Collect - Trade! Build your own weapons for your Unitron using Arms and Material. There are over 200 possible combinations! Battles against fearsome monsters and skilled Unitron masters await you! If you can defeat them all, you too can become... The Master of Masters!</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-04-15</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.6666667</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>18</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18492</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Biomotor_Unitron</WikipediaURL>
+    <Title>Biomotor Unitron</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(USA, Europe)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>North America, Europe</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Role-Playing</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=T2O3LQl8G4k</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Fatal Fury F-Contact - Pocket Fighting Series (World) (En,Ja).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1689466-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:50.7613469-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>2de2fb4e-cecb-4545-8a5b-31277d6008a6</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Using the world-famous Japanese SD (Super-Deformed) artwork style, this is the only title of the Fatal Fury series to be released on SNK's color handheld.
+
+The game is based on its arcade/console counterpart Real Bout Fatal Fury 2: The Newcomers, and has its main characteristics, like the possibility of execute special moves while blocking (a.k.a. Breakshots), the execution of high-strength blows (a.k.a. S. Power and P. Power moves) and the starring of two new combatants (Li Xiangfei and Rick Strowd).
+
+Due to NGPC hardware limitations, some characters have been removed from the main cast (as well as the background/foreground battle plane system). With this, the fighters initially available for this contest are: Andy Bogard, Terry Bogard, Joe Higashi, Mai Shiranui, Kim Kaphwan, Ryuji Yamazaki, Rick Strowd, Li Xiangfei, Billy Kane, Wolfgang Krauser, and Geese Howard.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-05-27</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.4857142</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>35</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18489</DatabaseID>
+    <WikipediaURL />
+    <Title>Fatal Fury F-Contact: Pocket Fighting Series</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(World) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>World</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=748dvyWACRI</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Samurai Shodown! 2 - Pocket Fighting Series (World) (En,Ja).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1628641-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:51.1124457-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>dfe02a2d-22c2-488e-901e-43d1c5369e6e</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Here comes the diminutive SAMURAI! A colorful, awesome sword battle that is simply H-O-T! Hook up the NEOGEO Pocket Link Cable for communication battles against your friends!</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-04-30</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.6666667</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>18</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18481</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Samurai_Shodown!_2</WikipediaURL>
+    <Title>Samurai Shodown! 2: Pocket Fighting Series</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(World) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>World</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Pocket Tennis Color - Pocket Sports Series (World) (En,Ja).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1145107-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:51.1124624-04:00</DateModified>
+    <Developer>Yumekobo</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>e71bdbba-dc3c-4d57-b42f-1b86f57679bb</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Pocket Tennis a simple tennis game with two play modes: Exhibition and Tournament.
+
+Exhibition is a single match against computer or human opponent (requires link cable). There do exist eight player characters with different skills (human player must select one of those eight characters too) and four (five in the color version) different courts. Also amount of sets per game can be selected (1, 3 or 5).
+
+Tournament is only against computer. Human player can pick his/her character but not the computer opponent. Also selection of courts and amount of sets is missing. Three games will be played: quarter and semifinals and of course the final.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-03-19</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.1666667</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>12</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18482</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Pocket_Tennis_Color</WikipediaURL>
+    <Title>Pocket Tennis Color: Pocket Sports Series</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(World) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>World</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Sports</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=VAokqFqSj1o</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Neo Dragon's Wild - Real Casino Series (World) (En,Ja) (v13).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1688714-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:52.4912948-04:00</DateModified>
+    <Developer>DYNA</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>c7f73582-cdc2-4780-853f-b0d896ea882f</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>A casino game released for the Neo Geo Pocket Color.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-04-30</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.2777777</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>10</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18514</DatabaseID>
+    <WikipediaURL />
+    <Title>Neo Dragon's Wild: Real Casino Series</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(World) (En,Ja) (v13)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>World</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Casino</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=T6cGAZDVPeU</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Neo Turf Masters (World) (En,Ja).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1726043-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:52.7279409-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>98d8f18f-20a4-4ecf-8df7-a8e14a89fedb</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>The player picks one of six available golfers and competes on a number of golf courses around the world, including Japan (Fujiyama Oriental Golf Club), America (Grand Canyon Golf Course), Australia (Blue Lagoon Golf Course), and Germany (Baden Golf Course). The game features two modes of play. The first is Stroke Play, in which the player attempts to get the best score by playing all 18 holes. The second is Match Play, in which two players compete to see who can win more of the 18 holes. Get ready to hit the fairway!</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-07-29</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.46875</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>17</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18487</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Neo_Turf_Masters</WikipediaURL>
+    <Title>Neo Turf Masters</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(World) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>World</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Sports</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Last Blade, The - Beyond the Destiny (USA, Europe).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1699899-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:52.8409687-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>0eadefb0-319b-413b-86ff-271a6fa1a232</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>A port of the successful 2D fighter Last Blade for the NeoGeo Pocket Color. The port features nearly all the characters featured in the original game clashing against each other using a limited color palette and a new super-deformed character design, but otherwise identically as in their arcade counterpart. You select your character from a selection of swordsmen and then proceed to fight and defeat all your opponents in a one-on-one fighting tournament involving weapon fighting a la Samurai Shodown.
+
+Unique to the port is the fact that it allows you to unlock and play as characters from Last Blade 2 and in fact eventually unlock the full storyline for the sequel, making the game sort of a compilation of both released games in the series.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>2000-03-16</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.875</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>24</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18484</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/The_Last_Blade</WikipediaURL>
+    <Title>The Last Blade: Beyond The Destiny</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(USA, Europe)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>North America, Europe</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=3ZveHrIjU4Q</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Neo Cherry Master Color - Pocket Casino Series (World) (En,Ja).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1146002-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:54.0575286-04:00</DateModified>
+    <Developer>DYNA</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>cb04743d-2cd7-41bf-b6a6-f0daabe4a87d</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Neo Cherry Master Color is a Casino game, developed by DYNA and published by SNK, which was released in Japan in 1999.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-03-19</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>2.85</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>11</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18516</DatabaseID>
+    <WikipediaURL />
+    <Title>Neo Cherry Master Color: Pocket Casino Series</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(World) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>World</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Casino</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Cool Cool Jam (USA) (Proto).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1726178-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:54.1203673-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>0cad1a5c-9888-4b98-a26b-56fbf6a9b4c2</ID>
+    <LastPlayedDate>2024-06-30T15:52:50.359047-04:00</LastPlayedDate>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Cool Cool Jam is a rhythm video game which appeared on the Neo Geo Pocket Color in 2000. Cool Cool Jam is comparable in gameplay to other rhythm games such as: PaRappa the Rapper, Donkey Konga or Beatmania.
+
+The storyline involves a boy and a girl who are transported 1,000 years into the future. To return home they must form a successful and popular music band.
+
+The game can be played by one or two players. In two player mode the game plays like a duet; the players take it in turn to play tune and receive a message after completion. The game also features a single player storymode which has adventure game elements. Various instruments can be played in the game. Each instrument has a different playing style. The instruments include:
+
+Clapping to a beat - a bar moves across the screen the player taps a button when they see a red dot. If successful the dot glows.
+
+Violin - The player taps either the A or B when a red light (button A) or a green light (button B) appears. The power can be altered by moving the joystick up and down.
+
+Bluesharp - The player moves the joystick to coincide with the position of the lights. The player then pushes A or B depending whether a red or green light appears.
+
+Guitar - The player pushes A or B to play the strings and the joystick controls the pick.
+
+Saxophone - The player moves the joystick and the buttons to control the pitch as the symbols appear on screen.
+
+Trumpet - The player moves the joystick in four directions to change the pitch to coincide with the coloured symbols. The player then pushes A or B when the marker appears. A bar indicates air pressure.
+
+Guitar 2 - Plays the same as the previous Guitar game only upside down.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>2000-08-10</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.4166667</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>6</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>34656</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Cool_Cool_Jam</WikipediaURL>
+    <Title>Cool Cool Jam</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(USA) (Proto)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>North America</Region>
+    <PlayCount>1</PlayCount>
+    <PlayTime>31</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Music</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=DNusfw7bes0</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Neo Mystery Bonus - Pocket Casino Series (World) (En,Ja).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1145866-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:55.1512247-04:00</DateModified>
+    <Developer>DYNA</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>1658bae4-c344-4d34-af95-a52589bc7fbb</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Neo Mystery Bonus, while not the most fully featured slots game around, is quick and simple to get into. Like most other slots games, you start by placing your bet, then spin the slots and test your luck. The graphics are plain and depict the different icons on the machine very clearly. There are no extra modes in the game, just basic slots.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-04-30</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>2.45</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>11</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18517</DatabaseID>
+    <WikipediaURL />
+    <Title>Neo Mystery Bonus: Pocket Casino Series</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(World) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>World</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Casino</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Puzzle Link (USA, Europe).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1690767-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:55.3316938-04:00</DateModified>
+    <Developer>Yumekobo</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>4984e825-bfa0-4615-a5db-a64c96526ef0</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Puzzle Link is a game where blocks of matching color have to be dissolved. New blocks constantly scroll into the screen from the top. The game is over when the first blocks reach the bottom of the screen. You can dissolve blocks by shooting at them. The shots form a line where they impact. If that line connects otherwise unconnected blocks of the same color they will dissolve.
+
+There are three different modes: In "Normal" you have to link two special blocks that appear after some time. If you manage to finish the level within the time limit you will unlock one of 50 collectible cards. In "Clear Mode" you have to clear a given constellation of blocks. "Battle Mode" is a two player link-cable mode.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-03-19</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.5</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>15</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18507</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Puzzle_Link</WikipediaURL>
+    <Title>Puzzle Link</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(USA, Europe)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>North America, Europe</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Puzzle</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Magical Drop Pocket (USA, Europe).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1146639-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:56.010136-04:00</DateModified>
+    <Developer>Sakata SAS</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>04e08ade-a907-4b2b-a524-2f8f0e06f82c</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>A Magical Drop game for the Neo Geo Pocket. It features characters from Magical Drop 3, but with different patterns and new storylines.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-06-24</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.892857</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>15</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18499</DatabaseID>
+    <WikipediaURL />
+    <Title>Magical Drop Pocket</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(USA, Europe)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>North America, Europe</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Puzzle</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=_yXNauLLpIc</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Crush Roller (World) (En,Ja).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1182009-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:56.4637286-04:00</DateModified>
+    <Developer>ADK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>0c18e381-b10a-45e2-822f-ca3d27e43bfc</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Crush Roller is a game for the Neo Geo Pocket Color based on the 1981 arcade game Make Trax, which was released as Crush Roller in Europe and Asia.
+
+The object of the game is to color the entire maze-like playing field with a paint brush. While you paint, two enemies walk around in the maze, when they hit you, you lose a life.
+
+A level has rollers which you can push forward with your paint brush. If you capture an enemy in the path of the roller he dies and is temporarily taken out of the game. This scores you extra points. Each subsequent enemy rolled over is worth more points.
+
+Every once in a while another creature will pop up, it will run around leaving behind track marks in your paint. Painting over this creature removes it from the game and scores you additional points. His tracks have to be repainted.
+
+When the entire maze is painted you win the level. Unlike the original arcade version the Neo Geo Pocket Color version has multiple levels.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-04-15</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.375</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>16</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18490</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Make_Trax</WikipediaURL>
+    <Title>Crush Roller</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(World) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>World</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=Ib7UEHcB3C0</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Dive Alert - Matt's Version (USA, Europe).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1587686-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:56.5153167-04:00</DateModified>
+    <Developer>Sacnoth</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>f06f009b-4bc1-485a-a55b-effc49a24e35</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Dive Alert: Matt's Version is a Role-Playing game, developed by Sacnoth and published by SNK, which was released in Japan in 1999. There is another version of Dive Alert called Dive Alert: Becky's Version with a different character and storyline.
+
+Matt's version features different characters, items and boats to Becky's version. These are logged in a device similar to a Pokédex. The battles take place against other ships. A radar view is used to help players guide torpedoes against the enemy. A large part of the game is text based with animated cutscenes. Two players can link-up with the cable to battle, exchange ships and accumulate other data.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-08-19</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>2.8333333</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>13</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18502</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Dive_Alert:_Matt%27s_Version</WikipediaURL>
+    <Title>Dive Alert: Matt's Version</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(USA, Europe)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>North America, Europe</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Role-Playing</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=mX0yRJzvAQQ</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Faselei! (USA, Europe).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1146267-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:57.2085185-04:00</DateModified>
+    <Developer>Sacnoth</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>b6adc253-232f-4bc1-970e-71122da1ba2b</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Faselei! is one of the last titles to be released for the Neo Geo Pocket Color and even features digitised lyrics to the game's main theme. Heavily story driven, this strategy RPG takes place in a time when mechs known as TS are the weapon of choice for combat. Gameplay revolves around the battles and customising your TS between those battles.
+
+Battles are part turn based and part real-time. The player inputs their actions at the beginning of the turn. The amount of actions they can input is dependant on their type of TS. Once they have finished their selection everything is played out in real-time for the duration of the turn. This makes thinking about what your opponents and allies will do in advance essential before taking your turn.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-12-22</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.4791667</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>12</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18504</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Sacnoth#Faselei.21</WikipediaURL>
+    <Title>Faselei!</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(USA, Europe)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>North America, Europe</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Strategy</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=vv6C_o4-URI</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Baseball Stars Color - Pocket Sports Series (World) (En,Ja).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1182119-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:57.7133149-04:00</DateModified>
+    <Developer>Saurus</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>9a06279b-ab85-49a5-99d9-891e725253a2</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Baseball Stars is sports game about baseball. Game is similar to Baseball Stars from NES but has less realistic characters and gameplay style. You manage own baseball team and play in series of matches. Game has typical baseball rules - one player throws the ball, second hits the ball, someone else grabs it etc. Each character has own statistics, like stamina.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-03-19</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.76</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>25</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18478</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Baseball_Stars</WikipediaURL>
+    <Title>Baseball Stars Color: Pocket Sports Series</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(World) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>World</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Sports</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=kBnQEIMvnDs</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Dive Alert - Becky's Version (USA, Europe).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1184704-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:58.3544409-04:00</DateModified>
+    <Developer>Sacnoth</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>bad5ed13-77af-4943-a9c8-9c956c220de9</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Dive Alert: Becky's Version is a Role-Playing game, developed by Sacnoth and published by SNK, which was released in Japan in 1999. There is another version of Dive Alert titled Dive Alert: Matt's Version, featuring a different character and storyline.
+
+Becky's version features different characters, items and boats to Matt's version. These are logged in a device similar to a Pokédex. The battles take place against other ships. A radar view is used to help you guide torpedoes against the enemy. A large part of the game is text based with animated cutscenes. Two players can link-up with the cable to battle and exchange ships.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1999-08-19</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.1666667</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>9</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18501</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Dive_Alert:_Becky%27s_Version</WikipediaURL>
+    <Title>Dive Alert: Becky's Version</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(USA, Europe)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>North America, Europe</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Role-Playing</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=lsD_Jw6elak</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Bust-A-Move Pocket (USA).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1253485-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:59.6110995-04:00</DateModified>
+    <Developer>Ukiyotei</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>33d4227e-a447-47a4-a6ae-ea6815024344</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Bust-A-Move Pocket is an installment in the long-running puzzle series exclusive to the Neo Geo Pocket Color. It offers a selection of modes and levels seen in earlier entries.
+
+The game includes three different game modes. Puzzle mode consists of 99 puzzles, taken from various earlier entries in the series for a "best of". The first ten levels can be selected from the start, and the best clearing times are saved per level. VS mode is the competitive variant of the game, played in best-of-three matches either against one of several different CPU opponents (with different strategies) or against another player via link connection. Survivor mode is an endless mode played for high score.
+
+Gameplay follows the standard model: the player controls a cannon at the bottom of the play field that shoots randomly colored bubbles. When three or more bubbles of the same color touch, they are removed from the field. In puzzle mode, the ceiling moves downward after a while, while in the other modes, additional bubbles are added from the top. In survivor mode only, bubbles also are added from the bottom sometimes. The game is lost once the bubbles reach the bottom. Popping more than three bubbles at a time moves extra bubbles to the opponent's field in VS mode.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-03-26</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.648148</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>27</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>22445</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Bust-a-Move_Pocket</WikipediaURL>
+    <Title>Bust-A-Move Pocket</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(USA)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Puzzle</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=tBisHD1-MZE</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Evolution - Eternal Dungeons (Europe) (v03).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1146167-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:01.2467859-04:00</DateModified>
+    <Developer>Sting</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>f95ba512-b743-4392-afdb-467589f5ed94</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>A portable version of Evolution: The World of Sacred Device. Eternal Dungeons tells the story of the young explorer Mag Launcher and his quest for the fabled Evolutia, an item of immense power.
+
+The basic premise of the game is to take quests in the town and then assemble your party and attempt to clear out the many dungeons in the game, grinding your characters and getting the loot and experience needed to advance the plot and buy items, equipment, and upgrades for your Cy-frame, a robotic attachment that enables Mag to enhance his combat abilities.
+
+As expected for a portable version, the gameplay has been significantly downgraded from its original Dreamcast version. Town navigation is menu-driven and all graphics are now top-down 2D sprites, with all dungeons being pre-designed instead of randomly generated. Combat is turn-based using a menu system from which you select your actions for each party member (up to 3) and execute them, but otherwise remains unchanged.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>2000-02-10</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.4666667</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>15</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18503</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Evolution:_Eternal_Dungeons</WikipediaURL>
+    <Title>Evolution: Eternal Dungeons</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Europe) (v03)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>Europe</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Role-Playing</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=PKNYdKf7qF4</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Neo 21 - Pocket Casino Series (World).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1630104-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:02.1212092-04:00</DateModified>
+    <Developer>DYNA</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>3081c174-9d11-41f2-b984-87729f163e47</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Neo 21 is a Casino game, developed by Dyna Corporation and published by SNK, which was released in Japan in 1999.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-12-29</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>2.642857</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>7</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18513</DatabaseID>
+    <WikipediaURL />
+    <Title>Neo 21: Pocket Casino Series</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(World)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>World</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Casino</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Metal Slug - 2nd Mission (World) (En,Ja).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.114561-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:02.4846421-04:00</DateModified>
+    <Developer>Ukiyotei</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>32eee119-2101-4b4c-88aa-9faa9165898b</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Take control of the Metal Slug tank on the NGPC once again, this time to defeat the rebel strike force "Phantom." Travel through 38 stages in a non-linear battle path defeating enemy troops and rescuing hostages. Pilot the Metal Slug tank, Slug Flyer combat jet, and the Slug Sub submarine and fire the heavy machine gun, rocket launcher, and fire gun. Two unique playable characters, a list of rescued hostages, and a time attack mode add depth to this side-scroller.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>2000-03-09</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.488372</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>44</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18486</DatabaseID>
+    <WikipediaURL />
+    <Title>Metal Slug: 2nd Mission</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(World) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>World</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Shooter</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\SNK vs. Capcom - Card Fighters' Clash - Capcom Version (USA, Europe).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.168607-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:02.6120045-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>0f130c2e-1c41-41e6-8151-d0f5a8e82e9a</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Cut loose with your favorite characters in the card-battle clash of the century! Choose your characters, customize your deck, and enter the SC Card Clash Tournament. Use strategic card arrangements to win your match, along with more cards to battle with. 300 different cards for you to use, collect and exchange. Create unlimited card battle combinations and customize 5 separate decks. Challenge a friend or exchange data with other NGPC titles via the NGP Link Cable. Starter deck will consist of mostly Capcom characters.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1999-10-21</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.25</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>26</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18505</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/SNK_vs._Capcom:_Card_Fighters_Clash#SVC:_Card_Fighters'_Clash</WikipediaURL>
+    <Title>SNK vs. Capcom: Card Fighters' Clash: Capcom Cardfighter's Version</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(USA, Europe)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>North America, Europe</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Strategy</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\NeoGeo Cup '98 Plus Color - Pocket Sports Series (World) (En,Ja).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1146012-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:05.3601196-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>f7713aa2-dd72-4c8f-ad8f-024bb966c544</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>NeoGeo Cup '98 Plus is a soccer game for the Neo Geo Pocket. The game features single match play, head-to-head play (using a link cable), and story mode. You can choose to play one of 16 international teams. Each team has their own collective stats. On the field you can perform passes, shots, dribbles, slidings and charges. In the story mode you have to win as many matches as possible in a series of tournaments. Before and during matches you can change the field formations and switch players. Each won match gives you prize money, this can be used to buy items for your team. These items usually improve one stat, but decrease another.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-04-15</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.1904762</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>21</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>22446</DatabaseID>
+    <WikipediaURL />
+    <Title>NeoGeo Cup '98 Plus Color: Pocket Sports Series</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(World) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>World</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Sports</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Sonic The Hedgehog - Pocket Adventure (World) (En,Ja).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1145704-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:05.5013787-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>21f283e7-25d5-49ad-aa71-d39dbde6a35a</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Help Sonic rescue his forest friends from the evil Dr. Robotnik. Grab those golden rings and collect all the chaos emeralds for special bonuses. Rush through multiple bonus levels and challenge the high score record. Collect puzzle pieces and complete the mystery photo. Play against a friend in a 2-player Vs. battle. The action is gonna be super SONIC!</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>Sega</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-12-04</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.202381</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>42</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18479</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Sonic_the_Hedgehog_Pocket_Adventure</WikipediaURL>
+    <Title>Sonic the Hedgehog Pocket Adventure</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(World) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>World</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Platform</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=9EhiSWF9ybo&amp;ab_channel=FCPlaythroughs</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\SNK vs. Capcom - Card Fighters' Clash - SNK Version (USA, Europe).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.114371-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:07.1983435-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>6401a33e-3a4f-4c52-bea5-8213ed942352</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Cut loose with your favorite characters in the card-battle clash of the century! Choose your characters, customize your deck, and enter the SC Card Clash Tournament. Use strategic card arrangements to win your match, along with more cards to battle with. 300 different cards for you to use, collect and exchange. Create unlimited card battle combinations and customize 5 separate decks. Challenge a friend or exchange data with other NGPC titles via the NGP Link Cable. Starter deck will consist of mostly SNK characters.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-10-21</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.2166667</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>30</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18506</DatabaseID>
+    <WikipediaURL />
+    <Title>SNK vs. Capcom: Card Fighters' Clash: SNK Cardfighter's Version</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(USA, Europe)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>North America, Europe</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Strategy</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\SNK vs. Capcom - The Match of the Millennium (World) (En,Ja).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1630879-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:07.8016143-04:00</DateModified>
+    <Developer>Capcom</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>51ae2d06-eed4-42e7-a200-8705401b7082</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>With 18 starting characters (26 total after unlocking), numerous battle modes and varied minigames, this may be the largest fighting game for the Neo Geo Pocket Color. Choose the fighting style that suits you from the available Single, Tag and Team modes. The SC Olympic mode grants access to minigames from a music game featuring Felicia to a whack-a-mole style game with Jubei. The Olympic mode also allows players to compete for gold, silver and bronze medals in various fighting challenges. Link features include NGPC-to-NGPC battles and NGPC-to-Dreamcast data exchange with other SNK titles.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>T - Teen</Rating>
+    <ReleaseDate>1999-11-30</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>43</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18477</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/SNK_vs._Capcom:_The_Match_of_the_Millennium</WikipediaURL>
+    <Title>SNK vs. Capcom: The Match of the Millennium</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(World) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>World</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=Wbi6wSHqoe8</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Dark Arms - Beast Buster 1999 (World) (En,Ja).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1725911-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:09.6145452-04:00</DateModified>
+    <Developer>Noise Factory</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>f57c8506-bf61-4fbc-adcc-4bc81fe7fdd5</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>"I crave power. Power that only the darkest evil can imagine." Enter the sinister underworld of the Dark Realm! Battle creatures of darkness in your quest for the ultimate bio-weapon. Only then will you be able to conquer the evil and grisly world. Collect multiple weapons to defeat the hideous creatures. Four main areas to explore and complete. Will you be the one to conquer this action/adventure thriller?</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-10-21</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.0555553</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>18</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18495</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Dark_Arms:_Beast_Busters</WikipediaURL>
+    <Title>Dark Arms: Beast Buster 1999</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(World) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>World</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action; Role-Playing</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=OpGVqlUFU98</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Puyo Pop (World) (En,Ja) (v06).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1584013-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:09.6154738-04:00</DateModified>
+    <Developer>Compile</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>4010c12b-f43b-4df8-8df9-2ac831616f34</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>The follow-up to Puyo Puyo is, like its predecessor, a falling block game in which the goal is to combine four or more blocks (Puyos) of the same color, which then disappear. The remaining Puyos will then fall down and can produce combos which can cause special blocks (Nuisance Puyos, that can only be destroyed by eliminating adjacent Puyos) to appear on the enemy's field.
+
+This game includes a story mode, in which Arle (the main character) fights against computer enemies and a vs player mode</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-07-22</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.7368422</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>19</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18511</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Puyo_Puyo_2</WikipediaURL>
+    <Title>Puyo Pop</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(World) (En,Ja) (v06)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>World</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Puzzle</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Fantastic Night Dreams - Cotton (Europe).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1726249-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:10.2110321-04:00</DateModified>
+    <Developer>Success</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>a695ed4f-2776-4951-b0a6-9635286a661a</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Fantastic Night Dreams: Cotton is a 2D side-scrolling shooter in which the player takes the role of the young witch Cotton, who sets out on her magical broom on a quest to get her favorite candy. Fortunately for us her obsession gets her in the way of several world-threatening terrors that she must destroy in standard shooter fare.
+
+The game features an experience-earning system in which the more enemies the player kills the more he can upgrade his weapon by collecting power crystals. Players can also charge their weapon for special attacks and enlist the aid of Silk, Cotton's magical fairy friend who can form up in different "option" configurations.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK; Success</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>2000-03-23</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.8888888</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>18</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18493</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Cotton:_Fantastic_Night_Dreams</WikipediaURL>
+    <Title>Fantastic Night Dreams: Cotton</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Europe)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>Europe</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Shooter</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=fXLCLYv22mQ</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Shanghai Mini (World) (En,Ja).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:45:22.1145227-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:10.8857011-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>fb4c0525-a232-4580-b9d0-ad47284be147</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Shanghai Mini is a release in the series of Activision's tile matching games. Included are classic, tournament and dynasty modes. Classic is normal game with six different board layouts. In tournament game player challenges the Tower of Shanghai and tries to beat the Shanghai Master by solving different board layouts within time limit. Dynasty is two player competition - against computer or human (requires link cable) opponent.</Notes>
+    <Platform>SNK Neo Geo Pocket Color</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>1999-07-29</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>2.7272727</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>11</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18509</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Shanghai_Mini</WikipediaURL>
+    <Title>Shanghai Mini</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(World) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>World</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Puzzle</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>f5e91267-8e4f-4d8a-a766-515bc59b46af</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>33d4227e-a447-47a4-a6ae-ea6815024344</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Bust-A-Move Pocket (USA).zip</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play (USA) Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>1999-03-26</ReleaseDate>
+    <Developer>Ukiyotei</Developer>
+    <Publisher>SNK</Publisher>
+    <Region>North America</Region>
+    <Version>(USA)</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>740b2cf4-9574-4715-8b9e-de5285156672</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>5e88f955-558a-4ca4-bf40-f62f429a0990</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>33d4227e-a447-47a4-a6ae-ea6815024344</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\SNK Neo Geo Pocket Color [1999]\Puzzle Bobble Mini (Europe).zip</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play (Europe) Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>1999-03-26</ReleaseDate>
+    <Developer>Ukiyotei</Developer>
+    <Publisher>SNK</Publisher>
+    <Region>Europe</Region>
+    <Version>(Europe)</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>740b2cf4-9574-4715-8b9e-de5285156672</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>3</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AlternateName>
+    <GameID>51bb3898-50bf-443e-ad64-423f38bff222</GameID>
+    <Name>King of Fighters R-2</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>c2c09c89-fb87-469d-9c93-c3dc449a13a2</GameID>
+    <Name>Metal Slug 1st Mission</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>8010283d-5397-4bf6-9dc3-796847208dfc</GameID>
+    <Name>Tsunagete Pon! 2</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>2de2fb4e-cecb-4545-8a5b-31277d6008a6</GameID>
+    <Name>Garou Densetsu F-Contact: Pocket Fighting Series</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>2de2fb4e-cecb-4545-8a5b-31277d6008a6</GameID>
+    <Name>Fatal Fury: First Contact</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>dfe02a2d-22c2-488e-901e-43d1c5369e6e</GameID>
+    <Name>Samurai Spirits! 2</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>dfe02a2d-22c2-488e-901e-43d1c5369e6e</GameID>
+    <Name>Samurai Shodown! 2</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>e71bdbba-dc3c-4d57-b42f-1b86f57679bb</GameID>
+    <Name>Pocket Tennis Color</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>c7f73582-cdc2-4780-853f-b0d896ea882f</GameID>
+    <Name>Neo Dragon's Wild: Pocket Casino Series</Name>
+    <Region>World</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>c7f73582-cdc2-4780-853f-b0d896ea882f</GameID>
+    <Name>Neo Dragon's Wild</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>0eadefb0-319b-413b-86ff-271a6fa1a232</GameID>
+    <Name>Bakumatsu Rouman Tokubetsu Hen-Gekka no Kenshi: Tsuki ni Saku Hana, Chiri Yuku Hana</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>cb04743d-2cd7-41bf-b6a6-f0daabe4a87d</GameID>
+    <Name>Neo Cherry Master Color: Real Casino Series</Name>
+    <Region>World</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>cb04743d-2cd7-41bf-b6a6-f0daabe4a87d</GameID>
+    <Name>Neo Cherry Master Color</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>1658bae4-c344-4d34-af95-a52589bc7fbb</GameID>
+    <Name>Neo Mystery Bonus: Real Casino Series</Name>
+    <Region>World</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>1658bae4-c344-4d34-af95-a52589bc7fbb</GameID>
+    <Name>Neo Mystery Bonus</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>4984e825-bfa0-4615-a5db-a64c96526ef0</GameID>
+    <Name>Renketsu Puzzle Tsunagete Pon! Color</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>f06f009b-4bc1-485a-a55b-effc49a24e35</GameID>
+    <Name>Dive Alert: Burn Hen</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>9a06279b-ab85-49a5-99d9-891e725253a2</GameID>
+    <Name>Baseball Stars Color</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>bad5ed13-77af-4943-a9c8-9c956c220de9</GameID>
+    <Name>Dive Alert: Rebecca Hen</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>33d4227e-a447-47a4-a6ae-ea6815024344</GameID>
+    <Name>Puzzle Bobble Mini</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>f95ba512-b743-4392-afdb-467589f5ed94</GameID>
+    <Name>Shinki Sekai Evolution: Hateshinai Dungeon</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>3081c174-9d11-41f2-b984-87729f163e47</GameID>
+    <Name>Neo 21: Real Casino Series</Name>
+    <Region>World</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>3081c174-9d11-41f2-b984-87729f163e47</GameID>
+    <Name>Neo 21</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>32eee119-2101-4b4c-88aa-9faa9165898b</GameID>
+    <Name>Metal Slug 2nd Mission</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>0f130c2e-1c41-41e6-8151-d0f5a8e82e9a</GameID>
+    <Name>SNK vs. Capcom: Card Fighters' Clash: Capcom Version</Name>
+    <Region>North America</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>0f130c2e-1c41-41e6-8151-d0f5a8e82e9a</GameID>
+    <Name>SNK vs. Capcom: Gekitotsu Card Fighters - Capcom Supporter Version</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>f7713aa2-dd72-4c8f-ad8f-024bb966c544</GameID>
+    <Name>Neo Geo Cup '98 Plus Color</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>21f283e7-25d5-49ad-aa71-d39dbde6a35a</GameID>
+    <Name>Sonic Pocket Adventure</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>6401a33e-3a4f-4c52-bea5-8213ed942352</GameID>
+    <Name>SNK vs. Capcom: Card Fighters' Clash - SNK Version</Name>
+    <Region>North America</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>6401a33e-3a4f-4c52-bea5-8213ed942352</GameID>
+    <Name>SNK vs. Capcom: Gekitotsu Card Fighters - SNK Supporter Version</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>f57c8506-bf61-4fbc-adcc-4bc81fe7fdd5</GameID>
+    <Name>Dark Arms: Beast Buster</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>a695ed4f-2776-4951-b0a6-9635286a661a</GameID>
+    <Name>Cotton: Fantastic Night Dreams</Name>
+    <Region />
+  </AlternateName>
+</LaunchBox>

@@ -1,0 +1,758 @@
+<?xml version="1.0" standalone="yes"?>
+<LaunchBox>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\NEC PC Engine SuperGrafx [1989]\Darius Plus (JP).pce</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T23:32:11.0932447-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:46.3035027-04:00</DateModified>
+    <Developer />
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>c0801b57-c74e-4fd0-8983-ecea85ea880e</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes />
+    <Platform>PC Engine SuperGrafx</Platform>
+    <Publisher />
+    <Rating />
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>0</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>0</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <WikipediaURL />
+    <Title>Darius Plus</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(JP)</Version>
+    <Series />
+    <PlayMode />
+    <Region>Japan</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre />
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>true</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>true</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType />
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\NEC PC Engine SuperGrafx [1989]\1941 - Counter Attack (JP).pce</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:39:39.727723-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:47.0922534-04:00</DateModified>
+    <Developer>Hudson Soft</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>3b56c01c-6850-4178-af82-c837787b78c9</ID>
+    <LastPlayedDate>2024-06-30T15:09:57.4068103-04:00</LastPlayedDate>
+    <ManualPath />
+    <MusicPath />
+    <Notes>1941 Counter Attack is a vertical shooter by Capcom and conversion of the arcade game of the same name originally released in 1990. The action takes place during World War II and depicts Capcom's own fantastic vision of the historic battle between the American and Japanese air forces in the Pacific. The player's mission is rather straightforward - on board a Lockheed P-38 airplane, he must fight his way through six varied stages, take down enemy installations, battleships and other huge rockets on their narrow launching pads. Unlike its predecessors in the series, 1941 Counter Attack traded the trademark and arguably monotonous level design for a more structured and diverse formula. Stages vary from an enemy infested canyon to city landscapes and fortified strongholds. Several powerups can be collected along the way, such as tiny wingmen widening the plane's fire power, or destructive special weapons such as laser beams and side rockets. The main weapon can also be charged up by holding the fire button to discharge a powerful attack. Finally, the plane comes with a small life bar and can be hit three time before being blasted into oblivion - this bar however increases as the game progresses, and is used to release devastating special attacks as well. 1941 Counter Attack also features a two simultaneous player mode.</Notes>
+    <Platform>PC Engine SuperGrafx</Platform>
+    <Publisher>Capcom</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1991-08-23</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.5759494</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>79</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>91008</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/1941:_Counter_Attack</WikipediaURL>
+    <Title>1941: Counter Attack</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(JP)</Version>
+    <Series />
+    <PlayMode>Cooperative; Multiplayer</PlayMode>
+    <Region>Japan</Region>
+    <PlayCount>1</PlayCount>
+    <PlayTime>35</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Shooter</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=8QiMtDGXV0E</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\NEC PC Engine SuperGrafx [1989]\Daimakaimura (JP).pce</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:39:39.726491-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:48.6907823-04:00</DateModified>
+    <Developer>AlfaSystem</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>0f356130-637a-4df7-924e-1c6fb91849e1</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Daimakaimura is a platform game by Capcom and is the SuperGrafx port of the classic arcade game known outside of Japan as Ghouls'n Ghosts. The brave Arthur, infamous for wearing red hearted boxers under his piece of armor, is back. His beloved princess Prin-Prin has been captured by the great demon king Loki and he has now, once again, the daunting task of rescuing her. His journey gets him through six long stages from a creepy cemetery infested with Grim Reapers and Vultures, to a abandoned windmills full of deadly stone turtles. Arthur starts the game equipped with a short joust spear that he can throw at his enemies. Treasure chests appear from time to time (usually triggered by jumping over specific spots of the scenery) and Arthur can crack them open to reveal new weapons, brand new piece of armors or, if already equipped with one, the almighty Golden Armor. But treasure chests can also reveal mean sorcerers who won't hesitate to turn our hero into an elderly man with a walking stick, or a cute but particularly vulnerable duck. Finally, the Golden Armor can be charged up and unleash powerful attacks from the equipped weapon. For instance, the spear can trigger a lighting spell and daggers a mirror-image of Arthur. The game is vast and mean guardians keep the gates leading to Loki's lair.</Notes>
+    <Platform>PC Engine SuperGrafx</Platform>
+    <Publisher>NEC Avenue</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1990-07-27</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.1858974</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>77</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>91010</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Ghouls_%27n_Ghosts</WikipediaURL>
+    <Title>Dai Makai Mura</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(JP)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>Japan</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action; Horror</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=rVzRe3LQnUc</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\NEC PC Engine SuperGrafx [1989]\Madou King Granzort (JP).pce</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:39:39.7243259-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:50.3910895-04:00</DateModified>
+    <Developer>Mutech</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>8121ac51-0288-4fda-aba2-b301b7c8c50e</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Madou King Granzort is based on the anime of the same name. The story takes place in science-fiction scenario in which a few kids get special powers to save the world from the evil Jadou Clan. To be more exact, they can summon three powerful creatures: The Madou kings of earth, water and wind. The player takes the role of those kings to defeat the Jadou Clan.
+
+The player needs to find the way through the levels while solving basic platforming challenges and a lot of fighting, either with a sword or by shooting. The player can switch between the Madou kings which have different abilities. It is important to look after the energy bar and the time limit: both result in the loss of a life when running out.</Notes>
+    <Platform>PC Engine SuperGrafx</Platform>
+    <Publisher>Hudson Soft</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1990-04-06</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.875</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>7</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>218908</DatabaseID>
+    <WikipediaURL />
+    <Title>Madou King Granzort</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(JP)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Platform; Shooter</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\NEC PC Engine SuperGrafx [1989]\Aldynes - The Misson Code for Rage Crisis (JP).pce</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:39:39.7294086-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:59.6768204-04:00</DateModified>
+    <Developer>Produce!</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>a41b1e26-1f02-45f9-a399-445ea4bea1af</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>The year is 2020, and global depression has descended upon the societies of the Earth. When humans least expect it, aliens from a mechanical planetoid attack seemingly without any reason. The League of Nations collaborates with NASA to produce a powerful space fighter under project name Aldynes. When a pilot known as Fox-A is killed, his girlfriend Hiroko heads to the air base where works on Project Aldynes took place. As the aliens launch their attack, Hiroko hijacks one of the fighters and enters the battle.
+
+Aldynes is a horizontally-scrolling sci-fi shoot-em-up. Player-controlled spaceship can acquire power-ups that either change its default vulcan gun to lasers that shoot either straight ahead or in different directions, or enhance the shot of an already equipped weapon. A special power-up adds a small ship that fights alongside the player-controlled one; collecting more power-ups of the same kind adds more ships. These ships can be ordered to stay behind and repeat the shooting patterns of the player-controlled craft, or shoot at enemies following their own AI. 
+
+The player-controlled fighter does not have hit points and loses a life every time it is hit. There are seven stages altogether, each ending with a massive boss battle.</Notes>
+    <Platform>PC Engine SuperGrafx</Platform>
+    <Publisher>Hudson Soft</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1991-02-22</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.5785713</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>34</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>91009</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Aldynes</WikipediaURL>
+    <Title>オルディネス</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(JP)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>Japan</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Shooter</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=vvBctR39Rd0</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\NEC PC Engine SuperGrafx [1989]\Battle Ace (JP).pce</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:39:39.7275509-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:03.172199-04:00</DateModified>
+    <Developer>Hudson Soft</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>b272bb27-1fc1-45bc-8da6-120d4a22915b</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Battle Ace is an action-oriented flight game in a first-person perspective. The player mans a space ship, including a radar which shows enemies, and the goal is to reach the end of each level where an end boss waits. As usually, the main occupation is to blast a lot of aliens which approach the player. The available weapons are bombs and a machine gun, both unlimited. Getting hit is a bad idea because it results in death. The player has three lives which can be raised by scoring 20.000 points.</Notes>
+    <Platform>PC Engine SuperGrafx</Platform>
+    <Publisher>Hudson Soft</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1989-11-30</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>2.5689654</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>28</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>91012</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/PC_Engine_SuperGrafx</WikipediaURL>
+    <Title>バトルエース</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(JP)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>Japan</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action; Shooter</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=MbVSsdNsI8M</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\NEC PC Engine SuperGrafx [1989]\Darius Alpha (JP).pce</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T23:32:11.0933221-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:08.4194121-04:00</DateModified>
+    <Developer />
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>3780c4ab-ec88-448a-b574-96947b13b81a</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes />
+    <Platform>PC Engine SuperGrafx</Platform>
+    <Publisher />
+    <Rating />
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>0</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>0</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <WikipediaURL />
+    <Title>Darius Alpha</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(JP)</Version>
+    <Series />
+    <PlayMode />
+    <Region>Japan</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre />
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>true</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>true</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType />
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <AlternateName>
+    <GameID>0f356130-637a-4df7-924e-1c6fb91849e1</GameID>
+    <Name>Ghouls'n Ghosts</Name>
+    <Region>World</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>0f356130-637a-4df7-924e-1c6fb91849e1</GameID>
+    <Name>大魔界村</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>0f356130-637a-4df7-924e-1c6fb91849e1</GameID>
+    <Name>Daimakaimura</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>8121ac51-0288-4fda-aba2-b301b7c8c50e</GameID>
+    <Name>Madō King Granzort</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>8121ac51-0288-4fda-aba2-b301b7c8c50e</GameID>
+    <Name>Madou Ou Granzort</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>a41b1e26-1f02-45f9-a399-445ea4bea1af</GameID>
+    <Name>Aldynes</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>a41b1e26-1f02-45f9-a399-445ea4bea1af</GameID>
+    <Name>Aldynes: The Misson Code for Rage Crisis</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>b272bb27-1fc1-45bc-8da6-120d4a22915b</GameID>
+    <Name>Battle Ace</Name>
+    <Region />
+  </AlternateName>
+</LaunchBox>

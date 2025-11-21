@@ -1,0 +1,471 @@
+<?xml version="1.0" standalone="yes"?>
+<LaunchBox>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Trackball</Category>
+    <Id>c5930d8a-0203-4f6d-b3f3-d01289dd3142</Id>
+    <Name>Trak-Ball</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Joystick</Category>
+    <Id>8ff1a457-b3ac-4759-92d6-3ce05d4ef508</Id>
+    <Name>Double Vertical Joysticks</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Joystick</Category>
+    <Id>079ddd0a-439b-4c2b-96af-4c302535c631</Id>
+    <Name>4-Way Joystick</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Motion</Category>
+    <Id>673f1282-64ee-4f3b-80c1-0ac597290797</Id>
+    <Name>Foot Craz</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Motion</Category>
+    <Id>ebd74674-77e0-47f0-b6bb-fd7823e6923c</Id>
+    <Name>Playstation Move</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Joystick</Category>
+    <Id>41cadf2e-eed4-492e-872d-75efbf31eab1</Id>
+    <Name>Vertical Joystick</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Joystick</Category>
+    <Id>ffc5a8ae-6c52-4088-8212-29e8f4432c1e</Id>
+    <Name>16-Way Joystick</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Gamepad</Category>
+    <Id>0410fed7-76fb-4b04-a4c3-d8acded56b7c</Id>
+    <Name>Steam Controller</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Wheel/Yoke</Category>
+    <Id>42f60e8b-ab34-4afd-a89c-afc92492bdec</Id>
+    <Name>Analog Mission Stick</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Wheel/Yoke</Category>
+    <Id>0fbe18b0-962c-46b0-83be-b63e53f0929d</Id>
+    <Name>Generic Flight Stick</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Joystick</Category>
+    <Id>fcaef3d6-ac00-48e2-9a22-4ddbce4cf470</Id>
+    <Name>Atari Joystick</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>VR</Category>
+    <Id>e5ed763f-4bed-4430-95c0-a36349298110</Id>
+    <Name>3D Glasses</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Wheel/Yoke</Category>
+    <Id>fb5f8a65-5b19-4c4b-abf8-0f1845931ed8</Id>
+    <Name>Race Controller</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Gamepad</Category>
+    <Id>4e489d6d-bba6-439c-943d-a4b69aeffa64</Id>
+    <Name>Jaguar Pro Controller</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Keyboard</Category>
+    <Id>70ff7846-0ea6-40cd-b6b3-43a5a621b3cf</Id>
+    <Name>Dreamcast Keyboard</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Joystick</Category>
+    <Id>41dfcc14-6255-4409-887e-8b89800149ea</Id>
+    <Name>Half 4-Way Joystick</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Light Gun</Category>
+    <Id>33efefe7-b8fe-47a0-b4d5-c487d734b876</Id>
+    <Name>GunCon 3</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Wheel/Yoke</Category>
+    <Id>cdb0ca6b-b5f0-4644-a35b-7d9b9946430d</Id>
+    <Name>Sony Analog Joystick</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Gamepad</Category>
+    <Id>9e6ba24f-bf0d-4548-b01c-e27475e458c4</Id>
+    <Name>Jaguar TeamTap</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Rhythm</Category>
+    <Id>3a2561b3-a9fd-46d2-a5ad-d26ba4617a80</Id>
+    <Name>Wii Drums</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Rhythm</Category>
+    <Id>6933ea97-6a19-4824-b735-71e0c461df13</Id>
+    <Name>Sports Pad</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Wheel/Yoke</Category>
+    <Id>2f4a58ec-454d-4b0a-a9df-3a70dc64758b</Id>
+    <Name>Generic Wheel</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Gamepad</Category>
+    <Id>34e8c787-5885-46a1-81f2-c0ba7b7927ba</Id>
+    <Name>GameCube Controller</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Keyboard</Category>
+    <Id>3fd29237-7865-46aa-8611-d7a028f6f9b0</Id>
+    <Name>Video Touch Pad</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Keyboard</Category>
+    <Id>d9c91629-dc75-4fcd-bbb9-1327a03cff45</Id>
+    <Name>Atari Keypad</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Mouse</Category>
+    <Id>8f5d5f73-f8e8-4c87-b428-0dbf518fbc72</Id>
+    <Name>Shuttle Mouse</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Rhythm</Category>
+    <Id>5f3fc548-2108-4745-8f4d-983219249a8b</Id>
+    <Name>Wii Dance Pad</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Light Gun</Category>
+    <Id>757012ed-ab0e-45b8-914e-b12698b46185</Id>
+    <Name>Dreamcast Gun</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Motion</Category>
+    <Id>7b086be2-f592-448a-8b24-fbc995a5cc92</Id>
+    <Name>Playstation Eye</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Motion</Category>
+    <Id>cd3a0610-d858-457e-802f-c1eea3331a45</Id>
+    <Name>Wii Motion Plus</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Gamepad</Category>
+    <Id>c59b0e81-5505-4fb2-8dac-4b175383e7fd</Id>
+    <Name>Generic Controller</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Light Gun</Category>
+    <Id>1e33d0c5-e12e-430f-bc01-2df4ad62515a</Id>
+    <Name>Super Scope</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Light Gun</Category>
+    <Id>2e7da9e2-7bc8-4bee-9fb2-86f356864173</Id>
+    <Name>Konami Justifier</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Trackball</Category>
+    <Id>65763344-2c57-46eb-829e-de6b4b9c20a4</Id>
+    <Name>Generic Trackball</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Rhythm</Category>
+    <Id>953c758c-f18e-4ec7-8af0-ea4ab96a69b6</Id>
+    <Name>Wii Microphone</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Light Gun</Category>
+    <Id>6fa72c5f-2f6c-444c-b8a8-6e4d2c533c36</Id>
+    <Name>Virtua Gun</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Motion</Category>
+    <Id>6d5cc47b-3017-44fe-8eb1-bc90fa145db7</Id>
+    <Name>EyeToy</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Light Gun</Category>
+    <Id>e938116a-fc05-4d1f-93f7-7bcb7a6abcf4</Id>
+    <Name>Playstation Sharp Shooter</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Light Gun</Category>
+    <Id>3b08d31e-38ab-48c7-a3d3-d449d8707322</Id>
+    <Name>Light Phaser</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Gamepad</Category>
+    <Id>06f6efb8-03aa-41a5-be0a-a1519e8dcf9f</Id>
+    <Name>Jaguar Controller</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Gamepad</Category>
+    <Id>73fe318e-2f83-4923-aa84-ebf5e53bdadf</Id>
+    <Name>Six Button Control Pad</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Rhythm</Category>
+    <Id>3f34f35e-7996-4c5d-bdcb-1e8ac1e702ba</Id>
+    <Name>Wii Guitar</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Gamepad</Category>
+    <Id>b8ef230d-62e3-4669-ac0c-535e9d301a2e</Id>
+    <Name>Booster Grip</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Mouse</Category>
+    <Id>06258742-fb66-4282-b1b7-2b278790fc8f</Id>
+    <Name>Playstation Mouse</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Motion</Category>
+    <Id>5c66443d-967c-40b1-80b2-651647a52ce3</Id>
+    <Name>Wii Balance Board</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Motion</Category>
+    <Id>c34311b3-bd3d-431f-91d8-79f82621d158</Id>
+    <Name>Wii Nunchuk</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Gamepad</Category>
+    <Id>6ddce2e4-2312-478c-b4b3-0b2c12fcfbe7</Id>
+    <Name>Nintendo Switch Joy-Con</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Mouse</Category>
+    <Id>e5562182-9a66-47a6-b3fb-49d46187f162</Id>
+    <Name>Sega Mouse</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Keyboard</Category>
+    <Id>5835010a-cbed-4980-a578-ac10133afc53</Id>
+    <Name>Generic Keyboard</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Mouse</Category>
+    <Id>27d87400-1502-4e48-9edc-226f00b68d68</Id>
+    <Name>Super NES Mouse</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Joystick</Category>
+    <Id>b813e310-b72e-4617-a338-14df97457cc8</Id>
+    <Name>Half 8-Way Joystick</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Light Gun</Category>
+    <Id>0e97287c-21d2-43c8-8ebe-14e73d758016</Id>
+    <Name>GunCon 2</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Light Gun</Category>
+    <Id>5efb1b15-176e-42a5-b358-bedcc40a4403</Id>
+    <Name>Generic Light Gun</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Rhythm</Category>
+    <Id>63afd65e-9014-4de0-a760-ecc7ae9a7bbc</Id>
+    <Name>Power Pad</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Gamepad</Category>
+    <Id>d4b3ce66-2c3a-4a3b-87c0-ad3a336f411b</Id>
+    <Name>Wii U Pro Controller</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Keyboard</Category>
+    <Id>fbb6385e-bdf4-4a1b-9ac8-419ea7b9c2c2</Id>
+    <Name>Generic Keypad</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Wheel/Yoke</Category>
+    <Id>7e15c10b-9c7a-4949-bbd0-a97141b7c36f</Id>
+    <Name>Flight Commander</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Keyboard</Category>
+    <Id>3be546ad-f0a3-4925-80eb-6b36bfc39be6</Id>
+    <Name>Kid's Controller</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Motion</Category>
+    <Id>95eb7b54-30a7-4b0c-ad50-c3b6ae2eb092</Id>
+    <Name>Joyboard</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Light Gun</Category>
+    <Id>3672715b-34ca-4f32-9558-f779c62b9edc</Id>
+    <Name>GunCon</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Wheel/Yoke</Category>
+    <Id>927132f8-0fb4-41b6-85a0-5052c7e93062</Id>
+    <Name>Arcade Racer Joystick</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Mouse</Category>
+    <Id>fad1e133-eb29-4d7b-b67b-3e1697c7af7b</Id>
+    <Name>Generic Mouse</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Gamepad</Category>
+    <Id>1b15f2fc-107a-4c56-b6f9-aad07bf80b36</Id>
+    <Name>Playstation Controller</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Motion</Category>
+    <Id>50d65c93-1d27-4bf9-a2d9-65d7f9377f06</Id>
+    <Name>Fishing Controller</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Joystick</Category>
+    <Id>c909b0ae-fd45-4fd9-a033-2138451a297d</Id>
+    <Name>Horizontal Joystick</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Gamepad</Category>
+    <Id>e5979e06-ac6a-40dd-ac08-fd5efda5d621</Id>
+    <Name>Cosmic Command</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Paddle</Category>
+    <Id>f654d92f-4900-4f75-bb93-cbb5f246cf11</Id>
+    <Name>Generic Paddle</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Motion</Category>
+    <Id>f10c591d-84e4-451d-b2c0-231b471bc9a8</Id>
+    <Name>Activator</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Rhythm</Category>
+    <Id>a53c6d9f-2af8-4185-b80a-99bac4cf9b5a</Id>
+    <Name>Generic Microphone</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Gamepad</Category>
+    <Id>d739d436-6f38-4b80-83c1-eaf4ecf97767</Id>
+    <Name>Wii U Gamepad</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Light Gun</Category>
+    <Id>fcb8846c-57fd-4ba7-9bf8-1181a111945f</Id>
+    <Name>Zapper</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Joystick</Category>
+    <Id>27fb5aa5-68f1-4154-b959-599978af56d9</Id>
+    <Name>Double 8-Way Joysticks</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Motion</Category>
+    <Id>e4064310-9893-4e91-87f9-7b645dc8e307</Id>
+    <Name>WiiMote</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Joystick</Category>
+    <Id>afd5db7a-86a2-4bb0-8e13-c3d514695bfe</Id>
+    <Name>8-Way Joystick</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Gamepad</Category>
+    <Id>5e06d63b-58d7-48bc-b590-a8d74189af3a</Id>
+    <Name>Wii Classic Controller</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Light Gun</Category>
+    <Id>8fe7e629-9078-4bae-91c9-3303958b7364</Id>
+    <Name>XE Light Gun</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Paddle</Category>
+    <Id>fa9fb50e-111f-4e78-ad1b-725635fcbdea</Id>
+    <Name>Atari Paddle</Name>
+  </GameController>
+  <GameController>
+    <AssociatedPlatforms />
+    <Category>Paddle</Category>
+    <Id>6fd2676b-09af-4ea9-99e0-ad46a7147c99</Id>
+    <Name>Driving Controller</Name>
+  </GameController>
+</LaunchBox>

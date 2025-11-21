@@ -1,0 +1,3112 @@
+<?xml version="1.0" standalone="yes"?>
+<LaunchBox>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00640.txt</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-28T15:22:12.1614301-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:49.2013173-04:00</DateModified>
+    <Developer>Yacht Club Games</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>5500fd0d-f4eb-4e19-a3c3-91f52692301f</Emulator>
+    <Favorite>false</Favorite>
+    <ID>f603b3a3-97d0-40fc-af7e-fa832d6ba433</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Shovel Knight is a 2014 action platformer video game developed and published by independent developer Yacht Club Games for the Nintendo 3DS, Wii U, PS4, PS Vita and personal computer platforms. The game was released worldwide on June 26, 2014. Shovel Knight was directed by former WayForward Technologies member Sean Velasco, and includes music composed by Jake Kaufman and Manami Matsumae.
+
+Prior to the game, adventurers Shovel Knight and Shield Knight fought alongside one another, journeying across the world and seeking treasure. However, when the two explore the Tower of Fate, the two fall to the dark magic power of a cursed amulet. When Shovel Knight reawakens, the Tower has been sealed and Shield Knight is nowhere to be seen. Grieving for his beloved, Shovel Knight gives up adventuring and secludes himself. However, during his absence, the Enchantress rises to power, spreading evil across the land. Upon hearing that the Enchantress has unsealed the Tower of Fate, Shovel Knight takes up his shovel again and ventures towards it, hoping to find and rescue Shield Knight. In order to do so, Shovel Knight must fight the eight members of "The Order of No Quarter," who have been dispatched by the Enchantress to impede him.</Notes>
+    <Platform>Sony Playstation Vita</Platform>
+    <Publisher>Yacht Club Games</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>2015-04-21</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.8333333</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>9</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>24329</DatabaseID>
+    <WikipediaURL />
+    <Title>Shovel Knight</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>PCSE00640</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region />
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action; Platform</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>true</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSA00107.txt</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-28T15:22:12.1616212-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:49.5948489-04:00</DateModified>
+    <Developer>Guerrilla Cambridge</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>5500fd0d-f4eb-4e19-a3c3-91f52692301f</Emulator>
+    <Favorite>false</Favorite>
+    <ID>55e8fc01-c6db-425c-9bf7-9dbf42463b73</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>If you thought the battle lines were clear, you’ve not seen the whole story. Killzone Mercenary for the PlayStation Vita system—winner of IGN’s Best PS Vita Game of E3 2013—throws players into a deadly firefight as part of a ruthless Mercenary faction, one taking on paid contracts from not only the dangerous ISA but the vicious Helghast as well. In Killzone Mercenary, there is no good. There is no evil. There is only the mission... and the money.  War is Our Business.
+
+Key Features:
+
+• Full Campaign Mode: Play through 9 massive single-player missions, each with additional challenges and special objectives.
+
+• Breathtaking Graphics: Built on the same Killzone engine used on PlayStation 3 system, Killzone Mercenary has stunning visuals and the smooth gameplay shows off the PS Vita system like no other game.
+
+• Robust Multiplayer: Intense combat for up to 8 players keeps the competition fierce.
+
+• Customize Across Modes: Customize your Merc’s loadout in Campaign and Multiplayer modes with armor, weapons and more. Customizations to your Merc apply to both modes!</Notes>
+    <Platform>Sony Playstation Vita</Platform>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Rating>M - Mature</Rating>
+    <ReleaseDate>2013-09-04</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.8</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>10</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>19432</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Killzone:_Mercenary</WikipediaURL>
+    <Title>Killzone: Mercenary</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>PCSA00107</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region />
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Shooter</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>true</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>8</MaxPlayers>
+    <VideoUrl>http://www.youtube.com/watch?v=VOV_rVrnezE</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSA00015.txt</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-28T15:22:12.1616821-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:50.3912951-04:00</DateModified>
+    <Developer>SCE Studio Liverpool</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>5500fd0d-f4eb-4e19-a3c3-91f52692301f</Emulator>
+    <Favorite>false</Favorite>
+    <ID>aa10fd09-cb55-43e6-ad68-92ec1e66dbf5</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>In Wipeout 2048 players experience the thrill and speed of aggressive, antigravity racing in the palm of their hand via the PlayStation Vita. One of the most exciting launch titles releasing concurrently with the PS Vita, Wipeout 2048 retains the frenetically-paced, futuristic racing action and vehicular combat that has thrilled and challenged fans of the series, while also upping the ante by harnesses the PS Vita's enhanced controls. These include motion active tilt, touch interface and even voice-activated commands. Filled with fast-paced, futuristic racing action and wireless connectivity, Wipeout 2048 is a never-ending battle to stay atop the online leaderboards.
+
+Wipeout 2048 is designed for multiplayer fun. The game features widened tracks which encourage side-to-side contact between racers, as well as maneuverability. These allow for evasive maneuvers and the pickup of offensive and defensive items arranged on pads along the track. Eight player support is available throughout the game, either wirelessly against other PS Vita players utilizing the handheld's 3G and/or Wi-Fi connections (depending on the PS Vita version), or against PS3 players of Wipeout HD on PlayStation Network.</Notes>
+    <Platform>Sony Playstation Vita</Platform>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Rating>E10+ - Everyone 10+</Rating>
+    <ReleaseDate>2012-01-19</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.035714</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>14</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>3924</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Wipeout_2048</WikipediaURL>
+    <Title>WipEout 2048</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>PCSA00015</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region />
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Racing</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>8</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=eKVqZsuBMvY</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSA00014.txt</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-28T15:06:04.9363993-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:50.7610456-04:00</DateModified>
+    <Developer>Zipper Interactive</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>5500fd0d-f4eb-4e19-a3c3-91f52692301f</Emulator>
+    <Favorite>false</Favorite>
+    <ID>db9ce993-9172-488e-a557-c9373186e81a</ID>
+    <LastPlayedDate>2024-06-28T15:11:01.3527522-04:00</LastPlayedDate>
+    <ManualPath />
+    <MusicPath />
+    <Notes>PORTABLE WARFARE.
+
+Jump into the action with Unit 13 for PlayStation Vita System and conquer 45 tactical missions as you help take down global terror networks and prove your place in the military elite. With the precision of the Vita's dual analog sticks, unique touch interface, Wifi connectivity for fast action and 2-player co-op, and 3G compatibility for instant social updates and daily challenges, Unit 13 is the perfect on-the-go action shooter.</Notes>
+    <Platform>Sony Playstation Vita</Platform>
+    <Publisher>Sony Computer Entertainment America</Publisher>
+    <Rating>T - Teen</Rating>
+    <ReleaseDate>2012-03-06</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.3</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>5</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>12558</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Unit_13</WikipediaURL>
+    <Title>Unit 13</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>PCSA00014</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region />
+    <PlayCount>3</PlayCount>
+    <PlayTime>97</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Shooter</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>true</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>http://www.youtube.com/watch?v=v3eBaMxRyuY</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSA00029.txt</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-28T15:22:12.1617455-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:53.2197318-04:00</DateModified>
+    <Developer>SCE Bend Studio</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>5500fd0d-f4eb-4e19-a3c3-91f52692301f</Emulator>
+    <Favorite>false</Favorite>
+    <ID>fa0c5201-345a-43fe-b7c7-de9202030d28</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>The story is set some time before the events of Uncharted: Drake's Fortune, and begins in medias res with Nathan Drake following rival explorer Jason Dante through a temple complex in Panama. Dante has ordered his army of mercenaries to kill Drake on sight, and after a series of gunfights, Drake is apparently killed in an RPG explosion.
+The game then flashes back two weeks, when Drake and Dante, revealed to be old friends, arrive at a dig site in Panama headed by Dante's "partner" Marisa Chase, who doesn't trust him. At the site, they find corpses of Spanish conquistadors that were apparently poisoned and a grave marker with a Visigoth symbol. Chase also shows Drake an amulet that she hid from Dante. The dig is then interrupted by Dante's real partner, warlord Roberto Guerro. Guerro captures Drake and Chase, however they escape Guerro's base after Chase starts a diversionary fire.</Notes>
+    <Platform>Sony Playstation Vita</Platform>
+    <Publisher>Sony Computer Entertainment America</Publisher>
+    <Rating>T - Teen</Rating>
+    <ReleaseDate>2011-12-17</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.85</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>20</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>9241</DatabaseID>
+    <WikipediaURL>https://wikipedia.org/wiki/Uncharted:_Golden_Abyss</WikipediaURL>
+    <Title>Uncharted: Golden Abyss</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>PCSA00029</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region />
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Platform; Shooter</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>http://www.youtube.com/watch?v=YHDezyb6vhk</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00052.txt</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-28T15:22:12.1616468-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:53.533577-04:00</DateModified>
+    <Developer>Ubisoft Montpellier</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>5500fd0d-f4eb-4e19-a3c3-91f52692301f</Emulator>
+    <Favorite>false</Favorite>
+    <ID>e97f4af1-bae0-42d8-a76a-d4c9d6ff3017</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Rayman Origins is a comic adventure set in a lush 2D world brimming with unexpected secrets and outlandish enemies. The Glade of Dreams is overrun by the "nefurrious" Darktoons. The Fairy Council seeks Rayman's help to save the day. Rayman receives the aid of his best friend Globox as well as two crafty wizards, the Teensies. Together the world's most hilarious team of heroes sets out to restore peace to the Glade before their beloved home is destroyed. Rayman Origins supports four-player jump-in-and-jump-out co-op gameplay. The game offers a massive universe to explore, with more than 100 characters, 12 unique worlds, and more than 60 levels of platforming gameplay designed for all ages and play styles. Unlock new abilities and moves as you progress through the game. All members of your team will discover new unique abilities, including swimming, diving, slapping, and the sensational "HarilyCopter."</Notes>
+    <Platform>Sony Playstation Vita</Platform>
+    <Publisher>Ubisoft</Publisher>
+    <Rating>E10+ - Everyone 10+</Rating>
+    <ReleaseDate>2012-02-14</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.3</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>5</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>9240</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Rayman_Origins</WikipediaURL>
+    <Title>Rayman Origins</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>PCSE00052</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region />
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Platform</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>true</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>http://www.youtube.com/watch?v=prH4oXsTKtA</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00288.txt</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-28T15:22:12.1614492-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:55.731169-04:00</DateModified>
+    <Developer>Mossmouth; Curve Studios</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>5500fd0d-f4eb-4e19-a3c3-91f52692301f</Emulator>
+    <Favorite>false</Favorite>
+    <ID>2177baaa-18ee-478b-a9b0-a96eb2640d6c</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Spelunky is a cave exploration / treasure-hunting game inspired by classic platform games and roguelikes, where the goal is to grab as much treasure from the cave as possible. Every time you play the cave's layout will be different. Use your wits, your reflexes, and the items available to you to survive and go ever deeper! Perhaps at the end you may find what you're looking for...</Notes>
+    <Platform>Sony Playstation Vita</Platform>
+    <Publisher>Twisted Tree; Mossmouth</Publisher>
+    <Rating>T - Teen</Rating>
+    <ReleaseDate>2013-08-27</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>7</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>23798</DatabaseID>
+    <WikipediaURL />
+    <Title>Spelunky</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>PCSE00288</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region />
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Adventure; Platform</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>true</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>4</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSA00086.txt</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-28T15:22:12.161675-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:57.7133091-04:00</DateModified>
+    <Developer>Tin Giant</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>5500fd0d-f4eb-4e19-a3c3-91f52692301f</Emulator>
+    <Favorite>false</Favorite>
+    <ID>37d83e05-02a3-40db-b55f-171fd036641f</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>In this installment of the popular intergalactic franchise, Ratchet &amp; Clank, along with the galaxy's own Captain Qwark, must stop a sneaky villain from Qwark's past. This game is unique in the series, in that it incorporates elements of 'tower defense', which the player must continually defend the QForce base from invading enemies. Various weapons such as missile turrets and plasma mines can be used to slow down the invaders, along with barriers that force the enemy to destroy it before proceeding. Along these lines, the player must complete the objectives on each level while keeping their base up &amp; running.</Notes>
+    <Platform>Sony Playstation Vita</Platform>
+    <Publisher>Sony Computer Entertainment Europe</Publisher>
+    <Rating>E10+ - Everyone 10+</Rating>
+    <ReleaseDate>2013-05-21</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.25</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>2</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>125594</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Ratchet_%26_Clank:_Full_Frontal_Assault</WikipediaURL>
+    <Title>Ratchet &amp; Clank: Full Frontal Assault</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>PCSA00086</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region />
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action; Adventure</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>true</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>4</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=ZY1aeurQ2z4</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00402.txt</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-28T15:22:12.1611394-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:57.9935386-04:00</DateModified>
+    <Developer>Dennaton Games</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>5500fd0d-f4eb-4e19-a3c3-91f52692301f</Emulator>
+    <Favorite>false</Favorite>
+    <ID>05e72204-3fe6-43e6-b17c-a5d4513ddb11</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Hotline Miami 2: Wrong Number is the sequel to Hotline Miami with very similar gameplay and also the final game in the series. The story is tied directly to the first game and is set between 1985 and 1991, but with an anachronistic order. While the first game offered only two playable characters with each one tied to specific parts of the game, the sequel offers a larger playable cast. Each level offers a single character or a small selection to choose from and each character offers a distinct perspective of the events. The character selection is similar to the use of masks in the first game. Each character has a specific set of abilities and perks, such as a faster speed, the ability to dodge roll, dual weapons, melee weapons only, Alex and Ash Davis as twins who use a chainsaw and guns and one is invincible as long as the other is alive, faster aiming, a silenced pistol, executions with firearms etc. Some characters allow the player to choose from different skillsets or weapons.
+
+Just like the original game the gameplay is fast and a single attack is often lethal, meaning levels are meant to be replayed multiple times until all enemy patterns are figured out. Levels have specific objectives and in most of them all enemies need to be killed. Short scenes between the missions further the story. Enemies downed with melee attacks need to be executed to prevent them from coming back, players have to take into account a line of sight through windows, also to avoid snipers, various weapons can be picked up and thrown etc. It is still possible to slightly view ahead to anticipate. Unlike the original game there are now two difficulty levels. 'Hard' is unlocked after completing the campaign on 'normal'. Enemies become harder to defeat and certain abilities, such as enemy locking, are removed. The game includes a level editor made available some time after the release. It can be used not only to create levels, but also cutscenes with dialog.</Notes>
+    <Platform>Sony Playstation Vita</Platform>
+    <Publisher>Devolver Digital</Publisher>
+    <Rating>M - Mature</Rating>
+    <ReleaseDate>2015-03-10</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.6666667</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>3</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>184429</DatabaseID>
+    <WikipediaURL />
+    <Title>Hotline Miami 2: Wrong Number</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>PCSE00402</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region />
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>true</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>0</MaxPlayers>
+    <VideoUrl>https://youtu.be/g7ZaK3nf2_E</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00316.txt</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-28T15:22:12.1611439-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:58.6256793-04:00</DateModified>
+    <Developer>Irem; Telltale Games</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>5500fd0d-f4eb-4e19-a3c3-91f52692301f</Emulator>
+    <Favorite>false</Favorite>
+    <ID>617ec0dc-28a5-4602-9a7c-06409a670c96</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>The sequel to 2012's Game of the Year continues several months after the events seen in Season One of The Walking Dead, and Clementine is searching for safety. But what can an ordinary child do to stay alive when the living can be just as bad – and sometimes worse – than the dead?
+
+As Clementine, you will encounter tragedy, struggle with survival and discover the harsh reality of things to come in a game series where every decision matters.</Notes>
+    <Platform>Sony Playstation Vita</Platform>
+    <Publisher>Irem; Telltale Games</Publisher>
+    <Rating>M - Mature</Rating>
+    <ReleaseDate>2014-11-04</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.5</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>2</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>23995</DatabaseID>
+    <WikipediaURL />
+    <Title>The Walking Dead: Season Two</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>PCSE00316</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region />
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action; Adventure</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>true</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>http://www.youtube.com/watch?v=a9tPZwR1ADw</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00283.txt</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-28T15:22:12.161103-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:58.9606948-04:00</DateModified>
+    <Developer>Square Enix</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>5500fd0d-f4eb-4e19-a3c3-91f52692301f</Emulator>
+    <Favorite>false</Favorite>
+    <ID>58113956-a541-4cf9-8af4-30a12ffa7a22</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Final Fantasy X | X-2 HD Remaster, is a high-definition remaster of the role-playing video games Final Fantasy X and Final Fantasy X-2, originally developed and published by Square (now Square Enix) on the PlayStation 2 in 2001 and 2003 respectively. It also features story content previously only found in the International versions, and a new audio drama set a year after the events of X-2. The Chinese studio Virtuos handled large parts of its development, while Square Enix assisted the process and published the collection. It was released for PlayStation 3 and PlayStation Vita in Japan in December 2013 and in North America and Europe in March 2014.
+
+The collection saw graphical and musical revisions and is based on the international versions of both games, making certain special features missing in the original releases accessible to non-Japanese players for the first time. The collection sold favorably in Japan, and has received positive reviews in western territories. Many praised the graphical upgrade and the chance to play through the games on the new platforms. The collection did receive criticism for a few minor upgrade faults, a lower quality in X-2 and some of the collection's added content.</Notes>
+    <Platform>Sony Playstation Vita</Platform>
+    <Publisher>Square Enix</Publisher>
+    <Rating>T - Teen</Rating>
+    <ReleaseDate>2013-12-26</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>true</ScummVMAspectCorrection>
+    <ScummVMFullscreen>true</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.1666665</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>6</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>20118</DatabaseID>
+    <WikipediaURL />
+    <Title>Final Fantasy X/X-2: HD Remaster</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>PCSE00283</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region />
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Role-Playing</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>true</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSA00126.txt</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-28T15:22:12.1616924-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:59.2902428-04:00</DateModified>
+    <Developer>SCE Studio Santa Monica</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>5500fd0d-f4eb-4e19-a3c3-91f52692301f</Emulator>
+    <Favorite>false</Favorite>
+    <ID>c7a76c2d-72ef-4793-bb7e-38c2ec70744a</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>God of War Collection brings the nonstop action of God of War and God of War II to the PlayStation Vita system for the first time ever. In God of War Collection, experience the brutal world of ancient Greece as the legendary Spartan Kratos seeks revenge on Ares, the God of War, and tries to accomplish what no mortal has ever done: alter the course of Fate itself.</Notes>
+    <Platform>Sony Playstation Vita</Platform>
+    <Publisher>Sony Computer Entertainment America</Publisher>
+    <Rating>M - Mature</Rating>
+    <ReleaseDate>2014-05-05</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.4166665</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>18</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>20620</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/God_of_War_video_game_collections</WikipediaURL>
+    <Title>God of War Collection</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>PCSA00126</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region />
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>true</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00480.txt</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-28T15:22:12.1617065-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:04.1309612-04:00</DateModified>
+    <Developer>Ubisoft Montreal</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>5500fd0d-f4eb-4e19-a3c3-91f52692301f</Emulator>
+    <Favorite>false</Favorite>
+    <ID>a7efb513-9e19-44ed-8bb0-483f8104a28a</ID>
+    <LastPlayedDate>2024-06-30T15:53:25.0618754-04:00</LastPlayedDate>
+    <ManualPath />
+    <MusicPath />
+    <Notes>The kingdom of Lemuria is in despair The Black Queen has stolen the Sun, the Moon and the Stars. You play as Aurora, a young princess with a pure heart whose soul is brought to the kingdom of Lemuria. Embark on a quest to recapture the three sources of light, defeat the Black Queen and restore the kingdom of Lemuria.</Notes>
+    <Platform>Sony Playstation Vita</Platform>
+    <Publisher>Ubisoft</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>2014-07-02</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.7</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>5</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>21183</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Child_of_Light</WikipediaURL>
+    <Title>Child of Light</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>PCSE00480</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region />
+    <PlayCount>1</PlayCount>
+    <PlayTime>26</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Adventure; Role-Playing</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>true</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>http://www.youtube.com/watch?v=W0vH-9htkpI</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00249.txt</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-28T15:22:12.1615619-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:04.2803935-04:00</DateModified>
+    <Developer>Abstraction Games</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>5500fd0d-f4eb-4e19-a3c3-91f52692301f</Emulator>
+    <Favorite>false</Favorite>
+    <ID>124e7b5f-1984-420a-bd27-dc33c4c3ba87</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Hotline Miami is a high-octane action game overflowing with raw brutality, hard-boiled gunplay and skull crushing close combat. Set in an alternative 1989 Miami, you will assume the role of a mysterious antihero on a murderous rampage against the shady underworld at the behest of voices on your answering machine. Soon you'll find yourself struggling to get a grip of what is going on and why you are prone to these acts of violence.
+
+Rely on your wits to choreograph your way through seemingly impossible situations as you constantly find yourself outnumbered by vicious enemies. The action is unrelenting and every shot is deadly so each move must be quick and decisive if you hope to survive and unveil the sinister forces driving the bloodshed. Hotline Miami’s unmistakable visual style, a driving soundtrack, and a surreal chain of events will have you question your own thirst for blood while pushing you to the limits with a brutally unforgiving challenge.</Notes>
+    <Platform>Sony Playstation Vita</Platform>
+    <Publisher>Devolver Digital</Publisher>
+    <Rating>M - Mature</Rating>
+    <ReleaseDate>2013-06-25</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.357143</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>7</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>18228</DatabaseID>
+    <WikipediaURL />
+    <Title>Hotline Miami</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>PCSE00249</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region />
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType />
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>http://www.youtube.com/watch?v=6ioo6WUSW24</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00479.txt</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-28T15:22:12.1610607-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:04.8765077-04:00</DateModified>
+    <Developer>Roll7</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>5500fd0d-f4eb-4e19-a3c3-91f52692301f</Emulator>
+    <Favorite>false</Favorite>
+    <ID>149f2aa9-782d-4c9e-b5a7-c1802c764633</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Drop in to Olliwood and prepare for finger-flippin’ mayhem in this follow up to cult skateboarding smash OlliOlli. The iconic skater is going all green-screen with a stunning new look, plucking you from the street and dropping you squarely in the middle of the big screen’s most bodacious cinematic locations.
+
+Revamped Paths and Combos: The sequel boasts all new ramps and epic hills allowing for monster air and multi-route levels. Further, OlliOlli2’s combo system has been expanded with the joy of manuals, reverts, revert manuals and grind switching giving you more control and expression than ever before. 
+
+Expanded Bag of Tricks: The hallowed ‘Tricktionary’ also expands with new specials including 540 Shove-its, Anti-Casper Flips and Darkslides. 
+
+New Worlds and Levels: Five new worlds, 50 new Amateur and Pro Levels and 250 new Challenges to tear through, along with the return of the much loved Daily Grind, Spots Mode and RAD Mode. 
+
+Local Multiplayer Mode: OlliOlli2 introduces a gnarly new local multiplayer mode – Combo Rush, a split-screen four-player party mode with four unique game modes. 
+
+Legendary Soundtrack: Once again, the crate diggers at Roll7 have scoured the airwaves for a shimmering extended soundtrack, including, Cid Rim, Lone, Faulty DL, Submerse and Mike Slott.</Notes>
+    <Platform>Sony Playstation Vita</Platform>
+    <Publisher>Devolver Digital</Publisher>
+    <Rating />
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.1666667</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>3</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>30319</DatabaseID>
+    <WikipediaURL />
+    <Title>OlliOlli2: Welcome to Olliwood</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>PCSE00479</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region />
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Platform</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>true</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType />
+    <MaxPlayers>0</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00023.txt</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-28T15:22:12.1615869-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:05.2677638-04:00</DateModified>
+    <Developer>NetherRealm Studios</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>5500fd0d-f4eb-4e19-a3c3-91f52692301f</Emulator>
+    <Favorite>false</Favorite>
+    <ID>e75dde78-e0dc-4b0c-a584-2e1165b6ec51</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>The newest chapter of the iconic Mortal Kombat Fighting game franchise marks a triumphant return to the series' mature presentation, as well as its first appearance on the PlayStation Vita handheld operating system. More than just a handheld port of the 2011 console release of the game, Mortal Kombat for PS Vita provides players with a high-end gameplay experience, as well as features and content that only Sony's new handheld can supply. The game contains the story mode from the console release of the game, and all of the DLC characters and costumes that have been made available. In addition to this, the game harnesses the PS Vita's touchscreen capabilities, and built-in accelerometer to provide exclusive modes, including: the all-new Challenge Tower mode, and Test Your Slice and Test Your Might modes. Key Game Features The same quality Mortal Kombat gaming experience found in the 2011 console version of the game, now made portable through PS Vita New features and content exclusively for the PS Vita System All-new Challenge Tower mode with 150 brand new missions Touchscreen fatalities, X-rays, and more Warriors, environments and fatalities are as brutal as ever Fluid gameplay at 60 frames per second An extensive lineup of iconic warriors Challenge friends in ad hoc or Wi-Fi matches</Notes>
+    <Platform>Sony Playstation Vita</Platform>
+    <Publisher>Warner Bros. Interactive Entertainment</Publisher>
+    <Rating>M - Mature</Rating>
+    <ReleaseDate>2012-05-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.2352943</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>17</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>10784</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Mortal_Kombat_(2011_video_game)</WikipediaURL>
+    <Title>Mortal Kombat</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>PCSE00023</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region />
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=Eox402eEe5Y</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00277.txt</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-28T15:22:12.1616687-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:05.501503-04:00</DateModified>
+    <Developer>Ubisoft Montpellier</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>5500fd0d-f4eb-4e19-a3c3-91f52692301f</Emulator>
+    <Favorite>false</Favorite>
+    <ID>b71c2edb-df98-4ab8-87d2-1b27b72ad235</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Rayman, Globox and the Teensies are back to embark on a new fantasy adventure through a series of legendary worlds with new environments, characters and enemies. Rayman Legends features a variety of uniquely-themed levels including several musical maps intricately set to creative soundtracks and a spooky medieval theme. Players can also connect online with friends through a variety of challenges to test their skill and speed, and see where they rank on the worldwide leaderboards. Rayman Legends retains the fantasy appeal of its predecessor while adding a multitude of clever and entertaining gaming modes, new characters, new environments and a new soundtrack. The award-winning team of artists, designers and composers behind the UbiArt framework has also returned with an advanced engine to include multi-dimensional gameplay elements, an improved lighting system and updated game rendering that elevate Rayman Legends to the next level.</Notes>
+    <Platform>Sony Playstation Vita</Platform>
+    <Publisher>Ubisoft</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>2013-09-03</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>8</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>17274</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Rayman_Legends</WikipediaURL>
+    <Title>Rayman Legends</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>PCSE00277</Version>
+    <Series />
+    <PlayMode>Cooperative; Multiplayer</PlayMode>
+    <Region />
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Platform</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>true</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>http://www.youtube.com/watch?v=yMIKs1PKrEM</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSA00133.txt</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-28T15:22:12.1616677-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:06.9927124-04:00</DateModified>
+    <Developer>Mass Media</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>5500fd0d-f4eb-4e19-a3c3-91f52692301f</Emulator>
+    <Favorite>false</Favorite>
+    <ID>89259442-b932-456b-ac8f-b8dee4b25874</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Ratchet &amp; Clank Collection (known as The Ratchet &amp; Clank Trilogy in Europe and Ratchet &amp; Clank 1+2+3 in Japan) is a high-definition remastered collection. The collection includes the original three PlayStation 2 games, Ratchet &amp; Clank, Ratchet &amp; Clank: Going Commando, and Ratchet &amp; Clank: Up Your Arsenal in native 720p @ 60fps and includes 720p stereoscopic 3D support @ 30fps. It also includes the multiplayer of Ratchet &amp; Clank: Up Your Arsenal over the PlayStation Network. It includes a Trophy set for each game. All of the games in this collection have been re-rated E10+ by the ESRB; they were originally rated T since the E10+ rating didn't exist at the time these games were released on the PlayStation 2.
+
+Originally leaked by Amazon France on March 2, 2012, it was announced by Insomniac Games and Sony Computer Entertainment on March 15, 2012. It was developed by Insomniac Games in conjunction with Idol Minds. In North America, the game, along with the God of War Saga and the inFamous Collection, are the first in Sony's new line of PlayStation Collections released on August 28, 2012.[3][4]
+
+A PlayStation Vita port of the Collection was officially announced on May 29, 2014, and released on July 2 in Europe. The Vita version is ported by Insomniac Games in conjunction with Mass Media Inc.. It was released in North America on July 29, 2014.
+
+The original release of the Ratchet &amp; Clank Collection received mostly positive reviews. The majority of praise for the PS3 version came from the fun, original gameplay, and the upscaled graphics. It did draw some criticism for its apparent lack of innovation. The Vita version received mixed reviews. While the port's smooth framerate was complimented, the technical issues were heavily criticized.</Notes>
+    <Platform>Sony Playstation Vita</Platform>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Rating>E10+ - Everyone 10+</Rating>
+    <ReleaseDate>2014-07-02</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>2.8125</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>8</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>21498</DatabaseID>
+    <WikipediaURL />
+    <Title>The Ratchet &amp; Clank Trilogy HD</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>PCSA00133</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action; Adventure</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>true</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>0</MaxPlayers>
+    <VideoUrl>http://www.youtube.com/watch?v=nWdjhfSbLZQ</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>..\..\..\Users\ideal\AppData\Roaming\Vita3K\Vita3K\ux0\app\PCSE00283</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-07-03T13:14:57.5297158-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:08.7847326-04:00</DateModified>
+    <Developer />
+    <DosBoxConfigurationPath />
+    <Emulator>5500fd0d-f4eb-4e19-a3c3-91f52692301f</Emulator>
+    <Favorite>false</Favorite>
+    <ID>363a1898-a4bd-44c7-85b0-1c29b0611f2f</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes />
+    <Platform>Sony Playstation Vita</Platform>
+    <Publisher />
+    <Rating />
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>0</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>0</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <WikipediaURL />
+    <Title>FINAL FANTASY X-2 HD Remaster</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>PCSE00283</Version>
+    <Series />
+    <PlayMode />
+    <Region />
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre />
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>true</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>true</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType />
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00120.txt</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-28T15:22:12.1617451-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:10.6284269-04:00</DateModified>
+    <Developer>Atlus</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>5500fd0d-f4eb-4e19-a3c3-91f52692301f</Emulator>
+    <Favorite>false</Favorite>
+    <ID>cc980b41-4883-4404-8d38-2d5bd568887e</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Loaded with enhancements and overflowing with new content, Persona 4 Golden is far more than just a handheld version of an all-time classic RPG: it’s the best way to experience it yet!
+
+In a quiet town in rural Japan, a normal teenager begins a year-long stay with the unsettling news that there’s been a murder…and soon after, another. Meanwhile, a rumor is going around school that by looking at a TV screen at midnight on a rainy night, the face of your soul mate will be revealed. But is that all? As connections between the murders and the rumors begin to take shape, you and your team of Persona users must enter the mysterious TV world and solve the mystery before more people die.</Notes>
+    <Platform>Sony Playstation Vita</Platform>
+    <Publisher>Atlus</Publisher>
+    <Rating>M - Mature</Rating>
+    <ReleaseDate>2012-11-20</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.7</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>26</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>12554</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Shin_Megami_Tensei:_Persona_4#Persona_4_Golden_2</WikipediaURL>
+    <Title>Persona 4 Golden</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>PCSE00120</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region />
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Adventure; Role-Playing</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>true</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=lnwXbSYcywg</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>58a1c30d-5fbb-4f52-9e30-f77b7971bebe</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>f603b3a3-97d0-40fc-af7e-fa832d6ba433</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00640.txt</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00640 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2015-04-21</ReleaseDate>
+    <Developer>Yacht Club Games</Developer>
+    <Publisher>Yacht Club Games</Publisher>
+    <Region />
+    <Version>PCSE00640</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>c63c96e7-9030-4aa6-9bd6-c03978f42098</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>f603b3a3-97d0-40fc-af7e-fa832d6ba433</GameID>
+    <ApplicationPath>..\..\..\Users\ideal\AppData\Roaming\Vita3K\Vita3K\ux0\app\PCSE00640</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00640 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2015-04-21</ReleaseDate>
+    <Developer>Yacht Club Games</Developer>
+    <Publisher>Yacht Club Games</Publisher>
+    <Region />
+    <Version>PCSE00640</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>2</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>6a2d006c-3bd8-4f42-b2bd-d9d6b4ee7bce</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>55e8fc01-c6db-425c-9bf7-9dbf42463b73</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSA00107.txt</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSA00107 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2013-09-04</ReleaseDate>
+    <Developer>Guerrilla Cambridge</Developer>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Region />
+    <Version>PCSA00107</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>ee0828ec-fd0b-4965-a9b5-c10cd74ebabc</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>55e8fc01-c6db-425c-9bf7-9dbf42463b73</GameID>
+    <ApplicationPath>..\..\..\Users\ideal\AppData\Roaming\Vita3K\Vita3K\ux0\app\PCSA00107</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSA00107 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2013-09-04</ReleaseDate>
+    <Developer>Guerrilla Cambridge</Developer>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Region />
+    <Version>PCSA00107</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>2</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>37ae7364-eddc-4cba-9110-f9a02f3cd056</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>aa10fd09-cb55-43e6-ad68-92ec1e66dbf5</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSA00015.txt</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSA00015 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2012-01-19</ReleaseDate>
+    <Developer>SCE Studio Liverpool</Developer>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Region />
+    <Version>PCSA00015</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>ede947fd-b1cc-4c61-be47-7e52513687f8</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>aa10fd09-cb55-43e6-ad68-92ec1e66dbf5</GameID>
+    <ApplicationPath>..\..\..\Users\ideal\AppData\Roaming\Vita3K\Vita3K\ux0\app\PCSA00015</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSA00015 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2012-01-19</ReleaseDate>
+    <Developer>SCE Studio Liverpool</Developer>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Region />
+    <Version>PCSA00015</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>2</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>9838cf9b-2b33-428f-86d7-bb45a72a524d</Id>
+    <PlayCount>3</PlayCount>
+    <PlayTime>97</PlayTime>
+    <GameID>db9ce993-9172-488e-a557-c9373186e81a</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSA00014.txt</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSA00014 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2012-03-06</ReleaseDate>
+    <Developer>Zipper Interactive</Developer>
+    <Publisher>Sony Computer Entertainment America</Publisher>
+    <Region />
+    <Version>PCSA00014</Version>
+    <Status>Imported ROM</Status>
+    <LastPlayed>2024-06-28T15:11:01.3527522-04:00</LastPlayed>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>37956eb7-f836-4cda-93ee-05f182fa4af3</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>db9ce993-9172-488e-a557-c9373186e81a</GameID>
+    <ApplicationPath>..\..\..\Users\ideal\AppData\Roaming\Vita3K\Vita3K\ux0\app\PCSA00014</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSA00014 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2012-03-06</ReleaseDate>
+    <Developer>Zipper Interactive</Developer>
+    <Publisher>Sony Computer Entertainment America</Publisher>
+    <Region />
+    <Version>PCSA00014</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>2</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>c208be9c-7da8-4a28-9c12-c87651ad191c</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>fa0c5201-345a-43fe-b7c7-de9202030d28</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSA00029.txt</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSA00029 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2011-12-17</ReleaseDate>
+    <Developer>SCE Bend Studio</Developer>
+    <Publisher>Sony Computer Entertainment America</Publisher>
+    <Region />
+    <Version>PCSA00029</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>f7efb42e-61c4-4c0a-bbc5-9691945f84d3</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>fa0c5201-345a-43fe-b7c7-de9202030d28</GameID>
+    <ApplicationPath>..\..\..\Users\ideal\AppData\Roaming\Vita3K\Vita3K\ux0\app\PCSA00029</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSA00029 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2011-12-17</ReleaseDate>
+    <Developer>SCE Bend Studio</Developer>
+    <Publisher>Sony Computer Entertainment America</Publisher>
+    <Region />
+    <Version>PCSA00029</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>2</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>eaa82fcd-b2c6-4ca8-9451-633de79ab2c5</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>e97f4af1-bae0-42d8-a76a-d4c9d6ff3017</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00052.txt</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00052 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2012-02-14</ReleaseDate>
+    <Developer>Ubisoft Montpellier</Developer>
+    <Publisher>Ubisoft</Publisher>
+    <Region />
+    <Version>PCSE00052</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>5cd09eb9-e9a6-4780-8944-7a7a6865eeb8</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>e97f4af1-bae0-42d8-a76a-d4c9d6ff3017</GameID>
+    <ApplicationPath>..\..\..\Users\ideal\AppData\Roaming\Vita3K\Vita3K\ux0\app\PCSE00052</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00052 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2012-02-14</ReleaseDate>
+    <Developer>Ubisoft Montpellier</Developer>
+    <Publisher>Ubisoft</Publisher>
+    <Region />
+    <Version>PCSE00052</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>2</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>54b028c7-995c-4403-8c86-fee602b55096</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>2177baaa-18ee-478b-a9b0-a96eb2640d6c</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00288.txt</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00288 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2013-08-27</ReleaseDate>
+    <Developer>Mossmouth; Curve Studios</Developer>
+    <Publisher>Twisted Tree; Mossmouth</Publisher>
+    <Region />
+    <Version>PCSE00288</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>072e385d-96a7-4e13-915b-97cecc121b28</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>2177baaa-18ee-478b-a9b0-a96eb2640d6c</GameID>
+    <ApplicationPath>..\..\..\Users\ideal\AppData\Roaming\Vita3K\Vita3K\ux0\app\PCSE00288</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00288 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2013-08-27</ReleaseDate>
+    <Developer>Mossmouth; Curve Studios</Developer>
+    <Publisher>Twisted Tree; Mossmouth</Publisher>
+    <Region />
+    <Version>PCSE00288</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>2</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>d281aab2-6f0c-44de-8d21-a78d2915ff4c</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>37d83e05-02a3-40db-b55f-171fd036641f</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSA00086.txt</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSA00086 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2013-05-21</ReleaseDate>
+    <Developer>Tin Giant</Developer>
+    <Publisher>Sony Computer Entertainment Europe</Publisher>
+    <Region />
+    <Version>PCSA00086</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>a69566ff-bdf2-4d95-8150-7c609f524806</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>37d83e05-02a3-40db-b55f-171fd036641f</GameID>
+    <ApplicationPath>..\..\..\Users\ideal\AppData\Roaming\Vita3K\Vita3K\ux0\app\PCSA00086</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSA00086 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2013-05-21</ReleaseDate>
+    <Developer>Tin Giant</Developer>
+    <Publisher>Sony Computer Entertainment Europe</Publisher>
+    <Region />
+    <Version>PCSA00086</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>2</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>41b37fa2-d55a-4422-9de7-32140dfaa3b4</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>05e72204-3fe6-43e6-b17c-a5d4513ddb11</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00402.txt</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00402 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2015-03-10</ReleaseDate>
+    <Developer>Dennaton Games</Developer>
+    <Publisher>Devolver Digital</Publisher>
+    <Region />
+    <Version>PCSE00402</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>61ea924e-9515-4612-9568-12e8b27d7ecb</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>05e72204-3fe6-43e6-b17c-a5d4513ddb11</GameID>
+    <ApplicationPath>..\..\..\Users\ideal\AppData\Roaming\Vita3K\Vita3K\ux0\app\PCSE00402</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00402 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2015-03-10</ReleaseDate>
+    <Developer>Dennaton Games</Developer>
+    <Publisher>Devolver Digital</Publisher>
+    <Region />
+    <Version>PCSE00402</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>2</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>3a669253-1c12-410a-b6d2-a3991911790f</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>617ec0dc-28a5-4602-9a7c-06409a670c96</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00316.txt</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00316 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2014-11-04</ReleaseDate>
+    <Developer>Irem; Telltale Games</Developer>
+    <Publisher>Irem; Telltale Games</Publisher>
+    <Region />
+    <Version>PCSE00316</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>c7673ce9-62bb-4e8c-8d14-e2cc2ab411d6</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>617ec0dc-28a5-4602-9a7c-06409a670c96</GameID>
+    <ApplicationPath>..\..\..\Users\ideal\AppData\Roaming\Vita3K\Vita3K\ux0\app\PCSE00316</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00316 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2014-11-04</ReleaseDate>
+    <Developer>Irem; Telltale Games</Developer>
+    <Publisher>Irem; Telltale Games</Publisher>
+    <Region />
+    <Version>PCSE00316</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>2</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>41af7903-6e47-49fa-a10e-ad3e8e8c37eb</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>c7a76c2d-72ef-4793-bb7e-38c2ec70744a</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSA00126.txt</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSA00126 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2014-05-05</ReleaseDate>
+    <Developer>SCE Studio Santa Monica</Developer>
+    <Publisher>Sony Computer Entertainment America</Publisher>
+    <Region />
+    <Version>PCSA00126</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>f7837e81-6156-44c0-8742-7a9f1fc347cb</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>c7a76c2d-72ef-4793-bb7e-38c2ec70744a</GameID>
+    <ApplicationPath>..\..\..\Users\ideal\AppData\Roaming\Vita3K\Vita3K\ux0\app\PCSA00126</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSA00126 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2014-05-05</ReleaseDate>
+    <Developer>SCE Studio Santa Monica</Developer>
+    <Publisher>Sony Computer Entertainment America</Publisher>
+    <Region />
+    <Version>PCSA00126</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>2</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>14ed9be8-d04b-4ced-b955-63521ae24640</Id>
+    <PlayCount>1</PlayCount>
+    <PlayTime>26</PlayTime>
+    <GameID>a7efb513-9e19-44ed-8bb0-483f8104a28a</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00480.txt</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00480 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2014-07-02</ReleaseDate>
+    <Developer>Ubisoft Montreal</Developer>
+    <Publisher>Ubisoft</Publisher>
+    <Region />
+    <Version>PCSE00480</Version>
+    <Status>Imported ROM</Status>
+    <LastPlayed>2024-06-30T15:53:25.0618754-04:00</LastPlayed>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>0494ea4e-f0bf-4b16-9459-73cd0b2368fd</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>a7efb513-9e19-44ed-8bb0-483f8104a28a</GameID>
+    <ApplicationPath>..\..\..\Users\ideal\AppData\Roaming\Vita3K\Vita3K\ux0\app\PCSE00480</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00480 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2014-07-02</ReleaseDate>
+    <Developer>Ubisoft Montreal</Developer>
+    <Publisher>Ubisoft</Publisher>
+    <Region />
+    <Version>PCSE00480</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>2</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>e017543e-94b7-4c81-a217-0cd957bc1747</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>124e7b5f-1984-420a-bd27-dc33c4c3ba87</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00249.txt</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00249 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2013-06-25</ReleaseDate>
+    <Developer>Abstraction Games</Developer>
+    <Publisher>Devolver Digital</Publisher>
+    <Region />
+    <Version>PCSE00249</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>92dff40b-d36c-4a48-bc00-0ead55939b81</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>124e7b5f-1984-420a-bd27-dc33c4c3ba87</GameID>
+    <ApplicationPath>..\..\..\Users\ideal\AppData\Roaming\Vita3K\Vita3K\ux0\app\PCSE00249</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00249 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2013-06-25</ReleaseDate>
+    <Developer>Abstraction Games</Developer>
+    <Publisher>Devolver Digital</Publisher>
+    <Region />
+    <Version>PCSE00249</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>2</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>fe140e67-b7e4-4dd0-b91a-47b54a98e7da</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>149f2aa9-782d-4c9e-b5a7-c1802c764633</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00479.txt</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00479 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <Developer>Roll7</Developer>
+    <Publisher>Devolver Digital</Publisher>
+    <Region />
+    <Version>PCSE00479</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>03650e20-d294-402c-8613-da25105cedff</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>149f2aa9-782d-4c9e-b5a7-c1802c764633</GameID>
+    <ApplicationPath>..\..\..\Users\ideal\AppData\Roaming\Vita3K\Vita3K\ux0\app\PCSE00479</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00479 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <Developer>Roll7</Developer>
+    <Publisher>Devolver Digital</Publisher>
+    <Region />
+    <Version>PCSE00479</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>2</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>c9c5d390-53cc-4990-a64b-6e3712f84780</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>e75dde78-e0dc-4b0c-a584-2e1165b6ec51</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00023.txt</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00023 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2012-05-01</ReleaseDate>
+    <Developer>NetherRealm Studios</Developer>
+    <Publisher>Warner Bros. Interactive Entertainment</Publisher>
+    <Region />
+    <Version>PCSE00023</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>8984ee72-cece-4681-9cad-65c48c2ba0c4</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>e75dde78-e0dc-4b0c-a584-2e1165b6ec51</GameID>
+    <ApplicationPath>..\..\..\Users\ideal\AppData\Roaming\Vita3K\Vita3K\ux0\app\PCSE00023</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00023 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2012-05-01</ReleaseDate>
+    <Developer>NetherRealm Studios</Developer>
+    <Publisher>Warner Bros. Interactive Entertainment</Publisher>
+    <Region />
+    <Version>PCSE00023</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>2</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>e17ab717-893c-4ed6-87f9-fe3c40245e15</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>b71c2edb-df98-4ab8-87d2-1b27b72ad235</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00277.txt</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00277 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2013-09-03</ReleaseDate>
+    <Developer>Ubisoft Montpellier</Developer>
+    <Publisher>Ubisoft</Publisher>
+    <Region />
+    <Version>PCSE00277</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>a8587d0c-325d-4d48-9550-2b58637cb7d7</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>b71c2edb-df98-4ab8-87d2-1b27b72ad235</GameID>
+    <ApplicationPath>..\..\..\Users\ideal\AppData\Roaming\Vita3K\Vita3K\ux0\app\PCSE00277</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00277 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2013-09-03</ReleaseDate>
+    <Developer>Ubisoft Montpellier</Developer>
+    <Publisher>Ubisoft</Publisher>
+    <Region />
+    <Version>PCSE00277</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>2</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>d898e21a-ae76-47c6-8c4a-9974afc35852</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>89259442-b932-456b-ac8f-b8dee4b25874</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSA00133.txt</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSA00133 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2014-07-02</ReleaseDate>
+    <Developer>Mass Media</Developer>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Region>North America</Region>
+    <Version>PCSA00133</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>c66dd75d-7614-431a-b41b-b19c51f8732c</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>89259442-b932-456b-ac8f-b8dee4b25874</GameID>
+    <ApplicationPath>..\..\..\Users\ideal\AppData\Roaming\Vita3K\Vita3K\ux0\app\PCSA00133</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSA00133 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2014-07-02</ReleaseDate>
+    <Developer>Mass Media</Developer>
+    <Publisher>Sony Computer Entertainment</Publisher>
+    <Region>North America</Region>
+    <Version>PCSA00133</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>2</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>abfda9c3-cb86-48c3-859c-ae3b6f6ca080</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>cc980b41-4883-4404-8d38-2d5bd568887e</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\Sony PS Vita [2011]\_id imports\PCSE00120.txt</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00120 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2012-11-20</ReleaseDate>
+    <Developer>Atlus</Developer>
+    <Publisher>Atlus</Publisher>
+    <Region />
+    <Version>PCSE00120</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>b01c79fa-004b-41b5-b0f4-08829a502c02</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>cc980b41-4883-4404-8d38-2d5bd568887e</GameID>
+    <ApplicationPath>..\..\..\Users\ideal\AppData\Roaming\Vita3K\Vita3K\ux0\app\PCSE00120</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play PCSE00120 Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2012-11-20</ReleaseDate>
+    <Developer>Atlus</Developer>
+    <Publisher>Atlus</Publisher>
+    <Region />
+    <Version>PCSE00120</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>5500fd0d-f4eb-4e19-a3c3-91f52692301f</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>2</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AlternateName>
+    <GameID>fa0c5201-345a-43fe-b7c7-de9202030d28</GameID>
+    <Name>Uncharted: El Abismo de Oro</Name>
+    <Region>Europe</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>37d83e05-02a3-40db-b55f-171fd036641f</GameID>
+    <Name>Ratchet &amp; Clank: QForce</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>89259442-b932-456b-ac8f-b8dee4b25874</GameID>
+    <Name>Ratchet &amp; Clank Collection</Name>
+    <Region>North America</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>cc980b41-4883-4404-8d38-2d5bd568887e</GameID>
+    <Name>P4G: Persona 4 Golden</Name>
+    <Region />
+  </AlternateName>
+</LaunchBox>

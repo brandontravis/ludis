@@ -9,14 +9,16 @@
 #   3. Run: python3 ludis.py
 # ============================================================
 
-# Ludis version (do not modify)
-version: "1.0"
+# Ludis version (schema version for future migrations)
+version: "2.0"
 
 # ============================================================
 # PATH CONFIGURATION
 # ============================================================
 paths:
   # LaunchBox data directory (where Platform and Playlist XMLs are stored)
+  # IMPORTANT: We recommend copying LaunchBox/Data/ to ludis/Data/ and
+  #            removing unwanted platforms/playlists before running.
   # Default: "Data/" (relative to this script)
   launchbox_data: "Data/"
   
@@ -29,14 +31,20 @@ paths:
   # Example: "Z:\\media\\games\\library"
   windows_root: "Z:\\media\\games\\library"
   
-  # Local filesystem root path (where files actually exist on your system)
-  # This is where the script will look for actual game files
+  # Game library root paths (where files actually exist on your system)
+  # You can specify multiple locations if your games are stored in different places
   # 
   # Examples by OS:
   #   macOS:   "/Volumes/The_Stacks/media/games/library"
   #   Linux:   "/mnt/nas/games/library"
   #   Windows: "Z:\\media\\games\\library"
-  local_root: "/Volumes/The_Stacks/media/games/library"
+  #
+  # Multiple library example:
+  #   library_roots:
+  #     - "/Volumes/NAS/games/library"
+  #     - "/Volumes/External/Windows_Games"
+  library_roots:
+    - "/Volumes/The_Stacks/media/games/library"
 
 # ============================================================
 # PROCESSING OPTIONS
@@ -59,6 +67,40 @@ options:
   # Show progress bars for long operations
   # Default: true
   show_progress: true
+
+# ============================================================
+# PLATFORM STRUCTURE CONFIGURATION
+# ============================================================
+# Auto-populated after first scan for complex platforms
+# Defines how to scan platforms with subfolder structures (e.g., PS3, Wii U)
+#
+# Example configurations:
+platform_structure:
+  # Simple platform (mostly ROM files) - no configuration needed
+  # "Nintendo 64": auto-detected as simple
+  
+  # Complex platform with subfolders - needs configuration
+  # "Nintendo Wii U":
+  #   scan_paths:
+  #     - path: "Games"
+  #       type: "files"  # or "folders" for folder-per-game
+  #     - path: "[Loadiine]"
+  #       type: "files"
+  #   skip_paths:
+  #     - "Updates"
+  #     - "DLC"
+  
+  # Multi-level complex platform
+  # "Sony Playstation 3":
+  #   scan_paths:
+  #     - path: "Base Games/EBoot"
+  #       type: "folders"  # Each game is a folder
+  #     - path: "Base Games/PKG"
+  #       type: "folders"
+  #   skip_paths:
+  #     - "Updates"
+  #     - "DLC"
+  #     - "Demos"
 
 # ============================================================
 # EXPORT TARGETS

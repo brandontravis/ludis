@@ -2,34 +2,63 @@
 import argparse, csv, os, sys
 from pathlib import Path
 from collections import defaultdict
-from typing import Optional, List
+from typing import Optional, List, Dict
 import time
 import unicodedata
+import subprocess
 
 # Project root is parent of scripts/ directory
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CSV_PATH = PROJECT_ROOT / "LB_Exports" / "all_platforms.csv"
-WIN_ROOT = r"Z:\media\games\library"
-NAS_ROOT = Path("/Volumes/The_Stacks/media/games/library")
 OUTDIR = PROJECT_ROOT / "LB_Exports" / "audits"
 
-# Load exclusions from config
-def load_excluded_platforms():
-    """Load platform exclusions from config.yaml"""
+# These will be loaded from config.yaml
+WIN_ROOT = None
+LIBRARY_ROOTS = []
+
+# Load configuration from config.yaml
+def load_config():
+    """Load paths and exclusions from config.yaml"""
+    global WIN_ROOT, LIBRARY_ROOTS
+    
     try:
         import yaml
         config_path = PROJECT_ROOT / "config.yaml"
-        if config_path.exists():
-            with open(config_path) as f:
-                config = yaml.safe_load(f)
-                excluded = config.get('options', {}).get('exclude_platforms', [])
-                # Normalize to lowercase for case-insensitive matching
-                return [p.lower() for p in excluded]
+        if not config_path.exists():
+            print("ERROR: config.yaml not found. Please run ludis.py setup first.")
+            sys.exit(1)
+        
+        with open(config_path) as f:
+            config = yaml.safe_load(f)
+            
+            # Load paths
+            paths = config.get('paths', {})
+            WIN_ROOT = paths.get('windows_root', '')
+            LIBRARY_ROOTS = paths.get('library_roots', [])
+            
+            if not LIBRARY_ROOTS:
+                # Fall back to old local_root for backward compatibility
+                local_root = paths.get('local_root')
+                if local_root:
+                    LIBRARY_ROOTS = [local_root]
+                else:
+                    print("ERROR: No library_roots configured in config.yaml")
+                    sys.exit(1)
+            
+            # Load exclusions
+            excluded = config.get('options', {}).get('exclude_platforms', [])
+            # Normalize to lowercase for case-insensitive matching
+            excluded_platforms = [p.lower() for p in excluded]
+            
+            # Load platform structure config
+            platform_structure = config.get('platform_structure', {})
+            
+            return excluded_platforms, platform_structure
     except Exception as e:
-        print(f"Warning: Could not load exclusions from config.yaml: {e}")
-    return []
+        print(f"ERROR: Could not load config.yaml: {e}")
+        sys.exit(1)
 
-EXCLUDED_PLATFORMS = load_excluded_platforms()
+EXCLUDED_PLATFORMS, PLATFORM_STRUCTURE_CONFIG = load_config()
 if EXCLUDED_PLATFORMS:
     print(f"⚠ Excluding platforms: {', '.join(EXCLUDED_PLATFORMS)}")
 
@@ -349,7 +378,10 @@ def scan_library(nas_root: Path, limit_prefixes: Optional[List[str]] = None) -> 
                         continue
                     folder_path = Path(dirpath) / d
                     collected.append(folder_path)
-                    # Size will be calculated from accumulated files below
+                    # Get folder size using du command (fast, doesn't require walking all files)
+                    folder_size = get_folder_size(folder_path)
+                    path_sizes[str(folder_path)] = folder_size
+                    dirs_seen += 1
                 dirnames[:] = []
                 continue
             # Drop disallowed subdirs in-place to prune traversal
@@ -391,6 +423,36 @@ def scan_library(nas_root: Path, limit_prefixes: Optional[List[str]] = None) -> 
         path_sizes[folder_path] = size
     
     return collected, path_sizes
+
+def get_folder_size(folder_path: Path) -> int:
+    """
+    Get total size of a folder using the du command (much faster than walking all files).
+    
+    Args:
+        folder_path: Path to the folder
+        
+    Returns:
+        Total size in bytes, or 0 if the command fails
+    """
+    try:
+        # Use du -sk to get size in kilobytes (works on both macOS and Linux)
+        # -s: summarize (don't show subdirectories)
+        # -k: kilobytes (macOS doesn't support -b for bytes)
+        result = subprocess.run(
+            ['du', '-sk', str(folder_path)],
+            capture_output=True,
+            text=True,
+            timeout=60  # Timeout after 60 seconds for very large folders
+        )
+        if result.returncode == 0:
+            # Output format: "12345\t/path/to/folder"
+            size_kb_str = result.stdout.split('\t')[0].strip()
+            size_kb = int(size_kb_str)
+            # Convert kilobytes to bytes
+            return size_kb * 1024
+    except (subprocess.TimeoutExpired, subprocess.SubprocessError, ValueError, IndexError) as e:
+        print(f"    Warning: Failed to get size for {folder_path}: {e}")
+    return 0
 
 def rel_to_root(paths: list[Path], root: Path) -> list[str]:
     out: list[str] = []

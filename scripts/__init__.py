@@ -15,6 +15,7 @@ __all__ = [
     'migration_builder',
     'platform_mapper',
     'inventory_scanner',
+    'validation_reports',
 ]
 
 __version__ = '1.0.0'

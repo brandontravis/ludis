@@ -1,0 +1,737 @@
+<?xml version="1.0" standalone="yes"?>
+<LaunchBox>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Nintendo Pokemon Mini [2001]\Pokemon Pinball Mini (USA, Europe).7z</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:40:38.5348928-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:53.3550593-04:00</DateModified>
+    <Developer>Jupiter</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>737d596d-783f-4528-9e6b-5771280888fb</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>With Pokémon Pinball Mini, the aim is to shoot as many balls as possible into the pockets using the special ‘Pokémon Plunger’. The goal is to try and beat the high scores on the different stages and become a genuine Pokémon Pinball Champion.
+
+*Pokémon Pinball Mini has three different play modes, including Quest, Time Attack and Score Attack.
+
+*Quest Mode consists of 70 stages in total, each having a different objective for the player to complete in order to clear the stage.
+
+*Time Attack mode contains 10 stages. In this mode, a limited amount of time is available to complete the stage. The quicker the stage is completed the higher the score earned.
+
+*Score Attack mode also consists of 10 stages. In this mode you must exceed the target score before the time runs out. If there is still time remaining, players can battle on for an even higher score.
+
+An entertaining option is the “Catching Pokémon Stage”. Players have a chance to catch Pokémon here to add to their collections and use them when necessary.</Notes>
+    <Platform>Nintendo Pokemon Mini</Platform>
+    <Publisher>Nintendo</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>2001-11-16</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>2.3947368</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>19</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>121764</DatabaseID>
+    <WikipediaURL />
+    <Title>Pokemon Pinball Mini</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(USA, Europe)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>North America, Europe</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Pinball</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Nintendo Pokemon Mini [2001]\Pokemon Zany Cards (USA, Europe).7z</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:40:38.5355521-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:54.764428-04:00</DateModified>
+    <Developer>Denyusha</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>7e3f6f10-3901-4258-881f-b75bbc5e5065</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Calling all card sharks! Classic card games in an all-new kind of mini-pak. Challenge your friends with the new infrared communications port. Perfect for travel or a quick game with the gang. When you're on your own, take on Misty, Brock and Team Rocket!</Notes>
+    <Platform>Nintendo Pokemon Mini</Platform>
+    <Publisher>Nintendo</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>2001-11-16</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>2.857143</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>7</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>121770</DatabaseID>
+    <WikipediaURL />
+    <Title>Pokemon Zany Cards</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(USA, Europe)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>North America, Europe</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Strategy</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>5</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Nintendo Pokemon Mini [2001]\Pokemon Puzzle Collection (USA, Europe).7z</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:40:38.5356673-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:58.3542576-04:00</DateModified>
+    <Developer>Jupiter</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>15c9568e-978f-44d4-87fe-6ddea3ac3d9e</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Pokémon Puzzle Collection is a collection of different puzzle games such as: Shadow Puzzle, where different shapes are put together to make an image of a Pokémon; Motion Puzzle, a sliding game where an image of a Pokémon has to be unscrambled; Escape, where one has to move blocks to let a Pokémon out of a maze; and a bonus for completing most of your Minidex is the game Power On, a ‘Pipe Dream’-like game where one has to connect a Pikachu to a light bulb, creating a circuit.</Notes>
+    <Platform>Nintendo Pokemon Mini</Platform>
+    <Publisher>Nintendo</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>2001-12-14</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.8181818</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>11</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>121765</DatabaseID>
+    <WikipediaURL />
+    <Title>Pokemon Puzzle Collection</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(USA, Europe)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>North America, Europe</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Puzzle</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Nintendo Pokemon Mini [2001]\Pokemon Tetris (Europe) (En,Ja,Fr).7z</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:40:38.5356206-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:01.8124641-04:00</DateModified>
+    <Developer>Nintendo</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>bb28bbc0-dc68-4bd2-b5fc-f27cfbce8ab1</ID>
+    <LastPlayedDate>2024-06-30T15:51:24.5177853-04:00</LastPlayedDate>
+    <ManualPath />
+    <MusicPath />
+    <Notes>As a variation on the Tetris gameplay them, the game used the motion detection feature of the Pokémon Mini hardware for the players to rotate the falling tetrominoes, and the player received a mild force feedback response to clearing lines of blocks. During play, removal of lines of blocks will unlock Pokémon creatures from Pokémon Gold and Silver, which are collected in an 'Pokédex'. The game features a simultaneous two-player mode using the infra-red connection between two Pokémon Mini handhelds.</Notes>
+    <Platform>Nintendo Pokemon Mini</Platform>
+    <Publisher>Nintendo</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>2002-03-21</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.4318182</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>21</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>121769</DatabaseID>
+    <WikipediaURL />
+    <Title>Pokemon Tetris</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Europe) (En,Ja,Fr)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>Europe</Region>
+    <PlayCount>1</PlayCount>
+    <PlayTime>26</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Puzzle</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Nintendo Pokemon Mini [2001]\Pokemon Party Mini (USA).7z</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:40:38.53558-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:02.8951669-04:00</DateModified>
+    <Developer>Denyusha</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>dc5ec9d0-3f6e-4091-a2e8-39e13e401a6c</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Pokémon Party Mini is a collection of several minigames, including: Hitmonchan’s Boxing, where you shake the system to ‘punch’; Pikachu’s Rocket Start, a game where you have to launch off a starting line before another Pokémon; Bellossom’s Dance, a DDR-like game; Chansey’s Dribble, kick the ball to the finish line as quickly as possible; Slowking’s Judge, predict if the tennis ball will land in or out of the court; Sneasel’s Fakeout, a rock-paper-scissors-like game for two players; Battlefield, where two to six players battle for the highest score; and Celebi’s Clock, which is essentially a clock with date, alarm and stopwatch function.</Notes>
+    <Platform>Nintendo Pokemon Mini</Platform>
+    <Publisher>Nintendo</Publisher>
+    <Rating>E - Everyone</Rating>
+    <ReleaseDate>2001-11-16</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.34375</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>17</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>121763</DatabaseID>
+    <WikipediaURL />
+    <Title>Pokemon Party Mini</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(USA)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Party</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>6</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Handhelds\Nintendo Pokemon Mini [2001]\Lunch Time (USA) (GameCube).7z</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-25T23:40:38.5356669-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:07.4224424-04:00</DateModified>
+    <Developer>Ambrella</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>8763c8ef-973b-4406-80a7-4b86b8a10d53</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Snorlax’s Lunch Time is an unused Pokémon Party Mini mini game that could be found amongst the other mini games in Pokémon Channel for the Nintendo GameCube.</Notes>
+    <Platform>Nintendo Pokemon Mini</Platform>
+    <Publisher>Nintendo</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>2003-12-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.5</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>13</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>124348</DatabaseID>
+    <WikipediaURL />
+    <Title>Snorlax's Lunch Time</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(USA) (GameCube)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Party</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>true</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>true</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Unreleased</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>86f2f791-0eb1-41cf-89bd-276e2ecb39e6</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>8763c8ef-973b-4406-80a7-4b86b8a10d53</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\Nintendo Pokemon Mini [2001]\Lunch Time (USA) (GameCube).7z</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play (USA) (GameCube) Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2003-12-01</ReleaseDate>
+    <Developer>Ambrella</Developer>
+    <Publisher>Nintendo</Publisher>
+    <Region>North America</Region>
+    <Version>(USA) (GameCube)</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>740b2cf4-9574-4715-8b9e-de5285156672</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>5c24bc35-6725-4565-8bd9-0d9d5acb55b7</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>8763c8ef-973b-4406-80a7-4b86b8a10d53</GameID>
+    <ApplicationPath>Z:\media\games\library\Handhelds\Nintendo Pokemon Mini [2001]\Snorlax's Lunch Time (Europe) (GameCube).7z</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play (Europe) (GameCube) Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <ReleaseDate>2003-12-01</ReleaseDate>
+    <Developer>Ambrella</Developer>
+    <Publisher>Nintendo</Publisher>
+    <Region>Europe</Region>
+    <Version>(Europe) (GameCube)</Version>
+    <Status>Imported ROM</Status>
+    <EmulatorId>740b2cf4-9574-4715-8b9e-de5285156672</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>3</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AlternateName>
+    <GameID>737d596d-783f-4528-9e6b-5771280888fb</GameID>
+    <Name>Pokémon Pinball Mini</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>7e3f6f10-3901-4258-881f-b75bbc5e5065</GameID>
+    <Name>Pokémon Anime Card Daisakusen</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>7e3f6f10-3901-4258-881f-b75bbc5e5065</GameID>
+    <Name>Pokemon Anime Card Daisakusen</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>7e3f6f10-3901-4258-881f-b75bbc5e5065</GameID>
+    <Name>Pokémon Zany Cards</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>15c9568e-978f-44d4-87fe-6ddea3ac3d9e</GameID>
+    <Name>Pokémon Puzzle Collection</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>bb28bbc0-dc68-4bd2-b5fc-f27cfbce8ab1</GameID>
+    <Name>Pokémon Shock Tetris</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>bb28bbc0-dc68-4bd2-b5fc-f27cfbce8ab1</GameID>
+    <Name>Pokémon Tetris</Name>
+    <Region>Europe</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>bb28bbc0-dc68-4bd2-b5fc-f27cfbce8ab1</GameID>
+    <Name>Pokemon Shock Tetris</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>bb28bbc0-dc68-4bd2-b5fc-f27cfbce8ab1</GameID>
+    <Name>Pokemon Tetris</Name>
+    <Region>United States</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>dc5ec9d0-3f6e-4091-a2e8-39e13e401a6c</GameID>
+    <Name>Pokémon Party Mini</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>8763c8ef-973b-4406-80a7-4b86b8a10d53</GameID>
+    <Name>Lunch Time</Name>
+    <Region>North America</Region>
+  </AlternateName>
+</LaunchBox>

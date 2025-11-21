@@ -1,0 +1,1792 @@
+<?xml version="1.0" standalone="yes"?>
+<LaunchBox>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\Sega SG-1000 [1983]\Pop Flamer (Japan, Europe, Australia, New Zealand) (En).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:30:52.4402048-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:45.3268743-04:00</DateModified>
+    <Developer>Jaleco</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>6e2c824a-3e98-4b0e-ac52-97533e742b3a</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>"POP FLAMER" is a mouse which operates a flamethrower.
+
+
+
+You as a player attempt to break balloons and supply fuel for the flamethrower while eliminating me 3 kinds of MONSTERS and the obstacle FROG which is obstructing the routes. However, be careful of the tranqulizing beam from the "HARADON". When you are exposed to this beam, you will not be able to move temporarily! When the POP FLAMER takes a power-up drink", it changes into a "SUPER MOUSE" and you can score high points by swallowing the nearby MONSTERS in one gulp!!</Notes>
+    <Platform>Sega SG-1000</Platform>
+    <Publisher>Sega Enterprises</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1983-01-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>2.590909</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>10</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>107625</DatabaseID>
+    <WikipediaURL />
+    <Title>Pop Flamer</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, Europe, Australia, New Zealand) (En)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, Europe, Australia</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=JJgzBAlmG_g</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\Sega SG-1000 [1983]\Sindbad Mystery (Japan, Europe, Australia, New Zealand) (En).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:30:52.4319738-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:45.7630168-04:00</DateModified>
+    <Developer>Sega Enterprises</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>e927ee2d-765a-4189-9cef-46c898919e47</ID>
+    <LastPlayedDate>2024-06-30T12:32:22.7909852-04:00</LastPlayedDate>
+    <ManualPath />
+    <MusicPath />
+    <Notes>In this top-down action adventure game, you play "Sindbad" the sailor. You must avoid monsters while piecing together treasure maps on different islands. You can block the monsters by pushing boulders or digging holes.</Notes>
+    <Platform>Sega SG-1000</Platform>
+    <Publisher>Sega Enterprises</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1983-01-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.2</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>10</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>107715</DatabaseID>
+    <WikipediaURL>https://segaretro.org/Sindbad_Mystery</WikipediaURL>
+    <Title>Sindbad Mystery</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, Europe, Australia, New Zealand) (En)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, Europe, Australia</Region>
+    <PlayCount>2</PlayCount>
+    <PlayTime>6</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=z-qcLRy48uo</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\Sega SG-1000 [1983]\Champion Golf (Korea) (En) (Unl).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:30:52.4447154-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:46.481913-04:00</DateModified>
+    <Developer>Logitec</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>d40c4af3-80ca-4e75-9ba1-fc106a96862f</ID>
+    <LastPlayedDate>2024-06-30T12:31:02.0315843-04:00</LastPlayedDate>
+    <ManualPath />
+    <MusicPath />
+    <Notes>If it's raining on Sunday ... it's CHAMPION GOLF day. You can enjoy hitting the ball with the appropriate club to match the shot, walking around the course with the considerate caddie over its extensive fairways, roughs, greens, ponds and bunker areas. Getting a "Birdie", "Eagle" or an amazing "Hole in One", or the even more miraculous "Albatross" will make you feel like you are on top of the world.</Notes>
+    <Platform>Sega SG-1000</Platform>
+    <Publisher>Sega Enterprises</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1983-01-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>2.7727273</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>11</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>107214</DatabaseID>
+    <WikipediaURL />
+    <Title>Champion Golf</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Korea) (En) (Unl)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Korea</Region>
+    <PlayCount>1</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Sports</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>false</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=MLA8MmQX9j0</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\Sega SG-1000 [1983]\Champion Ice Hockey (Korea) (En) (Unl).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:30:52.4421355-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:47.0923094-04:00</DateModified>
+    <Developer>Sega Enterprises</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>4a56cbcc-7808-4474-9c01-8632ec2b0c14</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Champion Ice Hockey is a simplistic ice hockey game built for the SG-1000.
+
+You play as the Red team vs. the Blue team. One button shoots, while the other button passes. Up and down control not only your goalie, but also the direction of the scoring shot.</Notes>
+    <Platform>Sega SG-1000</Platform>
+    <Publisher>Sega Enterprises</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1985-01-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>2.5</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>8</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>107215</DatabaseID>
+    <WikipediaURL />
+    <Title>Champion Ice Hockey</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Korea) (En) (Unl)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Korea</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Sports</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>false</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=WM76toXEo24</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\Sega SG-1000 [1983]\Ninja Princess (Japan, Australia) (Ja).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:30:52.4419368-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:50.5805557-04:00</DateModified>
+    <Developer>Sega Enterprises</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>034d2740-0bad-4585-97a9-ff01f13d9135</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Ninja Princess is an action shooter. You play as a female ninja as you fight your way through hordes of enemies on your quest to recapture territories and to take back the Castle all of which have been captured and occupied by the enemy forces. Throwing knives and shuriken are your weapons as you shoot your way through enemy occupied territory. Coming into contact with any enemies or any of their thrown projectile weapons equals instant death. Unlike the original arcade machine, the SG-1000 port contain only 13 levels instead of 16.</Notes>
+    <Platform>Sega SG-1000</Platform>
+    <Publisher>Sega Enterprises</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1986-01-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.4411764</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>17</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>35138</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Sega_Ninja</WikipediaURL>
+    <Title>Ninja Princess</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, Australia) (Ja)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, Australia</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Shooter</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=y_IayiHm5Xc</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\Sega SG-1000 [1983]\Bomb Jack (Korea) (En) (English Logo) (Unl).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:30:52.4421352-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:57.0678086-04:00</DateModified>
+    <Developer>Tehkan</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>0f5bb3fd-b344-4c52-b359-ea4735058717</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>In Bomb Jack, the player controls Jack, who must collect all the bombs in order to complete the current round and go onto the next one. This sounds easy, right? Wrong! Making Jack's task difficult are numerous enemies such as birds, mummies, turtles, and orbs. In each round, collecting a number of bombs results in a bonus coin appearing, and collecting this coin will make the player's score increase 2 to 4 times. More often than not, the "power ball" appears, and when you collect this, you can defeat enemies and have more time to collect all the bombs. There is also the "E" coin, which gives Jack one additional life, but rarely does this coin appear. The more you progress through the game, the more difficult it becomes, as enemies travel more quickly to get you.</Notes>
+    <Platform>Sega SG-1000</Platform>
+    <Publisher>Sega Enterprises</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1985-01-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.8</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>15</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>107045</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Bomb_Jack</WikipediaURL>
+    <Title>Bomb Jack</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Korea) (En) (English Logo) (Unl)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Korea</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action; Platform</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=vbsy693dGhg</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\Sega SG-1000 [1983]\Exerion (Japan, Europe, Australia, New Zealand) (En).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:30:52.4419522-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:58.6265728-04:00</DateModified>
+    <Developer>Sega Enterprises</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>b5cad4a9-28f7-4e47-aa4e-b15a46ad8671</ID>
+    <LastPlayedDate>2024-06-30T15:21:07.8618886-04:00</LastPlayedDate>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Exerion is a arcade shoot-'em-up released by Jaleco in 1983. It was ported to SG-1000 by Sega in the same year.
+
+Exerion is a very basic shoot-'em-up, however its main appeal at the time was its parallax backgrounds, whose positions would change depending on the coordinates of the player's ship. Unfortunately, the effects do not transfer well onto the SG-1000, as the scrolling is choppy.</Notes>
+    <Platform>Sega SG-1000</Platform>
+    <Publisher>Sega Enterprises</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1983-01-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.0625</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>8</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>107219</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Exerion</WikipediaURL>
+    <Title>Exerion</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, Europe, Australia, New Zealand) (En)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, Europe, Australia</Region>
+    <PlayCount>3</PlayCount>
+    <PlayTime>48</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Shooter</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>false</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=mf7QaRsm2qo</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\Sega SG-1000 [1983]\Pacar (Japan, Europe, Australia, New Zealand) (En).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:30:52.4419362-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:02.3675016-04:00</DateModified>
+    <Developer>Sega Enterprises</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>3fb07c90-ba7e-4d20-9fb7-cc246997a392</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>PACAR, a mischievous car runs through the 3-dimensional routes freely advancing and reversing at fast and low speeds. Try to delete all the DOTS on the screen by avoiding the 2 kinds of enemy cars. When you pass through the special DOTS, PACAR becomes more and more invincible as it increases its power and will be free from damage even when it crashes into the enemy car. Keep up the torrid pace and destroy as many of the enemy cars as possible.
+
+The game plays like a combination of the Namco games Rally X and Pac-Man and a follow-on from Sega's 1979 game Head-On.
+
+As the green car Pacar, you consume dots like Pac-Man, and dodge red and blue cars instead of ghosts. Like Pac-Man, you collect "power dots" for invincibility and progress through levels.</Notes>
+    <Platform>Sega SG-1000</Platform>
+    <Publisher>Sega Enterprises</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1983-01-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.1666667</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>12</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>107613</DatabaseID>
+    <WikipediaURL />
+    <Title>Pacar</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, Europe, Australia, New Zealand) (En)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>Japan, Europe, Australia</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=WPX7GYrUhe4</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\Sega SG-1000 [1983]\Yamato (Japan, Europe, Australia, New Zealand) (En).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:30:52.4298858-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:04.265982-04:00</DateModified>
+    <Developer>Sega Enterprises</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>b9c0bd78-7a9f-49e6-b975-40435bf831e6</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Yamato is a shooter were you sit behind the front of a ship and its guns at the bottom of the screen while the enemy ships and planes are ahead in the distance. The aim is to keep destroying the enemies ships and planes until it is game over but the more you destroy then the higher the round you play on. You take control of two cross-hairs, one for firing bullets and the other for missiles and they both move together when you move them left or right which also moves your ship.</Notes>
+    <Platform>Sega SG-1000</Platform>
+    <Publisher>Sega Enterprises</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1983-01-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.2692308</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>13</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>107768</DatabaseID>
+    <WikipediaURL />
+    <Title>Yamato</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, Europe, Australia, New Zealand) (En)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, Europe, Australia</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Shooter</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=hGHpR2HYnAc</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\Sega SG-1000 [1983]\Star Jacker (Japan, Europe) (En) (Rev 2).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:30:52.4323308-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:04.2671568-04:00</DateModified>
+    <Developer>Sega Enterprises</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>0486c553-7fd3-4479-95f4-e2b00e3f44e0</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Star Jacker is a vertically scrolling shoot 'em up where the player controls a Universe Squadron whose job is to attack various enemy space colonies while evading or destroying the enemies UFO forces before returning to the Star Jacker mother ship.</Notes>
+    <Platform>Sega SG-1000</Platform>
+    <Publisher>Sega Enterprises</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1983-01-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.1666667</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>13</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>35137</DatabaseID>
+    <WikipediaURL />
+    <Title>Star Jacker</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, Europe) (En) (Rev 2)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, Europe</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Shooter</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=7Ap2Pva4Yfk</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\Sega SG-1000 [1983]\Lode Runner (Japan, Europe, Australia) (En).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:30:52.4418971-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:05.6962777-04:00</DateModified>
+    <Developer>Compile</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>4a97107a-a486-4b79-a30f-e2d817a22488</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Lode Runner is a puzzle/action game originally developed by Douglas E. Smith and published by Brøderbund Software in 1983. It made its way to many home computers and video games consoles of the day including the SG-1000. Like the NES port, this version only has 50 levels instead of 150 in the original Apple II version, but is much faster.</Notes>
+    <Platform>Sega SG-1000</Platform>
+    <Publisher>Sega Enterprises</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1984-01-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.0769231</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>12</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>107342</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Lode_Runner</WikipediaURL>
+    <Title>Lode Runner</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, Europe, Australia) (En)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>Japan, Europe, Australia</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Action; Platform; Puzzle</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=5WPv21b9zhk</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\Sega SG-1000 [1983]\Borderline (Japan, Europe, Australia, New Zealand) (En).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:30:52.4422741-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:06.9067064-04:00</DateModified>
+    <Developer>Compile</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>96a84182-a8d4-4b76-956b-f975f1e59ab1</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Borderline (ボーダーライン) is a VIC Dual arcade game developed in 1980 by Sega. It is a shoot-'em-up in which the player controls a red jeep who must destroy the enemy refineries.
+
+Borderline was ported to the SG-1000 in 1983, and has also been released as part of the Sega Ages 2500 series in Japan. The second gameplay section was also recycled for the Atari 2600 release of Thunderground, though instead of driving a jeep the player controls a tank.</Notes>
+    <Platform>Sega SG-1000</Platform>
+    <Publisher>Sega Enterprises</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1983-01-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>2.368421</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>20</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>33326</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Borderline_(video_game)</WikipediaURL>
+    <Title>Borderline</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, Europe, Australia, New Zealand) (En)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>Japan, Europe, Australia</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Shooter</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>false</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>http://www.youtube.com/watch?v=Phm7KKb06ME</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\Sega SG-1000 [1983]\Orguss (Japan, Europe, Australia, New Zealand) (En).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:30:52.441944-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:08.3645732-04:00</DateModified>
+    <Developer>Sega Enterprises</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>efa98eff-35ab-4da5-8d86-4f2838330066</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Orguss is a shoot-'em-up game developed and published by Sega for the SG-1000. In the game, the player takes control of a robot which can transform into a starship. It is based on the science fiction anime series Super Dimension Century Orguss.
+
+The player can swap between robot and starship modes freely, though both come with their own set advantages and disadvantages. In robot mode, you are able to destroy ground targets and have greater freedom across the screen at the expense of being a bigger target for enemies. You can shoot rapidfire, but move slower. In starship mode you cannot destroy ground targets, but are less likely to be destroyed thanks to the smaller surface area of the ship. You can move faster, but cannot shoot rapidfire. 1 switches between the two forms and 2 shoots.
+
+Orguss had a spiritual sequel in the form of TransBot, released for the Sega Master System in 1985.</Notes>
+    <Platform>Sega SG-1000</Platform>
+    <Publisher>Sega Enterprises</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1984-01-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.5</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>13</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>35139</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Super_Dimension_Century_Orguss#Video_games</WikipediaURL>
+    <Title>Orguss</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, Europe, Australia, New Zealand) (En)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>Japan, Europe, Australia</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Shooter</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=vt-hySbkdT4</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\Sega SG-1000 [1983]\Sega Flipper (Japan, Europe, Australia, New Zealand) (En).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:30:52.4322824-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:09.0700813-04:00</DateModified>
+    <Developer>Sega Enterprises</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>6b33b259-d2a9-47b0-a459-d12f27085435</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Sega Flipper is a pinball game released for the SG-1000 in 1983. In New Zealand it is known as Video Flipper.
+
+It was one of the first pinball video games to be released, being released one year earlier than attempts from Jaleco and Nintendo but four years after Atari's Video Pinball. Unlike Video Pinball, however, Sega Flipper makes use of color.</Notes>
+    <Platform>Sega SG-1000</Platform>
+    <Publisher>Sega Enterprises</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1983-01-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>2.0454545</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>11</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>107648</DatabaseID>
+    <WikipediaURL />
+    <Title>Sega Flipper</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, Europe, Australia, New Zealand) (En)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, Europe, Australia</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Pinball</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=ZGnkoTPpoO8</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\Sega SG-1000 [1983]\Congo Bongo (Japan, Europe, Australia, New Zealand) (En) (Rev 1).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:30:52.4419519-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:10.8845575-04:00</DateModified>
+    <Developer>Sega Enterprises</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>e3d81077-2801-4eea-b950-0c8fc33206be</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Congo Bongo is an action game released by Sega in 1983. The player takes control of a safari hunter who is searching for an ape named Bongo, determined to punish him for setting the hunter's tent on fire.</Notes>
+    <Platform>Sega SG-1000</Platform>
+    <Publisher>Sega Enterprises</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1983-01-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.235294</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>17</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>100955</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Congo_Bongo</WikipediaURL>
+    <Title>Congo Bongo</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, Europe, Australia, New Zealand) (En) (Rev 1)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>Japan, Europe, Australia</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Platform</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>false</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=un5gSNrgjxs</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\Sega SG-1000 [1983]\Choplifter (Korea) (En) (Unl).zip</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T12:30:52.4421348-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:11.064196-04:00</DateModified>
+    <Developer>Sega Enterprises</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>62b1df04-eb03-409d-bed4-f7edd4986871</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Choplifter! is a side-scrolling action/arcade game that puts you in command of an attack chopper. Your mission: Go behind enemy lines and rescue up to 16 hostages per level. Be careful, though, because tanks and enemy aircraft will try to stop you - and they won't stop shooting while you are rescuing those hostages!</Notes>
+    <Platform>Sega SG-1000</Platform>
+    <Publisher>Sega Enterprises</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1985-01-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>2.8333333</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>15</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>100954</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Choplifter</WikipediaURL>
+    <Title>Choplifter</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Korea) (En) (Unl)</Version>
+    <Series />
+    <PlayMode>Single Player</PlayMode>
+    <Region>Korea</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Shooter</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>1</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=-d-pTLGYeio</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>acaa900d-6e36-4511-b8f8-30c69b125f82</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>0486c553-7fd3-4479-95f4-e2b00e3f44e0</GameID>
+    <ApplicationPath>Z:\media\games\library\Consoles\Sega SG-1000 [1983]\Star Jacker (Japan, Europe) (En) (Rev 2).zip</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play (Japan, Europe) (En) (Rev 2) Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <Developer />
+    <Publisher />
+    <Region>Japan, Europe</Region>
+    <Version>(Japan, Europe) (En) (Rev 2)</Version>
+    <Status />
+    <EmulatorId>740b2cf4-9574-4715-8b9e-de5285156672</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>592bb745-c052-4539-b170-2698ae2bb52f</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>0486c553-7fd3-4479-95f4-e2b00e3f44e0</GameID>
+    <ApplicationPath>Z:\media\games\library\Consoles\Sega SG-1000 [1983]\Star Jacker (Japan, Europe, Australia, New Zealand) (En) (Rev 1).zip</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play (Japan, Europe, Australia, New Zealand) (En) (Rev 1) Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <Developer />
+    <Publisher />
+    <Region>Japan, Europe, Australia</Region>
+    <Version>(Japan, Europe, Australia, New Zealand) (En) (Rev 1)</Version>
+    <Status />
+    <EmulatorId>740b2cf4-9574-4715-8b9e-de5285156672</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>2</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AlternateName>
+    <GameID>6e2c824a-3e98-4b0e-ac52-97533e742b3a</GameID>
+    <Name>精靈鼠</Name>
+    <Region>Asia</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>e927ee2d-765a-4189-9cef-46c898919e47</GameID>
+    <Name>天方夜譚</Name>
+    <Region>Asia</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>4a56cbcc-7808-4474-9c01-8632ec2b0c14</GameID>
+    <Name>曲棍球</Name>
+    <Region>Asia</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>034d2740-0bad-4585-97a9-ff01f13d9135</GameID>
+    <Name>忍者公主</Name>
+    <Region>Asia</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>0f5bb3fd-b344-4c52-b359-ea4735058717</GameID>
+    <Name>超人</Name>
+    <Region>Asia</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>0f5bb3fd-b344-4c52-b359-ea4735058717</GameID>
+    <Name>ボンジャック</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>b5cad4a9-28f7-4e47-aa4e-b15a46ad8671</GameID>
+    <Name>地球保衛戰</Name>
+    <Region>Asia</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>3fb07c90-ba7e-4d20-9fb7-cc246997a392</GameID>
+    <Name>迷魂車</Name>
+    <Region>Asia</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>b9c0bd78-7a9f-49e6-b975-40435bf831e6</GameID>
+    <Name>太和艦</Name>
+    <Region>Asia</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>0486c553-7fd3-4479-95f4-e2b00e3f44e0</GameID>
+    <Name>太空城</Name>
+    <Region>Asia</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>4a97107a-a486-4b79-a30f-e2d817a22488</GameID>
+    <Name>尋寶記</Name>
+    <Region>Asia</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>96a84182-a8d4-4b76-956b-f975f1e59ab1</GameID>
+    <Name>ボーダーライン</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>efa98eff-35ab-4da5-8d86-4f2838330066</GameID>
+    <Name>太空怪獸</Name>
+    <Region>Asia</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>6b33b259-d2a9-47b0-a459-d12f27085435</GameID>
+    <Name>Video Flipper</Name>
+    <Region>Oceania</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>6b33b259-d2a9-47b0-a459-d12f27085435</GameID>
+    <Name>霹靂彈</Name>
+    <Region>Asia</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>e3d81077-2801-4eea-b950-0c8fc33206be</GameID>
+    <Name>コンゴ・ボンゴ</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+</LaunchBox>

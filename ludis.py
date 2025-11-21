@@ -42,7 +42,7 @@ from scripts import export_all_platforms
 from scripts import export_all_playlists
 from scripts import build_master_inventory
 from scripts import enrich_with_playlists
-from scripts import audit_library
+# audit_library_v2.py is called via subprocess, not imported
 
 # ============================================================
 # CONSTANTS
@@ -207,9 +207,9 @@ class Pipeline:
         print("=" * 60)
         
         try:
-            # Call audit_library nas-inventory command
+            # Call interactive_scanner (builds structure knowledge, then scans fast)
             result = subprocess.run(
-                [sys.executable, "scripts/audit_library.py", "nas-inventory"],
+                [sys.executable, "scripts/interactive_scanner.py"],
                 cwd=SCRIPT_DIR,
                 capture_output=False,
                 text=True
@@ -507,13 +507,29 @@ def create_config_interactively() -> bool:
     print("  • On macOS/Linux where your NAS is mounted")
     print("  • On a remote server with access to your files")
     print("  • Anywhere with access to your LaunchBox XML data")
+    print("\n" + "=" * 60)
+    print("⚠  IMPORTANT: DATA FOLDER CURATION")
+    print("=" * 60)
+    print("\nWe recommend creating a COPY of your LaunchBox data for Ludis")
+    print("to scan, rather than pointing to your live LaunchBox installation.")
+    print("\nRecommended workflow:")
+    print("  1. Copy LaunchBox/Data/Platforms/ to ludis/Data/Platforms/")
+    print("  2. Copy LaunchBox/Data/Playlists/ to ludis/Data/Playlists/")
+    print("  3. Remove any platforms/playlists you DON'T want to migrate")
+    print("  4. Point Ludis to this curated Data/ folder")
+    print("\nBenefits:")
+    print("  ✓ Full control over what gets scanned")
+    print("  ✓ No need to select from 1000+ playlists in Ludis")
+    print("  ✓ Keeps your LaunchBox installation untouched")
+    print("  ✓ Can maintain multiple Ludis configs for different targets")
+    print("\n" + "=" * 60)
     print("\nI'll ask you a few questions to understand YOUR setup:")
     print("  1. Where are your LaunchBox XML files?")
     print("  2. Where did LaunchBox THINK your games were located?")
     print("  3. Where are your games ACTUALLY located on THIS machine?")
-    print("  4. What platforms do you want to export to?")
     print("\nLet's begin!")
-    print("\n(You can always edit config.yaml later)")
+    print("\n(Export targets will be configured later when you create your first migration)")
+    print("(You can always edit config.yaml later)")
     
     # Load defaults from sample config if it exists
     defaults = {
@@ -567,7 +583,7 @@ def create_config_interactively() -> bool:
     print("\n  Example: Z:\\media\\games\\library")
     print("  (This is what's IN the XML, even if you're running on Mac/Linux)")
     
-    if defaults['windows_root']:
+    if defaults.get('windows_root'):
         print(f"\n  [default: {defaults['windows_root']}]")
         windows_root = input("  Path: ").strip() or defaults['windows_root']
     else:
@@ -578,56 +594,111 @@ def create_config_interactively() -> bool:
         return False
     
     print("\n" + "-" * 60)
-    print("STEP 3: Actual Game Location (THIS Machine)")
+    print("STEP 3: Game Library Location")
     print("-" * 60)
-    print("Where are your game files ACTUALLY located relative to THIS machine running Ludis?")
-    print("\nThis is where the files physically exist right now, which might be")
-    print("different from what LaunchBox thinks.")
+    print("What is the base path for your games library?")
     print("\n  Examples:")
     print("    • /Volumes/NAS/media/games/library  (macOS with NAS mounted)")
     print("    • /mnt/nas/media/games/library      (Linux with NAS mounted)")
-    print("    • C:\\Program Files\\LaunchBox\\Games  (Windows, same as LaunchBox)")
+    print("    • C:\\Program Files\\LaunchBox\\Games  (Windows)")
     print(f"\n  Detected OS: {platform.system()}")
     
-    if defaults['local_root']:
+    # Get base library path
+    if defaults.get('local_root'):
         print(f"\n  [default: {defaults['local_root']}]")
-        local_root = input("  Path: ").strip() or defaults['local_root']
+        base_path = input("  Base library path: ").strip() or defaults['local_root']
     else:
-        local_root = input("\n  Path: ").strip()
+        base_path = input("\n  Base library path: ").strip()
     
-    # Validate local root if filesystem scanning is enabled
-    if local_root:
-        local_path = Path(local_root)
-        if local_path.exists():
-            print(f"\n  ✓ Directory found: {local_path}")
+    if not base_path:
+        print("\n  ERROR: Library path is required")
+        return False
+    
+    lib_path = Path(base_path)
+    if not lib_path.exists():
+        print(f"\n  ⚠ WARNING: Directory not found: {lib_path}")
+        confirm = input("  Continue anyway? (y/N): ").strip().lower()
+        if confirm != 'y':
+            return False
+    else:
+        print(f"  ✓ Directory found: {lib_path}")
+    
+    # Check structure
+    print("\n" + "-" * 60)
+    print("Does this directory directly contain platform folders,")
+    print("or are there additional organizational layers?")
+    print("\n  Examples:")
+    print("    Direct:     library/Nintendo 64/")
+    print("    Nested:     library/Consoles/Nintendo 64/")
+    print("    Nested:     library/Retro/Consoles/Nintendo 64/")
+    
+    print("\n  [1] This directory directly contains platform folders")
+    print("  [2] There are subfolders before platform folders")
+    
+    structure_choice = input("\n  Choice (1 or 2): ").strip()
+    
+    library_roots = []
+    
+    if structure_choice == '1':
+        # Direct - use base path
+        library_roots.append(base_path)
+        print(f"\n  ✓ Using: {base_path}")
+    
+    elif structure_choice == '2':
+        # Nested - discover subfolders
+        print("\n  Scanning for category folders...")
+        
+        if not lib_path.exists():
+            print("  ⚠ Cannot scan - path doesn't exist. Using base path.")
+            library_roots.append(base_path)
         else:
-            print(f"\n  ⚠ WARNING: Directory not found: {local_path}")
-            print("  (You can still use Ludis for metadata-only exports)")
+            # Scan for subfolders (only 1 level deep - category folders)
+            discovered = []
+            
+            try:
+                for item in lib_path.iterdir():
+                    if item.is_dir() and not item.name.startswith('.'):
+                        discovered.append(item.name)
+            except PermissionError:
+                print("  ⚠ Permission denied. Using base path.")
+                library_roots.append(base_path)
+            
+            if not discovered:
+                print("  ⚠ No subfolders found. Using base path.")
+                library_roots.append(base_path)
+            else:
+                discovered.sort()
+                print(f"\n  Found {len(discovered)} category folder(s)")
+                
+                # Use inquirer for consistent UI
+                questions = [
+                    inquirer.Checkbox('folders',
+                                     message="Select folders to include (Space to toggle, Enter to confirm)",
+                                     choices=discovered,
+                                     default=discovered,  # Pre-select all
+                                     ),
+                ]
+                
+                answers = inquirer.prompt(questions)
+                
+                if not answers or not answers.get('folders'):
+                    print("\n  ⚠ No folders selected. Using base path.")
+                    library_roots.append(base_path)
+                else:
+                    selected_folders = answers['folders']
+                    library_roots = [str(lib_path / folder) for folder in selected_folders]
+                    print(f"\n  ✓ Selected {len(library_roots)} folder(s):")
+                    for root in library_roots:
+                        print(f"    • {root}")
+    else:
+        # Invalid choice - use base path
+        print("\n  ⚠ Invalid choice. Using base path.")
+        library_roots.append(base_path)
+    
+    print(f"\n  Final library configuration: {len(library_roots)} location(s)")
     
     print("\n" + "-" * 60)
-    print("STEP 4: Export Targets")
-    print("-" * 60)
-    print("What platforms do you want to export game libraries to?")
-    print("\nCurrently supported:")
-    print("  • ES-DE (EmulationStation Desktop Edition)")
-    print("    For Steam Deck, Retro handhelds, etc.")
-    print("\nFuture support:")
-    print("  • RetroPie")
-    print("  • Batocera")
-    
-    print("\n  [default: Y]")
-    enable_esde_choice = input("  Enable ES-DE export? (Y/n): ").lower().strip() or 'y'
-    enable_esde = enable_esde_choice == 'y'
-    
-    target_name = 'steam_deck'  # Default name
-    if enable_esde:
-        print("\nWhat would you like to name this export target?")
-        print("  Common names: steam_deck, retroid_pocket, anbernic, etc.")
-        print("\n  [default: steam_deck]")
-        target_name = input("  Target name: ").strip() or 'steam_deck'
-    
-    print("\n" + "-" * 60)
-    print("STEP 5: Filesystem Scanning")
+    print("STEP 4: Filesystem Scanning")
     print("-" * 60)
     print("Do you want to scan your filesystem to match files with")
     print("LaunchBox entries?")
@@ -641,55 +712,21 @@ def create_config_interactively() -> bool:
     
     # Create config dictionary
     config_data = {
-        'version': '1.0',
+        'version': '2.0',
         'paths': {
             'launchbox_data': lb_data,
             'output_directory': 'LB_Exports/',
             'windows_root': windows_root,
-            'local_root': local_root,
+            'library_roots': library_roots if library_roots else [],
         },
         'options': {
             'scan_filesystem': scan_filesystem,
             'verbose': False,
             'show_progress': True,
         },
-        'export_targets': {}
+        'platform_structure': {},  # Will be populated after first scan
+        'export_targets': {}  # Will be configured when first creating a migration
     }
-    
-    # Add export target if ES-DE is enabled
-    if enable_esde:
-        config_data['export_targets'][target_name] = {
-            'enabled': True,
-            'format': 'esde',
-            'storage_locations': {
-                'internal_ssd': {
-                    'path': '',
-                    'label': 'Internal SSD'
-                },
-                'sd_card': {
-                    'path': '',
-                    'label': 'SD Card'
-                }
-            },
-            'defaults': {
-                'operation': 'copy',
-                'filters': {
-                    'include_platform_best': False,
-                    'include_all_time_favorites': False,
-                    'include_favorites': False,
-                    'include_backlog': False,
-                    'include_goty_winner': False,
-                    'include_goty_nominee': False,
-                    'include_on_deck': False,
-                    'include_retro': False,
-                    'include_classic_titles': False,
-                    'include_franchises': False,
-                    'force_manual_include': True,
-                    'force_manual_exclude': True,
-                    'custom_fields': []
-                }
-            }
-        }
     
     # Write config file
     print("\n" + "=" * 60)
@@ -697,12 +734,10 @@ def create_config_interactively() -> bool:
     print("=" * 60)
     print(f"\n  LaunchBox XML Data:   {lb_data}")
     print(f"  LaunchBox Path (XML): {windows_root}")
-    print(f"  Actual Files (Ludis): {local_root}")
+    print(f"  Game Library Paths:   {len(library_roots)} location(s)")
+    for i, path in enumerate(library_roots, 1):
+        print(f"    {i}. {path}")
     print(f"  Filesystem Scanning:  {'Enabled' if scan_filesystem else 'Disabled'}")
-    if enable_esde:
-        print(f"  Export Targets:       ES-DE (target: {target_name})")
-    else:
-        print(f"  Export Targets:       None (can add later in config.yaml)")
     
     print("\n" + "-" * 60)
     print("Creating config.yaml...")

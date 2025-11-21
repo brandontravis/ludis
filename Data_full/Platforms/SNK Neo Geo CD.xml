@@ -1,0 +1,2273 @@
+<?xml version="1.0" standalone="yes"?>
+<LaunchBox>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\Real Bout Garou Densetsu ~ Real Bout Fatal Fury (Japan, USA) (En,Ja,Es,Pt)\Real Bout Garou Densetsu ~ Real Bout Fatal Fury (Japan, USA) (En,Ja,Es,Pt).cue</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T11:16:44.2867455-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:45.8352407-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>d8f254ce-a1f2-4e83-a86a-e5ef64ec1939</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>The fourth title of fighting Fatal Fury series. Now, you can destroy fight scene objects and the "Fatal Fury 2" fighters are back forming this list: Terry Bogard, Andy Bogard, Joe Higashi, Franco Bash, Mai Shiranui, Bob Wilson, Geese Howard, Billy Kane, Hon-Fu, Ryuji Yamazaki, Sokaku Mochizuki, Blue Mary, Kim Kaphwan, Jin Chonrei, Jin Chonshu and Duck King.</Notes>
+    <Platform>SNK Neo Geo CD</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1995-12-21</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.2105265</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>19</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>136841</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Real_Bout_Fatal_Fury</WikipediaURL>
+    <Title>Real Bout Garou Densetsu</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, USA) (En,Ja,Es,Pt)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\Ryuuko no Ken ~ Art of Fighting (Japan, USA) (En,Ja,Es)\Ryuuko no Ken ~ Art of Fighting (Japan, USA) (En,Ja,Es).cue</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T11:16:44.2866134-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:46.4494448-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>b039e1ce-6b01-460d-9072-7601f97afd26</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Yuri Sakazaki has been kidnapped! Her big brother Ryo Sakazaki and Robert Garcia, his best friend, go search for her on the streets of South Town. As they go deeper and deeper they will find clues as to who ordered the kidnapping, the Sakazaki family's relation to the mob, and a person from their past. This fighting game is a coin-op conversion of the Neo-Geo hit of the same name, and has all characters, stages, and moves featured in the arcade unit. Unlike the original arcade version, players can now play as Mr. Big and the elusive Mr. Karate. The gameplay differs from most fighting games. In this game, you have a Spirit meter. A Spirit meter is in the game and will decrease as you perform special moves. It can be recharged, but doing so leaves you open to attack. When your health is almost gone, you can perform a secret combination that will unleash a deadly attack on your opponent - provided you have a full Spirit meter.</Notes>
+    <Platform>SNK Neo Geo CD</Platform>
+    <Publisher>SNK of America</Publisher>
+    <Rating />
+    <ReleaseDate>1994-01-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.8846154</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>26</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>122265</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Art_of_Fighting</WikipediaURL>
+    <Title>Ryuuko no Ken</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, USA) (En,Ja,Es)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType />
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (USA) (En,Ja,Es,Pt) (Rev 1)\Fuuun Mokushiroku - Kakutou Sousei ~ Savage Reign (USA) (En,Ja,Es,Pt) (Rev 1).cue</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T11:16:44.2868094-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:47.2245355-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>e589410c-fad5-4d90-bf17-ad99fe76063e</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Warriors led by destiny finally fight it out in furious fisticuffs!
+When these warriors collide, they rumble like thunder and strike like lightning. And in the fiercest of battles, the mighty gladiators must struggle to obtain the supreme power or fall by the wayside. As they take on the world, remember to carry a steel umbrella or get pounded by... the Savage Reign.</Notes>
+    <Platform>SNK Neo Geo CD</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1995-06-16</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.25</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>10</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>136840</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Savage_Reign</WikipediaURL>
+    <Title>Savage Reign</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(USA) (En,Ja,Es,Pt) (Rev 1)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\Metal Slug 2 (Japan, USA) (En,Ja)\Metal Slug 2 (Japan, USA) (En,Ja).cue</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T11:16:44.2866723-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:50.5805195-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>26093898-110e-47ac-935e-3e1141ab005c</ID>
+    <LastPlayedDate>2024-06-30T11:20:03.2648451-04:00</LastPlayedDate>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Metal Slug 2 is a run and gun video game for the Neo-Geo console/arcade platform created by SNK. It was released in 1998 for the MVS arcade platform and is the sequel to the popular Metal Slug. It is the second title in the Metal Slug series. The game was later re-released in a slightly modified/remixed form as Metal Slug X.
+
+General Morden, the antagonist from the first game is back once more with his army, bent on taking over the world. It is up to the Peregrine Falcon squad, who are now joined by two new characters: Eri Kasamoto and Fio Germi of the Sparrows Intelligence Unit, to save the day. As the levels unfold, it turns out that Morden has allied with Martians to help facilitate his plans. In the final level of the game, the tables are turned when Morden comes under attack and is betrayed by his Martian allies and he is taken prisoner by them. An ad-hoc alliance is formed between the Peregrine Falcon squad and General Morden's army to combat the greater alien threat. After a long battle, they succeed in defeating the Martians' Mothership, driving them off the Earth. 
+
+Metal Slug 2 added new weapons to the player's arsenal. A single shot from the Laser Gun is capable of killing a column of infantry, and sustained fire quickly destroyed vehicles. Fire Bomb found in the second level help to clear away mummies. Armor Piercing give the Metal Slug cannon shot that only fire straight when engaging enemy vehicles.</Notes>
+    <Platform>SNK Neo Geo CD</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1998-06-25</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.306452</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>31</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>127412</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Metal_Slug_2</WikipediaURL>
+    <Title>Metal Slug 2</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, USA) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Cooperative; Multiplayer</PlayMode>
+    <Region>Japan, North America</Region>
+    <PlayCount>2</PlayCount>
+    <PlayTime>51</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Platform; Shooter</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\Ryuuko no Ken 2 ~ Art of Fighting 2 (Japan, USA) (En,Ja,Es)\Ryuuko no Ken 2 ~ Art of Fighting 2 (Japan, USA) (En,Ja,Es).cue</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T11:16:44.2867019-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:51.5930716-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>8e588e81-ddbd-4026-aeb9-731083587c9b</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>In this sequel to the original Art of Fighting, and prequel to the original Fatal Fury, we learn that Mr. Karate, the final boss of the original game, behind the mask, is really Takuma Sakazaki, Ryo and Yuri's father, that Takuma was being used by Geese Howard for his own evil intentions, and that Mr. Big was the one who had originally kidnapped Yuri.</Notes>
+    <Platform>SNK Neo Geo CD</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1994-01-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.6666667</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>23</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>122251</DatabaseID>
+    <WikipediaURL />
+    <Title>Ryuuko No Ken 2</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, USA) (En,Ja,Es)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\Real Bout Garou Densetsu Special ~ Real Bout Fatal Fury Special (Japan, USA) (En,Ja,Es,Pt)\Real Bout Garou Densetsu Special ~ Real Bout Fatal Fury Special (Japan, USA) (En,Ja,Es,Pt).cue</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T11:16:44.2867147-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:52.4915401-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>06bf4ff1-e523-41aa-b9f8-b6324c6e20ae</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Real Bout Fatal Fury Special is a 1997 fighting game released by SNK for the Neo Geo platform. It is the sixth installment in the Fatal Fury series and the second game in the Real Bout sub-series, following the original Real Bout Fatal Fury. Real Bout Fatal Fury Special features all new graphics and returns to the two-level plane system from Fatal Fury 2. 
+
+Though gameplay is two-dimensional, characters can move between two different planes during battle. Breaking an opponent through one of the barriers located on either side of a stage causes them to become stunned.
+
+The game retains the cast of the original Real Bout, with the addition of Tung Fu Rue, Cheng Sinzan, Laurence Blood, and Wolfgang Krauser from Fatal Fury Special, with Krauser serving as the new final boss. Geese Howard, who was canonically killed off in his own KOF tournament during the previous game, appears in this game as a hidden final boss in a special "Nightmare Match" and as an unlockable playable character in the home versions, Geese’s alive appearance is because of his own ending from the original Real Bout where it takes place after he reigns victorious in his own tournament. The game also features hidden "extra" versions of Andy Bogard, Billy Kane, Blue Mary, and Tung Fu Rue for a total of 23 characters (24 if counting Geese).</Notes>
+    <Platform>SNK Neo Geo CD</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1997-01-28</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.875</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>11</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>136843</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Real_Bout_Fatal_Fury_Special</WikipediaURL>
+    <Title>Real Bout Garou Densetsu Special</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, USA) (En,Ja,Es,Pt)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\.DS_Store</ApplicationPath>
+    <Completed>false</Completed>
+    <DateAdded>2025-11-18T12:20:06.920468-05:00</DateAdded>
+    <DateModified>2025-11-18T12:20:10.4840356-05:00</DateModified>
+    <Developer>Produce!</Developer>
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>80e3bf38-ac7a-44b8-9732-615a77188a55</ID>
+    <Notes>White Bomber, Black Bomber and many other combatants have gathered together for the Bomberman Tournament. However, Bagura has appeared in a mobile fortress to spoil everything, namely by kidnapping most of the combatants and stuffing them into cages! White Bomber and Black Bomber set out to rescue their friends and to stop Bagura, who has a new fearsome foe under his command - Atomic Bomber!</Notes>
+    <Platform>SNK Neo Geo CD</Platform>
+    <Publisher>Hudson Soft</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>2016-08-08</ReleaseDate>
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.2867646</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>36</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>10451</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Neo_Bomberman</WikipediaURL>
+    <Title>Neo Bomberman 2016</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version />
+    <PlayMode>Multiplayer</PlayMode>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <Genre>Action</Genre>
+    <MissingVideo>false</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>false</MissingCart3dImage>
+    <MissingManual>false</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>false</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <ReleaseType>Unlicensed</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=Z-TSvrkPht0</VideoUrl>
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\Double Dragon (USA) (En,Ja)\Double Dragon (USA) (En,Ja).cue</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T11:16:44.2868252-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:56.8727731-04:00</DateModified>
+    <Developer>Technōs Japan</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>72575f5a-b4c0-4843-84fe-b274994efb17</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Released around the same time as the film of the same name and loosely based on its story, this installment in the Double Dragon series also moves away from the traditional roam-the-streets-fighting to a pure one-on-one fighter. There are ten characters to choose from, including Billy and Jimmy and the game has colorful interactive backgrounds, screen zooming, over-the-top special moves and with the inclusion of double jumps, combos, charges for the losing player and counter hits, there is plenty of room for advanced fighting strategies.</Notes>
+    <Platform>SNK Neo Geo CD</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1995-06-02</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.9166667</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>12</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>136872</DatabaseID>
+    <WikipediaURL />
+    <Title>Double Dragon</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(USA) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\Metal Slug (Japan) (En,Ja)\Metal Slug (Japan) (En,Ja).cue</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T11:16:44.2867195-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:57.3352046-04:00</DateModified>
+    <Developer>SNK; Nazca</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>cf18ec44-1183-4a73-aca3-173dd91e7f31</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>The awesome combat-shooting game is now out on CD-ROM in a super powered-up version! Along with the Arcade Mission (Arcade version), compete for the best clear time and longest achieved distance in the newly added Combat School Mode. The NEO GEO CD version of Metal Slug. It will blow you away! Charge!
+
+Metal Slug is a 1996 run and gun arcade video game originally developed by Nazca Corporation and released by SNK for the Neo Geo MVS. It is the first installment in the eponymous series. Set in 2028, players assume the role of Peregrine Falcon Strike Force soldiers Marco Rossi and Tarma Roving on a fight against the Rebel Army led by Donald Morden and overthrow his coup d'état to prevent a New World Order.
+
+Metal Slug was conceived by the same staff who created several titles at Irem that shared similar presentation such as In the Hunt and GunForce II, with the core concept during development being a simple but exciting side-scrolling shooter featuring a very easy control scheme and visuals inspired by the works of Hayao Miyazaki. Gameplay was originally more slower-paced, revolving around players controlling the titular tank instead of soldiers across shorter and less complex missions with a darker atmosphere, before the project was heavily overhauled after poor response during location test and the length was extended at the request of SNK to make the game attractive to home players while incorporating more platform elements into its design.
+
+Metal Slug garnered positive reception upon its initial launch from players and critics, being lauded for its sense of humor, fluid hand-drawn animation and fast-paced two-player action. The game was subsequently ported to other platforms by other third-party developers, featuring various changes and additions compared to the MVS original, in addition to being included on compilations and re-released through download services for other systems, among other ways to play it. Its success led to a franchise spawning multiple sequels, remakes and spin-offs. A direct continuation, Metal Slug 2, was released in 1998.</Notes>
+    <Platform>SNK Neo Geo CD</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1996-07-05</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.122449</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>49</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>125690</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Metal_Slug</WikipediaURL>
+    <Title>Metal Slug</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Cooperative; Multiplayer</PlayMode>
+    <Region>Japan</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Platform; Shooter</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl>https://www.youtube.com/watch?v=8ju8hdZpb-A</VideoUrl>
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\Dunk Dream ~ Street Slam ~ Street Hoop (Japan, USA)\Dunk Dream ~ Street Slam ~ Street Hoop (Japan, USA).cue</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T11:16:44.2867612-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:57.8480083-04:00</DateModified>
+    <Developer>Data East</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>bbbab71b-c8e5-4c3f-8852-b8b06664e2de</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Which team is the best at 3-on-3? Choose from ten countries to find out. Shots vary according to the shooting distance. Fake dunk, aloof - a variety of techniques to choose from! Speedy! Powerful! Move your body to hip hoppin' rap music. When the power guage reaches its max, Super Dunk sparks!</Notes>
+    <Platform>SNK Neo Geo CD</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1995-01-20</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.1666667</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>15</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>137364</DatabaseID>
+    <WikipediaURL />
+    <Title>Dunk Dream</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, USA)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Sports</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\Samurai Spirits - Zankurou Musouken ~ Samurai Shodown III (Japan, USA) (En,Ja,Es,Pt)\Samurai Spirits - Zankurou Musouken ~ Samurai Shodown III (Japan, USA) (En,Ja,Es,Pt).cue</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T11:16:44.2866137-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:58.6911476-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>405c5daf-52ae-4805-aac5-16929a3cad50</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Samurai Shodown III: Blades of Blood was released in the arcades on November 15, 1995. It is the third game in SNK's Samurai Shodown series of fighting games. While it is the third game in the main series, it is the first part of a two-chapter story that is chronologically set between the events of Samurai Shodown and Samurai Shodown II.
+
+The game has a darker aesthetic compared to its predecessors. All characters consequently underwent a visual makeover to match this new tone. The humor that characterized the series made way for a more somber and gritty feel. Along with the aesthetic overhaul came significant changes in the gameplay with introduction of two selectable versions of each character: "Slash" (chivalry) and "Bust" (treachery). Each version comes with its own moves and fighting styles; Slash is closer to the first two games, while Bust is a more aggressive style that introduces new moves.
+
+Controls were also updated; a new layout dedicates three of four buttons to weapon attacks and one for kicking attacks, as opposed to two buttons for weapons and kicks each. Tactical changes include priority for special moves as well as replacing the free movement system with a more restrained parry system.
+
+Samurai Shodown III was released on SNK's Neo Geo AES and Neo Geo CD consoles as well as the PlayStation and Saturn systems. A Game Boy version with a slightly different roster and features was released only in Japan by Takara, a team responsible for the porting of several other SNK arcade games to consoles and handhelds.
+
+Gameplay:
+Compared to the others in the series, the game has a darker aesthetic. The more light-hearted characters (Earthquake, Cham Cham, and Gen-an) from the previous games have been excised, and the kabuki master, Kyoshiro Senryo, received a redesign, transforming him from a flamboyant stage performer into a grim-faced, muscular man. All of the characters have been completely redrawn.
+
+Also, the button layout was changed, mapping the first three of the four available buttons to weak, medium and strong slash attacks, respectively. The fourth button is used for kick attacks.
+
+The pace of the game shifted somewhat, as many basic attacks can be canceled into special moves, something which is extremely rare in the first two installments. Most of Samurai Shodown 2's movement options were removed, in favor of the ability to dodge attacks by pressing the A and B buttons simultaneously. When close, performing this command results in a quick switch-around to the opponent's back, which can then be followed up by other attacks. It is also possible to block attacks in mid-air. Items are also thrown onto the battlefield from off-screen as opposed from a delivery man running in the background.
+
+Along with the aesthetic overhaul came significant changes in the gameplay, such as the addition of two selectable versions of each character.
+
+Slash: Known to the Japanese as Shura (修羅), from Sanskrit word "Asura". Originally, in Brahmanism and Hinduism, a devil who loves to fight by nature. It is occasionally mistranslated as "Chivalry", and implies a regular fighter (compare a face in professional wrestling). This version tends to be the closest in style and moves to the Samurai Shodown II version of the character.
+
+Bust: Known to the Japanese as Rasetsu (羅刹), which is a derivation of the Sanskrit word, "rakshasa", in reference to a type of demon of black body (hence, the darker skin of bust characters). It is occasionally mistranslated as "Treachery", implying a rulebreaking heel version of the character. This version typically differs considerably from its Slash counterpart in gameplay, though it visually does not look different beyond its color palette. The fighter Nakoruru is the only notable exception to this. The "Slash" version of her character is accompanied by her pet hawk, Mamahaha, as in the two previous SS games. Her "Bust" version, however, is accompanied by her pet wolf, Shikuru. (Like with Mamahaha, she is able to hop onto Shikuruu's back and perform modified attacks.) Galford in his "Bust" version fights without his dog, Poppy for the first time in the series.</Notes>
+    <Platform>SNK Neo Geo CD</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating />
+    <ReleaseDate>1995-11-15</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.269231</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>13</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>136838</DatabaseID>
+    <WikipediaURL />
+    <Title>Samurai Spirits: Zankurou Musouken</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, USA) (En,Ja,Es,Pt)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>0</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\Tsuukai Gangan Koushinkyoku ~ Aggressors of Dark Kombat (Japan, USA) (En,Ja)\Tsuukai Gangan Koushinkyoku ~ Aggressors of Dark Kombat (Japan, USA) (En,Ja).cue</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T11:16:44.2867742-04:00</DateAdded>
+    <DateModified>2025-09-13T23:23:59.2209012-04:00</DateModified>
+    <Developer>ADK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>57cecdd8-d7c9-4711-aab3-ca202ac999c9</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Aggressors of Dark Kombat offers virtually no storyline to explain its fights. In fact, the prefight conversation sequences show that the fights are not much more than chance meetings. The player's chosen character will advance through a series of stages fighting a series of opponents because he doesn't like the way the other guy looks. The game is viewed from the side perspective that virtually all 2D fighting games use. One player can fight against a computer-controlled opponent, or two players can fight against each other. Each character's life bar appears on the upper left or right of the screen, depending on starting location. A timer is located between the two life bars. When one character is drained of energy or the timer runs out, the match is over and the character left standing (or with more life, if neither characters were drained of energy) wins.</Notes>
+    <Platform>SNK Neo Geo CD</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating />
+    <ReleaseDate>1995-01-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.2222223</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>18</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>122147</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Aggressors_of_Dark_Kombat</WikipediaURL>
+    <Title>Tsuukai GANGAN Koushinkyoku</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, USA) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\World Heroes Perfect (Japan, USA) (En,Ja)\World Heroes Perfect (Japan, USA) (En,Ja).cue</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T11:16:44.2866152-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:01.4461504-04:00</DateModified>
+    <Developer>ADK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>ee01a3e2-96e6-4b2c-abee-c54d5492ca05</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>World Heroes Perfect (ワールドヒーローズ パーフェクト) is a 1995 fighting arcade game developed and published by ADK with the assistance of SNK. It was originally released for the Neo Geo MVS arcade cabinet on May 25, 1995. It is the sequel to the 1994 fighting arcade game World Heroes 2 Jet, and is the fourth and final title of the World Heroes series.</Notes>
+    <Platform>SNK Neo Geo CD</Platform>
+    <Publisher>SNK; ADK</Publisher>
+    <Rating />
+    <ReleaseDate>1996-08-09</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.8333333</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>15</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>136848</DatabaseID>
+    <WikipediaURL />
+    <Title>World Heroes Perfect</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, USA) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>true</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType />
+    <MaxPlayers>0</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\Garou Densetsu Special ~ Fatal Fury Special (Japan, USA) (En,Ja) (Rev 1)\Garou Densetsu Special ~ Fatal Fury Special (Japan, USA) (En,Ja) (Rev 1).cue</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T11:16:44.2867014-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:03.4153618-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>a72fab8d-3eb0-4d18-bdb8-b45b5bf2a723</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Fatal Fury Special is a 1993 fighting game developed and published by SNK and originally released for the Neo Geo arcade and home platforms. It is an updated version of 1992's Fatal Fury 2, introducing several changes to the gameplay system while expanding the available character roster.</Notes>
+    <Platform>SNK Neo Geo CD</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1994-09-09</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.1375</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>20</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>136210</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Fatal_Fury_Special</WikipediaURL>
+    <Title>Garou Densetsu Special</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, USA) (En,Ja) (Rev 1)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\Samurai Spirits - Amakusa Kourin ~ Samurai Shodown IV - Amakusa's Revenge (Japan, USA) (En,Ja,Es,Pt)\Samurai Spirits - Amakusa Kourin ~ Samurai Shodown IV - Amakusa's Revenge (Japan, USA) (En,Ja,Es,Pt).cue</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T11:16:44.2866149-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:04.2655787-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>75aba74f-2637-4a6a-b68b-8ca4940448a2</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Samurai Shodown IV: Amakusa's Revenge is the fourth in SNK's flagship Samurai Shodown series of fighting games. Chronologically, it is the second and final chapter of a story between Samurai Shodown and Samurai Shodown II, with Samurai Shodown III being the first chapter. Samurai Shodown! on the Neo Geo Pocket is a monochrome adaptation of this game, and it was followed by Samurai Shodown! 2 on the Neo Geo Pocket Color, which is a 2D adaptation of Samurai Shodown 64: Warriors Rage.
+
+Gameplay:
+Among other series changes, aerial blocking was removed entirely. One can also no longer charge one's own "pow" gauge. The off-screen delivery man was omitted entirely from the game. The "CD combo" was added, wherein a player can press the C and D buttons together, triggering a strike that can be followed up by a sequence of button taps.
+
+SNK also added a "suicide" move, wherein one's character forfeits the round. The bonus to this is that the one committing suicide will start the next round with a full "POW" gauge. Certain finishes also enable a "fatality" move in the vein of Mortal Kombat.</Notes>
+    <Platform>SNK Neo Geo CD</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1996-12-27</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.375</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>12</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>136839</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Samurai_Shodown_IV</WikipediaURL>
+    <Title>Samurai Spirits: Amakusa Kourin</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, USA) (En,Ja,Es,Pt)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\Tokuten-ou 3 - Eikou e no Chousen ~ Super Sidekicks 3 - The Next Glory (Japan, USA) (En,Ja,Fr,Es,It,Pt)\Tokuten-ou 3 - Eikou e no Chousen ~ Super Sidekicks 3 - The Next Glory (Japan, USA) (En,Ja,Fr,Es,It,Pt).cue</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T11:16:44.2866126-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:05.6970101-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>8d819cb4-753f-4cc4-a0d9-0f23cff42f62</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Published in 1995 (Japanese title: Tokuten Ou 3 - Eikoue no Michi, "Goal-Scoring King 3: Path to the Glory"), the third game features 64 national teams divided into 8 regions:
+
+Europe A: Italy, Holland, Switzerland, Norway, England, Turkey, Portugal, Poland
+Europe B: Germany, Spain, Ireland, Belgium, Romania, Denmark, Wales, Czech Republic
+Europe C: France, Sweden, Bulgaria, Russia, Greece, Austria, Hungary, Finland
+Africa: Nigeria, Morocco, Cameroon, Egypt, South Africa, Zambia, Côte d'Ivoire, Guinea
+Americas: United States, Canada, Guatemala, Mexico, Costa Rica, El Salvador, Puerto Rico (replaced Honduras), Panama
+South America: Brazil, Colombia, Argentina, Bolivia, Uruguay, Ecuador, Peru, Chile (replaces Paraguay)
+Asia A: Australia, New Zealand, China, Taiwan, Iran, Vietnam, Iraq, Singapore
+Asia B: Saudi Arabia, South Korea, Japan, U. A. E., Hong Kong, India, Thailand, Malaysia</Notes>
+    <Platform>SNK Neo Geo CD</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1995-01-01</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.9</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>5</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>213125</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Super_Sidekicks#Super_Sidekicks_3:_The_Next_Glory</WikipediaURL>
+    <Title>Super Sidekicks 3: The Next Glory</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, USA) (En,Ja,Fr,Es,It,Pt)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Sports</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\King of Fighters '94, The (Japan, USA) (En,Ja) (Rev 1)\King of Fighters '94, The (Japan, USA) (En,Ja) (Rev 1).cue</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T11:16:44.2868294-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:06.9066304-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>58b18b28-5ac6-4e7d-a357-01a286c8e203</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>KOF '94 is a crossover featuring characters from SNK's fighting game properties Fatal Fury and Art of Fighting. It also includes revised versions of characters from their pre-Neo Geo games Ikari Warriors and Psycho Soldier, as well as original characters created specifically for the game. The plot features the creation of a new King of Fighters tournament created by the criminal Rugal Bernstein.</Notes>
+    <Platform>SNK Neo Geo CD</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1994-11-02</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.392857</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>15</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>133679</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/The_King_of_Fighters_%2794</WikipediaURL>
+    <Title>The King of Fighters '94</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, USA) (En,Ja) (Rev 1)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>true</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\Next Thing, The - King of the Monsters 2 (Japan, USA) (En,Ja)\Next Thing, The - King of the Monsters 2 (Japan, USA) (En,Ja).cue</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T11:16:44.2867141-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:07.6136992-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>a1417ecd-a591-4778-a0d9-d673d313807e</ID>
+    <LastPlayedDate>2024-06-30T15:23:17.3004831-04:00</LastPlayedDate>
+    <ManualPath />
+    <MusicPath />
+    <Notes>King of the Monsters 2 is a fighting/wrestling game released on May 5 1992 by SNK. It is a sequel to the 1991 game King of the Monsters. In this game three of the previous game's surviving monsters return and battle across the Globe against giant alien monsters that threaten the Earth.</Notes>
+    <Platform>SNK Neo Geo CD</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1994-09-09</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.5416667</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>12</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>136824</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/King_of_the_Monsters_2</WikipediaURL>
+    <Title>Next Thing, The: King of the Monsters 2</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, USA) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, North America</Region>
+    <PlayCount>2</PlayCount>
+    <PlayTime>3</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (USA) (En,Ja,Es,Pt) (Rev 2)\Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (USA) (En,Ja,Es,Pt) (Rev 2).cue</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T11:16:44.2873108-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:08.6660879-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>f11c53e1-2b78-4fa1-a13f-c4a840dfee6a</ID>
+    <LastPlayedDate>2024-06-30T11:20:56.9451283-04:00</LastPlayedDate>
+    <ManualPath />
+    <MusicPath />
+    <Notes>Fatal Fury 3: Road to the Final Victory is a head-to-head fighting game released by SNK for the Neo-Geo arcade and home platforms. It is the fourth game in the Fatal Fury series after Fatal Fury Special.
+
+Fatal Fury 3 retains the format and controls of the previous game in the series, Fatal Fury Special. However, the two-plane battle stages have been revamped into a three-plane format known as the Oversway System. The player fights primarily in the middle plane or the main plane, but can move or "oversway" into either of the sway lines at the background (LP+LK) or foreground (LK+HP). When the player performs an attack in a sway plane (or an Oversway Attack), their character will return to the main plane. Likewise, the player can attack an opponent who is in a Sway Plane with an Anti-Oversway Attack. The player can also do a "Quick Sway" to avoid an attack, leaving the opponent vulnerable to a regular attack.</Notes>
+    <Platform>SNK Neo Geo CD</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating>Not Rated</Rating>
+    <ReleaseDate>1995-12-27</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>4.0625</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>15</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>136812</DatabaseID>
+    <WikipediaURL>https://en.wikipedia.org/wiki/Fatal_Fury_3:_Road_to_the_Final_Victory</WikipediaURL>
+    <Title>Fatal Fury 3: Road to the Final Victory</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(USA) (En,Ja,Es,Pt) (Rev 2)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>North America</Region>
+    <PlayCount>2</PlayCount>
+    <PlayTime>17</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType>Released</ReleaseType>
+    <MaxPlayers>2</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <Game>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <VideoPath />
+    <ThemeVideoPath />
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\Shin Samurai Spirits - Haoumaru Jigokuhen ~ Samurai Shodown II (Japan, USA) (En,Ja)\Shin Samurai Spirits - Haoumaru Jigokuhen ~ Samurai Shodown II (Japan, USA) (En,Ja).cue</ApplicationPath>
+    <CommandLine />
+    <Completed>false</Completed>
+    <ConfigurationCommandLine />
+    <ConfigurationPath />
+    <DateAdded>2024-06-30T11:16:44.2867038-04:00</DateAdded>
+    <DateModified>2025-09-13T23:24:10.7243996-04:00</DateModified>
+    <Developer>SNK</Developer>
+    <DosBoxConfigurationPath />
+    <Emulator>740b2cf4-9574-4715-8b9e-de5285156672</Emulator>
+    <Favorite>false</Favorite>
+    <ID>59bcca59-2bfd-4686-93ce-155d50b15c1a</ID>
+    <ManualPath />
+    <MusicPath />
+    <Notes>They've licked their wound, improved their techniques, and now they're back! The world's 15 fiercest warriors clang steel in a fast and furious fest of fencing festivities. Use new characters and new feints of Fury to hack, slice, dice and Julien fry your way to victory.</Notes>
+    <Platform>SNK Neo Geo CD</Platform>
+    <Publisher>SNK</Publisher>
+    <Rating />
+    <ReleaseDate>1994-12-28</ReleaseDate>
+    <RootFolder />
+    <ScummVMAspectCorrection>false</ScummVMAspectCorrection>
+    <ScummVMFullscreen>false</ScummVMFullscreen>
+    <ScummVMGameDataFolderPath />
+    <ScummVMGameType />
+    <SortTitle />
+    <Source />
+    <StarRatingFloat>0</StarRatingFloat>
+    <StarRating>0</StarRating>
+    <CommunityStarRating>3.85</CommunityStarRating>
+    <CommunityStarRatingTotalVotes>20</CommunityStarRatingTotalVotes>
+    <Status>Imported ROM</Status>
+    <DatabaseID>137376</DatabaseID>
+    <WikipediaURL />
+    <Title>Samurai Shodown II</Title>
+    <UseDosBox>false</UseDosBox>
+    <UseScummVM>false</UseScummVM>
+    <Version>(Japan, USA) (En,Ja)</Version>
+    <Series />
+    <PlayMode>Multiplayer</PlayMode>
+    <Region>Japan, North America</Region>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <Portable>false</Portable>
+    <Hide>false</Hide>
+    <Broken>false</Broken>
+    <CloneOf />
+    <Genre>Fighting</Genre>
+    <MissingVideo>true</MissingVideo>
+    <MissingBoxFrontImage>false</MissingBoxFrontImage>
+    <MissingScreenshotImage>false</MissingScreenshotImage>
+    <MissingMarqueeImage>false</MissingMarqueeImage>
+    <MissingClearLogoImage>false</MissingClearLogoImage>
+    <MissingBackgroundImage>false</MissingBackgroundImage>
+    <MissingBox3dImage>false</MissingBox3dImage>
+    <MissingCartImage>false</MissingCartImage>
+    <MissingCart3dImage>true</MissingCart3dImage>
+    <MissingManual>true</MissingManual>
+    <MissingBannerImage>false</MissingBannerImage>
+    <MissingMusic>true</MissingMusic>
+    <UseStartupScreen>false</UseStartupScreen>
+    <HideAllNonExclusiveFullscreenWindows>false</HideAllNonExclusiveFullscreenWindows>
+    <StartupLoadDelay>0</StartupLoadDelay>
+    <HideMouseCursorInGame>false</HideMouseCursorInGame>
+    <DisableShutdownScreen>false</DisableShutdownScreen>
+    <AggressiveWindowHiding>false</AggressiveWindowHiding>
+    <OverrideDefaultStartupScreenSettings>false</OverrideDefaultStartupScreenSettings>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseAutoHotkeyScript />
+    <ResumeAutoHotkeyScript />
+    <OverrideDefaultPauseScreenSettings>false</OverrideDefaultPauseScreenSettings>
+    <SuspendProcessOnPause>false</SuspendProcessOnPause>
+    <ForcefulPauseScreenActivation>false</ForcefulPauseScreenActivation>
+    <LoadStateAutoHotkeyScript />
+    <SaveStateAutoHotkeyScript />
+    <ResetAutoHotkeyScript />
+    <SwapDiscsAutoHotkeyScript />
+    <CustomDosBoxVersionPath />
+    <ReleaseType />
+    <MaxPlayers>0</MaxPlayers>
+    <VideoUrl />
+    <AndroidBoxFrontThumbPath />
+    <AndroidBoxFrontFullPath />
+    <AndroidClearLogoThumbPath />
+    <AndroidClearLogoFullPath />
+    <AndroidBackgroundPath />
+    <AndroidBackgroundThumbPath />
+    <AndroidGameTitleScreenshotThumbPath />
+    <AndroidGameplayScreenshotThumbPath />
+    <AndroidGameTitleScreenshotPath />
+    <AndroidGameplayScreenshotPath />
+    <AndroidVideoPath />
+    <RetroAchievementsBeatenSoftcore>false</RetroAchievementsBeatenSoftcore>
+    <RetroAchievementsBeatenHardcore>false</RetroAchievementsBeatenHardcore>
+    <HasCloudSynced>false</HasCloudSynced>
+    <Progress>Not Started / Unplayed</Progress>
+  </Game>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>057cc98e-dbda-4fb5-8422-01edf00f6e6f</Id>
+    <PlayCount>2</PlayCount>
+    <PlayTime>17</PlayTime>
+    <GameID>f11c53e1-2b78-4fa1-a13f-c4a840dfee6a</GameID>
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (USA) (En,Ja,Es,Pt) (Rev 2)\Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (USA) (En,Ja,Es,Pt) (Rev 2).cue</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play (USA) (En,Ja,Es,Pt) (Rev 2) Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <Developer />
+    <Publisher />
+    <Region>North America</Region>
+    <Version>(USA) (En,Ja,Es,Pt) (Rev 2)</Version>
+    <Status />
+    <LastPlayed>2024-06-30T11:20:56.9443582-04:00</LastPlayed>
+    <EmulatorId>740b2cf4-9574-4715-8b9e-de5285156672</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>1</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AdditionalApplication>
+    <GogAppId />
+    <OriginAppId />
+    <OriginInstallPath />
+    <Id>b80bcb63-30e0-4110-9bae-e9d2c9e93d5c</Id>
+    <PlayCount>0</PlayCount>
+    <PlayTime>0</PlayTime>
+    <GameID>f11c53e1-2b78-4fa1-a13f-c4a840dfee6a</GameID>
+    <ApplicationPath>Z:\media\games\library\Consoles\SNK NeoGeo CD [1994]\Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (USA) (En,Ja,Es,Pt) (Rev 3)\Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory (USA) (En,Ja,Es,Pt) (Rev 3).cue</ApplicationPath>
+    <AutoRunAfter>false</AutoRunAfter>
+    <AutoRunBefore>false</AutoRunBefore>
+    <CommandLine />
+    <Name>Play (USA) (En,Ja,Es,Pt) (Rev 3) Version...</Name>
+    <UseDosBox>false</UseDosBox>
+    <UseEmulator>true</UseEmulator>
+    <WaitForExit>false</WaitForExit>
+    <Developer />
+    <Publisher />
+    <Region>North America</Region>
+    <Version>(USA) (En,Ja,Es,Pt) (Rev 3)</Version>
+    <Status />
+    <EmulatorId>740b2cf4-9574-4715-8b9e-de5285156672</EmulatorId>
+    <SideA>false</SideA>
+    <SideB>false</SideB>
+    <Priority>2</Priority>
+    <HasCloudSynced>false</HasCloudSynced>
+  </AdditionalApplication>
+  <AlternateName>
+    <GameID>d8f254ce-a1f2-4e83-a86a-e5ef64ec1939</GameID>
+    <Name>Real Bout Garou Densetsu: Real Bout Fatal Fury</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>d8f254ce-a1f2-4e83-a86a-e5ef64ec1939</GameID>
+    <Name>Real Bout Fatal Fury</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>b039e1ce-6b01-460d-9072-7601f97afd26</GameID>
+    <Name>Ryuuko no Ken: Art of Fighting</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>b039e1ce-6b01-460d-9072-7601f97afd26</GameID>
+    <Name>Art of Fighting</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>e589410c-fad5-4d90-bf17-ad99fe76063e</GameID>
+    <Name>Fu'un Mokujiroku: Kakutou Sousei</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>e589410c-fad5-4d90-bf17-ad99fe76063e</GameID>
+    <Name>Fuuun Mokushiroku: Kakutou Sousei: Savage Reign</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>8e588e81-ddbd-4026-aeb9-731083587c9b</GameID>
+    <Name>Art of Fighting 2</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>06bf4ff1-e523-41aa-b9f8-b6324c6e20ae</GameID>
+    <Name>Real Bout Garou Densetsu Special: Real Bout Fatal Fury Special</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>06bf4ff1-e523-41aa-b9f8-b6324c6e20ae</GameID>
+    <Name>Real Bout Fatal Fury Special</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>80e3bf38-ac7a-44b8-9732-615a77188a55</GameID>
+    <Name>네오 봄버맨1</Name>
+    <Region>Korea</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>72575f5a-b4c0-4843-84fe-b274994efb17</GameID>
+    <Name>Daburu Doragon</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>bbbab71b-c8e5-4c3f-8852-b8b06664e2de</GameID>
+    <Name>Street Hoop</Name>
+    <Region>Europe</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>bbbab71b-c8e5-4c3f-8852-b8b06664e2de</GameID>
+    <Name>Street Slam</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>405c5daf-52ae-4805-aac5-16929a3cad50</GameID>
+    <Name>Samurai Spirits: Zankurou Musouken: Samurai Shodown III</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>405c5daf-52ae-4805-aac5-16929a3cad50</GameID>
+    <Name>Samurai Shodown III</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>57cecdd8-d7c9-4711-aab3-ca202ac999c9</GameID>
+    <Name>Tsuukai Gangan Koushinkyoku: Aggressors of Dark Kombat</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>57cecdd8-d7c9-4711-aab3-ca202ac999c9</GameID>
+    <Name>Aggressors of Dark Kombat</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>a72fab8d-3eb0-4d18-bdb8-b45b5bf2a723</GameID>
+    <Name>Garou Densetsu Special: Fatal Fury Special</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>a72fab8d-3eb0-4d18-bdb8-b45b5bf2a723</GameID>
+    <Name>Fatal Fury Special</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>75aba74f-2637-4a6a-b68b-8ca4940448a2</GameID>
+    <Name>Samurai Spirits: Amakusa Kourin: Samurai Shodown IV: Amakusa's Revenge</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>75aba74f-2637-4a6a-b68b-8ca4940448a2</GameID>
+    <Name>Samurai Shodown IV: Amakusa's Revenge</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>8d819cb4-753f-4cc4-a0d9-0f23cff42f62</GameID>
+    <Name>Tokuten-ou 3: Eikou e no Chousen: Super Sidekicks 3: The Next Glory</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>8d819cb4-753f-4cc4-a0d9-0f23cff42f62</GameID>
+    <Name>Tokuten Oh 3: Eikoue no Chousen</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>58b18b28-5ac6-4e7d-a357-01a286c8e203</GameID>
+    <Name>The King of Fighters '94</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>a1417ecd-a591-4778-a0d9-d673d313807e</GameID>
+    <Name>King of the Monsters 2: The Next Thing</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>f11c53e1-2b78-4fa1-a13f-c4a840dfee6a</GameID>
+    <Name>Garou Densetsu 3: Haruka-naru Tatakai</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>f11c53e1-2b78-4fa1-a13f-c4a840dfee6a</GameID>
+    <Name>Garou Densetsu 3: Road to the Final Victory: Fatal Fury 3: Road to the Final Victory</Name>
+    <Region />
+  </AlternateName>
+  <AlternateName>
+    <GameID>59bcca59-2bfd-4686-93ce-155d50b15c1a</GameID>
+    <Name>Shin Samurai Spirits: Haoumaru Jigoku Hen</Name>
+    <Region>Japan</Region>
+  </AlternateName>
+  <AlternateName>
+    <GameID>59bcca59-2bfd-4686-93ce-155d50b15c1a</GameID>
+    <Name>Shin Samurai Spirits: Haoumaru Jigokuhen: Samurai Shodown II</Name>
+    <Region />
+  </AlternateName>
+  <GameSave>
+    <GameId>26093898-110e-47ac-935e-3e1141ab005c</GameId>
+    <EmulatorFileName>retroarch.exe</EmulatorFileName>
+    <EmulatorCore>neocd_libretro</EmulatorCore>
+    <Title />
+    <FilePath>C:\Gaming\Emulation\LaunchBox\Emulators\RetroArch\saves\NeoCD\Metal Slug 2 (Japan, USA) (En,Ja).srm</FilePath>
+  </GameSave>
+  <GameSave>
+    <GameId>a1417ecd-a591-4778-a0d9-d673d313807e</GameId>
+    <EmulatorFileName>retroarch.exe</EmulatorFileName>
+    <EmulatorCore>neocd_libretro</EmulatorCore>
+    <Title />
+    <FilePath>C:\Gaming\Emulation\LaunchBox\Emulators\RetroArch\saves\NeoCD\Next Thing, The - King of the Monsters 2 (Japan, USA) (En,Ja).srm</FilePath>
+  </GameSave>
+</LaunchBox>

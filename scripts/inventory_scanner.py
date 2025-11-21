@@ -104,68 +104,30 @@ class InventoryScanner:
         # Check inclusion filters (OR logic - any match includes)
         matched = False
         
-        if filters.get('include_platform_best', False):
-            if row.get('CUSTOM_The Best', '').strip().lower() == 'true':
-                matched = True
-        
-        if filters.get('include_all_time_favorites', False):
-            if row.get('CUSTOM_All Time Favorites', '').strip().lower() == 'true':
-                matched = True
-        
-        if filters.get('include_favorites', False):
+        # Check LaunchBox Favorites (native field)
+        if filters.get('favorites', False):
             if row.get('Favorite', '').strip().lower() == 'true':
                 matched = True
         
-        if filters.get('include_backlog', False):
-            if row.get('CUSTOM_Backlog', '').strip().lower() == 'true':
-                matched = True
+        # Check playlist-based filters
+        playlists_str = row.get('Playlists', '')
+        game_playlists = [p.strip() for p in playlists_str.split(';') if p.strip()]
         
-        if filters.get('include_goty_winner', False):
-            if row.get('CUSTOM_GOTY Winner', '').strip().lower() == 'true':
-                matched = True
-        
-        if filters.get('include_goty_nominee', False):
-            if row.get('CUSTOM_GOTY Nominee', '').strip().lower() == 'true':
-                matched = True
-        
-        if filters.get('include_on_deck', False):
-            if row.get('CUSTOM_On Deck', '').strip().lower() == 'true':
-                matched = True
-        
-        if filters.get('include_retro', False):
-            if row.get('CUSTOM_Retro Collection', '').strip().lower() == 'true':
-                matched = True
-        
-        if filters.get('include_classic_titles', False):
-            if row.get('IsInClassicCollection', '').strip().lower() == 'true':
-                matched = True
-        
-        if filters.get('include_franchises', False):
-            if row.get('IsInFranchise', '').strip().lower() == 'true':
-                matched = True
-        
-        # Custom fields
-        custom_fields = filters.get('custom_fields', [])
-        if custom_fields:
-            for field in custom_fields:
-                if row.get(field, '').strip().lower() == 'true':
+        # Check each filter key
+        for filter_key, enabled in filters.items():
+            if not enabled:
+                continue
+            
+            # Playlist filters start with 'playlist_'
+            if filter_key.startswith('playlist_'):
+                playlist_name = filter_key[9:]  # Remove 'playlist_' prefix
+                if playlist_name in game_playlists:
                     matched = True
                     break
         
         # If no filters enabled (all False), include everything
-        has_any_filter = any([
-            filters.get('include_platform_best', False),
-            filters.get('include_all_time_favorites', False),
-            filters.get('include_favorites', False),
-            filters.get('include_backlog', False),
-            filters.get('include_goty_winner', False),
-            filters.get('include_goty_nominee', False),
-            filters.get('include_on_deck', False),
-            filters.get('include_retro', False),
-            filters.get('include_classic_titles', False),
-            filters.get('include_franchises', False),
-            bool(custom_fields),
-        ])
+        filter_keys = [k for k in filters.keys() if k not in ['force_manual_include', 'force_manual_exclude']]
+        has_any_filter = any(filters.get(k, False) for k in filter_keys)
         
         if not has_any_filter:
             return True  # No filters enabled - include all

@@ -1,0 +1,757 @@
+<?xml version="1.0" standalone="yes"?>
+<LaunchBox>
+  <Settings>
+    <AlwaysShowImagesFullscreen>true</AlwaysShowImagesFullscreen>
+    <AlwaysUseDefaultBackground>false</AlwaysUseDefaultBackground>
+    <AutoBackup>true</AutoBackup>
+    <AutoPlayMusic>true</AutoPlayMusic>
+    <BackgroundBoxArt>false</BackgroundBoxArt>
+    <BackgroundFade>150</BackgroundFade>
+    <BackgroundImage />
+    <BackgroundWallpaper>false</BackgroundWallpaper>
+    <ButtonBar>true</ButtonBar>
+    <CheckForUpdates>true</CheckForUpdates>
+    <DarkBackgroundColor>-15724528</DarkBackgroundColor>
+    <EnableGamepad>true</EnableGamepad>
+    <ExitDosBox>true</ExitDosBox>
+    <FiltersWidth>732</FiltersWidth>
+    <ForegroundColor>-1</ForegroundColor>
+    <FormLocationX>0</FormLocationX>
+    <FormLocationY>0</FormLocationY>
+    <FormMaximized>true</FormMaximized>
+    <FormSizeX>2048</FormSizeX>
+    <FormSizeY>1232</FormSizeY>
+    <GamepadId>3faef100-359a-11ef-8002-444553540000</GamepadId>
+    <GamepadName>DualSense Wireless Controller</GamepadName>
+    <HighlightedBackgroundColor>-13684945</HighlightedBackgroundColor>
+    <HighlightedBorderColor>-13684945</HighlightedBorderColor>
+    <LightBackgroundColor>-15198184</LightBackgroundColor>
+    <MenuBorderColor>-12105907</MenuBorderColor>
+    <NoWelcomeVersion>13.24</NoWelcomeVersion>
+    <PauseBeforeCommands>false</PauseBeforeCommands>
+    <PauseBeforeExit>false</PauseBeforeExit>
+    <ScrollBar>true</ScrollBar>
+    <SelectedBackgroundColor>-12491628</SelectedBackgroundColor>
+    <ShowCommands>false</ShowCommands>
+    <ShowFilters>true</ShowFilters>
+    <ShowIconsOnHover>true</ShowIconsOnHover>
+    <ShowVersions>false</ShowVersions>
+    <SortBy>Title</SortBy>
+    <SortByDesc>false</SortByDesc>
+    <Upgraded>true</Upgraded>
+    <UseDefaultWindowsBorder>false</UseDefaultWindowsBorder>
+    <UseDefaultWindowsStyles>false</UseDefaultWindowsStyles>
+    <WindowBorderColor>-10197916</WindowBorderColor>
+    <SideBarSize>313</SideBarSize>
+    <ShowSideBar>true</ShowSideBar>
+    <SideBarField>Platform Category</SideBarField>
+    <SideBarValue />
+    <EnableAutomatedImports>true</EnableAutomatedImports>
+    <EnableLocalDBSearch>true</EnableLocalDBSearch>
+    <ColorizeGameDividers>true</ColorizeGameDividers>
+    <ColorizeScrollBar>true</ColorizeScrollBar>
+    <ColorizeGameSelections>false</ColorizeGameSelections>
+    <ColorizeGameDetailsPopup>false</ColorizeGameDetailsPopup>
+    <ColorizeBackgroundFade>false</ColorizeBackgroundFade>
+    <UseRandomColorThemeOnStartup>false</UseRandomColorThemeOnStartup>
+    <GameAspectRatio>0.6</GameAspectRatio>
+    <GameSpacingHorizontal>45</GameSpacingHorizontal>
+    <GameSpacingVertical>45</GameSpacingVertical>
+    <GamePaddingVertical>25</GamePaddingVertical>
+    <GamePaddingHorizontal>15</GamePaddingHorizontal>
+    <GameTextLines>2</GameTextLines>
+    <GameTextSpacingVertical>15</GameTextSpacingVertical>
+    <GameFont>Poppins Light, 10pt</GameFont>
+    <SidebarFont>Poppins, 10pt</SidebarFont>
+    <GameDetailsLargeFont>Poppins, 11pt</GameDetailsLargeFont>
+    <GameDetailsSmallFont>Poppins, 10pt</GameDetailsSmallFont>
+    <GameDetailsTitleFont>Poppins, 18pt</GameDetailsTitleFont>
+    <ID>0b1ad3d4-5c0d-420c-87e9-95eaa89adfb7</ID>
+    <HideSidebarNone>true</HideSidebarNone>
+    <HideSidebarExists>true</HideSidebarExists>
+    <ShowSidebarCounts>false</ShowSidebarCounts>
+    <AlignSidebarCountsRight>false</AlignSidebarCountsRight>
+    <SidebarNoneText>(None)</SidebarNoneText>
+    <SidebarExistsText>(Exists)</SidebarExistsText>
+    <SidebarAllText>All</SidebarAllText>
+    <HideSidebarAll>false</HideSidebarAll>
+    <BetaUpgrades>false</BetaUpgrades>
+    <MinimizeOnGameLaunch>false</MinimizeOnGameLaunch>
+    <RestoreOnGameExit>false</RestoreOnGameExit>
+    <ShowSidebarScreenshots>true</ShowSidebarScreenshots>
+    <ShowSidebarFanart>true</ShowSidebarFanart>
+    <ControllerSelectButton>1</ControllerSelectButton>
+    <ControllerContextMenuButton>2</ControllerContextMenuButton>
+    <ControllerPlayButton>3</ControllerPlayButton>
+    <ControllerTopMenuButton>4</ControllerTopMenuButton>
+    <ControllerImagesButton>-1</ControllerImagesButton>
+    <ControllerSideBarButton>5</ControllerSideBarButton>
+    <ControllerGameDetailsButton>6</ControllerGameDetailsButton>
+    <ControllerFullscreenButton>-1</ControllerFullscreenButton>
+    <ControllerZoomInButton>-1</ControllerZoomInButton>
+    <ControllerZoomOutButton>-1</ControllerZoomOutButton>
+    <UseAllControllers>true</UseAllControllers>
+    <UseControllerAutomation>false</UseControllerAutomation>
+    <ControllerAutomationHoldButton>7</ControllerAutomationHoldButton>
+    <ControllerAutomationCloseButton>8</ControllerAutomationCloseButton>
+    <ControllerAutomationStartButton>1</ControllerAutomationStartButton>
+    <ControllerAutomationVolumeUpButton>6</ControllerAutomationVolumeUpButton>
+    <ControllerAutomationVolumeDownButton>5</ControllerAutomationVolumeDownButton>
+    <ControllerPageUpButton>-1</ControllerPageUpButton>
+    <ControllerPageDownButton>-1</ControllerPageDownButton>
+    <ControllerFlipBoxButton>-1</ControllerFlipBoxButton>
+    <ControllerPlayMusicButton>-1</ControllerPlayMusicButton>
+    <ControllerZScroll>false</ControllerZScroll>
+    <VoteVersion />
+    <Language>en</Language>
+    <ImagesReorganizedFor5>true</ImagesReorganizedFor5>
+    <ShowHiddenGames>false</ShowHiddenGames>
+    <ShowBrokenGames>true</ShowBrokenGames>
+    <DosBoxAutoHotkeyScript />
+    <ScummVmAutoHotkeyScript />
+    <WindowsAutoHotkeyScript />
+    <ListView>false</ListView>
+    <EmuMoviesUserId>idealbrandon@gmail.com</EmuMoviesUserId>
+    <EmuMoviesPassword>blr0BM+6EL63kn7oqVPFi9HKRSOEIm+t3B38aC7eSSw=</EmuMoviesPassword>
+    <ShowDetailsVideo>true</ShowDetailsVideo>
+    <ShowDetailAchievements>true</ShowDetailAchievements>
+    <AutoPlayDetailsVideo>false</AutoPlayDetailsVideo>
+    <ShowDetailPlatform>true</ShowDetailPlatform>
+    <ShowDetailReleaseDate>true</ShowDetailReleaseDate>
+    <ShowDetailDeveloper>true</ShowDetailDeveloper>
+    <ShowDetailPublisher>true</ShowDetailPublisher>
+    <ShowDetailRating>true</ShowDetailRating>
+    <ShowDetailGenres>true</ShowDetailGenres>
+    <ShowDetailSeries>true</ShowDetailSeries>
+    <ShowDetailPlayMode>true</ShowDetailPlayMode>
+    <ShowDetailRegion>true</ShowDetailRegion>
+    <ShowDetailStatus>true</ShowDetailStatus>
+    <ShowDetailSource>true</ShowDetailSource>
+    <ShowDetailPortable>true</ShowDetailPortable>
+    <ShowDetailInstalled>true</ShowDetailInstalled>
+    <ShowDetailFileName>true</ShowDetailFileName>
+    <ShowDetailCustomFields>true</ShowDetailCustomFields>
+    <ShowDetailLastPlayed>true</ShowDetailLastPlayed>
+    <ShowDetailPlayCount>true</ShowDetailPlayCount>
+    <ShowDetailPlayTime>true</ShowDetailPlayTime>
+    <ShowDetailStarRating>true</ShowDetailStarRating>
+    <ShowDetailNotes>true</ShowDetailNotes>
+    <ShowDetailDates>true</ShowDetailDates>
+    <VideoPlaybackEngine>Windows Media Player</VideoPlaybackEngine>
+    <ShowLaunchBoxSplashScreen>true</ShowLaunchBoxSplashScreen>
+    <CloudAuthenticationToken />
+    <LastMetadataUpdate>2025-11-18T12:20:05.8647754-05:00</LastMetadataUpdate>
+    <LastMetadataVersion>13.24</LastMetadataVersion>
+    <ImageFoldersRenamedFor63>true</ImageFoldersRenamedFor63>
+    <FrontImageTypePriorities>GOG Poster,Steam Poster,Epic Games Poster,Amazon Poster,Box - Front,Box - Front - Reconstructed,Advertisement Flyer - Front,Origin Poster,Uplay Thumbnail,Fanart - Box - Front,Steam Banner</FrontImageTypePriorities>
+    <BackImageTypePriorities>Box - Back,Box - Back - Reconstructed,Advertisement Flyer - Back,Fanart - Box - Back</BackImageTypePriorities>
+    <BackgroundImageTypePriorities>Epic Games Background,Uplay Background,Origin Background,Amazon Background,Fanart - Background</BackgroundImageTypePriorities>
+    <ScreenshotsImageTypePriorities>Screenshot - Game Title,Screenshot - Game Select,Screenshot - Gameplay,Screenshot - High Scores,Screenshot - Game Over,Steam Screenshot,GOG Screenshot,Epic Games Screenshot,Origin Screenshot,Amazon Screenshot</ScreenshotsImageTypePriorities>
+    <MarqueeImageTypePriorities>Arcade - Marquee,Banner,Steam Banner</MarqueeImageTypePriorities>
+    <Box3dImageTypePriorities>Box - 3D</Box3dImageTypePriorities>
+    <CartFrontImageTypePriorities>Cart - Front,Fanart - Cart - Front,Disc,Fanart - Disc</CartFrontImageTypePriorities>
+    <CartBackImageTypePriorities>Cart - Back,Fanart - Cart - Back</CartBackImageTypePriorities>
+    <Cart3dImageTypePriorities>Cart - 3D</Cart3dImageTypePriorities>
+    <DefaultImageGroup>Boxes</DefaultImageGroup>
+    <AllowDeletingRoms>false</AllowDeletingRoms>
+    <EnableLedBlinky>false</EnableLedBlinky>
+    <LedBlinkyPath />
+    <RegionPriorities>North America,United States</RegionPriorities>
+    <DebugLog>false</DebugLog>
+    <ShuffleMusic>true</ShuffleMusic>
+    <BackgroundUpdateDownloads>true</BackgroundUpdateDownloads>
+    <ImportDefaultRemoveRoughMatches>true</ImportDefaultRemoveRoughMatches>
+    <ImportDefaultSearchGamesDatabase>true</ImportDefaultSearchGamesDatabase>
+    <ImportDefaultFilesFromSpecifiedFoldersOnly>false</ImportDefaultFilesFromSpecifiedFoldersOnly>
+    <ImportDefaultAlsoCopyMoveAllFiles>true</ImportDefaultAlsoCopyMoveAllFiles>
+    <ImportDefaultLookForPdfFiles>true</ImportDefaultLookForPdfFiles>
+    <ImportDefaultCombineRoms>true</ImportDefaultCombineRoms>
+    <ImportDefaultRenameGameFolders>false</ImportDefaultRenameGameFolders>
+    <ImportDefaultLookForDosBoxConfFiles>true</ImportDefaultLookForDosBoxConfFiles>
+    <ImportDefaultLookForGameSetupFiles>true</ImportDefaultLookForGameSetupFiles>
+    <ImportDefaultAutomaticallyMount>true</ImportDefaultAutomaticallyMount>
+    <ImportDefaultCinematicThemeVideo>true</ImportDefaultCinematicThemeVideo>
+    <ImportDefaultSteamTrailerVideo>false</ImportDefaultSteamTrailerVideo>
+    <RetroAchievementsUsername />
+    <RetroAchievementsApiKey />
+    <UploadStarRatings>true</UploadStarRatings>
+    <ConsiderCommunityStarRatings>true</ConsiderCommunityStarRatings>
+    <MinimumCommunityRatingCountBeforeConsidering>5</MinimumCommunityRatingCountBeforeConsidering>
+    <RetroarchNetplayLastNickname />
+    <RetroarchNetplayLastServer />
+    <ListViewOrderedColumnPriorities>Badges,Title,Platform,Developer,Publisher,Release Date,Rating,Genre,Series,Region,Play Mode,Version,Status,Source,Last Played,Added,Modified,Play Count,Favorite,Completed,Broken,Portable,Hide,Star Rating,Community Star Rating,Community Star Rating Count,Alternate Names,Wikipedia URL,Max Players,Release Type,Video URL,Installed,Application Path,Launchbox Database ID,Play Time</ListViewOrderedColumnPriorities>
+    <ListViewVisibleColumnIndexPriorities>33,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,34</ListViewVisibleColumnIndexPriorities>
+    <HideGamesMissingVideos>false</HideGamesMissingVideos>
+    <HideGamesMissingBoxFrontImage>false</HideGamesMissingBoxFrontImage>
+    <HideGamesMissingScreenshotImage>false</HideGamesMissingScreenshotImage>
+    <HideGamesMissingClearLogoImage>false</HideGamesMissingClearLogoImage>
+    <HideGamesMissingBackgroundImage>false</HideGamesMissingBackgroundImage>
+    <VolumeNext>75</VolumeNext>
+    <SideBarValueId>-Arcade-Platform Category-Arcade the Best-Playlist</SideBarValueId>
+    <ControlsBarHeight>56</ControlsBarHeight>
+    <SteamApiKey>47DC530F2E4B1C0C122FB6DF8FF457BB</SteamApiKey>
+    <SteamUserName>one_spooky_boi</SteamUserName>
+    <NextBoxSize>0.17414287</NextBoxSize>
+    <BoxBackgroundOpacity>230</BoxBackgroundOpacity>
+    <ColorizeBoxBackgroundsToMatchImages>true</ColorizeBoxBackgroundsToMatchImages>
+    <BoxTextOutlineOpacity>0</BoxTextOutlineOpacity>
+    <BoxAlignText>true</BoxAlignText>
+    <BoxTextOutlineThickness>0</BoxTextOutlineThickness>
+    <CenterText>false</CenterText>
+    <ShowSubline>true</ShowSubline>
+    <NextBoxSpacingHorizontal>35</NextBoxSpacingHorizontal>
+    <NextBoxSpacingVertical>25</NextBoxSpacingVertical>
+    <NextBoxPaddingHorizontal>12</NextBoxPaddingHorizontal>
+    <NextBoxPaddingVertical>12</NextBoxPaddingVertical>
+    <NextBoxTextSpacingVertical>10</NextBoxTextSpacingVertical>
+    <NextBoxTextLines>2</NextBoxTextLines>
+    <NextBoxAspectRatio>0.645</NextBoxAspectRatio>
+    <Theme>Default</Theme>
+    <UseStartupScreen>false</UseStartupScreen>
+    <StartupTheme>Default</StartupTheme>
+    <MinimumStartupScreenDisplayTime>1000</MinimumStartupScreenDisplayTime>
+    <MinimumShutdownScreenDisplayTime>1000</MinimumShutdownScreenDisplayTime>
+    <HideMouseCursorOnStartupScreens>true</HideMouseCursorOnStartupScreens>
+    <MaxComboBoxItemCount>500</MaxComboBoxItemCount>
+    <PauseTheme>Default</PauseTheme>
+    <KeyboardGamePause>0</KeyboardGamePause>
+    <ControllerAutomationPauseButton>0</ControllerAutomationPauseButton>
+    <UsePauseScreen>false</UsePauseScreen>
+    <PauseScreenMuting>true</PauseScreenMuting>
+    <PauseScreenFading>true</PauseScreenFading>
+    <HasAppendedSteamImageTypes>true</HasAppendedSteamImageTypes>
+    <HasAppendedGogImageTypes>true</HasAppendedGogImageTypes>
+    <ShowTextOnAllGames>true</ShowTextOnAllGames>
+    <BackgroundBlurAmount>30</BackgroundBlurAmount>
+    <EnableBoxShadows>true</EnableBoxShadows>
+    <DynamicBoxSizing>true</DynamicBoxSizing>
+    <ShowBadges>false</ShowBadges>
+    <EnabledBadges />
+    <GogProfileName>idealbrandon</GogProfileName>
+    <GogLaunchWithClient>true</GogLaunchWithClient>
+    <OriginLaunchWithClient>false</OriginLaunchWithClient>
+    <EpicToken>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</EpicToken>
+    <AmazonToken />
+    <DownloadMameCommunityHighScores>true</DownloadMameCommunityHighScores>
+    <UploadMameCommunityHighScores>false</UploadMameCommunityHighScores>
+    <ShowDetailMameAllTimeCommunityLeaderboard>true</ShowDetailMameAllTimeCommunityLeaderboard>
+    <ShowDetailMameYearlyCommunityLeaderboard>true</ShowDetailMameYearlyCommunityLeaderboard>
+    <ShowDetailMameMonthlyCommunityLeaderboard>true</ShowDetailMameMonthlyCommunityLeaderboard>
+    <ShowDetailMameWeeklyCommunityLeaderboard>true</ShowDetailMameWeeklyCommunityLeaderboard>
+    <HasAppendedEpicGamesImageTypes>true</HasAppendedEpicGamesImageTypes>
+    <HasAppendedUplayImageTypes>true</HasAppendedUplayImageTypes>
+    <HasAppendedOriginImageTypes>true</HasAppendedOriginImageTypes>
+    <HasAppendedAmazonImageTypes>true</HasAppendedAmazonImageTypes>
+    <HasAppendedAmazonPoster>true</HasAppendedAmazonPoster>
+    <VideoTypePriorities>Theme Video,Video Snap,Recording,Trailer</VideoTypePriorities>
+    <AutoAddObsRecordings>false</AutoAddObsRecordings>
+    <StartObsWithGames>false</StartObsWithGames>
+    <ObsRecordingsFolder />
+    <ObsExePath />
+    <KeyboardScreenshot>0</KeyboardScreenshot>
+    <ShowDetailWikipediaUrl>true</ShowDetailWikipediaUrl>
+    <ShowDetailReleaseType>true</ShowDetailReleaseType>
+    <ShowDetailMaxPlayer>true</ShowDetailMaxPlayer>
+    <ShowDetailVideoUrl>true</ShowDetailVideoUrl>
+    <LedBlinkyUseAdvanced>false</LedBlinkyUseAdvanced>
+    <AlwaysShowSystemTrayIcon>false</AlwaysShowSystemTrayIcon>
+    <MinimizeToSystemTray>false</MinimizeToSystemTray>
+    <CloseToSystemTray>false</CloseToSystemTray>
+    <DontSendTrayReminder>false</DontSendTrayReminder>
+    <UseDeferredScrolling>false</UseDeferredScrolling>
+    <DialogAccentColor>-12491628</DialogAccentColor>
+    <DialogHighlightColor>-11776158</DialogHighlightColor>
+    <DialogBackgroundColor>-14013644</DialogBackgroundColor>
+    <DialogBorderColor>-14013644</DialogBorderColor>
+    <DialogForegroundColor>-986896</DialogForegroundColor>
+    <DialogContrastMultiplier>1</DialogContrastMultiplier>
+    <ImportDefaultMediaLimit>1</ImportDefaultMediaLimit>
+    <SimilarGamesXmlString>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;GameSuggesterSaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;AllowDbGames&gt;true&lt;/AllowDbGames&gt;&lt;Criteria&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;IsNotEmpty&lt;/ComparisonTypeKey&gt;&lt;ComparisonValue /&gt;&lt;FieldKey&gt;Notes&lt;/FieldKey&gt;&lt;FilterType&gt;DatabaseGamesOnly&lt;/FilterType&gt;&lt;UseGameValue&gt;false&lt;/UseGameValue&gt;&lt;Weight xsi:nil="true" /&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;EqualTo&lt;/ComparisonTypeKey&gt;&lt;ComparisonValue&gt;Released&lt;/ComparisonValue&gt;&lt;FieldKey&gt;ReleaseType&lt;/FieldKey&gt;&lt;FilterType&gt;DatabaseGamesOnly&lt;/FilterType&gt;&lt;UseGameValue&gt;false&lt;/UseGameValue&gt;&lt;Weight xsi:nil="true" /&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;NotEqualTo&lt;/ComparisonTypeKey&gt;&lt;FieldKey&gt;Title&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;true&lt;/UseGameValue&gt;&lt;Weight xsi:nil="true" /&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;IsSimilarTo&lt;/ComparisonTypeKey&gt;&lt;FieldKey&gt;Title&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;true&lt;/UseGameValue&gt;&lt;Weight&gt;2&lt;/Weight&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;IsSimilarTo&lt;/ComparisonTypeKey&gt;&lt;FieldKey&gt;AlternateName&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;true&lt;/UseGameValue&gt;&lt;Weight&gt;2&lt;/Weight&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;IsSimilarTo&lt;/ComparisonTypeKey&gt;&lt;FieldKey&gt;Series&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;true&lt;/UseGameValue&gt;&lt;Weight&gt;2&lt;/Weight&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;EqualTo&lt;/ComparisonTypeKey&gt;&lt;FieldKey&gt;Genre&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;true&lt;/UseGameValue&gt;&lt;Weight&gt;3&lt;/Weight&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;EqualTo&lt;/ComparisonTypeKey&gt;&lt;FieldKey&gt;PlayMode&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;true&lt;/UseGameValue&gt;&lt;Weight&gt;2&lt;/Weight&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;EqualTo&lt;/ComparisonTypeKey&gt;&lt;FieldKey&gt;MaxPlayers&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;true&lt;/UseGameValue&gt;&lt;Weight&gt;1&lt;/Weight&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;EqualTo&lt;/ComparisonTypeKey&gt;&lt;FieldKey&gt;Platform&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;true&lt;/UseGameValue&gt;&lt;Weight&gt;2&lt;/Weight&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;EqualTo&lt;/ComparisonTypeKey&gt;&lt;FieldKey&gt;Rating&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;true&lt;/UseGameValue&gt;&lt;Weight&gt;2&lt;/Weight&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;EqualTo&lt;/ComparisonTypeKey&gt;&lt;FieldKey&gt;Developer&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;true&lt;/UseGameValue&gt;&lt;Weight&gt;1&lt;/Weight&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;EqualTo&lt;/ComparisonTypeKey&gt;&lt;FieldKey&gt;Publisher&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;true&lt;/UseGameValue&gt;&lt;Weight&gt;1&lt;/Weight&gt;&lt;/CriteriaRecord&gt;&lt;/Criteria&gt;&lt;MinimumScore&gt;0&lt;/MinimumScore&gt;&lt;/GameSuggesterSaveData&gt;</SimilarGamesXmlString>
+    <RecommendedGamesXmlString>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;GameSuggesterSaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;&lt;AllowDbGames&gt;true&lt;/AllowDbGames&gt;&lt;Criteria&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;EqualTo&lt;/ComparisonTypeKey&gt;&lt;ComparisonValue&gt;Released&lt;/ComparisonValue&gt;&lt;FieldKey&gt;ReleaseType&lt;/FieldKey&gt;&lt;FilterType&gt;DatabaseGamesOnly&lt;/FilterType&gt;&lt;UseGameValue&gt;false&lt;/UseGameValue&gt;&lt;Weight xsi:nil="true" /&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;NotEqualTo&lt;/ComparisonTypeKey&gt;&lt;FieldKey&gt;Title&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;true&lt;/UseGameValue&gt;&lt;Weight xsi:nil="true" /&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;GreaterThan&lt;/ComparisonTypeKey&gt;&lt;ComparisonValue&gt;3.5&lt;/ComparisonValue&gt;&lt;FieldKey&gt;StarRating&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;false&lt;/UseGameValue&gt;&lt;Weight xsi:nil="true" /&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;IsNotSimilarTo&lt;/ComparisonTypeKey&gt;&lt;FieldKey&gt;Series&lt;/FieldKey&gt;&lt;FilterType&gt;LocalGamesOnly&lt;/FilterType&gt;&lt;UseGameValue&gt;true&lt;/UseGameValue&gt;&lt;Weight xsi:nil="true" /&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;EqualTo&lt;/ComparisonTypeKey&gt;&lt;FieldKey&gt;Genre&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;true&lt;/UseGameValue&gt;&lt;Weight&gt;3&lt;/Weight&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;EqualTo&lt;/ComparisonTypeKey&gt;&lt;FieldKey&gt;PlayMode&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;true&lt;/UseGameValue&gt;&lt;Weight&gt;2&lt;/Weight&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;EqualTo&lt;/ComparisonTypeKey&gt;&lt;FieldKey&gt;MaxPlayers&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;true&lt;/UseGameValue&gt;&lt;Weight&gt;1&lt;/Weight&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;EqualTo&lt;/ComparisonTypeKey&gt;&lt;FieldKey&gt;Platform&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;true&lt;/UseGameValue&gt;&lt;Weight&gt;1&lt;/Weight&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;GreaterThan&lt;/ComparisonTypeKey&gt;&lt;ComparisonValue&gt;4.1&lt;/ComparisonValue&gt;&lt;FieldKey&gt;StarRating&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;false&lt;/UseGameValue&gt;&lt;Weight&gt;3&lt;/Weight&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;EqualTo&lt;/ComparisonTypeKey&gt;&lt;FieldKey&gt;Rating&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;true&lt;/UseGameValue&gt;&lt;Weight&gt;2&lt;/Weight&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;EqualTo&lt;/ComparisonTypeKey&gt;&lt;FieldKey&gt;Developer&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;true&lt;/UseGameValue&gt;&lt;Weight&gt;1&lt;/Weight&gt;&lt;/CriteriaRecord&gt;&lt;CriteriaRecord&gt;&lt;ComparisonTypeKey&gt;EqualTo&lt;/ComparisonTypeKey&gt;&lt;FieldKey&gt;Publisher&lt;/FieldKey&gt;&lt;FilterType&gt;AllGames&lt;/FilterType&gt;&lt;UseGameValue&gt;true&lt;/UseGameValue&gt;&lt;Weight&gt;1&lt;/Weight&gt;&lt;/CriteriaRecord&gt;&lt;/Criteria&gt;&lt;MinimumScore&gt;0&lt;/MinimumScore&gt;&lt;/GameSuggesterSaveData&gt;</RecommendedGamesXmlString>
+    <PossiblePortsXmlString />
+    <ShowPlatformTotalGames>true</ShowPlatformTotalGames>
+    <ShowPlatformDefaultEmulator>true</ShowPlatformDefaultEmulator>
+    <ShowPlatformGamesCompleted>true</ShowPlatformGamesCompleted>
+    <ShowPlatformGamesMastered>true</ShowPlatformGamesMastered>
+    <ShowPlatformGamesBeaten>true</ShowPlatformGamesBeaten>
+    <ShowPlatformLastPlayedGame>true</ShowPlatformLastPlayedGame>
+    <ShowPlatformLastPlayedDate>true</ShowPlatformLastPlayedDate>
+    <ShowPlatformPlayCount>true</ShowPlatformPlayCount>
+    <ShowPlatformMostPlayedGame>true</ShowPlatformMostPlayedGame>
+    <ShowPlatformReleaseDate>true</ShowPlatformReleaseDate>
+    <ShowPlatformDeveloper>true</ShowPlatformDeveloper>
+    <ShowPlatformCpu>true</ShowPlatformCpu>
+    <ShowPlatformMemory>true</ShowPlatformMemory>
+    <ShowPlatformGraphics>true</ShowPlatformGraphics>
+    <ShowPlatformSound>true</ShowPlatformSound>
+    <ShowPlatformDisplay>true</ShowPlatformDisplay>
+    <ShowPlatformMedia>true</ShowPlatformMedia>
+    <ShowPlatformMaxControllers>true</ShowPlatformMaxControllers>
+    <ShowPlatformNotes>true</ShowPlatformNotes>
+    <ShowPlatformManufacturer>true</ShowPlatformManufacturer>
+    <ShowPlatformBanner>true</ShowPlatformBanner>
+    <ShowPlatformDevice>true</ShowPlatformDevice>
+    <ShowPlatformFanart>true</ShowPlatformFanart>
+    <ShowPlatformVideo>true</ShowPlatformVideo>
+    <ShowPlatformPlaytime>true</ShowPlatformPlaytime>
+    <VideoCheck>true</VideoCheck>
+    <RotateModelDefaultsApplied>true</RotateModelDefaultsApplied>
+    <ShowDetails3dModel>true</ShowDetails3dModel>
+    <ShowSidebarIcons>true</ShowSidebarIcons>
+    <DisableCheevoWarnings>false</DisableCheevoWarnings>
+    <EnableGameCloudSync>false</EnableGameCloudSync>
+    <LastRaHasherVersion>7</LastRaHasherVersion>
+    <NotificationType>0</NotificationType>
+    <FontManuallySet>false</FontManuallySet>
+    <EaPlayToken />
+    <XboxAuthToken />
+    <XboxLoginToken />
+    <AmazonAutoImport>InstalledOnly</AmazonAutoImport>
+    <EaAutoImport>InstalledOnly</EaAutoImport>
+    <EpicGamesAutoImport>InstalledOnly</EpicGamesAutoImport>
+    <GogAutoImport>InstalledOnly</GogAutoImport>
+    <SteamAutoImport>InstalledOnly</SteamAutoImport>
+    <UbisoftAutoImport>InstalledOnly</UbisoftAutoImport>
+    <XboxAutoImport>InstalledOnly</XboxAutoImport>
+    <EnableRomAutoImports>true</EnableRomAutoImports>
+    <UseOldSearchSyntax>false</UseOldSearchSyntax>
+    <IgnoreDependencyWarning />
+    <ShowLegacyScummVm>false</ShowLegacyScummVm>
+    <EnableTelemetry>false</EnableTelemetry>
+    <ShowDetailProgress>true</ShowDetailProgress>
+    <AmazonAutoImportPlatform>Windows</AmazonAutoImportPlatform>
+    <EaAutoImportPlatform>Windows</EaAutoImportPlatform>
+    <EpicAutoImportPlatform>Windows</EpicAutoImportPlatform>
+    <GogDosAutoImportPlatform>MS-DOS</GogDosAutoImportPlatform>
+    <GogWindowsAutoImportPlatform>Windows</GogWindowsAutoImportPlatform>
+    <SteamAutoImportPlatform>Windows</SteamAutoImportPlatform>
+    <UbiAutoImportPlatform>Windows</UbiAutoImportPlatform>
+    <XboxAutoImportPlatform>Windows</XboxAutoImportPlatform>
+    <HideRecommendedGames>false</HideRecommendedGames>
+    <HideSimilarGames>false</HideSimilarGames>
+    <HidePossiblePorts>false</HidePossiblePorts>
+    <BadgePack>Legacy Conversion Badge Pack</BadgePack>
+    <PlatformIconPack>Legacy Conversion Icon Pack</PlatformIconPack>
+    <PlatformLogoPack>Legacy Conversion Logo Pack</PlatformLogoPack>
+    <HasMigratedMediaPackFiles>true</HasMigratedMediaPackFiles>
+    <HasMigratedToWmp>true</HasMigratedToWmp>
+    <HasMigratedToProgress>true</HasMigratedToProgress>
+    <DisableSaveManagement>false</DisableSaveManagement>
+    <RetroAchievementsPassword />
+    <RetroAchievementsToken />
+    <HasSetAutoProgressDefaultValues>true</HasSetAutoProgressDefaultValues>
+    <HasSetAutoProgressPausedValue>true</HasSetAutoProgressPausedValue>
+    <EnableAutoProgressTracking>true</EnableAutoProgressTracking>
+    <AutoProgressMinPlaytime>30</AutoProgressMinPlaytime>
+    <AutoProgressNotStartedValue>Not Started / Unplayed</AutoProgressNotStartedValue>
+    <AutoProgressMinPlaytimeReachedValue>Active / In Progress</AutoProgressMinPlaytimeReachedValue>
+    <AutoProgressHasAchievementsValue>Active / In Progress</AutoProgressHasAchievementsValue>
+    <AutoProgressBeatenSoftcoreValue>Done / Beaten</AutoProgressBeatenSoftcoreValue>
+    <AutoProgressBeatenHardcoreValue>Done / Beaten</AutoProgressBeatenHardcoreValue>
+    <AutoProgressCompletedValue>Done / Completed</AutoProgressCompletedValue>
+    <AutoProgressMasteredValue>Done / Mastered</AutoProgressMasteredValue>
+    <AutoProgressPausedValue>Active / Paused</AutoProgressPausedValue>
+    <AutoProgressPausePeriod>30</AutoProgressPausePeriod>
+    <ProgressPriorities>Not Started / Unplayed,Not Started / Want to Play,Not Started / Won't Play,Active / In Progress,Active / Continuous,Active / Paused,Done / Beaten,Done / Completed, Done / Mastered,Done / Dropped</ProgressPriorities>
+    <HasMigratedNonEmulatedPlatformsForAutoScan>true</HasMigratedNonEmulatedPlatformsForAutoScan>
+    <HasSyncedProgressBefore>false</HasSyncedProgressBefore>
+    <RunLibraryScanOnStartup>false</RunLibraryScanOnStartup>
+    <AutoImportMediaLimit>1</AutoImportMediaLimit>
+    <FfmeVideoPriorities>D3D11VA,DXVA2,CUDA,D3D12VA,VULKAN</FfmeVideoPriorities>
+  </Settings>
+  <ImageTypeSettings>
+    <ImageType>Fanart - Box - Back</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Box - Back</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Screenshot - High Scores</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>GOG Poster</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Floppy Disk</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Box - Full</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Screenshot - Gameplay</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Banner</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Arcade - Controls Information</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Screenshot - Game Title</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Music</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Screenshot - High Scores</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Video - Gameplay (High Quality)</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Compact Disc (CD)</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Fanart - Background</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Uplay Thumbnail</ImageType>
+    <IsDefault>false</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Uplay Background</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Square</ImageType>
+    <IsDefault>false</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Advertisement Flyer - Back</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Advertisement Flyer - Front</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Box - 3D</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Poster</ImageType>
+    <IsDefault>false</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Box - Spine</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Arcade - Control Panel</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Fanart - Background</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Box - 3D</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Amazon Background</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Arcade - Control Panel</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Fanart - Box - Front</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Box - Full</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Steam Poster</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Manual</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>GOG Screenshot</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Video - HD Gameplay (Highest Quality)</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Cart - 3D</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Arcade - Marquee</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Box - Front - Reconstructed</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Screenshot - Game Over</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Arcade - Circuit Board</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Cart - Front</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Box - Back - Reconstructed</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Screenshot - Game Select</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Fanart - Cart - Back</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Steam Banner</ImageType>
+    <IsDefault>false</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Screenshot - Game Select</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Amazon Screenshot</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Arcade - Marquee</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Steam Screenshot</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Arcade - Circuit Board</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Fanart - Disc</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Box - Back</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Advertisement Flyer - Front</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Disc</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Video - Gameplay (Low Quality)</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Epic Games Background</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Epic Games Poster</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Amazon Poster</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Screenshot - Game Title</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Video - Theme</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Box - Front</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Box - Spine</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Screenshot - Gameplay</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Cart - 3D</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Screenshot - Game Over</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Arcade - Cabinet</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Cart - Back</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Origin Poster</ImageType>
+    <IsDefault>false</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Box - Front</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Arcade - Cabinet</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Icon</ImageType>
+    <IsDefault>false</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Epic Games Screenshot</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Arcade - Controls Information</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Fanart - Cart - Front</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Origin Screenshot</ImageType>
+    <IsDefault>false</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Origin Background</ImageType>
+    <IsDefault>false</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Clear Logo</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>true</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>Cart - Front</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Banner</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+  <ImageTypeSettings>
+    <ImageType>EmuMovies Clear Logo</ImageType>
+    <IsDefault>true</IsDefault>
+    <UseInAutoImports>false</UseInAutoImports>
+  </ImageTypeSettings>
+</LaunchBox>

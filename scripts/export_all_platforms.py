@@ -72,7 +72,66 @@ def to_nas_rel(file_path: str) -> str:
             break
     return suffix
 
-def parse_platform_xml(xml_path: Path, platform_name: str) -> list[dict]:
+def detect_windows_game_type(app_path: str, nas_path: str) -> dict:
+    """
+    Detect the type of Windows game (storefront launcher, manual install, or standalone).
+    
+    Args:
+        app_path: Application path from LaunchBox XML
+        nas_path: NAS/relative path for the game
+    
+    Returns:
+        dict with keys: type, storefront, method
+    """
+    if not app_path:
+        return {'type': 'unknown', 'storefront': '', 'method': ''}
+    
+    app_lower = app_path.lower()
+    
+    # Check for storefront launchers
+    if app_path.startswith('steam://'):
+        return {'type': 'steam', 'storefront': 'Steam', 'method': 'launcher'}
+    elif 'epicgames.com' in app_lower:
+        return {'type': 'epic', 'storefront': 'Epic Games', 'method': 'launcher'}
+    elif 'gog.com' in app_lower or 'galaxyclient' in app_lower:
+        return {'type': 'gog', 'storefront': 'GOG', 'method': 'launcher'}
+    elif 'ea.com' in app_lower or 'origin' in app_lower:
+        return {'type': 'origin', 'storefront': 'EA/Origin', 'method': 'launcher'}
+    elif 'ubisoft' in app_lower or 'uplay' in app_lower:
+        return {'type': 'ubisoft', 'storefront': 'Ubisoft Connect', 'method': 'launcher'}
+    
+    # File-based games
+    if app_path.endswith('.exe'):
+        # Check if it's in a folder structure (manual install) or standalone
+        if nas_path and '/' in nas_path:
+            return {'type': 'manual_install', 'storefront': '', 'method': 'manual'}
+        else:
+            return {'type': 'standalone', 'storefront': '', 'method': 'portable'}
+    
+    return {'type': 'unknown', 'storefront': '', 'method': ''}
+
+
+def collect_all_custom_fields(plat_dir: Path) -> list[str]:
+    """
+    Scan all platform XMLs to collect unique custom field names.
+    Returns sorted list of custom field names found across all platforms.
+    """
+    all_custom_fields = set()
+    
+    for xml in plat_dir.glob("*.xml"):
+        try:
+            tree = ET.parse(xml)
+            root = tree.getroot()
+            for cf in root.findall(".//CustomField"):
+                name = st(cf.findtext("Name"))
+                if name:
+                    all_custom_fields.add(name)
+        except ET.ParseError:
+            continue
+    
+    return sorted(all_custom_fields)
+
+def parse_platform_xml(xml_path: Path, platform_name: str, custom_field_names: list[str] = None) -> list[dict]:
     rows = []
     try:
         tree = ET.parse(xml_path)
@@ -121,7 +180,13 @@ def parse_platform_xml(xml_path: Path, platform_name: str) -> list[dict]:
         # Get custom fields for this game
         custom_fields = custom_fields_by_game.get(lb_id, {})
         
-        rows.append({
+        # Detect Windows game type if this is a Windows platform
+        windows_info = {'type': '', 'storefront': '', 'method': ''}
+        if platform_name.lower() == 'windows':
+            windows_info = detect_windows_game_type(path, rel_path)
+        
+        # Build base row with metadata
+        row = {
             # Metadata Information
             "Platform": platform_name,
             "Title": title,
@@ -142,24 +207,28 @@ def parse_platform_xml(xml_path: Path, platform_name: str) -> list[dict]:
             "PlayMode": play_mode,
             "Genre": genre,
             "MaxPlayers": max_players,
-            
-            # Custom Fields
-            "CUSTOM_The Best": custom_fields.get("The Best", ""),
-            "CUSTOM_All Time Favorites": custom_fields.get("All Time Favorites", ""),
-            "CUSTOM_Backlog": custom_fields.get("Backlog", ""),
-            "CUSTOM_GOTY Winner": custom_fields.get("GOTY Winner", ""),
-            "CUSTOM_GOTY Nominee": custom_fields.get("GOTY Nominee", ""),
-            "CUSTOM_On Deck": custom_fields.get("On Deck", ""),
-            "CUSTOM_Retro Collection": custom_fields.get("Retro Collection", ""),
-            "CUSTOM_Finished": custom_fields.get("Finished", ""),
-            
-            # File Information
+            # Windows-specific fields
+            "WindowsGameType": windows_info['type'],
+            "WindowsStorefront": windows_info['storefront'],
+            "WindowsInstallMethod": windows_info['method'],
+        }
+        
+        # Add all discovered custom fields dynamically
+        if custom_field_names:
+            for field_name in custom_field_names:
+                sanitized_name = field_name.replace(" ", "_").replace("-", "_")
+                row[f"CUSTOM_{sanitized_name}"] = custom_fields.get(field_name, "")
+        
+        # Add file information
+        row.update({
             "Filename": filename,
             "RelPath": rel_path,
             "LBFilePath": path,
             "NASPath": rel_path,  # Same as RelPath for now
             "FileExtension": file_ext,
         })
+        
+        rows.append(row)
     return rows
 
 def write_csv(path: Path, rows: list[dict], header: list[str]):
@@ -183,7 +252,16 @@ def main():
         print(f"ERROR: Platforms dir not found: {plat_dir}", file=sys.stderr)
         sys.exit(2)
 
-    # Define column order matching your specification
+    # First pass: collect all unique custom field names
+    print("Scanning for custom fields...")
+    custom_field_names = collect_all_custom_fields(plat_dir)
+    print(f"Found {len(custom_field_names)} unique custom field(s)")
+    if custom_field_names:
+        print(f"  Custom fields: {', '.join(custom_field_names[:10])}")
+        if len(custom_field_names) > 10:
+            print(f"  ... and {len(custom_field_names) - 10} more")
+    
+    # Build header dynamically
     header = [
         # Metadata Information
         "Platform",
@@ -205,25 +283,28 @@ def main():
         "PlayMode",
         "Genre",
         "MaxPlayers",
-        
-        # Custom Fields
-        "CUSTOM_The Best",
-        "CUSTOM_All Time Favorites",
-        "CUSTOM_Backlog",
-        "CUSTOM_GOTY Winner",
-        "CUSTOM_GOTY Nominee",
-        "CUSTOM_On Deck",
-        "CUSTOM_Retro Collection",
-        "CUSTOM_Finished",
-        
-        # File Information
+        # Windows-specific fields
+        "WindowsGameType",
+        "WindowsStorefront",
+        "WindowsInstallMethod",
+    ]
+    
+    # Add custom field columns dynamically
+    for field_name in custom_field_names:
+        sanitized_name = field_name.replace(" ", "_").replace("-", "_")
+        header.append(f"CUSTOM_{sanitized_name}")
+    
+    # Add file information columns
+    header.extend([
         "Filename",
         "RelPath",
         "LBFilePath",
         "NASPath",
         "FileExtension",
-    ]
+    ])
     
+    # Second pass: parse all platforms with discovered custom fields
+    print("\nProcessing platforms...")
     all_rows = []
     for xml in sorted(plat_dir.glob("*.xml")):
         platform_name = xml.stem
@@ -233,7 +314,7 @@ def main():
             print(f"⊘ Skipping excluded platform: {platform_name}")
             continue
         
-        rows = parse_platform_xml(xml, platform_name)
+        rows = parse_platform_xml(xml, platform_name, custom_field_names)
         all_rows.extend(rows)
         out_path = Path(args.outdir) / f"{platform_name}.csv"
         write_csv(out_path, rows, header)
