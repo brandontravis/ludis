@@ -207,9 +207,24 @@ class Pipeline:
         print("=" * 60)
         
         try:
-            # Call interactive_scanner (builds structure knowledge, then scans fast)
+            # If platform_structure not configured, run interactive discovery first
+            if not self.config.get('platform_structure'):
+                print("\n⚠ Platform structure not configured")
+                print("Running interactive discovery...")
+                result = subprocess.run(
+                    [sys.executable, "scripts/interactive_scanner.py"],
+                    cwd=SCRIPT_DIR,
+                    capture_output=False,
+                    text=True
+                )
+                if result.returncode != 0:
+                    return False
+                # Reload config to get new platform_structure
+                self.config.load()
+            
+            # Use the FAST scanner from audit_library.py
             result = subprocess.run(
-                [sys.executable, "scripts/interactive_scanner.py"],
+                [sys.executable, "scripts/audit_library.py", "nas-inventory"],
                 cwd=SCRIPT_DIR,
                 capture_output=False,
                 text=True

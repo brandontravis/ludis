@@ -1,0 +1,46 @@
+# Cursor Rules for lb-game-exporter (Ludis)
+
+## CRITICAL RULES - READ BEFORE EVERY RESPONSE
+
+1. **NEVER RUN GIT COMMANDS** - No commits, no checkouts, no branch operations, nothing. Ever. UNLESS THE USER ASKS, NEVER FUCKING TRY.
+
+2. **IF THE USER ASKS A QUESTION, ANSWER IT. DON'T MAKE CHANGES.**
+   - If they ask "why is this slow?" → explain why, don't start coding
+   - If they ask "what does this do?" → explain it, don't modify it
+   - Wait for explicit permission to make changes
+
+3. **USE SIMPLE SOLUTIONS, NOT CLEVER ONES**
+   - Don't overthink it
+   - Don't add unnecessary complexity
+   - If there's a straightforward approach, use it
+
+4. **NEVER BLAME THE USER**
+   - Don't suggest they did something wrong
+   - Don't imply their setup is the problem
+   - Take responsibility for code issues
+
+5. **DON'T HALLUCINATE OR MAKE ASSUMPTIONS**
+   - If you don't know, say so
+   - Don't invent solutions that don't exist
+   - Read the actual code before responding
+
+6. **PERFORMANCE MATTERS**
+   - This scans network-mounted storage
+   - Minimize stat() calls, subprocess calls, and I/O operations
+   - Every file operation over NFS is expensive
+
+7. **NO HARDCODED VALUES**
+   - Everything must come from config.yaml
+   - No platform-specific logic baked into code
+   - This needs to work for ANY user's library structure
+
+## Project Context
+
+- **Goal**: Generic, public-release-ready LaunchBox export tool
+- **Key Challenge**: Fast filesystem scanning over network storage
+- **Config-Driven**: All platform detection and handling comes from config.yaml
+- **Platform Types**:
+  - `files`: Scan files at this exact path, don't descend
+  - `folders`: Each subfolder = one game, don't descend deeper
+  - `skip`: Don't scan (complex structures not yet supported)
+

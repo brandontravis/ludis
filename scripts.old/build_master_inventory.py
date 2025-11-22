@@ -1,0 +1,644 @@
+#!/usr/bin/env python3
+import csv, os, re, sys
+from pathlib import Path
+from collections import defaultdict
+
+# Project root is parent of scripts/ directory
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PLATFORMS_CSV = PROJECT_ROOT / "LB_Exports" / "all_platforms.csv"
+INVENTORY_CSV = PROJECT_ROOT / "LB_Exports" / "audits" / "nas_inventory.csv"
+OUTPUT_CSV = PROJECT_ROOT / "LB_Exports" / "master_inventory.csv"
+WIN_ROOT = r"Z:\media\games\library"
+SUBPATH_OVERRIDES = {
+    "consoles/nec - turbografx 16 - pc engine [1987]": "Consoles/NEC TurboGrafx-16 (PC Engine) [1987]",
+    "consoles/nec turbografx 16 (pc engine) [1987]": "Consoles/NEC TurboGrafx-16 (PC Engine) [1987]",
+    "consoles/nec turbografx-cd [1988]": "Consoles/NEC TurboGrafx-CD (PC Engine CD-Rom) [1988]",
+    "consoles/nec turbografx-cd (pc engine cd-rom) [1988]": "Consoles/NEC TurboGrafx-CD (PC Engine CD-Rom) [1988]",
+    "consoles/nec pc engine supergrafx [1989]": "Consoles/NEC PC Engine SuperGrafx [1989]",
+}
+
+# Load exclusions from config
+def load_excluded_platforms():
+    """Load platform exclusions from config.yaml"""
+    try:
+        import yaml
+        config_path = PROJECT_ROOT / "config.yaml"
+        if config_path.exists():
+            with open(config_path) as f:
+                config = yaml.safe_load(f)
+                excluded = config.get('options', {}).get('exclude_platforms', [])
+                return [p.lower() for p in excluded]
+    except Exception as e:
+        print(f"Warning: Could not load exclusions from config.yaml: {e}")
+    return []
+
+EXCLUDED_PLATFORMS = load_excluded_platforms()
+if EXCLUDED_PLATFORMS:
+    print(f"⚠ Excluding platforms: {', '.join(EXCLUDED_PLATFORMS)}")
+
+def is_platform_excluded(platform_name: str) -> bool:
+    """Check if a platform should be excluded"""
+    if not EXCLUDED_PLATFORMS:
+        return False
+    platform_lower = platform_name.lower()
+    return any(excl in platform_lower for excl in EXCLUDED_PLATFORMS)
+
+def st(x): return (x or "").strip()
+
+def leafbase(p: str) -> str:
+    if not p:
+        return ""
+    return os.path.splitext(os.path.basename(p))[0]
+
+def to_nas_rel(file_path: str) -> str:
+    if not file_path:
+        return ""
+    p = file_path.replace("\\", "/")
+    wr = WIN_ROOT.replace("\\", "/").rstrip("/")
+    pl = p.lower()
+    wrl = wr.lower()
+    if pl == wrl:
+        suffix = ""
+    elif pl.startswith(wrl + "/"):
+        suffix = p[len(wr) + 1:]
+    else:
+        return ""
+    low = suffix.lower()
+    for k, v in SUBPATH_OVERRIDES.items():
+        if low.startswith(k):
+            suffix = v + suffix[len(k):]
+            break
+    return suffix
+
+_norm_re = re.compile(r"[^a-z0-9]+")
+
+def strip_metadata_tags(title: str) -> str:
+    """
+    Strip region tags, revision tags, language tags, and other metadata from title.
+    This helps match games that differ only in these metadata fields.
+    """
+    if not title:
+        return ""
+    
+    # Remove region tags (USA, Europe, Japan, World, etc.)
+    title = re.sub(r'\s*\([^)]*(?:USA|Europe|Japan|World|Brazil|Germany|France|UK|Spain|Italy|Canada|Australia|Asia|Korea|China)[^)]*\)', '', title, flags=re.IGNORECASE)
+    
+    # Remove revision tags
+    title = re.sub(r'\s*\(Rev\s+\d+\)', '', title, flags=re.IGNORECASE)
+    title = re.sub(r'\s*\(v\d+(?:\.\d+)*\)', '', title, flags=re.IGNORECASE)
+    
+    # Remove language tags
+    title = re.sub(r'\s*\((?:En|Fr|De|Es|It|Nl|Pt|Ja|Zh|Ko)(?:,(?:En|Fr|De|Es|It|Nl|Pt|Ja|Zh|Ko))*\)', '', title, flags=re.IGNORECASE)
+    
+    # Remove "New Zealand" tags
+    title = re.sub(r'\s*,\s*New\s+Zealand', '', title, flags=re.IGNORECASE)
+    
+    return title.strip()
+
+def norm(s: str) -> str:
+    return _norm_re.sub("", st(s).lower())
+
+def norm_fuzzy(s: str) -> str:
+    """
+    Normalize string for fuzzy matching by stripping metadata tags first.
+    This is more lenient than norm() and helps match regional variants.
+    """
+    s = strip_metadata_tags(s)
+    return norm(s)
+
+# Multi-disc detection patterns
+_multidisc_patterns = [
+    re.compile(r'\s*\(Disc\s+(\d+)\)', re.IGNORECASE),
+    re.compile(r'\s*\(CD\s+(\d+)\)', re.IGNORECASE),
+    re.compile(r'\s*\(Disk\s+(\d+)\)', re.IGNORECASE),
+    re.compile(r'\s*-\s*Disc\s+(\d+)', re.IGNORECASE),
+    re.compile(r'\s*-\s*CD\s+(\d+)', re.IGNORECASE),
+    re.compile(r'\s*-\s*Disk\s+(\d+)', re.IGNORECASE),
+]
+
+def strip_disc_number(title: str):
+    """
+    Strip disc/CD number from title and return (base_title, disc_number).
+    Returns (original_title, None) if no disc number found.
+    """
+    for pattern in _multidisc_patterns:
+        match = pattern.search(title)
+        if match:
+            disc_num = int(match.group(1))
+            # Only strip if disc number is 2 or higher (we want to keep Disc 1 as-is)
+            if disc_num >= 2:
+                base_title = pattern.sub('', title).strip()
+                return (base_title, disc_num)
+    return (title, None)
+
+def strip_year_suffix(name: str) -> str:
+    # Remove trailing " [YYYY]" if present
+    m = re.match(r"^(.*)\s\[\d{4}\]$", st(name))
+    return m.group(1) if m else st(name)
+
+# Platform name normalization map - maps various platform names to canonical LaunchBox names
+# Key: lowercase normalized name, Value: canonical LaunchBox name (preserves case)
+PLATFORM_NORMALIZATION = {
+    # 3DO variants
+    "panasonic 3do interactive multiplayer": "3DO Interactive Multiplayer",
+    "3do interactive multiplayer": "3DO Interactive Multiplayer",
+    
+    # PlayStation variants (LaunchBox uses lowercase 'station')
+    "sony playstation": "Sony Playstation",
+    "playstation": "Sony Playstation",
+    "sony playstation 2": "Sony Playstation 2",
+    "playstation 2": "Sony Playstation 2",
+    "sony playstation 3": "Sony Playstation 3",
+    "playstation 3": "Sony Playstation 3",
+    "sony playstation vita": "Sony Playstation Vita",
+    "sony ps vita": "Sony Playstation Vita",
+    "playstation vita": "Sony Playstation Vita",
+    "ps vita": "Sony Playstation Vita",
+    
+    # Sega variants
+    "sega genesis (mega drive)": "Sega Genesis",
+    "sega genesis": "Sega Genesis",
+    "sega master system (mark iii)": "Sega Master System",
+    "sega master system": "Sega Master System",
+    "sega cd (mega cd)": "Sega CD",
+    "sega cd": "Sega CD",
+    
+    # Nintendo variants
+    "nintendo super nintendo entertainment system": "Super Nintendo Entertainment System",
+    "super nintendo entertainment system": "Super Nintendo Entertainment System",
+    "snes": "Super Nintendo Entertainment System",
+    
+    # SNK variants
+    "snk neogeo": "SNK Neo Geo AES",
+    "snk neogeo cd": "SNK Neo Geo CD",
+    "snk neo geo aes": "SNK Neo Geo AES",
+    "snk neo geo cd": "SNK Neo Geo CD",
+    
+    # PC variants
+    "windows pc": "Windows",
+    "windows": "Windows",
+    
+    # NEC variants
+    "nec turbografx 16 (pc engine)": "NEC TurboGrafx-16",
+    "nec turbografx-16 (pc engine)": "NEC TurboGrafx-16",
+    "nec turbografx-16": "NEC TurboGrafx-16",
+    "nec turbografx 16": "NEC TurboGrafx-16",
+    "turbografx-16": "NEC TurboGrafx-16",
+    "turbografx 16": "NEC TurboGrafx-16",
+    "nec turbografx-cd (pc engine cd-rom)": "NEC TurboGrafx-CD",
+    "nec turbografx-cd": "NEC TurboGrafx-CD",
+    "turbografx-cd": "NEC TurboGrafx-CD",
+    "nec pc engine supergrafx": "PC Engine SuperGrafx",
+    "pc engine supergrafx": "PC Engine SuperGrafx",
+}
+
+def normalize_platform_name(platform: str) -> str:
+    """
+    Normalize platform name for matching.
+    Always returns the canonical LaunchBox platform name with proper casing.
+    """
+    if not platform:
+        return ""
+    
+    # First strip year suffix if present
+    platform_clean = strip_year_suffix(platform)
+    
+    # Special handling for Arcade sub-platforms (MAME variants)
+    # Arcade/MAME 0.256 Romset Merged -> Arcade
+    if "/" in platform_clean:
+        parts = platform_clean.split("/")
+        # If first part is Arcade, use that as the platform name
+        if parts[0].lower() == "arcade":
+            return "Arcade"
+    
+    # Remove path prefixes (Consoles/, Handhelds/, Computers/)
+    if "/" in platform_clean:
+        parts = platform_clean.split("/")
+        platform_clean = parts[-1] if len(parts) > 1 else platform_clean
+    
+    # Normalize to lowercase for lookup
+    platform_lower = platform_clean.lower().strip()
+    
+    # Check normalization map
+    if platform_lower in PLATFORM_NORMALIZATION:
+        return PLATFORM_NORMALIZATION[platform_lower]
+    
+    # Return cleaned version (preserves original case)
+    return platform_clean
+
+def inv_platform_to_lb_platform(inv_platform: str) -> str:
+    # From "Consoles/Sony PlayStation 3 [2006]" -> "Sony PlayStation 3"
+    # Now uses platform normalization to handle name variations
+    return normalize_platform_name(inv_platform)
+
+def read_all_platforms(csv_path: Path):
+    # Build indices by platform:
+    # - by normalized title
+    # - by normalized shortname
+    # - by normalized file basename
+    by_platform = {}
+    by_naspath = defaultdict(list)  # rel path (cf) -> rows
+    by_parent = defaultdict(list)   # parent dir (cf) -> rows
+    if not csv_path.exists():
+        print(f"ERROR: Platforms CSV not found: {csv_path}", file=sys.stderr)
+        return by_platform, [], by_naspath, by_parent
+    with open(csv_path, "r", encoding="utf-8-sig", newline="") as f:
+        r = csv.DictReader(f)
+        lb_headers = list(r.fieldnames or [])
+        # Map LB platform normalized key to canonical platform name
+        plat_key_to_name = {}
+        for row in r:
+            plat = st(row.get("Platform"))
+            title = st(row.get("Title"))
+            fpath = st(row.get("FilePath"))
+            shortname = st(row.get("Shortname"))
+            gid = st(row.get("ID"))
+            if not plat:
+                continue
+            # Normalize platform name first, then apply norm()
+            plat_normalized = normalize_platform_name(plat)
+            plat_key = norm(plat_normalized)
+            plat_key_to_name.setdefault(plat_key, plat_normalized)
+            pidx = by_platform.setdefault(plat_key, {
+                "name": plat_key_to_name[plat_key],
+                "by_title": defaultdict(list),
+                "by_shortname": defaultdict(list),
+                "by_basename": defaultdict(list),
+                "by_basetitle": defaultdict(list),  # title with disc number stripped
+                "rows": [],
+            })
+            # Use FilePath if available, otherwise fall back to Filename
+            base = leafbase(fpath) if fpath else leafbase(st(row.get("Filename")))
+            pidx["rows"].append(row)
+            nas_rel = st(row.get("NASPath"))
+            if not nas_rel:
+                nas_rel = to_nas_rel(fpath)
+                row["NASPath"] = nas_rel
+                if "NASPath" not in lb_headers:
+                    lb_headers.append("NASPath")
+            if title:
+                pidx["by_title"][norm(title)].append(row)
+            if shortname:
+                pidx["by_shortname"][norm(shortname)].append(row)
+            if base:
+                pidx["by_basename"][norm(base)].append(row)
+                # Also index by base filename (disc number stripped) for multi-disc matching
+                # We need to strip ALL disc numbers (including Disc 1) for the index
+                base_for_index = base
+                for pattern in _multidisc_patterns:
+                    base_for_index = pattern.sub('', base_for_index).strip()
+                if base_for_index != base:
+                    pidx["by_basetitle"][norm(base_for_index)].append(row)
+            if nas_rel:
+                key = nas_rel.replace("\\", "/").casefold()
+                by_naspath[key].append(row)
+                parent = os.path.dirname(nas_rel).replace("\\", "/")
+                if parent:
+                    by_parent[parent.casefold()].append(row)
+    return by_platform, lb_headers, by_naspath, by_parent
+
+def read_inventory(csv_path: Path):
+    """Read NAS inventory CSV (generated by audit_library.py nas-inventory command)."""
+    items = []
+    excluded_count = 0
+    if not csv_path.exists():
+        print(f"ERROR: NAS Inventory CSV not found: {csv_path}", file=sys.stderr)
+        print(f"       Run: python3 audit_library.py nas-inventory", file=sys.stderr)
+        return items
+    with open(csv_path, "r", encoding="utf-8-sig", newline="") as f:
+        r = csv.DictReader(f)
+        for row in r:
+            platform = st(row.get("Platform"))
+            
+            # Skip excluded platforms
+            if is_platform_excluded(platform):
+                excluded_count += 1
+                continue
+            
+            # Parse FileSize as integer (default to 0 if missing or invalid)
+            file_size = 0
+            try:
+                file_size = int(row.get("FileSize", "0") or "0")
+            except ValueError:
+                pass
+            
+            items.append({
+                "Platform": platform,
+                "Title": st(row.get("Title")),
+                "RelPath": st(row.get("RelPath")),
+                "FileSize": file_size,
+            })
+    
+    if excluded_count > 0:
+        print(f"  ⊘ Filtered out {excluded_count} entries from excluded platforms")
+    
+    return items
+
+def choose_best_match(cands_title, cands_short, cands_base):
+    # Prefer title matches, else shortname, else basename; if multiple, keep first
+    if cands_title:
+        return cands_title[0], "title"
+    if cands_short:
+        return cands_short[0], "shortname"
+    if cands_base:
+        return cands_base[0], "basename"
+    return None, ""
+
+def build_master(by_platform, lb_headers, by_naspath, by_parent, inventory_items):
+    out_rows = []
+    seen_rel = set()
+    matched_count = 0
+    unmatched_count = 0
+    lb_used_keys = set()
+
+    def lb_row_key(row: dict) -> str:
+        # Prefer stable ID; fall back to NASPath then FilePath
+        rid = st(row.get("ID"))
+        if rid:
+            return f"id:{rid}"
+        nasp = st(row.get("NASPath")).replace("\\", "/").casefold()
+        if nasp:
+            return f"nas:{nasp}"
+        fp = st(row.get("FilePath")).replace("\\", "/").casefold()
+        if fp:
+            return f"fp:{fp}"
+        # Finally use normalized title + platform
+        return f"tp:{norm(row.get('Platform',''))}:{norm(row.get('Title',''))}"
+    for it in inventory_items:
+        rel = it["RelPath"]
+        if not rel:
+            continue
+        rel_key = rel.casefold()
+        if rel_key in seen_rel:
+            continue
+        seen_rel.add(rel_key)
+
+        inv_plat = it["Platform"]
+        inv_title = it["Title"]
+        lb_plat_guess = inv_platform_to_lb_platform(inv_plat)
+        lb_plat_key = norm(lb_plat_guess)
+        pidx = by_platform.get(lb_plat_key)
+
+        matched = False
+        match_row = None
+        match_kind = ""
+        # Path-first matching
+        cands = by_naspath.get(rel_key, [])
+        if cands:
+            match_row = cands[0]
+            match_kind = "relpath"
+            matched = True
+            lb_used_keys.add(lb_row_key(match_row))
+        else:
+            # Heuristic: if this looks like a folder path (no common file extension), try parent-dir match
+            # Check if the path ends with a known game file extension
+            common_extensions = {'.cue', '.iso', '.bin', '.chd', '.zip', '.7z', '.rar', 
+                               '.ccd', '.mds', '.nrg', '.img', '.rom', '.nes', '.sfc', 
+                               '.smc', '.gb', '.gbc', '.gba', '.n64', '.z64', '.v64'}
+            basename = os.path.basename(rel).lower()
+            has_game_ext = any(basename.endswith(ext) for ext in common_extensions)
+            
+            if not has_game_ext:
+                # First try exact parent match
+                pcands = by_parent.get(rel_key, [])
+                if pcands:
+                    match_row = pcands[0]
+                    match_kind = "parent"
+                    matched = True
+                    lb_used_keys.add(lb_row_key(match_row))
+                else:
+                    # For deep folder structures (like PS3), check if NAS path is an ancestor
+                    # This handles cases where NAS has "game_folder" but LB has "game_folder/subdir/file"
+                    for nas_path_key, rows in by_naspath.items():
+                        if nas_path_key.startswith(rel_key + "/"):
+                            match_row = rows[0]
+                            match_kind = "ancestor"
+                            matched = True
+                            lb_used_keys.add(lb_row_key(match_row))
+                            break
+        # Fallback to title-based within guessed platform
+        if pidx and inv_title and not matched:
+            t = norm(inv_title)
+            cands_title = pidx["by_title"].get(t, [])
+            cands_short = pidx["by_shortname"].get(t, [])
+            cands_base = pidx["by_basename"].get(t, [])
+            match_row, match_kind = choose_best_match(cands_title, cands_short, cands_base)
+            matched = match_row is not None
+            if matched:
+                lb_used_keys.add(lb_row_key(match_row))
+        
+        # Multi-disc fallback: try matching with disc number stripped
+        if pidx and inv_title and not matched:
+            base_title, disc_num = strip_disc_number(inv_title)
+            if disc_num is not None:
+                # Try matching the base title against both exact matches and base title index
+                t_base = norm(base_title)
+                cands_title = pidx["by_title"].get(t_base, [])
+                cands_short = pidx["by_shortname"].get(t_base, [])
+                cands_base = pidx["by_basename"].get(t_base, [])
+                cands_basetitle = pidx["by_basetitle"].get(t_base, [])
+                
+                # Combine all candidates
+                all_cands = cands_title + cands_short + cands_base + cands_basetitle
+                if all_cands:
+                    match_row = all_cands[0]
+                    matched = True
+                    match_kind = f"multidisc_{disc_num}"
+                    lb_used_keys.add(lb_row_key(match_row))
+        
+        # Fuzzy matching fallback: try matching with metadata tags stripped (region, revision, language)
+        if pidx and inv_title and not matched:
+            t_fuzzy = norm_fuzzy(inv_title)
+            if t_fuzzy:  # Only try if we have something after stripping
+                # Build a fuzzy index on-the-fly for this platform if not already done
+                if "by_title_fuzzy" not in pidx:
+                    pidx["by_title_fuzzy"] = defaultdict(list)
+                    for row in pidx["by_title"].values():
+                        for r in row:
+                            title_fuzzy = norm_fuzzy(r.get("Title", ""))
+                            if title_fuzzy:
+                                pidx["by_title_fuzzy"][title_fuzzy].append(r)
+                
+                cands_fuzzy = pidx["by_title_fuzzy"].get(t_fuzzy, [])
+                if cands_fuzzy:
+                    match_row = cands_fuzzy[0]
+                    matched = True
+                    match_kind = "fuzzy"
+                    lb_used_keys.add(lb_row_key(match_row))
+
+        # Extract file information from matched LaunchBox row or inventory
+        if matched:
+            lb_filepath = st(match_row.get("LBFilePath"))
+            file_ext = st(match_row.get("FileExtension"))
+            nas_path = st(match_row.get("NASPath"))
+            
+            # For multi-disc matches, use the NAS filename (Disc 2, 3, etc.) not the LaunchBox filename (Disc 1)
+            if match_kind.startswith("multidisc_"):
+                filename = os.path.basename(rel.replace("\\", "/")) if rel else ""
+                file_ext = os.path.splitext(filename)[1] if filename else ""
+                nas_path = rel
+            else:
+                filename = st(match_row.get("Filename"))
+        else:
+            lb_filepath = ""
+            filename = os.path.basename(rel.replace("\\", "/")) if rel else ""
+            file_ext = os.path.splitext(filename)[1] if filename else ""
+            nas_path = rel
+        
+        # Determine MatchType for unmatched items
+        if matched:
+            final_match_type = match_kind
+        else:
+            # Tag unmatched Arcade ROMs as MAME non-games
+            if lb_plat_guess == "Arcade":
+                final_match_type = "mame_not_game"
+            else:
+                final_match_type = ""
+        
+        base = {
+            # Inventory columns (file-focused)
+            "Filename": filename,
+            "RelPath": rel,
+            "LBFilePath": lb_filepath,
+            "NASPath": nas_path,
+            "FileExtension": file_ext,
+            "FileSize": it.get("FileSize", 0),
+            "Matched": "Yes" if matched else "No",
+            "MatchType": final_match_type,
+        }
+        
+        # Preserve all all_platforms columns (metadata)
+        # Skip file columns since they're already set in base dict above
+        file_columns = {"Filename", "RelPath", "LBFilePath", "NASPath", "FileExtension", "FileSize"}
+        for col in lb_headers:
+            if col in file_columns:
+                continue  # Already set in base dict
+            if matched:
+                base[col] = match_row.get(col, "")
+            else:
+                # For unmatched rows, preserve Platform and Title from inventory if available
+                if col == "Platform":
+                    base[col] = lb_plat_guess  # Use the cleaned platform name
+                elif col == "Title":
+                    base[col] = inv_title
+                else:
+                    base[col] = ""
+        
+        # Add new control columns (blank for now)
+        base["IsPlatformBest"] = ""
+        base["ManualInclude"] = ""
+        base["ManualExclude"] = ""
+        
+        out_rows.append(base)
+        if matched:
+            matched_count += 1
+        else:
+            unmatched_count += 1
+    # Append LB-only rows that were not matched to any inventory path
+    lb_only_count = 0
+    storefront_count = 0
+    lb_pc_count = 0
+    for pidx in by_platform.values():
+        for row in pidx["rows"]:
+            key = lb_row_key(row)
+            if key in lb_used_keys:
+                continue
+            # Populate inventory-side columns from LB so these rows are visible and filterable
+            lb_filepath = st(row.get("LBFilePath"))
+            filename = st(row.get("Filename"))
+            file_ext = st(row.get("FileExtension"))
+            lb_rel = st(row.get("NASPath")) or to_nas_rel(st(row.get("LBFilePath")))
+            platform = st(row.get("Platform"))
+            
+            # Determine match type for Windows/MS-DOS games
+            match_type = "lb_only"
+            if platform in ["Windows", "MS-DOS"]:
+                # Check if it's a storefront/cloud game
+                lb_filepath_lower = lb_filepath.lower()
+                if any(x in lb_filepath_lower for x in [
+                    "steam://",
+                    "uplay://",
+                    "com.epicgames.launcher://",
+                    "gog galaxy\\games\\",
+                    "gog.com",
+                ]):
+                    match_type = "storefront"
+                    storefront_count += 1
+                # Check if it's a local PC game (Savvy directory)
+                elif "savvy" in lb_filepath_lower or "\\savvy\\" in lb_filepath_lower:
+                    match_type = "lb_pc"
+                    lb_pc_count += 1
+                else:
+                    lb_only_count += 1
+            else:
+                lb_only_count += 1
+            
+            base = {
+                # Inventory columns (file-focused)
+                "Filename": filename,
+                "RelPath": lb_rel,
+                "LBFilePath": lb_filepath,
+                "NASPath": lb_rel,
+                "FileExtension": file_ext,
+                "FileSize": 0,  # LB-only games don't have file size from inventory
+                "Matched": "No",
+                "MatchType": match_type,
+            }
+            
+            # Preserve all all_platforms columns (metadata)
+            for col in lb_headers:
+                base[col] = row.get(col, "")
+            
+            # Add new control columns (blank for now)
+            base["IsPlatformBest"] = ""
+            base["ManualInclude"] = ""
+            base["ManualExclude"] = ""
+            
+            out_rows.append(base)
+    return out_rows, matched_count, unmatched_count, lb_only_count, storefront_count, lb_pc_count
+
+def write_csv(path: Path, rows: list[dict], lb_headers: list[str]):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    
+    # Column order:
+    # 1. Platform (first)
+    # 2. Filename
+    # 3. All metadata columns (excluding Platform and file-related columns)
+    # 4. Matched/MatchType
+    # 5. New metadata/control columns
+    # 6. File path columns at the end: RelPath, LBFilePath, NASPath, FileExtension, FileSize
+    
+    file_columns = {"Filename", "RelPath", "LBFilePath", "NASPath", "FileExtension", "FileSize", "Platform"}
+    metadata_headers = [h for h in lb_headers if h not in file_columns]
+    
+    header = (
+        ["Platform", "Filename"] +
+        metadata_headers + 
+        ["Matched", "MatchType"] +
+        ["IsPlatformBest", "ManualInclude", "ManualExclude"] +
+        ["RelPath", "LBFilePath", "NASPath", "FileExtension", "FileSize"]
+    )
+    
+    with open(path, "w", newline="", encoding="utf-8-sig") as f:
+        w = csv.DictWriter(f, fieldnames=header, extrasaction="ignore")
+        w.writeheader()
+        for r in rows:
+            w.writerow(r)
+
+def main():
+    print("Loading all_platforms ...")
+    by_platform, lb_headers, by_naspath, by_parent = read_all_platforms(PLATFORMS_CSV)
+    print(f"Loaded platforms index for {len(by_platform)} normalized platforms (columns: {', '.join(lb_headers)})")
+    print("Loading inventory ...")
+    inventory_items = read_inventory(INVENTORY_CSV)
+    print(f"Loaded {len(inventory_items)} inventory items")
+    print("Reconciling ...")
+    rows, matched_count, unmatched_count, lb_only_count, storefront_count, lb_pc_count = build_master(by_platform, lb_headers, by_naspath, by_parent, inventory_items)
+    print(f"Writing {OUTPUT_CSV} ({len(rows)} rows; matched={matched_count}, unmatched_inv={unmatched_count}, lb_only={lb_only_count}, storefront={storefront_count}, lb_pc={lb_pc_count})")
+    write_csv(OUTPUT_CSV, rows, lb_headers)
+    print("Done.")
+
+if __name__ == "__main__":
+    main()
+
+

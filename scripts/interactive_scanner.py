@@ -490,15 +490,14 @@ def main():
         print("\n⚠ No platform structure configured")
         platform_structure = discover_structure_interactively(library_roots)
         save_platform_structure(config_data, platform_structure)
+        print("\n" + "=" * 60)
+        print("✓ DISCOVERY COMPLETE")
+        print("=" * 60)
+        print("\nPlatform structure has been saved to config.yaml")
+        print("The fast scanner (audit_library.py) will now be used for scanning.")
     else:
         print(f"\n✓ Using cached platform structure ({len(platform_structure)} platforms)")
-    
-    found = scan_with_structure(library_roots, platform_structure)
-    write_nas_inventory(found)
-    
-    print("\n" + "=" * 60)
-    print("✓ SCAN COMPLETE")
-    print("=" * 60)
+        print("Platform structure already configured - nothing to do.")
 
 
 if __name__ == "__main__":
