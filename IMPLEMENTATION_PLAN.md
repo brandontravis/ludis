@@ -23,6 +23,31 @@
 
 ---
 
+## Development Workflow
+
+**After completing each major task:**
+1. Test the changes
+2. Verify no regressions
+3. **Ask user if they want to commit**
+4. Write clear commit message documenting what changed
+5. Move to next task
+
+**Commit message format:**
+```
+Brief summary (50 chars)
+
+WHAT CHANGED:
+- Bullet points of changes
+
+IMPACT:
+- What this fixes/enables
+
+FILES:
+- Files modified
+```
+
+---
+
 ## Tasks to Complete
 
 ### ✅ 1. Rework Menu System (COMPLETE)
