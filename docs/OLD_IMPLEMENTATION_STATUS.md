@@ -54,26 +54,28 @@ This document tracks the progress of making Ludis generic enough for public rele
 **Status:** Complete
 
 **Changes:**
-- **Removed** categorized playlist columns:
-  - `IsPlatformBest`
-  - `IsInFranchise`
-  - `Franchises`
-  - `IsInCurated`
-  - `CuratedPlaylists`
-  - `IsInClassicCollection`
-  - `PlaylistCount`
+- **Removed** categorized playlist columns from `master_inventory.csv`:
+  - `IsPlatformBest` (removed 2025-11-22)
+  - `IsInFranchise`, `Franchises`
+  - `IsInCurated`, `CuratedPlaylists`
+  - `IsInClassicCollection`, `PlaylistCount`
 
 - **Added** two simple columns:
   - `InAnyPlaylist` (Boolean) - True if game is in any playlist
   - `Playlists` (Text) - Semicolon-separated list of all playlists
 
+- **Kept** manual override columns:
+  - `ManualInclude` - Force include (overrides all filters)
+  - `ManualExclude` - Force exclude (highest priority)
+
 **Files Modified:**
-- `scripts/enrich_with_playlists.py` - Complete rewrite
-- `scripts/inventory_scanner.py` - Updated `_should_include_game()` for playlist-based filtering
+- `scripts/enrich_with_playlists.py` - Complete rewrite (only adds InAnyPlaylist + Playlists)
+- `scripts/build_master_inventory.py` - Removed IsPlatformBest column
+- `scripts/inventory_scanner.py` - Generic playlist-based filtering
 - `scripts/migration_builder.py` - Dynamic filter UI generation from discovered playlists
 
 **Benefits:**
-- No hardcoded playlist categorization logic
+- No hardcoded playlist categorization logic in enrichment
 - Filters generated automatically from user's curated Data/Playlists/
 - Works with any playlist structure
 - Simpler data model
@@ -82,6 +84,41 @@ This document tracks the progress of making Ludis generic enough for public rele
 - `favorites` - LaunchBox native favorites
 - `playlist_*` - Dynamically generated from discovered playlists
 - Example: `playlist_my_favorites`, `playlist_goty_2023`
+
+**Known Issues:**
+- ⚠️ Playlist EXPORT filtering still has hardcoded skip rules (see Phase 3.5 below)
+
+---
+
+### Phase 3.5: Generic Playlist Export Filtering ❌
+
+**Status:** NOT STARTED
+
+**Problem:**
+`scripts/export_all_playlists.py` contains extensive hardcoded filtering logic:
+- Hardcoded skip names: "vertically oriented games", "chd required", "savvy", etc.
+- Hardcoded store keywords: "steam", "gog", "epic games", etc.
+- Hardcoded publisher keywords: "rockstar", "ubisoft"
+- Hardcoded categorization: BEST/FRANCHISE/CURATED/CLASSIC logic
+- Hardcoded curated keywords: "goty", "backlog", "all time favorites", etc.
+
+**Recommended Solution:**
+User curates `Data/Playlists/` before running (delete unwanted playlists).
+Remove ALL skip/filter logic from export script - export everything that exists.
+
+**Alternative Solution:**
+Add configurable skip patterns to `config.yaml`:
+```yaml
+options:
+  playlist_export:
+    skip_patterns:
+      - "*All Games*"
+      - "Favorites*"
+```
+
+**Files to Modify:**
+- `scripts/export_all_playlists.py` - Remove hardcoded skip/categorization
+- `docs/GETTING_STARTED.md` - Add playlist curation guidance
 
 ---
 
@@ -350,18 +387,26 @@ For existing Ludis users upgrading to v2.0:
 
 Before announcing:
 
-- [ ] Complete Phase 4 (folder structure)
-- [ ] Test on 3+ external libraries
+- [x] Complete Phase 1 (Setup wizard enhancements)
+- [x] Complete Phase 2 (Dynamic custom fields)
+- [x] Complete Phase 3 (Simplified playlist enrichment)
+- [x] Complete Phase 4 (Generic filesystem scanner)
+- [x] Complete Phase 4.5 (Nested platform scanning)
+- [x] Complete Phase 4.6 (Ignore patterns)
+- [ ] **Complete Phase 3.5 (Generic playlist export filtering)** ← BLOCKER
+- [ ] Test on 3+ external libraries (after Phase 3.5)
 - [ ] Create video walkthrough
 - [ ] Set up GitHub Issues template
 - [ ] Add CONTRIBUTING.md
 - [ ] Create release notes
 - [ ] Tag v2.0.0
 
-**Current Readiness:** 70%
+**Current Readiness:** 95%
 - Core features: ✅ Generic and configurable
 - Documentation: ✅ Complete and comprehensive
-- Platform structure: ⏳ Still has hardcoded assumptions
+- Platform structure: ✅ Fully generic (nested scanning works!)
+- Playlist enrichment: ✅ Fully generic
+- Playlist export: ❌ Still has hardcoded filtering (BLOCKER)
 
 ---
 
@@ -370,16 +415,23 @@ Before announcing:
 **What's Working:**
 - ✅ Multi-library support
 - ✅ Dynamic custom field extraction
-- ✅ Playlist-based filtering (no hardcoding)
+- ✅ Playlist enrichment (InAnyPlaylist + Playlists columns - fully generic)
+- ✅ Playlist-based filtering in inventory scanner (fully generic)
 - ✅ Windows game type detection
 - ✅ Validation reports
 - ✅ Comprehensive documentation
 - ✅ Data folder curation workflow
 - ✅ Generic filesystem scanner (no hardcoded folder structures)
+- ✅ Nested platform scanning (PS2/PS3/Wii U/Switch)
+- ✅ Ignore patterns for system files
 - ✅ Auto-detection of file types and game folders
 
 **What's Remaining:**
-- Nothing critical! All core genericization is complete.
+- ❌ **Playlist EXPORT filtering** - Hardcoded skip rules and categorization
+  - User-specific playlist skip names
+  - Hardcoded keywords for BEST/FRANCHISE/CURATED categories
+  - Affects which playlists get exported to CSV
+- ⚠️ Minor: "Savvy" folder name in Windows PC detection
 
 **Future Enhancements (Non-blocking):**
 - Interactive platform structure configurator UI
@@ -388,21 +440,20 @@ Before announcing:
 - Parallel scanning across multiple library_roots
 
 **Status:**
-- **100% Ready for Public Release** 🎉
-- All hardcoded assumptions removed
-- Works with ANY LaunchBox installation
-- Tested and documented
-- Comprehensive user guides
+- **95% Ready for Public Release** 
+- Core pipeline is fully generic
+- Playlist export filtering needs config-driven approach OR user curation guidance
+- Everything else works with ANY LaunchBox installation
 
 **Recommendation:**
-- ✅ **Ready for v2.0.0 public release**
-- Create GitHub repository
-- Announce to LaunchBox community
-- Gather feedback for future enhancements
+- ⚠️ **Fix playlist export filtering before v2.0.0 release**
+- Option 1 (Simplest): Remove skip logic, tell users to curate Data/Playlists/
+- Option 2 (Better): Add configurable skip patterns to config.yaml
+- Then: Create GitHub repository and announce
 
 ---
 
-Last Updated: 2025-11-20
-Version: 2.0.0
-Status: **COMPLETE - READY FOR RELEASE**
+Last Updated: 2025-11-22
+Version: 2.0.0-rc
+Status: **NEARLY COMPLETE - ONE ISSUE REMAINING**
 

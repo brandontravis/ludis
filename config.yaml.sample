@@ -31,18 +31,23 @@ paths:
   # Example: "Z:\\media\\games\\library"
   windows_root: "Z:\\media\\games\\library"
   
-  # Game library root paths (where files actually exist on your system)
-  # You can specify multiple locations if your games are stored in different places
+  # Base library path (the root directory containing all your game folders)
+  # This is used to calculate relative paths for all games
+  # Example: "/Volumes/The_Stacks/media/games/library"
+  library_base_path: "/Volumes/The_Stacks/media/games/library"
+  
+  # Library scan paths (where to look for platform folders)
+  # If you have a flat structure, this will be the same as library_base_path
+  # If nested (e.g., library/Consoles/, library/Handhelds/), list each category
   # 
-  # Examples by OS:
-  #   macOS:   "/Volumes/The_Stacks/media/games/library"
-  #   Linux:   "/mnt/nas/games/library"
-  #   Windows: "Z:\\media\\games\\library"
-  #
-  # Multiple library example:
+  # Single location example:
   #   library_roots:
-  #     - "/Volumes/NAS/games/library"
-  #     - "/Volumes/External/Windows_Games"
+  #     - "/Volumes/The_Stacks/media/games/library"
+  #
+  # Nested structure example:
+  #   library_roots:
+  #     - "/Volumes/The_Stacks/media/games/library/Consoles"
+  #     - "/Volumes/The_Stacks/media/games/library/Handhelds"
   library_roots:
     - "/Volumes/The_Stacks/media/games/library"
 
@@ -50,9 +55,9 @@ paths:
 # PROCESSING OPTIONS
 # ============================================================
 options:
-  # Enable filesystem scanning to build NAS inventory
+  # Enable filesystem scanning to build inventory
   # 
-  # If TRUE:  Scans local_root to build nas_inventory.csv and matches
+  # If TRUE:  Scans library paths to build filesystem inventory and matches
   #           LaunchBox entries to actual files on disk
   # If FALSE: Skips filesystem scan, exports LaunchBox metadata only
   #           (useful for metadata-only exports or when files aren't accessible)
@@ -67,40 +72,80 @@ options:
   # Show progress bars for long operations
   # Default: true
   show_progress: true
+  
+  # Ignore patterns for files and folders during scanning
+  # Uses glob-style patterns (* matches any characters)
+  ignore_patterns:
+    # Files to skip (system files, metadata files, etc.)
+    files:
+      - ".DS_Store"        # macOS metadata
+      - "Thumbs.db"        # Windows thumbnail cache
+      - "desktop.ini"      # Windows folder settings
+      - "._*"              # macOS resource forks (any file starting with ._ )
+    
+    # Folders to skip (system folders, hidden folders, etc.)
+    folders:
+      - "_*"               # Any folder starting with underscore
+      - ".git"             # Git repository folders
+      - ".svn"             # SVN repository folders
+      # Add custom patterns here:
+      # - "System"         # Skip folders named "System"
+      # - "Updates"        # Skip folders named "Updates"
+      # - "*backup*"       # Skip any folder with "backup" in the name
+  
+  # Path overrides (for files that moved after LaunchBox imported them)
+  # If your game files moved to a different location after LaunchBox scanned them,
+  # the paths in LaunchBox XML won't match your current filesystem structure.
+  # Use this to map old paths to new paths (case-insensitive matching).
+  #
+  # Format: "old/path/in/launchbox": "new/actual/path/on/disk"
+  #
+  # Common NEC platform path corrections:
+  path_overrides:
+    consoles/nec - turbografx 16 - pc engine [1987]: Consoles/NEC TurboGrafx-16 (PC Engine) [1987]
+    consoles/nec turbografx 16 (pc engine) [1987]: Consoles/NEC TurboGrafx-16 (PC Engine) [1987]
+    consoles/nec turbografx-cd [1988]: Consoles/NEC TurboGrafx-CD (PC Engine CD-Rom) [1988]
+    consoles/nec turbografx-cd (pc engine cd-rom) [1988]: Consoles/NEC TurboGrafx-CD (PC Engine CD-Rom) [1988]
+    consoles/nec pc engine supergrafx [1989]: Consoles/NEC PC Engine SuperGrafx [1989]
 
 # ============================================================
 # PLATFORM STRUCTURE CONFIGURATION
 # ============================================================
-# Auto-populated after first scan for complex platforms
-# Defines how to scan platforms with subfolder structures (e.g., PS3, Wii U)
+# Populated by interactive platform discovery (Setup & Configuration menu)
+# Defines how each platform is organized and should be scanned
+#
+# Platform types:
+#   - files:  Platform folder contains ROM files directly
+#   - folders: Platform folder contains game folders (one folder per game)
+#   - nested: Platform has subfolders that need individual configuration
+#   - skip: Don't scan this platform
 #
 # Example configurations:
 platform_structure:
-  # Simple platform (mostly ROM files) - no configuration needed
-  # "Nintendo 64": auto-detected as simple
+  # Simple file-based platform
+  # "Nintendo 64":
+  #   path: "/Volumes/The_Stacks/media/games/library/Consoles/Nintendo 64"
+  #   type: "files"
   
-  # Complex platform with subfolders - needs configuration
+  # Simple folder-based platform
+  # "Sony Playstation 3":
+  #   path: "/Volumes/The_Stacks/media/games/library/Consoles/Sony Playstation 3"
+  #   type: "folders"
+  
+  # Complex nested platform (configured interactively)
   # "Nintendo Wii U":
+  #   path: "/Volumes/The_Stacks/media/games/library/Consoles/Nintendo Wii U"
+  #   type: "nested"
   #   scan_paths:
   #     - path: "Games"
-  #       type: "files"  # or "folders" for folder-per-game
-  #     - path: "[Loadiine]"
   #       type: "files"
-  #   skip_paths:
-  #     - "Updates"
-  #     - "DLC"
-  
-  # Multi-level complex platform
-  # "Sony Playstation 3":
-  #   scan_paths:
-  #     - path: "Base Games/EBoot"
-  #       type: "folders"  # Each game is a folder
-  #     - path: "Base Games/PKG"
+  #     - path: "[Loadiine]"
   #       type: "folders"
-  #   skip_paths:
-  #     - "Updates"
-  #     - "DLC"
-  #     - "Demos"
+  
+  # Skipped platform (won't be scanned)
+  # "Arcade":
+  #   path: "/Volumes/The_Stacks/media/games/library/Arcade"
+  #   type: "skip"
 
 # ============================================================
 # EXPORT TARGETS
@@ -135,28 +180,9 @@ export_targets:
     defaults:
       operation: "copy"  # "copy" or "symlink"
       
-      # Filter preferences - which games to include
-      # Each filter corresponds to a LaunchBox custom field or playlist
-      filters:
-        include_platform_best: false           # CUSTOM_The Best (platform-specific best games)
-        include_all_time_favorites: false      # CUSTOM_All Time Favorites
-        include_favorites: false               # Favorite field (LaunchBox favorites)
-        include_backlog: false                 # CUSTOM_Backlog
-        include_goty_winner: false             # CUSTOM_GOTY Winner
-        include_goty_nominee: false            # CUSTOM_GOTY Nominee
-        include_on_deck: false                 # CUSTOM_On Deck
-        include_retro: false                   # CUSTOM_Retro Collection
-        include_classic_titles: false          # IsInClassicCollection (curated playlists)
-        include_franchises: false              # IsInFranchise (any franchise)
-        force_manual_include: true             # Always include ManualInclude=true
-        force_manual_exclude: true             # Always exclude ManualExclude=true
-        
-        # Custom field filters - for any additional LaunchBox custom fields
-        # Use this for fields not listed above or for temporary/project-specific filters
-        custom_fields: []
-        # Examples:
-        # - "CUSTOM_Finished"
-        # - "CUSTOM_Multiplayer Focus"
+      # Migration filters will be configured during migration script generation
+      # based on your LaunchBox custom fields and playlists
+      filters: {}
   
   # Example: Another handheld device
   retroid_pocket:
@@ -171,20 +197,7 @@ export_targets:
         label: "SD Card"
     defaults:
       operation: "copy"
-      filters:
-        include_platform_best: false
-        include_all_time_favorites: false
-        include_favorites: false
-        include_backlog: false
-        include_goty_winner: false
-        include_goty_nominee: false
-        include_on_deck: false
-        include_retro: false
-        include_classic_titles: false
-        include_franchises: false
-        force_manual_include: true
-        force_manual_exclude: true
-        custom_fields: []
+      filters: {}
 
 # ============================================================
 # MIGRATION HISTORY
@@ -207,13 +220,7 @@ migration_history:
     #     - name: "Sony Playstation 3"
     #       storage: "internal_ssd"
     #       game_count: 1234
-    #   filters:
-    #     include_platform_best: true
-    #     include_franchises: false
-    #     include_goty: true
-    #     include_favorites: true
-    #     force_manual_include: true
-    #     force_manual_exclude: true
+    #   filters: {}
     #   total_games: 1988
     #   total_size_bytes: 524288000000
 

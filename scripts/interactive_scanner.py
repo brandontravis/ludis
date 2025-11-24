@@ -9,6 +9,7 @@ adapted to use platform_structure from config instead of hardcoded rules.
 
 import sys
 import os
+import fnmatch
 from pathlib import Path
 from typing import Dict, List, Set
 from collections import defaultdict
@@ -47,6 +48,15 @@ def load_config():
         sys.exit(1)
 
 
+def should_ignore_folder(foldername: str, config_data: Dict) -> bool:
+    """Check if a folder should be ignored based on ignore patterns"""
+    ignore_patterns = config_data.get('options', {}).get('ignore_patterns', {}).get('folders', [])
+    for pattern in ignore_patterns:
+        if fnmatch.fnmatch(foldername, pattern):
+            return True
+    return False
+
+
 def save_platform_structure(config_data: Dict, platform_structure: Dict):
     """Save platform structure back to config.yaml"""
     import yaml
@@ -60,7 +70,248 @@ def save_platform_structure(config_data: Dict, platform_structure: Dict):
     print(f"\n✓ Saved platform structure to config.yaml")
 
 
-def discover_structure_interactively(library_roots: List[str]) -> Dict:
+def configure_nested_path(parent_path: Path, relative_path: str = "", config_data: Dict = None) -> List[Dict]:
+    """
+    Recursively configure a nested path structure.
+    Returns a list of scan path configurations with their relative paths.
+    
+    Each entry is like: {'path': 'Base Games/EBoot', 'type': 'folders'}
+    """
+    # Get all subdirectories
+    subdirs = []
+    has_files = False
+    
+    try:
+        for item in parent_path.iterdir():
+            if item.name.startswith('.'):
+                continue
+            if item.is_dir():
+                # Skip folders matching ignore patterns
+                if config_data and should_ignore_folder(item.name, config_data):
+                    continue
+                subdirs.append(item)
+            elif item.is_file():
+                has_files = True
+    except Exception as e:
+        print(f"  ⚠ Error reading directory: {e}")
+        return []
+    
+    subdirs.sort(key=lambda x: x.name)
+    
+    # Determine what this folder contains
+    all_files = has_files and len(subdirs) == 0
+    all_dirs = not has_files and len(subdirs) > 0
+    mixed = has_files and len(subdirs) > 0
+    
+    # Show preview
+    display_path = relative_path if relative_path else "(root)"
+    print(f"\n{display_path}/")
+    
+    preview_items = []
+    try:
+        for i, item in enumerate(parent_path.iterdir()):
+            if i >= 5:
+                break
+            if not item.name.startswith('.'):
+                if item.is_file():
+                    preview_items.append(item.name)
+                elif item.is_dir():
+                    preview_items.append(item.name + '/')
+    except:
+        preview_items = ['(unreadable)']
+    
+    preview = ', '.join(preview_items)
+    if len(list(parent_path.iterdir())) > 5:
+        preview += ', ...'
+    print(f"  ({preview})")
+    
+    # Auto-detect if it's all ROM files
+    if all_files:
+        print("  ✓ Auto-detected: ROM files")
+        return [{
+            'path': relative_path,
+            'type': 'files'
+        }] if relative_path else []
+    
+    # Ask user what to do
+    choices = []
+    if all_dirs:
+        choices = [
+            ('Game folders (each subfolder = 1 game)', 'folders'),
+            ('Scan deeper (configure subfolders)', 'deeper'),
+            ('Skip this folder', 'skip')
+        ]
+    elif mixed:
+        choices = [
+            ('ROM files (scan for individual game files)', 'files'),
+            ('Game folders (each subfolder = 1 game)', 'folders'),
+            ('Scan deeper (configure subfolders)', 'deeper'),
+            ('Skip this folder', 'skip')
+        ]
+    else:
+        choices = [
+            ('ROM files (scan for individual game files)', 'files'),
+            ('Game folders (each subfolder = 1 game)', 'folders'),
+            ('Skip this folder', 'skip')
+        ]
+    
+    action = inquirer.prompt([
+        inquirer.List(
+            'action',
+            message=f"[?] How should '{display_path}/' be scanned?",
+            choices=choices
+        )
+    ])
+    
+    if not action or action['action'] == 'skip':
+        print(f"  → Skipped")
+        return []
+    
+    if action['action'] in ['files', 'folders']:
+        print(f"  ✓ Will scan for {action['action']}")
+        return [{
+            'path': relative_path,
+            'type': action['action']
+        }] if relative_path else []
+    
+    # action['action'] == 'deeper' - recursively configure subfolders
+    print(f"  → Scanning subfolders...")
+    
+    if not subdirs:
+        print("    ⚠ No subdirectories found")
+        return []
+    
+    # Show available subdirs
+    print(f"\n  Found {len(subdirs)} subdirectories:")
+    for subdir in subdirs:
+        print(f"    • {subdir.name}/")
+    
+    # Let user select which to configure
+    subdir_choices = [(f"{sd.name}/", sd.name) for sd in subdirs]
+    
+    selected = inquirer.prompt([
+        inquirer.Checkbox(
+            'folders',
+            message="  Select folders to SCAN (Space to toggle, Enter to confirm)",
+            choices=subdir_choices,
+        )
+    ])
+    
+    if not selected or not selected['folders']:
+        print("  → No folders selected")
+        return []
+    
+    # Recursively configure each selected subfolder
+    all_scan_paths = []
+    for folder_name in selected['folders']:
+        folder_path = parent_path / folder_name
+        new_relative = f"{relative_path}/{folder_name}" if relative_path else folder_name
+        
+        # Recursive call
+        sub_paths = configure_nested_path(folder_path, new_relative, config_data)
+        all_scan_paths.extend(sub_paths)
+    
+    return all_scan_paths
+
+
+def configure_nested_structure(platform_name: str, platform_path: Path, config_data: Dict) -> Dict:
+    """
+    Configure a complex platform with nested folder structure.
+    Uses recursive descent to handle arbitrary nesting depth.
+    """
+    print(f"\n{'='*60}")
+    print(f"CONFIGURING: {platform_name}")
+    print(f"{'='*60}")
+    print("\nThis platform has subdirectories. Let's configure which to scan.\n")
+    
+    # Get subdirectories at the root level
+    subdirs = []
+    try:
+        for item in platform_path.iterdir():
+            if item.is_dir() and not item.name.startswith('.'):
+                # Skip folders matching ignore patterns
+                if should_ignore_folder(item.name, config_data):
+                    continue
+                subdirs.append(item)
+    except Exception as e:
+        print(f"ERROR: Could not read directory: {e}")
+        return None
+    
+    if not subdirs:
+        print("No subdirectories found!")
+        return None
+    
+    subdirs.sort(key=lambda x: x.name)
+    
+    # Show available subdirectories
+    print(f"Found {len(subdirs)} subdirectories:\n")
+    for subdir in subdirs:
+        # Preview contents (first 3 items)
+        preview_items = []
+        try:
+            for i, item in enumerate(subdir.iterdir()):
+                if i >= 3:
+                    break
+                if not item.name.startswith('.'):
+                    preview_items.append(item.name + ('/' if item.is_dir() else ''))
+        except:
+            preview_items = ['(unreadable)']
+        
+        preview = ', '.join(preview_items)
+        try:
+            total_items = sum(1 for _ in subdir.iterdir())
+            if total_items > 3:
+                preview += ', ...'
+        except:
+            pass
+        print(f"  • {subdir.name}/")
+        print(f"    ({preview})")
+    
+    # Let user select which subdirectories to configure
+    print()
+    subdir_choices = [(f"{sd.name}/", sd.name) for sd in subdirs]
+    
+    selected = inquirer.prompt([
+        inquirer.Checkbox(
+            'folders',
+            message="Select folders to SCAN (Space to toggle, Enter to confirm)",
+            choices=subdir_choices,
+        )
+    ])
+    
+    if not selected or not selected['folders']:
+        print("\n→ No folders selected, skipping platform")
+        return None
+    
+    # Recursively configure each selected subfolder
+    scan_paths = []
+    for folder_name in selected['folders']:
+        folder_path = platform_path / folder_name
+        
+        # Start recursive configuration from this subfolder
+        sub_paths = configure_nested_path(folder_path, folder_name, config_data)
+        scan_paths.extend(sub_paths)
+    
+    if not scan_paths:
+        print("\n⚠ No paths configured, skipping platform")
+        return None
+    
+    print(f"\n{'='*60}")
+    print(f"CONFIGURATION COMPLETE")
+    print(f"{'='*60}")
+    print(f"Configured {len(scan_paths)} scan paths:")
+    for sp in scan_paths:
+        print(f"  • {sp['path']}/  [{sp['type']}]")
+    
+    # Return nested structure
+    return {
+        'path': str(platform_path),
+        'type': 'nested',
+        'scan_paths': scan_paths
+    }
+
+
+def discover_structure_interactively(library_roots: List[str], config_data: Dict) -> Dict:
     """
     Interactively discover folder structure.
     Each immediate subdirectory under library_roots is a platform.
@@ -83,6 +334,9 @@ def discover_structure_interactively(library_roots: List[str]) -> Dict:
         try:
             for item in root.iterdir():
                 if item.is_dir() and not item.name.startswith('.'):
+                    # Skip folders matching ignore patterns
+                    if should_ignore_folder(item.name, config_data):
+                        continue
                     all_platforms.append({
                         'name': item.name,
                         'path': item,
@@ -168,12 +422,17 @@ def discover_structure_interactively(library_roots: List[str]) -> Dict:
                     'type': 'folders'
                 }
             elif choice['action'] == 'deeper':
-                print("  → Complex structure (will be skipped for now)")
-                platform_structure[name] = {
-                    'path': str(path),
-                    'type': 'skip',
-                    'reason': 'complex'
-                }
+                print("  → Scanning subfolders...")
+                nested_config = configure_nested_structure(name, path, config_data)
+                if nested_config:
+                    platform_structure[name] = nested_config
+                else:
+                    # User cancelled nested config
+                    platform_structure[name] = {
+                        'path': str(path),
+                        'type': 'skip',
+                        'reason': 'complex'
+                    }
         else:
             choice = inquirer.prompt([
                 inquirer.List(
@@ -212,6 +471,11 @@ def discover_structure_interactively(library_roots: List[str]) -> Dict:
                 print(f"  {name}: Files")
             elif ptype == 'folders':
                 print(f"  {name}: Folders")
+            elif ptype == 'nested':
+                scan_paths = config.get('scan_paths', [])
+                print(f"  {name}: Nested ({len(scan_paths)} paths)")
+                for sp in scan_paths:
+                    print(f"    • {sp['path']}/  [{sp['type']}]")
         
         scannable = sum(1 for p in platform_structure.values() if p['type'] != 'skip')
         print(f"\n✓ {scannable} platforms configured")
@@ -226,6 +490,9 @@ def discover_structure_interactively(library_roots: List[str]) -> Dict:
                 label = f"{name}: Files"
             elif ptype == 'folders':
                 label = f"{name}: Folders"
+            elif ptype == 'nested':
+                scan_paths = config.get('scan_paths', [])
+                label = f"{name}: Nested ({len(scan_paths)} paths)"
             else:
                 label = f"{name}: {ptype}"
             choices.append((label, name))
@@ -279,14 +546,23 @@ def discover_structure_interactively(library_roots: List[str]) -> Dict:
                     choices=[
                         ('Files (scan for ROM files)', 'files'),
                         ('Folders (1 folder = 1 game)', 'folders'),
+                        ('Nested (configure subfolders)', 'nested'),
                         ('Skip (complex structure)', 'skip')
                     ]
                 )
             ])
             
             if choice:
-                platform_structure[name]['type'] = choice['action']
-                print(f"  ✓ Updated to: {choice['action']}")
+                if choice['action'] == 'nested':
+                    nested_config = configure_nested_structure(name, path, config_data)
+                    if nested_config:
+                        platform_structure[name] = nested_config
+                        print(f"  ✓ Configured as nested")
+                    else:
+                        print(f"  → Configuration cancelled")
+                else:
+                    platform_structure[name]['type'] = choice['action']
+                    print(f"  ✓ Updated to: {choice['action']}")
     
     scannable = sum(1 for p in platform_structure.values() if p['type'] != 'skip')
     skipped = len(platform_structure) - scannable
@@ -488,7 +764,7 @@ def main():
     
     if not platform_structure:
         print("\n⚠ No platform structure configured")
-        platform_structure = discover_structure_interactively(library_roots)
+        platform_structure = discover_structure_interactively(library_roots, config_data)
         save_platform_structure(config_data, platform_structure)
         print("\n" + "=" * 60)
         print("✓ DISCOVERY COMPLETE")

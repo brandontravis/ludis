@@ -6,6 +6,7 @@ No hardcoded paths or platform-specific logic.
 """
 import argparse
 import csv
+import fnmatch
 import os
 import sys
 import time
@@ -24,11 +25,91 @@ CONFIG = {}
 NAS_ROOT = None
 WIN_ROOT = None
 PLATFORM_LOOKUP = {}  # Maps relative paths to platform config
+PLATFORM_PATH_MAP = {}  # Maps normalized path prefixes to LaunchBox platform names
+PATH_OVERRIDES = {}  # Path overrides from config (disk path → LB path)
+
+
+def build_platform_path_mapping():
+    """
+    Build a mapping from filesystem paths to LaunchBox platform names.
+    Reads all Platform XMLs and extracts ApplicationPath elements to determine
+    which filesystem paths belong to which LaunchBox platforms.
+    """
+    global PLATFORM_PATH_MAP
+    
+    import xml.etree.ElementTree as ET
+    import re
+    
+    # Get LaunchBox data directory from config
+    lb_data = CONFIG.get('paths', {}).get('launchbox_data', 'Data/')
+    if not Path(lb_data).is_absolute():
+        lb_data_path = PROJECT_ROOT / lb_data
+    else:
+        lb_data_path = Path(lb_data)
+    
+    platforms_dir = lb_data_path / "Platforms"
+    if not platforms_dir.exists():
+        print(f"WARNING: LaunchBox Platforms directory not found: {platforms_dir}")
+        return
+    
+    platform_paths = defaultdict(set)  # platform_name → set of normalized path prefixes
+    
+    # Read each Platform XML
+    for xml_file in platforms_dir.glob("*.xml"):
+        platform_name = xml_file.stem  # Filename without .xml extension
+        
+        try:
+            tree = ET.parse(xml_file)
+            root = tree.getroot()
+            
+            # Extract all ApplicationPath elements
+            for game in root.findall(".//Game"):
+                app_path = game.findtext("ApplicationPath", "").strip()
+                if not app_path:
+                    continue
+                
+                # Convert Windows path to forward slashes
+                app_path = app_path.replace("\\", "/")
+                
+                # Strip Windows drive letter and WIN_ROOT if present
+                if WIN_ROOT:
+                    win_root_normalized = WIN_ROOT.replace("\\", "/").rstrip("/")
+                    win_root_lower = win_root_normalized.lower()
+                    app_path_lower = app_path.lower()
+                    
+                    # Check if path starts with WIN_ROOT (case-insensitive)
+                    if app_path_lower.startswith(win_root_lower):
+                        # Strip WIN_ROOT prefix
+                        app_path = app_path[len(win_root_normalized):].lstrip("/")
+                    elif ":" in app_path:
+                        # Strip drive letter (e.g., Z:/)
+                        app_path = re.sub(r'^[A-Za-z]:', '', app_path).lstrip("/")
+                
+                # Extract the platform directory (first component of path)
+                # e.g., "Consoles/NEC - TurboGrafx 16/game.zip" → "Consoles/NEC - TurboGrafx 16"
+                path_parts = app_path.split("/")
+                if len(path_parts) >= 2:
+                    # Include category and platform folder
+                    platform_dir = "/".join(path_parts[:2])
+                    platform_paths[platform_name].add(platform_dir.lower())
+                    
+        except ET.ParseError:
+            continue
+    
+    # Build reverse mapping: normalized_path_prefix → platform_name
+    for platform_name, paths in platform_paths.items():
+        for path_prefix in paths:
+            # Store the mapping (use the longest/most specific path if there are conflicts)
+            if path_prefix not in PLATFORM_PATH_MAP or len(path_prefix) > len(PLATFORM_PATH_MAP.get(path_prefix, '')):
+                PLATFORM_PATH_MAP[path_prefix] = platform_name
+    
+    if PLATFORM_PATH_MAP:
+        print(f"✓ Built platform mapping from LaunchBox XMLs ({len(PLATFORM_PATH_MAP)} path prefixes)")
 
 
 def load_config():
     """Load configuration from config.yaml"""
-    global CONFIG, NAS_ROOT, WIN_ROOT, PLATFORM_LOOKUP
+    global CONFIG, NAS_ROOT, WIN_ROOT, PLATFORM_LOOKUP, PATH_OVERRIDES
     
     try:
         import yaml
@@ -43,26 +124,33 @@ def load_config():
         # Extract paths
         paths = CONFIG.get('paths', {})
         WIN_ROOT = paths.get('windows_root', '')
+        library_base_path = paths.get('library_base_path', '')
         library_roots = paths.get('library_roots', [])
         
-        if not library_roots:
-            print("ERROR: No library_roots configured in config.yaml")
+        if not library_base_path:
+            print("ERROR: No library_base_path configured in config.yaml")
+            print("Run setup wizard again or manually add 'library_base_path' to config.yaml")
             sys.exit(1)
         
-        # Determine NAS_ROOT as common parent of all library_roots
-        root_paths = [Path(p).resolve() for p in library_roots]
-        NAS_ROOT = find_common_parent(root_paths)
-        
-        if not NAS_ROOT:
-            print(f"ERROR: Could not determine NAS root from library_roots")
-            sys.exit(1)
+        # Use the base path directly (the user already told us what it is!)
+        NAS_ROOT = Path(library_base_path).resolve()
         
         if not NAS_ROOT.exists():
-            print(f"ERROR: NAS root does not exist: {NAS_ROOT}")
-            print(f"Make sure the NAS is mounted and accessible.")
+            print(f"ERROR: Library base path does not exist: {NAS_ROOT}")
+            print(f"Make sure the storage is mounted and accessible.")
             sys.exit(1)
         
-        # Build platform lookup dictionary
+        # Load path overrides (for files that moved after LaunchBox import)
+        PATH_OVERRIDES = CONFIG.get('options', {}).get('path_overrides', {})
+        if PATH_OVERRIDES:
+            # Normalize keys for case-insensitive matching
+            PATH_OVERRIDES = {k.lower(): v for k, v in PATH_OVERRIDES.items()}
+            print(f"✓ Loaded {len(PATH_OVERRIDES)} path override(s)")
+        
+        # Build platform path mapping from LaunchBox XMLs
+        build_platform_path_mapping()
+        
+        # Build platform lookup dictionary (fallback for platforms not in LB)
         platform_structure = CONFIG.get('platform_structure', {})
         if not platform_structure:
             print("WARNING: No platform_structure found in config.yaml")
@@ -127,8 +215,80 @@ def get_platform_config(rel_path: str) -> Optional[Dict]:
     return None
 
 
+def resolve_platform_name(rel_path: str) -> str:
+    """
+    Resolve the LaunchBox platform name for a given file path.
+    
+    Uses LaunchBox XML data to determine the correct platform name,
+    applying path_overrides if configured.
+    
+    Args:
+        rel_path: Relative path from library root (e.g., "Consoles/NEC TurboGrafx-16 [1987]/game.zip")
+    
+    Returns:
+        LaunchBox platform name (e.g., "NEC TurboGrafx-16")
+    """
+    # Normalize path
+    normalized_path = rel_path.replace('\\', '/').lower()
+    
+    # Apply path overrides first (translate disk reality → LB expectations)
+    for override_key, override_value in PATH_OVERRIDES.items():
+        if normalized_path.startswith(override_key):
+            # Replace the beginning of the path with the override value
+            normalized_path = override_value.lower() + normalized_path[len(override_key):]
+            break
+    
+    # Extract platform directory (first two components: category/platform)
+    # e.g., "consoles/nec turbografx-16 [1987]/game.zip" → "consoles/nec turbografx-16 [1987]"
+    path_parts = normalized_path.split("/")
+    if len(path_parts) >= 2:
+        platform_dir = "/".join(path_parts[:2])
+        
+        # Look up in platform mapping
+        if platform_dir in PLATFORM_PATH_MAP:
+            return PLATFORM_PATH_MAP[platform_dir]
+        
+        # Try without year suffix: "consoles/platform [1987]" → "consoles/platform"
+        import re
+        platform_dir_no_year = re.sub(r'\s*\[\d{4}\]$', '', platform_dir)
+        if platform_dir_no_year != platform_dir and platform_dir_no_year in PLATFORM_PATH_MAP:
+            return PLATFORM_PATH_MAP[platform_dir_no_year]
+    
+    # Fallback: use the platform name from platform_structure config
+    # This handles platforms that exist on disk but not in LaunchBox
+    for lookup_key, lookup_config in PLATFORM_LOOKUP.items():
+        if normalized_path.startswith(lookup_key.lower()):
+            return lookup_config['name']
+    
+    # Last resort: extract platform name from path
+    # "Consoles/Platform Name [1987]/file" → "Platform Name [1987]"
+    if len(path_parts) >= 2:
+        return path_parts[1]
+    
+    return "Unknown"
+
+
+def should_ignore_file(filename: str) -> bool:
+    """Check if a file should be ignored based on ignore patterns"""
+    ignore_patterns = CONFIG.get('options', {}).get('ignore_patterns', {}).get('files', [])
+    for pattern in ignore_patterns:
+        if fnmatch.fnmatch(filename, pattern):
+            return True
+    return False
+
+
+def should_ignore_folder(foldername: str) -> bool:
+    """Check if a folder should be ignored based on ignore patterns"""
+    ignore_patterns = CONFIG.get('options', {}).get('ignore_patterns', {}).get('folders', [])
+    for pattern in ignore_patterns:
+        if fnmatch.fnmatch(foldername, pattern):
+            return True
+    return False
+
+
 def is_game_file(file_path: Path) -> bool:
     """Check if a file is a game file based on extension"""
+    # Default game extensions
     GAME_EXTENSIONS = {
         '.zip', '.7z', '.iso', '.cue', '.bin', '.chd', '.rvz', '.gdi', '.nrg',
         '.wbfs', '.gcm', '.gcz', '.dol', '.elf', '.rom', '.nes', '.fds', '.sfc',
@@ -136,6 +296,18 @@ def is_game_file(file_path: Path) -> bool:
         '.wua', '.xci', '.nsp', '.pbp', '.vpk', '.adf', '.m3u', '.xiso', '.cpr',
         '.vec', '.bs', '.pcm', '.pce', '.sgx', '.md', '.sms', '.nsz'
     }
+    
+    # Add user-configured additional extensions
+    additional_exts = CONFIG.get('options', {}).get('additional_game_extensions', [])
+    if additional_exts:
+        # Normalize to lowercase and add to set
+        for ext in additional_exts:
+            GAME_EXTENSIONS.add(ext.lower())
+    
+    # Check ignore patterns first
+    if should_ignore_file(file_path.name):
+        return False
+    
     return file_path.suffix.lower() in GAME_EXTENSIONS
 
 
@@ -186,10 +358,14 @@ def scan_library() -> Tuple[List[Dict], int]:
             for item in platform_path.iterdir():
                 # Check extension only - no stat calls
                 if is_game_file(item):
+                    rel_path = str(item.relative_to(NAS_ROOT))
+                    # Resolve LaunchBox platform name from path
+                    lb_platform_name = resolve_platform_name(rel_path)
+                    
                     games.append({
-                        'platform': platform_name,
+                        'platform': lb_platform_name,
                         'title': item.stem,
-                        'rel_path': str(item.relative_to(NAS_ROOT)),
+                        'rel_path': rel_path,
                         'size_bytes': 0
                     })
                     game_count += 1
@@ -204,15 +380,86 @@ def scan_library() -> Tuple[List[Dict], int]:
             game_count = 0
             
             for item in platform_path.iterdir():
-                # Assume no extension = folder (no stat calls)
-                if not item.suffix:
+                # Skip ignored folders
+                if should_ignore_folder(item.name):
+                    continue
+                    
+                # Check if it's actually a directory (not just no extension)
+                if item.is_dir():
+                    rel_path = str(item.relative_to(NAS_ROOT))
+                    # Resolve LaunchBox platform name from path
+                    lb_platform_name = resolve_platform_name(rel_path)
+                    
                     games.append({
-                        'platform': platform_name,
+                        'platform': lb_platform_name,
                         'title': item.name,
-                        'rel_path': str(item.relative_to(NAS_ROOT)),
+                        'rel_path': rel_path,
                         'size_bytes': 0
                     })
                     game_count += 1
+            
+            elapsed = time.time() - platform_start
+            print(f"[DONE]  {platform_name} - {game_count} games in {elapsed:.1f}s")
+            stats['games'] += game_count
+        
+        elif platform_type == 'nested':
+            # Scan configured subpaths
+            scan_paths = config.get('scan_paths', [])
+            print(f"[START] {platform_name} (nested: {len(scan_paths)} paths)")
+            game_count = 0
+            
+            for scan_config in scan_paths:
+                subpath = scan_config['path']
+                subpath_type = scan_config['type']
+                full_subpath = platform_path / subpath
+                
+                if not full_subpath.exists():
+                    print(f"  [WARN] Subpath not found: {subpath}")
+                    continue
+                
+                print(f"  → {subpath}/ ({subpath_type})")
+                subpath_games = 0
+                
+                if subpath_type == 'files':
+                    # Scan for ROM files in this subfolder
+                    for item in full_subpath.iterdir():
+                        if is_game_file(item):
+                            rel_path = str(item.relative_to(NAS_ROOT))
+                            # Resolve LaunchBox platform name from path
+                            lb_platform_name = resolve_platform_name(rel_path)
+                            
+                            games.append({
+                                'platform': lb_platform_name,
+                                'title': item.stem,
+                                'rel_path': rel_path,
+                                'size_bytes': 0
+                            })
+                            subpath_games += 1
+                            game_count += 1
+                
+                elif subpath_type == 'folders':
+                    # Scan for game folders in this subfolder
+                    for item in full_subpath.iterdir():
+                        # Skip ignored folders
+                        if should_ignore_folder(item.name):
+                            continue
+                        
+                        # Check if it's actually a directory
+                        if item.is_dir():
+                            rel_path = str(item.relative_to(NAS_ROOT))
+                            # Resolve LaunchBox platform name from path
+                            lb_platform_name = resolve_platform_name(rel_path)
+                            
+                            games.append({
+                                'platform': lb_platform_name,
+                                'title': item.name,
+                                'rel_path': rel_path,
+                                'size_bytes': 0
+                            })
+                            subpath_games += 1
+                            game_count += 1
+                
+                print(f"    → {subpath_games} games")
             
             elapsed = time.time() - platform_start
             print(f"[DONE]  {platform_name} - {game_count} games in {elapsed:.1f}s")

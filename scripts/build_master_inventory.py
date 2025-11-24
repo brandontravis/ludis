@@ -1,40 +1,69 @@
 #!/usr/bin/env python3
 import csv, os, re, sys
+import unicodedata
 from pathlib import Path
 from collections import defaultdict
 
 # Project root is parent of scripts/ directory
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-PLATFORMS_CSV = PROJECT_ROOT / "LB_Exports" / "all_platforms.csv"
-INVENTORY_CSV = PROJECT_ROOT / "LB_Exports" / "audits" / "nas_inventory.csv"
-OUTPUT_CSV = PROJECT_ROOT / "LB_Exports" / "master_inventory.csv"
-WIN_ROOT = r"Z:\media\games\library"
-SUBPATH_OVERRIDES = {
-    "consoles/nec - turbografx 16 - pc engine [1987]": "Consoles/NEC TurboGrafx-16 (PC Engine) [1987]",
-    "consoles/nec turbografx 16 (pc engine) [1987]": "Consoles/NEC TurboGrafx-16 (PC Engine) [1987]",
-    "consoles/nec turbografx-cd [1988]": "Consoles/NEC TurboGrafx-CD (PC Engine CD-Rom) [1988]",
-    "consoles/nec turbografx-cd (pc engine cd-rom) [1988]": "Consoles/NEC TurboGrafx-CD (PC Engine CD-Rom) [1988]",
-    "consoles/nec pc engine supergrafx [1989]": "Consoles/NEC PC Engine SuperGrafx [1989]",
-}
 
-# Load exclusions from config
-def load_excluded_platforms():
-    """Load platform exclusions from config.yaml"""
+# These will be loaded from config.yaml
+CONFIG = {}
+PLATFORMS_CSV = None
+INVENTORY_CSV = None
+OUTPUT_CSV = None
+WIN_ROOT = ""
+SUBPATH_OVERRIDES = {}
+EXCLUDED_PLATFORMS = []
+
+# Load configuration
+def load_config():
+    """Load configuration from config.yaml"""
+    global CONFIG, PLATFORMS_CSV, INVENTORY_CSV, OUTPUT_CSV, WIN_ROOT, SUBPATH_OVERRIDES, EXCLUDED_PLATFORMS
     try:
         import yaml
         config_path = PROJECT_ROOT / "config.yaml"
         if config_path.exists():
             with open(config_path) as f:
-                config = yaml.safe_load(f)
-                excluded = config.get('options', {}).get('exclude_platforms', [])
-                return [p.lower() for p in excluded]
+                CONFIG = yaml.safe_load(f)
+                
+                # Load paths from config
+                paths = CONFIG.get('paths', {})
+                output_directory = paths.get('output_directory', 'LB_Exports/')
+                WIN_ROOT = paths.get('windows_root', '')
+                
+                # Set output paths based on output_directory
+                if not Path(output_directory).is_absolute():
+                    output_base = PROJECT_ROOT / output_directory
+                else:
+                    output_base = Path(output_directory)
+                
+                PLATFORMS_CSV = output_base / "all_platforms.csv"
+                INVENTORY_CSV = output_base / "audits" / "nas_inventory.csv"
+                OUTPUT_CSV = output_base / "master_inventory.csv"
+                
+                # Load path overrides
+                path_overrides = CONFIG.get('options', {}).get('path_overrides', {})
+                if path_overrides:
+                    SUBPATH_OVERRIDES.update(path_overrides)
+                    print(f"✓ Loaded {len(path_overrides)} path override(s)")
+                
+                # Load platform exclusions
+                excluded = CONFIG.get('options', {}).get('exclude_platforms', [])
+                EXCLUDED_PLATFORMS = [p.lower() for p in excluded]
+                if EXCLUDED_PLATFORMS:
+                    print(f"⚠ Excluding platforms: {', '.join(EXCLUDED_PLATFORMS)}")
+                
+                if not WIN_ROOT:
+                    print("Warning: windows_root not configured in config.yaml")
+                
+                return True
     except Exception as e:
-        print(f"Warning: Could not load exclusions from config.yaml: {e}")
-    return []
+        print(f"ERROR: Could not load config.yaml: {e}")
+        sys.exit(1)
 
-EXCLUDED_PLATFORMS = load_excluded_platforms()
-if EXCLUDED_PLATFORMS:
-    print(f"⚠ Excluding platforms: {', '.join(EXCLUDED_PLATFORMS)}")
+# Load config on startup
+load_config()
 
 def is_platform_excluded(platform_name: str) -> bool:
     """Check if a platform should be excluded"""
@@ -44,6 +73,22 @@ def is_platform_excluded(platform_name: str) -> bool:
     return any(excl in platform_lower for excl in EXCLUDED_PLATFORMS)
 
 def st(x): return (x or "").strip()
+
+def normalize_path(path: str) -> str:
+    """
+    Normalize a path for comparison.
+    - Converts to forward slashes
+    - Normalizes Unicode to NFC form (composed characters)
+    - Converts to lowercase for case-insensitive comparison
+    """
+    if not path:
+        return ""
+    # Normalize Unicode (NFC = composed form, e.g., é as single char not e + combining accent)
+    path = unicodedata.normalize('NFC', path)
+    # Convert backslashes to forward slashes
+    path = path.replace('\\', '/')
+    # Lowercase for case-insensitive comparison
+    return path.lower()
 
 def leafbase(p: str) -> str:
     if not p:
@@ -136,66 +181,10 @@ def strip_year_suffix(name: str) -> str:
     m = re.match(r"^(.*)\s\[\d{4}\]$", st(name))
     return m.group(1) if m else st(name)
 
-# Platform name normalization map - maps various platform names to canonical LaunchBox names
-# Key: lowercase normalized name, Value: canonical LaunchBox name (preserves case)
-PLATFORM_NORMALIZATION = {
-    # 3DO variants
-    "panasonic 3do interactive multiplayer": "3DO Interactive Multiplayer",
-    "3do interactive multiplayer": "3DO Interactive Multiplayer",
-    
-    # PlayStation variants (LaunchBox uses lowercase 'station')
-    "sony playstation": "Sony Playstation",
-    "playstation": "Sony Playstation",
-    "sony playstation 2": "Sony Playstation 2",
-    "playstation 2": "Sony Playstation 2",
-    "sony playstation 3": "Sony Playstation 3",
-    "playstation 3": "Sony Playstation 3",
-    "sony playstation vita": "Sony Playstation Vita",
-    "sony ps vita": "Sony Playstation Vita",
-    "playstation vita": "Sony Playstation Vita",
-    "ps vita": "Sony Playstation Vita",
-    
-    # Sega variants
-    "sega genesis (mega drive)": "Sega Genesis",
-    "sega genesis": "Sega Genesis",
-    "sega master system (mark iii)": "Sega Master System",
-    "sega master system": "Sega Master System",
-    "sega cd (mega cd)": "Sega CD",
-    "sega cd": "Sega CD",
-    
-    # Nintendo variants
-    "nintendo super nintendo entertainment system": "Super Nintendo Entertainment System",
-    "super nintendo entertainment system": "Super Nintendo Entertainment System",
-    "snes": "Super Nintendo Entertainment System",
-    
-    # SNK variants
-    "snk neogeo": "SNK Neo Geo AES",
-    "snk neogeo cd": "SNK Neo Geo CD",
-    "snk neo geo aes": "SNK Neo Geo AES",
-    "snk neo geo cd": "SNK Neo Geo CD",
-    
-    # PC variants
-    "windows pc": "Windows",
-    "windows": "Windows",
-    
-    # NEC variants
-    "nec turbografx 16 (pc engine)": "NEC TurboGrafx-16",
-    "nec turbografx-16 (pc engine)": "NEC TurboGrafx-16",
-    "nec turbografx-16": "NEC TurboGrafx-16",
-    "nec turbografx 16": "NEC TurboGrafx-16",
-    "turbografx-16": "NEC TurboGrafx-16",
-    "turbografx 16": "NEC TurboGrafx-16",
-    "nec turbografx-cd (pc engine cd-rom)": "NEC TurboGrafx-CD",
-    "nec turbografx-cd": "NEC TurboGrafx-CD",
-    "turbografx-cd": "NEC TurboGrafx-CD",
-    "nec pc engine supergrafx": "PC Engine SuperGrafx",
-    "pc engine supergrafx": "PC Engine SuperGrafx",
-}
-
 def normalize_platform_name(platform: str) -> str:
     """
     Normalize platform name for matching.
-    Always returns the canonical LaunchBox platform name with proper casing.
+    Strips year suffix, path prefixes, and parenthetical variants to get clean platform name.
     """
     if not platform:
         return ""
@@ -216,12 +205,9 @@ def normalize_platform_name(platform: str) -> str:
         parts = platform_clean.split("/")
         platform_clean = parts[-1] if len(parts) > 1 else platform_clean
     
-    # Normalize to lowercase for lookup
-    platform_lower = platform_clean.lower().strip()
-    
-    # Check normalization map
-    if platform_lower in PLATFORM_NORMALIZATION:
-        return PLATFORM_NORMALIZATION[platform_lower]
+    # Strip parenthetical variants: "NEC TurboGrafx-16 (PC Engine)" -> "NEC TurboGrafx-16"
+    # This handles cases where filesystem has regional variants but LaunchBox doesn't
+    platform_clean = re.sub(r'\s*\([^)]+\)\s*', ' ', platform_clean).strip()
     
     # Return cleaned version (preserves original case)
     return platform_clean
@@ -290,11 +276,11 @@ def read_all_platforms(csv_path: Path):
                 if base_for_index != base:
                     pidx["by_basetitle"][norm(base_for_index)].append(row)
             if nas_rel:
-                key = nas_rel.replace("\\", "/").casefold()
+                key = normalize_path(nas_rel)
                 by_naspath[key].append(row)
-                parent = os.path.dirname(nas_rel).replace("\\", "/")
+                parent = os.path.dirname(nas_rel)
                 if parent:
-                    by_parent[parent.casefold()].append(row)
+                    by_parent[normalize_path(parent)].append(row)
     return by_platform, lb_headers, by_naspath, by_parent
 
 def read_inventory(csv_path: Path):
@@ -308,7 +294,8 @@ def read_inventory(csv_path: Path):
     with open(csv_path, "r", encoding="utf-8-sig", newline="") as f:
         r = csv.DictReader(f)
         for row in r:
-            platform = st(row.get("Platform"))
+            # Handle both lowercase (nas_inventory.csv) and title-case (legacy) column names
+            platform = st(row.get("platform") or row.get("Platform"))
             
             # Skip excluded platforms
             if is_platform_excluded(platform):
@@ -318,14 +305,14 @@ def read_inventory(csv_path: Path):
             # Parse FileSize as integer (default to 0 if missing or invalid)
             file_size = 0
             try:
-                file_size = int(row.get("FileSize", "0") or "0")
+                file_size = int(row.get("size_bytes") or row.get("FileSize") or "0")
             except ValueError:
                 pass
             
             items.append({
                 "Platform": platform,
-                "Title": st(row.get("Title")),
-                "RelPath": st(row.get("RelPath")),
+                "Title": st(row.get("title") or row.get("Title")),
+                "RelPath": st(row.get("rel_path") or row.get("RelPath")),
                 "FileSize": file_size,
             })
     
@@ -350,16 +337,23 @@ def build_master(by_platform, lb_headers, by_naspath, by_parent, inventory_items
     matched_count = 0
     unmatched_count = 0
     lb_used_keys = set()
+    
+    # Track detailed match statistics
+    match_type_counts = {
+        'matched': {},      # MatchType -> count (for "Yes")
+        'expected': {},     # MatchType -> count (for "Expected")
+        'unknown': 0        # Count for "No" (truly unmatched)
+    }
 
     def lb_row_key(row: dict) -> str:
         # Prefer stable ID; fall back to NASPath then FilePath
         rid = st(row.get("ID"))
         if rid:
             return f"id:{rid}"
-        nasp = st(row.get("NASPath")).replace("\\", "/").casefold()
+        nasp = normalize_path(st(row.get("NASPath")))
         if nasp:
             return f"nas:{nasp}"
-        fp = st(row.get("FilePath")).replace("\\", "/").casefold()
+        fp = normalize_path(st(row.get("FilePath")))
         if fp:
             return f"fp:{fp}"
         # Finally use normalized title + platform
@@ -368,7 +362,7 @@ def build_master(by_platform, lb_headers, by_naspath, by_parent, inventory_items
         rel = it["RelPath"]
         if not rel:
             continue
-        rel_key = rel.casefold()
+        rel_key = normalize_path(rel)
         if rel_key in seen_rel:
             continue
         seen_rel.add(rel_key)
@@ -410,6 +404,7 @@ def build_master(by_platform, lb_headers, by_naspath, by_parent, inventory_items
                     # For deep folder structures (like PS3), check if NAS path is an ancestor
                     # This handles cases where NAS has "game_folder" but LB has "game_folder/subdir/file"
                     for nas_path_key, rows in by_naspath.items():
+                        # Note: rel_key and nas_path_key are already normalized
                         if nas_path_key.startswith(rel_key + "/"):
                             match_row = rows[0]
                             match_kind = "ancestor"
@@ -485,15 +480,22 @@ def build_master(by_platform, lb_headers, by_naspath, by_parent, inventory_items
             file_ext = os.path.splitext(filename)[1] if filename else ""
             nas_path = rel
         
-        # Determine MatchType for unmatched items
+        # Determine MatchType and Matched status
         if matched:
             final_match_type = match_kind
+            match_status = "Yes"
+            # Track matched types
+            match_type_counts['matched'][final_match_type] = match_type_counts['matched'].get(final_match_type, 0) + 1
         else:
             # Tag unmatched Arcade ROMs as MAME non-games
             if lb_plat_guess == "Arcade":
                 final_match_type = "mame_not_game"
+                match_status = "Expected"
+                match_type_counts['expected'][final_match_type] = match_type_counts['expected'].get(final_match_type, 0) + 1
             else:
                 final_match_type = ""
+                match_status = "No"
+                match_type_counts['unknown'] += 1
         
         base = {
             # Inventory columns (file-focused)
@@ -503,7 +505,7 @@ def build_master(by_platform, lb_headers, by_naspath, by_parent, inventory_items
             "NASPath": nas_path,
             "FileExtension": file_ext,
             "FileSize": it.get("FileSize", 0),
-            "Matched": "Yes" if matched else "No",
+            "Matched": match_status,
             "MatchType": final_match_type,
         }
         
@@ -525,7 +527,6 @@ def build_master(by_platform, lb_headers, by_naspath, by_parent, inventory_items
                     base[col] = ""
         
         # Add new control columns (blank for now)
-        base["IsPlatformBest"] = ""
         base["ManualInclude"] = ""
         base["ManualExclude"] = ""
         
@@ -552,6 +553,8 @@ def build_master(by_platform, lb_headers, by_naspath, by_parent, inventory_items
             
             # Determine match type for Windows/MS-DOS games
             match_type = "lb_only"
+            match_status = "Expected"  # LB-only items are expected to not have filesystem matches
+            
             if platform in ["Windows", "MS-DOS"]:
                 # Check if it's a storefront/cloud game
                 lb_filepath_lower = lb_filepath.lower()
@@ -573,6 +576,9 @@ def build_master(by_platform, lb_headers, by_naspath, by_parent, inventory_items
             else:
                 lb_only_count += 1
             
+            # Track expected non-matches
+            match_type_counts['expected'][match_type] = match_type_counts['expected'].get(match_type, 0) + 1
+            
             base = {
                 # Inventory columns (file-focused)
                 "Filename": filename,
@@ -581,7 +587,7 @@ def build_master(by_platform, lb_headers, by_naspath, by_parent, inventory_items
                 "NASPath": lb_rel,
                 "FileExtension": file_ext,
                 "FileSize": 0,  # LB-only games don't have file size from inventory
-                "Matched": "No",
+                "Matched": match_status,
                 "MatchType": match_type,
             }
             
@@ -590,12 +596,11 @@ def build_master(by_platform, lb_headers, by_naspath, by_parent, inventory_items
                 base[col] = row.get(col, "")
             
             # Add new control columns (blank for now)
-            base["IsPlatformBest"] = ""
             base["ManualInclude"] = ""
             base["ManualExclude"] = ""
             
             out_rows.append(base)
-    return out_rows, matched_count, unmatched_count, lb_only_count, storefront_count, lb_pc_count
+    return out_rows, matched_count, unmatched_count, lb_only_count, storefront_count, lb_pc_count, match_type_counts
 
 def write_csv(path: Path, rows: list[dict], lb_headers: list[str]):
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -615,7 +620,7 @@ def write_csv(path: Path, rows: list[dict], lb_headers: list[str]):
         ["Platform", "Filename"] +
         metadata_headers + 
         ["Matched", "MatchType"] +
-        ["IsPlatformBest", "ManualInclude", "ManualExclude"] +
+        ["ManualInclude", "ManualExclude"] +
         ["RelPath", "LBFilePath", "NASPath", "FileExtension", "FileSize"]
     )
     
@@ -628,15 +633,51 @@ def write_csv(path: Path, rows: list[dict], lb_headers: list[str]):
 def main():
     print("Loading all_platforms ...")
     by_platform, lb_headers, by_naspath, by_parent = read_all_platforms(PLATFORMS_CSV)
-    print(f"Loaded platforms index for {len(by_platform)} normalized platforms (columns: {', '.join(lb_headers)})")
-    print("Loading inventory ...")
+    print(f"  ✓ Loaded {len(by_platform)} platform(s)")
+    
+    print("\nLoading inventory ...")
     inventory_items = read_inventory(INVENTORY_CSV)
-    print(f"Loaded {len(inventory_items)} inventory items")
-    print("Reconciling ...")
-    rows, matched_count, unmatched_count, lb_only_count, storefront_count, lb_pc_count = build_master(by_platform, lb_headers, by_naspath, by_parent, inventory_items)
-    print(f"Writing {OUTPUT_CSV} ({len(rows)} rows; matched={matched_count}, unmatched_inv={unmatched_count}, lb_only={lb_only_count}, storefront={storefront_count}, lb_pc={lb_pc_count})")
+    print(f"  ✓ Loaded {len(inventory_items)} inventory item(s)")
+    
+    print("\nReconciling LaunchBox data with filesystem inventory...")
+    rows, matched_count, unmatched_count, lb_only_count, storefront_count, lb_pc_count, match_type_counts = build_master(by_platform, lb_headers, by_naspath, by_parent, inventory_items)
+    
+    print(f"\nWriting master inventory...")
     write_csv(OUTPUT_CSV, rows, lb_headers)
-    print("Done.")
+    
+    # Calculate totals by status
+    total_matched = sum(match_type_counts['matched'].values())
+    total_expected = sum(match_type_counts['expected'].values())
+    total_unknown = match_type_counts['unknown']
+    
+    # Print enhanced summary
+    print("\n" + "=" * 60)
+    print("MASTER INVENTORY COMPLETE")
+    print("=" * 60)
+    print(f"Total entries:        {len(rows):,}")
+    print()
+    
+    # Matched breakdown
+    print(f"Matched (Yes):        {total_matched:,}")
+    if match_type_counts['matched']:
+        for match_type in sorted(match_type_counts['matched'].keys()):
+            count = match_type_counts['matched'][match_type]
+            print(f"  - {match_type:20} {count:,}")
+    print()
+    
+    # Expected non-matches breakdown
+    print(f"Expected (No Match):  {total_expected:,}")
+    if match_type_counts['expected']:
+        for match_type in sorted(match_type_counts['expected'].keys()):
+            count = match_type_counts['expected'][match_type]
+            print(f"  - {match_type:20} {count:,}")
+    print()
+    
+    # Unknown non-matches (needs investigation!)
+    print(f"Unknown (No Match):   {total_unknown:,}  ← INVESTIGATE")
+    
+    print(f"\nOutput: {OUTPUT_CSV}")
+    print("=" * 60)
 
 if __name__ == "__main__":
     main()

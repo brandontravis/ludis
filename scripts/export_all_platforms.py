@@ -6,24 +6,55 @@ import xml.etree.ElementTree as ET
 # Project root for config loading
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
+# These will be loaded from config.yaml
+CONFIG = {}
 DEFAULT_ROOT = r"./"
-WIN_ROOT = r"Z:\media\games\library"
+WIN_ROOT = ""
+SUBPATH_OVERRIDES = {}  # Path overrides (loaded from config)
 
-# Load exclusions from config
-def load_excluded_platforms():
-    """Load platform exclusions from config.yaml"""
+# Load configuration
+def load_config():
+    """Load configuration from config.yaml"""
+    global CONFIG, WIN_ROOT, DEFAULT_ROOT, SUBPATH_OVERRIDES
     try:
         import yaml
         config_path = PROJECT_ROOT / "config.yaml"
         if config_path.exists():
             with open(config_path) as f:
-                config = yaml.safe_load(f)
-                excluded = config.get('options', {}).get('exclude_platforms', [])
-                return [p.lower() for p in excluded]
+                CONFIG = yaml.safe_load(f)
+                
+                # Load paths from config
+                paths = CONFIG.get('paths', {})
+                WIN_ROOT = paths.get('windows_root', '')
+                launchbox_data = paths.get('launchbox_data', 'Data/')
+                
+                # Set DEFAULT_ROOT based on launchbox_data
+                if not Path(launchbox_data).is_absolute():
+                    DEFAULT_ROOT = str(PROJECT_ROOT / launchbox_data)
+                else:
+                    DEFAULT_ROOT = launchbox_data
+                
+                # Load path overrides (for files that moved after LaunchBox import)
+                path_overrides = CONFIG.get('options', {}).get('path_overrides', {})
+                if path_overrides:
+                    SUBPATH_OVERRIDES.update(path_overrides)
+                    print(f"✓ Loaded {len(path_overrides)} path override(s)")
+                
+                if not WIN_ROOT:
+                    print("Warning: windows_root not configured in config.yaml")
+                
+                return True
     except Exception as e:
-        print(f"Warning: Could not load exclusions from config.yaml: {e}")
-    return []
+        print(f"Warning: Could not load config.yaml: {e}")
+    return False
 
+def load_excluded_platforms():
+    """Load platform exclusions from config.yaml"""
+    excluded = CONFIG.get('options', {}).get('exclude_platforms', [])
+    return [p.lower() for p in excluded]
+
+# Load config first
+load_config()
 EXCLUDED_PLATFORMS = load_excluded_platforms()
 if EXCLUDED_PLATFORMS:
     print(f"⚠ Excluding platforms: {', '.join(EXCLUDED_PLATFORMS)}")
@@ -34,12 +65,6 @@ def is_platform_excluded(platform_name: str) -> bool:
         return False
     platform_lower = platform_name.lower()
     return any(excl in platform_lower for excl in EXCLUDED_PLATFORMS)
-# We only need the relative path (same as inventory's RelPath), so NAS_ROOT is not required here.
-# Apply known Windows→NAS folder name overrides for relative prefix normalization.
-SUBPATH_OVERRIDES = {
-    # case-insensitive key -> cased replacement
-    "consoles/nec - turbografx 16 - pc engine [1987]": "consoles/NEC TurboGrafx 16 (PC Engine) [1987]",
-}
 
 def st(x):
     """Safe text extraction - strip and return empty string if None"""
@@ -135,7 +160,8 @@ def parse_platform_xml(xml_path: Path, platform_name: str, custom_field_names: l
     rows = []
     try:
         tree = ET.parse(xml_path)
-    except ET.ParseError:
+    except ET.ParseError as e:
+        print(f"  ✗ ERROR: Failed to parse {xml_path.name}: {e}")
         return rows
     root = tree.getroot()
     
@@ -180,9 +206,11 @@ def parse_platform_xml(xml_path: Path, platform_name: str, custom_field_names: l
         # Get custom fields for this game
         custom_fields = custom_fields_by_game.get(lb_id, {})
         
-        # Detect Windows game type if this is a Windows platform
+        # Detect Windows game type if this looks like a Windows game
+        # (has .exe, steam:// URL, or other Windows indicators)
         windows_info = {'type': '', 'storefront': '', 'method': ''}
-        if platform_name.lower() == 'windows':
+        if path and (path.lower().endswith('.exe') or 'steam://' in path.lower() or 
+                     any(storefront in path.lower() for storefront in ['epicgames.com', 'gog.com', 'origin', 'uplay', 'ubisoft'])):
             windows_info = detect_windows_game_type(path, rel_path)
         
         # Build base row with metadata
@@ -224,7 +252,6 @@ def parse_platform_xml(xml_path: Path, platform_name: str, custom_field_names: l
             "Filename": filename,
             "RelPath": rel_path,
             "LBFilePath": path,
-            "NASPath": rel_path,  # Same as RelPath for now
             "FileExtension": file_ext,
         })
         
@@ -247,7 +274,7 @@ def main():
     args = ap.parse_args()
 
     root = Path(args.root)
-    plat_dir = root / "Data" / "Platforms"
+    plat_dir = root / "Platforms"
     if not plat_dir.exists():
         print(f"ERROR: Platforms dir not found: {plat_dir}", file=sys.stderr)
         sys.exit(2)
@@ -299,29 +326,43 @@ def main():
         "Filename",
         "RelPath",
         "LBFilePath",
-        "NASPath",
         "FileExtension",
     ])
     
     # Second pass: parse all platforms with discovered custom fields
     print("\nProcessing platforms...")
     all_rows = []
+    platforms_exported = 0
+    platforms_skipped = 0
+    
     for xml in sorted(plat_dir.glob("*.xml")):
         platform_name = xml.stem
         
         # Skip excluded platforms
         if is_platform_excluded(platform_name):
             print(f"⊘ Skipping excluded platform: {platform_name}")
+            platforms_skipped += 1
             continue
         
         rows = parse_platform_xml(xml, platform_name, custom_field_names)
         all_rows.extend(rows)
         out_path = Path(args.outdir) / f"{platform_name}.csv"
         write_csv(out_path, rows, header)
-        print(f"Wrote {out_path} ({len(rows)} rows)")
+        print(f"  ✓ {platform_name}: {len(rows)} games")
+        platforms_exported += 1
 
     write_csv(Path(args.combined), all_rows, header)
-    print(f"Wrote {args.combined} ({len(all_rows)} rows)")
+    
+    # Print summary
+    print("\n" + "=" * 60)
+    print("EXPORT COMPLETE")
+    print("=" * 60)
+    print(f"Platforms exported: {platforms_exported}")
+    if platforms_skipped > 0:
+        print(f"Platforms skipped:  {platforms_skipped}")
+    print(f"Total games:        {len(all_rows):,}")
+    print(f"Combined CSV:       {args.combined}")
+    print("=" * 60)
 
 if __name__ == "__main__":
     main()

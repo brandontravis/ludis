@@ -207,10 +207,17 @@ class Pipeline:
         print("=" * 60)
         
         try:
-            # If platform_structure not configured, run interactive discovery first
+            # Check if platform_structure is configured
             if not self.config.get('platform_structure'):
-                print("\n⚠ Platform structure not configured")
-                print("Running interactive discovery...")
+                print("\n✗ Platform structure not configured yet")
+                print("\nPlease run 'Configure Platform Structure' first,")
+                print("or I can do it now.")
+                
+                run_now = inquirer.confirm("\nRun platform discovery now?", default=True)
+                if not run_now:
+                    print("\nSkipped. Configure platform structure from the menu first.")
+                    return False
+                
                 result = subprocess.run(
                     [sys.executable, "scripts/interactive_scanner.py"],
                     cwd=SCRIPT_DIR,
@@ -218,9 +225,12 @@ class Pipeline:
                     text=True
                 )
                 if result.returncode != 0:
+                    print("\n✗ Platform discovery failed or was cancelled")
                     return False
+                
                 # Reload config to get new platform_structure
                 self.config.load()
+                print("\n✓ Platform structure configured!")
             
             # Use the FAST scanner from audit_library.py
             result = subprocess.run(
@@ -512,39 +522,35 @@ def create_config_interactively() -> bool:
     import platform
     
     print("\n" + "=" * 60)
-    print("WELCOME TO LUDIS!")
+    print("LUDIS SETUP WIZARD")
     print("=" * 60)
-    print("\nLudis is a platform-agnostic ROM library migration tool used to")
-    print("assist you with migrating a monolithic Windows LaunchBox library to")
-    print("smaller, more curated formats.")
-    print("\nThis means Ludis can run:")
-    print("  • On Windows where LaunchBox is installed")
-    print("  • On macOS/Linux where your NAS is mounted")
-    print("  • On a remote server with access to your files")
-    print("  • Anywhere with access to your LaunchBox XML data")
-    print("\n" + "=" * 60)
-    print("⚠  IMPORTANT: DATA FOLDER CURATION")
-    print("=" * 60)
-    print("\nWe recommend creating a COPY of your LaunchBox data for Ludis")
-    print("to scan, rather than pointing to your live LaunchBox installation.")
-    print("\nRecommended workflow:")
-    print("  1. Copy LaunchBox/Data/Platforms/ to ludis/Data/Platforms/")
-    print("  2. Copy LaunchBox/Data/Playlists/ to ludis/Data/Playlists/")
-    print("  3. Remove any platforms/playlists you DON'T want to migrate")
-    print("  4. Point Ludis to this curated Data/ folder")
+    print("\nWhat Ludis does:")
+    print("  • Exports LaunchBox XML → CSV")
+    print("  • Scans your filesystem for games")
+    print("  • Reconciles LaunchBox data + filesystem")
+    print("  • Generates migration scripts for ES-DE, RetroDECK, etc.")
+    
+    print("\n" + "-" * 60)
+    print("💡 TIP: Use a copy of your LaunchBox Data/ folder")
+    print("-" * 60)
+    print("\nInstead of pointing to your live LaunchBox installation,")
+    print("copy Data/Platforms/ and Data/Playlists/ to this project.")
+    print("Remove any platforms/playlists you DON'T want to migrate.")
     print("\nBenefits:")
     print("  ✓ Full control over what gets scanned")
-    print("  ✓ No need to select from 1000+ playlists in Ludis")
-    print("  ✓ Keeps your LaunchBox installation untouched")
-    print("  ✓ Can maintain multiple Ludis configs for different targets")
-    print("\n" + "=" * 60)
-    print("\nI'll ask you a few questions to understand YOUR setup:")
-    print("  1. Where are your LaunchBox XML files?")
-    print("  2. Where did LaunchBox THINK your games were located?")
-    print("  3. Where are your games ACTUALLY located on THIS machine?")
-    print("\nLet's begin!")
-    print("\n(Export targets will be configured later when you create your first migration)")
-    print("(You can always edit config.yaml later)")
+    print("  ✓ Keeps LaunchBox installation untouched")
+    print("  ✓ Can maintain multiple configs for different targets")
+    
+    print("\n" + "-" * 60)
+    print("Setup will ask 3 main questions:")
+    print("-" * 60)
+    print("  1. Where are your LaunchBox XML files? (Data/Platforms/, Data/Playlists/)")
+    print("  2. Where did LaunchBox THINK your games were? (Windows paths in XMLs)")
+    print("  3. Where are your games ACTUALLY located? (This machine's paths)")
+    
+    print("\n" + "-" * 60)
+    print("Let's get started!")
+    print("-" * 60)
     
     # Load defaults from sample config if it exists
     defaults = {
@@ -567,7 +573,7 @@ def create_config_interactively() -> bool:
             pass  # If sample config can't be loaded, use hardcoded defaults
     
     print("\n" + "-" * 60)
-    print("STEP 1: LaunchBox XML Data")
+    print("STEP 1 of 6: LaunchBox XML Data")
     print("-" * 60)
     print("Where is your LaunchBox Data directory?")
     print("This contains the Platforms/ and Playlists/ folders with XML files.")
@@ -590,7 +596,7 @@ def create_config_interactively() -> bool:
             return False
     
     print("\n" + "-" * 60)
-    print("STEP 2: LaunchBox Installation Context")
+    print("STEP 2 of 6: LaunchBox Installation Context")
     print("-" * 60)
     print("What path does LaunchBox use in its XML files for game ROMs?")
     print("\nLaunchBox stores paths IN the XML as they were on the Windows")
@@ -609,7 +615,7 @@ def create_config_interactively() -> bool:
         return False
     
     print("\n" + "-" * 60)
-    print("STEP 3: Game Library Location")
+    print("STEP 3 of 6: Game Library Location")
     print("-" * 60)
     print("What is the base path for your games library?")
     print("\n  Examples:")
@@ -713,7 +719,7 @@ def create_config_interactively() -> bool:
     print(f"\n  Final library configuration: {len(library_roots)} location(s)")
     
     print("\n" + "-" * 60)
-    print("STEP 4: Filesystem Scanning")
+    print("STEP 4 of 6: Filesystem Scanning")
     print("-" * 60)
     print("Do you want to scan your filesystem to match files with")
     print("LaunchBox entries?")
@@ -725,20 +731,88 @@ def create_config_interactively() -> bool:
     scan_choice = input("  Enable filesystem scanning? (Y/n): ").lower().strip() or default_scan.lower()
     scan_filesystem = scan_choice == 'y'
     
+    print("\n" + "-" * 60)
+    print("STEP 5 of 6: Ignore Patterns (Optional)")
+    print("-" * 60)
+    print("Configure patterns to exclude system files and folders during scanning.")
+    print("\nRecommended defaults:")
+    print("  Files:   .DS_Store, Thumbs.db, ._* (macOS resource forks)")
+    print("  Folders: _* (any folder starting with _), .git, .svn")
+    print("\n  Yes: Use recommended defaults (you can edit later)")
+    print("  No:  Skip exclusions (scan everything)")
+    
+    print(f"\n  [default: Y]")
+    ignore_choice = input("  Use recommended ignore patterns? (Y/n): ").lower().strip() or 'y'
+    use_ignore_patterns = ignore_choice == 'y'
+    
+    # Default ignore patterns
+    ignore_patterns = None
+    if use_ignore_patterns:
+        ignore_patterns = {
+            'files': ['.DS_Store', 'Thumbs.db', 'desktop.ini', '._*'],
+            'folders': ['_*', '.git', '.svn']
+        }
+        print("\n  ✓ Will use recommended ignore patterns")
+        print("  (You can customize these in config.yaml later)")
+    else:
+        print("\n  → No ignore patterns configured")
+    
+    print("\n" + "-" * 60)
+    print("STEP 6 of 6: Custom Game File Extensions (Optional)")
+    print("-" * 60)
+    print("Ludis already scans for the most common ROM file extensions:")
+    print("  .zip, .7z, .iso, .cue, .bin, .chd, .rvz, .gdi, .nrg,")
+    print("  .wbfs, .gcm, .gcz, .dol, .elf, .rom, .nes, .fds, .sfc,")
+    print("  .smc, .gba, .gbc, .gb, .n64, .z64, .nds, .3ds, .wad,")
+    print("  .wua, .xci, .nsp, .pbp, .vpk, .adf, .m3u, .xiso, .cpr,")
+    print("  .vec, .bs, .pcm, .pce, .sgx, .md, .sms, .nsz")
+    print("\nIf you need to scan for additional file types (e.g., .exe, .lnk, .app),")
+    print("enter them as a comma-separated list.")
+    print("\n  Format: .exe, .lnk, .bat")
+    print("  Leave blank to use only the default extensions")
+    
+    additional_extensions_input = input("\n  Additional extensions: ").strip()
+    additional_extensions = None
+    
+    if additional_extensions_input:
+        # Parse comma-separated list
+        extensions = [ext.strip() for ext in additional_extensions_input.split(',')]
+        # Ensure they start with a dot
+        extensions = [ext if ext.startswith('.') else f'.{ext}' for ext in extensions]
+        # Filter out empty strings
+        extensions = [ext for ext in extensions if len(ext) > 1]
+        
+        if extensions:
+            additional_extensions = extensions
+            print(f"\n  ✓ Will scan for additional extensions: {', '.join(extensions)}")
+        else:
+            print("\n  → No valid extensions provided, using defaults only")
+    else:
+        print("\n  → Using default extensions only")
+    
     # Create config dictionary
+    options_dict = {
+        'scan_filesystem': scan_filesystem,
+        'verbose': False,
+        'show_progress': True,
+    }
+    
+    if ignore_patterns:
+        options_dict['ignore_patterns'] = ignore_patterns
+    
+    if additional_extensions:
+        options_dict['additional_game_extensions'] = additional_extensions
+    
     config_data = {
         'version': '2.0',
         'paths': {
             'launchbox_data': lb_data,
             'output_directory': 'LB_Exports/',
             'windows_root': windows_root,
+            'library_base_path': base_path,  # The root path user provided
             'library_roots': library_roots if library_roots else [],
         },
-        'options': {
-            'scan_filesystem': scan_filesystem,
-            'verbose': False,
-            'show_progress': True,
-        },
+        'options': options_dict,
         'platform_structure': {},  # Will be populated after first scan
         'export_targets': {}  # Will be configured when first creating a migration
     }
@@ -749,10 +823,15 @@ def create_config_interactively() -> bool:
     print("=" * 60)
     print(f"\n  LaunchBox XML Data:   {lb_data}")
     print(f"  LaunchBox Path (XML): {windows_root}")
-    print(f"  Game Library Paths:   {len(library_roots)} location(s)")
-    for i, path in enumerate(library_roots, 1):
-        print(f"    {i}. {path}")
+    print(f"  Library Base Path:    {base_path}")
+    if len(library_roots) > 1:
+        print(f"  Library Scan Paths:   {len(library_roots)} location(s)")
+        for i, path in enumerate(library_roots, 1):
+            print(f"    {i}. {path}")
     print(f"  Filesystem Scanning:  {'Enabled' if scan_filesystem else 'Disabled'}")
+    print(f"  Ignore Patterns:      {'Enabled' if ignore_patterns else 'Disabled'}")
+    if additional_extensions:
+        print(f"  Custom Extensions:    {', '.join(additional_extensions)}")
     
     print("\n" + "-" * 60)
     print("Creating config.yaml...")
@@ -770,44 +849,91 @@ def create_config_interactively() -> bool:
 def show_menu(config: Config, deps: dict) -> str:
     """Show interactive menu and return user choice"""
     
-    # Check if master inventory exists (pipeline has been run)
-    pipeline_complete = deps['master_inventory_csv']
+    # Check what has been completed
+    has_nas_inventory = deps.get('nas_inventory', False)
+    has_platform_exports = deps.get('all_platforms_csv', False)
+    has_playlist_exports = deps.get('all_playlists_csv', False)
+    has_master_inventory = deps.get('master_inventory_csv', False)
+    has_platform_structure = bool(config.get('platform_structure'))
     
     choices = []
     
-    if not pipeline_complete:
-        # INITIAL MENU: Before pipeline has been run
-        choices.append("Build Ludis Library (run all steps)")
-        choices.append("Re-run YAML Setup (reconfigure)")
-        choices.append("Exit")
+    # Setup & Configuration section
+    choices.append("--- Setup & Configuration ---")
+    
+    platform_status = "✓" if has_platform_structure else "○"
+    choices.append(f"{platform_status} Configure Platform Structure")
+    choices.append("Re-run YAML Setup (reconfigure)")
+    
+    # Ludis Discovery Pipeline section
+    choices.append("---")
+    choices.append("--- Ludis Discovery Pipeline ---")
+    
+    if config.get('options.scan_filesystem', True):
+        status = "✓" if has_nas_inventory else "○"
+        choices.append(f"{status} Step 1: Scan Filesystem")
     else:
-        # ADVANCED MENU: After pipeline is complete
-        choices.append("Re-run filesystem scan (will force a rebuild of everything)")
-        choices.append("Re-build master inventory")
+        choices.append("○ Step 1: Scan Filesystem (disabled in config)")
+    
+    status = "✓" if has_platform_exports else "○"
+    choices.append(f"{status} Step 2: Export Platform Data")
+    
+    status = "✓" if has_playlist_exports else "○"
+    choices.append(f"{status} Step 3: Export Playlist Data")
+    
+    status = "✓" if has_master_inventory else "○"
+    choices.append(f"{status} Step 4: Build Master Inventory")
+    
+    # Playlist enrichment check
+    if has_master_inventory:
+        # Check if enrichment has been run by looking at master_inventory.csv
+        output_dir = config.get('paths', {}).get('output_directory', 'LB_Exports/')
+        if not Path(output_dir).is_absolute():
+            master_inv_path = SCRIPT_DIR / output_dir / 'master_inventory.csv'
+        else:
+            master_inv_path = Path(output_dir) / 'master_inventory.csv'
+        enriched = False
+        if master_inv_path.exists():
+            with open(master_inv_path, 'r', encoding='utf-8-sig') as f:
+                header = f.readline()
+                enriched = 'InAnyPlaylist' in header or 'Playlists' in header
+        status = "✓" if enriched else "○"
+        choices.append(f"{status} Step 5: Add Playlist Data")
+    else:
+        choices.append("○ Step 5: Add Playlist Data (requires master inventory)")
+    
+    # Convenience option
+    choices.append("---")
+    choices.append("▶ Run All Steps (Full Pipeline)")
+    
+    # Manual selections (only if master inventory exists)
+    if has_master_inventory:
+        choices.append("---")
         choices.append("Extract Manual Selections")
         choices.append("Drop-in Manual Selections")
-        
-        # Check if platform storage defaults are configured for any enabled export target
-        storage_configured = False
-        export_targets = config.get('export_targets', {})
-        for target_name, target_config in export_targets.items():
-            if target_config.get('enabled') and 'platform_storage_defaults' in target_config:
-                storage_configured = True
-                break
-        
-        choices.append("---")  # Visual separator
-        
-        if storage_configured:
-            choices.append("Reconfigure Platform Storage Defaults")
+    
+    # Ludis Migration Pipeline section
+    choices.append("---")
+    choices.append("--- Ludis Migration Pipeline ---")
+    
+    storage_configured = False
+    export_targets = config.get('export_targets', {})
+    for target_name, target_config in export_targets.items():
+        if target_config.get('enabled') and 'platform_storage_defaults' in target_config:
+            storage_configured = True
+            break
+    
+    if storage_configured:
+        choices.append("Reconfigure Platform Storage Defaults")
+        if has_master_inventory:
             choices.append("Create Migration Script")
-        else:
-            choices.append("Configure Platform Storage Defaults")
-            # Hide "Create Migration Script" until defaults are configured
-        
-        choices.append("---")  # Visual separator
-        choices.append("Validate Existing Data")
-        choices.append("Re-run YAML Setup (reconfigure)")
-        choices.append("Exit")
+    else:
+        choices.append("Configure Platform Storage Defaults")
+    
+    # Utility options
+    choices.append("---")
+    choices.append("Validate Existing Data")
+    choices.append("Exit")
     
     # Show menu
     questions = [
@@ -873,11 +999,64 @@ def main():
     
     # Check for config file - create interactively if missing
     if not CONFIG_FILE.exists():
+        print("\n" + "=" * 60)
+        print("⚠  NO CONFIGURATION FOUND")
+        print("=" * 60)
+        print("\nLudis needs a config.yaml file to run.")
+        print("This will guide you through a 6-step setup to create one.")
+        print("\nYou can also:")
+        print("  • Copy config.yaml.sample and edit it manually")
+        print("  • Exit now and come back later")
+        
+        # Ask if they want to proceed
+        confirm = inquirer.confirm("\nWould you like to start the interactive setup?", default=True)
+        if not confirm:
+            print("\nNo problem! When you're ready:")
+            print("  1. Run: python3 ludis.py")
+            print("  2. Or manually create config.yaml from config.yaml.sample")
+            print("\nGoodbye!")
+            sys.exit(0)
+        
+        # Run setup
         if not create_config_interactively():
             print("\nSetup cancelled. Run ludis.py again when ready.")
             sys.exit(0)
+        
         print("\n" + "=" * 60)
-        print("Setup complete! Continuing with Ludis...")
+        print("✓ Setup complete! config.yaml created")
+        print("=" * 60)
+        
+        # Offer to discover platform structure
+        print("\n" + "-" * 60)
+        print("NEXT: Discover Platform Structure")
+        print("-" * 60)
+        print("\nBefore we can scan your filesystem, Ludis needs to understand")
+        print("how each platform is organized (files vs folders vs nested).")
+        print("\nThis will:")
+        print("  • Scan your library folders")
+        print("  • Show you each platform it finds")
+        print("  • Ask how each one is structured")
+        print("  • Save results to config.yaml")
+        
+        discover_now = inquirer.confirm("\nWould you like to discover platform structure now?", default=True)
+        if discover_now:
+            result = subprocess.run(
+                [sys.executable, "scripts/interactive_scanner.py"],
+                cwd=SCRIPT_DIR,
+                capture_output=False,
+                text=True
+            )
+            if result.returncode == 0:
+                print("\n✓ Platform structure configured!")
+            else:
+                print("\n⚠ Platform discovery skipped or failed")
+                print("You can run it later from the menu: Setup & Configuration > Configure Platform Structure")
+        else:
+            print("\nNo problem! You can configure this later from the menu:")
+            print("  Setup & Configuration > Configure Platform Structure")
+        
+        print("\n" + "=" * 60)
+        print("Continuing with Ludis...")
         print("=" * 60)
     
     # Load configuration
@@ -901,24 +1080,21 @@ def main():
             print("\nGoodbye!")
             break
         
-        # Simple menu options (initial or reconfigure)
-        elif action == "Build Ludis Library (run all steps)":
-            confirm = inquirer.confirm("This will run the complete pipeline. Continue?", default=True)
-            if confirm:
-                pipeline.run_full_pipeline()
+        # Setup & Configuration
+        elif "Configure Platform Structure" in action:
+            result = subprocess.run(
+                [sys.executable, "scripts/interactive_scanner.py"],
+                cwd=SCRIPT_DIR,
+                capture_output=False,
+                text=True
+            )
+            if result.returncode == 0:
+                print("\n✓ Platform structure updated!")
+                # Reload config
+                config.load()
                 deps = checker.check_all()
-        
-        elif action == "Re-run filesystem scan (will force a rebuild of everything)":
-            confirm = inquirer.confirm("This will rebuild all data from scratch. Continue?", default=True)
-            if confirm:
-                pipeline.run_full_pipeline()
-                deps = checker.check_all()
-        
-        elif action == "Re-build master inventory":
-            confirm = inquirer.confirm("Run: inventory → enrichment?", default=True)
-            if confirm:
-                run_pipeline_from_step(pipeline, 'inventory', config)
-                deps = checker.check_all()
+            else:
+                print("\n⚠ Platform discovery cancelled or failed")
         
         elif action == "Re-run YAML Setup (reconfigure)":
             confirm = inquirer.confirm("This will delete config.yaml and restart setup. Continue?", default=False)
@@ -933,6 +1109,51 @@ def main():
                 deps = checker.check_all()
                 checker.print_status()
         
+        # Ludis Discovery Pipeline
+        elif "Step 1: Scan Filesystem" in action:
+            if config.get('options.scan_filesystem', True):
+                confirm = inquirer.confirm("Scan filesystem and build NAS inventory?", default=True)
+                if confirm:
+                    if pipeline.run_filesystem_scan():
+                        print("\n✓ Filesystem scan complete!")
+                    deps = checker.check_all()
+        
+        elif "Step 2: Export Platform Data" in action:
+            confirm = inquirer.confirm("Export platform data from LaunchBox XMLs?", default=True)
+            if confirm:
+                if pipeline.run_platform_export():
+                    print("\n✓ Platform export complete!")
+                deps = checker.check_all()
+        
+        elif "Step 3: Export Playlist Data" in action:
+            confirm = inquirer.confirm("Export playlist data from LaunchBox XMLs?", default=True)
+            if confirm:
+                if pipeline.run_playlist_export():
+                    print("\n✓ Playlist export complete!")
+                deps = checker.check_all()
+        
+        elif "Step 4: Build Master Inventory" in action:
+            confirm = inquirer.confirm("Build master inventory (reconcile LaunchBox + filesystem)?", default=True)
+            if confirm:
+                if pipeline.run_master_inventory():
+                    print("\n✓ Master inventory complete!")
+                deps = checker.check_all()
+        
+        elif "Step 5: Add Playlist Data" in action:
+            confirm = inquirer.confirm("Add playlist data to master inventory?", default=True)
+            if confirm:
+                if pipeline.run_playlist_enrichment():
+                    print("\n✓ Playlist data added!")
+                deps = checker.check_all()
+        
+        # Full pipeline
+        elif "Run All Steps" in action:
+            confirm = inquirer.confirm("This will run the complete pipeline. Continue?", default=True)
+            if confirm:
+                pipeline.run_full_pipeline()
+                deps = checker.check_all()
+        
+        # Manual selections
         elif action == "Extract Manual Selections":
             confirm = inquirer.confirm("Extract includes and excludes to JSON files?", default=True)
             if confirm:
@@ -943,21 +1164,21 @@ def main():
             if confirm:
                 pipeline.dropin_manual_selections()
         
+        # Migration script generation
         elif action in ("Configure Platform Storage Defaults", "Reconfigure Platform Storage Defaults"):
-            # Run the platform storage defaults configuration
             from scripts import migration_builder
             migration_builder.configure_storage_defaults(config)
         
         elif action == "Create Migration Script":
-            # Run the migration script builder
             from scripts import migration_builder
             migration_builder.run_interactive(config)
         
+        # Utility options
         elif action == "Validate Existing Data":
             deps = checker.check_all()
             checker.print_status()
         
-        elif action == "---":
+        elif action.startswith("---"):
             # Visual separator - do nothing
             continue
         
