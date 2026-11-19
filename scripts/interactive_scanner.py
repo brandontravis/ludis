@@ -311,6 +311,154 @@ def configure_nested_structure(platform_name: str, platform_path: Path, config_d
     }
 
 
+def configure_hybrid_structure(platform_name: str, platform_path: Path, config_data: Dict) -> Dict:
+    """
+    Configure a platform with BOTH root-level files AND subfolders.
+    Creates a nested config that scans root files + selected subfolders.
+    
+    Performance: Only peeks at first 5 items per folder (fast).
+    """
+    print(f"\n{'='*60}")
+    print(f"CONFIGURING HYBRID PLATFORM: {platform_name}")
+    print(f"{'='*60}")
+    print("\nThis platform has files at the root AND subfolders.")
+    print("We'll scan the root files, then ask about each subfolder.\n")
+    
+    # Always include root level files
+    scan_paths = [{
+        'path': '',      # Empty string = root level
+        'type': 'files'
+    }]
+    print("[✓] Will scan root-level files")
+    
+    # Get all subfolders (excluding ignore patterns and hidden)
+    subfolders = []
+    try:
+        for item in platform_path.iterdir():
+            if item.is_dir() and not item.name.startswith('.'):
+                if should_ignore_folder(item.name, config_data):
+                    continue
+                subfolders.append(item)
+    except Exception as e:
+        print(f"ERROR: Could not read directory: {e}")
+        return None
+    
+    if not subfolders:
+        print("\n✓ No subfolders to configure")
+        return {
+            'path': str(platform_path),
+            'type': 'nested',
+            'scan_paths': scan_paths
+        }
+    
+    subfolders.sort(key=lambda x: x.name)
+    print(f"\nFound {len(subfolders)} subfolder(s). Checking each...\n")
+    
+    # For each subfolder, peek and ask
+    for subfolder in subfolders:
+        print(f"Checking: {subfolder.name}/")
+        
+        # Peek at first 5 items (FAST - no full scan)
+        peek_items = []
+        try:
+            for i, item in enumerate(subfolder.iterdir()):
+                if i >= 5:
+                    break
+                if not item.name.startswith('.'):
+                    peek_items.append(item)
+        except Exception:
+            print("  (unreadable, skipping)")
+            continue
+        
+        if not peek_items:
+            print("  (empty, skipping)")
+            continue
+        
+        # Classify content: all files? all folders? mixed?
+        preview = []
+        all_files = True
+        all_dirs = True
+        
+        for item in peek_items:
+            if item.is_file():
+                preview.append(item.name)
+                all_dirs = False
+            elif item.is_dir():
+                preview.append(item.name + '/')
+                all_files = False
+        
+        more = ', ...' if len(peek_items) >= 5 else ''
+        print(f"  Contains: {', '.join(preview)}{more}")
+        
+        # Auto-detect if all files (like main discovery does)
+        if all_files:
+            scan_paths.append({
+                'path': subfolder.name,
+                'type': 'files'
+            })
+            print(f"  ✓ Auto-detected: Files")
+        
+        # Ask if all folders (could be game folders or need deeper scan)
+        elif all_dirs:
+            folder_choice = inquirer.prompt([
+                inquirer.List(
+                    'action',
+                    message=f"What's in {subfolder.name}/?",
+                    choices=[
+                        ('Game folders (1 folder = 1 game)', 'folders'),
+                        ('Skip this subfolder', 'skip')
+                    ]
+                )
+            ])
+            
+            if folder_choice and folder_choice['action'] == 'folders':
+                scan_paths.append({
+                    'path': subfolder.name,
+                    'type': 'folders'
+                })
+                print(f"  [✓] Will scan {subfolder.name}/ as game folders")
+            else:
+                print(f"  → Skipping {subfolder.name}/")
+        
+        # Ask if mixed content
+        else:
+            mixed_choice = inquirer.prompt([
+                inquirer.List(
+                    'action',
+                    message=f"Scan {subfolder.name}/ as:",
+                    choices=[
+                        ('Files (ROM files)', 'files'),
+                        ('Folders (game folders)', 'folders'),
+                        ('Skip', 'skip')
+                    ]
+                )
+            ])
+            
+            if mixed_choice and mixed_choice['action'] != 'skip':
+                scan_paths.append({
+                    'path': subfolder.name,
+                    'type': mixed_choice['action']
+                })
+                print(f"  [✓] Will scan {subfolder.name}/ as {mixed_choice['action']}")
+            else:
+                print(f"  → Skipping {subfolder.name}/")
+    
+    # Show final configuration
+    print(f"\n{'='*60}")
+    print(f"HYBRID CONFIGURATION COMPLETE")
+    print(f"{'='*60}")
+    print(f"Configured {len(scan_paths)} scan paths:")
+    for sp in scan_paths:
+        path_display = sp['path'] if sp['path'] else '(root level)'
+        print(f"  • {path_display}  [{sp['type']}]")
+    
+    return {
+        'path': str(platform_path),
+        'type': 'nested',
+        'scan_paths': scan_paths
+    }
+
+
 def discover_structure_interactively(library_roots: List[str], config_data: Dict) -> Dict:
     """
     Interactively discover folder structure.
@@ -441,6 +589,7 @@ def discover_structure_interactively(library_roots: List[str], config_data: Dict
                     choices=[
                         ('Treat as files (scan for ROM files)', 'files'),
                         ('Treat as folders (1 folder = 1 game)', 'folders'),
+                        ('Both (files + subfolders)', 'both'),
                         ('Skip this platform', 'skip')
                     ]
                 )
@@ -449,6 +598,13 @@ def discover_structure_interactively(library_roots: List[str], config_data: Dict
             if not choice or choice['action'] == 'skip':
                 print("  → Skipped")
                 continue
+            elif choice['action'] == 'both':
+                print("  → Configuring hybrid structure...")
+                hybrid_config = configure_hybrid_structure(name, path, config_data)
+                if hybrid_config:
+                    platform_structure[name] = hybrid_config
+                else:
+                    print("  ⚠ Configuration failed, skipping")
             else:
                 print(f"  ✓ Will scan for {choice['action']}")
                 platform_structure[name] = {
@@ -546,6 +702,7 @@ def discover_structure_interactively(library_roots: List[str], config_data: Dict
                     choices=[
                         ('Files (scan for ROM files)', 'files'),
                         ('Folders (1 folder = 1 game)', 'folders'),
+                        ('Hybrid (files + subfolders)', 'hybrid'),
                         ('Nested (configure subfolders)', 'nested'),
                         ('Skip (complex structure)', 'skip')
                     ]
@@ -558,6 +715,13 @@ def discover_structure_interactively(library_roots: List[str], config_data: Dict
                     if nested_config:
                         platform_structure[name] = nested_config
                         print(f"  ✓ Configured as nested")
+                    else:
+                        print(f"  → Configuration cancelled")
+                elif choice['action'] == 'hybrid':
+                    hybrid_config = configure_hybrid_structure(name, path, config_data)
+                    if hybrid_config:
+                        platform_structure[name] = hybrid_config
+                        print(f"  ✓ Configured as hybrid")
                     else:
                         print(f"  → Configuration cancelled")
                 else:

@@ -48,8 +48,7 @@ def load_config():
         print(f"Warning: Could not load config.yaml: {e}")
     return False
 
-# Load config on startup
-load_config()
+# Config will be loaded lazily in main() to avoid issues when config.yaml doesn't exist yet
 
 def leafbase(p: str) -> str:
     return os.path.splitext(os.path.basename(p))[0] if p else ""
@@ -315,6 +314,9 @@ def materialize_by_filters(filters: list[dict], all_games: list[dict]) -> list[d
     return rows
 
 def main():
+    # Load config at runtime (not at import time) to get fresh values
+    load_config()
+    
     import argparse
     ap = argparse.ArgumentParser(description="Export all LaunchBox Playlists to CSV files")
     ap.add_argument("--root", default=DEFAULT_ROOT, help="LaunchBox root (default: %(default)s)")

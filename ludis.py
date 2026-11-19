@@ -20,6 +20,8 @@ import sys
 import subprocess
 import json
 import csv
+import logging
+from datetime import datetime
 from pathlib import Path
 from collections import defaultdict
 
@@ -51,6 +53,57 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 CONFIG_FILE = SCRIPT_DIR / "config.yaml"
 CONFIG_SAMPLE = SCRIPT_DIR / "config.yaml.sample"
 VERSION = "1.0.0"
+
+# ============================================================
+# LOGGING
+# ============================================================
+
+def setup_logging(config):
+    """
+    Configure logging to both file and console.
+    
+    Args:
+        config: Config object (not used, but kept for future)
+    """
+    # Logs go in project root, NOT in output directory
+    log_dir = SCRIPT_DIR / 'logs'
+    
+    # Create logs directory
+    log_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Generate log filename with timestamp
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    log_file = log_dir / f"ludis_{timestamp}.log"
+    
+    # Configure root logger
+    logger = logging.getLogger()
+    logger.setLevel(logging.DEBUG)
+    
+    # Remove existing handlers (in case of reconfiguration)
+    logger.handlers.clear()
+    
+    # File handler - captures everything
+    file_handler = logging.FileHandler(log_file, encoding='utf-8')
+    file_handler.setLevel(logging.DEBUG)
+    file_formatter = logging.Formatter(
+        '%(asctime)s [%(levelname)s] %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S'
+    )
+    file_handler.setFormatter(file_formatter)
+    logger.addHandler(file_handler)
+    
+    # Console handler - only INFO and above (not DEBUG)
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_handler.setLevel(logging.INFO)
+    console_formatter = logging.Formatter('%(message)s')
+    console_handler.setFormatter(console_formatter)
+    logger.addHandler(console_handler)
+    
+    # Log startup
+    logging.info(f"Ludis started - logging to: {log_file}")
+    
+    return log_file
+
 
 # ============================================================
 # CONFIGURATION
@@ -202,6 +255,7 @@ class Pipeline:
     
     def run_filesystem_scan(self) -> bool:
         """Run filesystem scan to build NAS inventory"""
+        logging.info("Starting: Filesystem Scan")
         print("\n" + "=" * 60)
         print("STEP: Filesystem Scan")
         print("=" * 60)
@@ -209,12 +263,14 @@ class Pipeline:
         try:
             # Check if platform_structure is configured
             if not self.config.get('platform_structure'):
+                logging.warning("Platform structure not configured")
                 print("\n✗ Platform structure not configured yet")
                 print("\nPlease run 'Configure Platform Structure' first,")
                 print("or I can do it now.")
                 
                 run_now = inquirer.confirm("\nRun platform discovery now?", default=True)
                 if not run_now:
+                    logging.info("Filesystem scan skipped - user declined platform discovery")
                     print("\nSkipped. Configure platform structure from the menu first.")
                     return False
                 
@@ -233,71 +289,91 @@ class Pipeline:
                 print("\n✓ Platform structure configured!")
             
             # Use the FAST scanner from audit_library.py
+            logging.info("Running filesystem scanner...")
             result = subprocess.run(
                 [sys.executable, "scripts/audit_library.py", "nas-inventory"],
                 cwd=SCRIPT_DIR,
                 capture_output=False,
                 text=True
             )
-            return result.returncode == 0
+            if result.returncode == 0:
+                logging.info("Filesystem scan completed successfully")
+                return True
+            else:
+                logging.error("Filesystem scan failed")
+                return False
         except Exception as e:
+            logging.error(f"Filesystem scan error: {e}")
             print(f"ERROR: {e}")
             return False
     
     def run_platform_export(self) -> bool:
         """Export LaunchBox platform data"""
+        logging.info("Starting: Platform Export")
         print("\n" + "=" * 60)
         print("STEP: Platform Export")
         print("=" * 60)
         
         try:
             export_all_platforms.main()
+            logging.info("Platform export completed successfully")
             return True
         except Exception as e:
+            logging.error(f"Platform export error: {e}")
             print(f"ERROR: {e}")
             return False
     
     def run_playlist_export(self) -> bool:
         """Export LaunchBox playlist data"""
+        logging.info("Starting: Playlist Export")
         print("\n" + "=" * 60)
         print("STEP: Playlist Export")
         print("=" * 60)
         
         try:
             export_all_playlists.main()
+            logging.info("Playlist export completed successfully")
             return True
         except Exception as e:
+            logging.error(f"Playlist export error: {e}")
             print(f"ERROR: {e}")
             return False
     
     def run_master_inventory(self) -> bool:
         """Build master inventory"""
+        logging.info("Starting: Build Master Inventory")
         print("\n" + "=" * 60)
         print("STEP: Build Master Inventory")
         print("=" * 60)
         
         try:
             build_master_inventory.main()
+            logging.info("Master inventory completed successfully")
             return True
         except Exception as e:
+            logging.error(f"Master inventory error: {e}")
             print(f"ERROR: {e}")
             return False
     
     def run_playlist_enrichment(self) -> bool:
         """Enrich master inventory with playlist data"""
+        logging.info("Starting: Enrich with Playlist Data")
         print("\n" + "=" * 60)
         print("STEP: Enrich with Playlist Data")
         print("=" * 60)
         
         try:
             enrich_with_playlists.main()
+            logging.info("Playlist enrichment completed successfully")
             return True
         except Exception as e:
+            logging.error(f"Playlist enrichment error: {e}")
             print(f"ERROR: {e}")
             return False
     
     def run_full_pipeline(self) -> bool:
         """Run all pipeline steps in sequence"""
+        logging.info("Starting: Full Pipeline")
         print("\n" + "=" * 60)
         print("RUNNING FULL PIPELINE")
         print("=" * 60)
@@ -758,7 +834,7 @@ def create_config_interactively() -> bool:
         print("\n  → No ignore patterns configured")
     
     print("\n" + "-" * 60)
-    print("STEP 6 of 6: Custom Game File Extensions (Optional)")
+    print("STEP 6 of 7: Custom Game File Extensions (Optional)")
     print("-" * 60)
     print("Ludis already scans for the most common ROM file extensions:")
     print("  .zip, .7z, .iso, .cue, .bin, .chd, .rvz, .gdi, .nrg,")
@@ -790,6 +866,39 @@ def create_config_interactively() -> bool:
     else:
         print("\n  → Using default extensions only")
     
+    # STEP 7: Path Overrides (Optional)
+    print("\n" + "=" * 60)
+    print("STEP 7 of 7: Path Overrides (Optional)")
+    print("-" * 60)
+    print("If your game files moved after LaunchBox imported them, the paths")
+    print("in LaunchBox XML won't match your current filesystem structure.")
+    print("\nLudis includes path corrections for some platforms.")
+    print("These fix case/naming mismatches for TurboGrafx/PC Engine systems.")
+    
+    path_overrides = None
+    import_overrides = input("\n  Import sample NEC path overrides? (Y/n): ").strip().lower()
+    
+    if import_overrides in ('', 'y', 'yes'):
+        # Load sample overrides from config.yaml.sample
+        try:
+            sample_config_path = Path(__file__).parent / "config.yaml.sample"
+            if sample_config_path.exists():
+                with open(sample_config_path) as f:
+                    sample_config = yaml.safe_load(f)
+                    sample_overrides = sample_config.get('options', {}).get('path_overrides', {})
+                    if sample_overrides:
+                        path_overrides = sample_overrides
+                        print(f"\n  ✓ Imported {len(sample_overrides)} path override(s)")
+                        print("    (NEC TurboGrafx-16, TurboGrafx-CD, PC Engine SuperGrafx)")
+                    else:
+                        print("\n  ⚠ No path overrides found in sample config")
+            else:
+                print("\n  ⚠ Sample config not found, skipping")
+        except Exception as e:
+            print(f"\n  ⚠ Could not load sample overrides: {e}")
+    else:
+        print("\n  → Skipped path overrides (you can add them later in config.yaml)")
+    
     # Create config dictionary
     options_dict = {
         'scan_filesystem': scan_filesystem,
@@ -802,6 +911,9 @@ def create_config_interactively() -> bool:
     
     if additional_extensions:
         options_dict['additional_game_extensions'] = additional_extensions
+    
+    if path_overrides:
+        options_dict['path_overrides'] = path_overrides
     
     config_data = {
         'version': '2.0',
@@ -832,6 +944,8 @@ def create_config_interactively() -> bool:
     print(f"  Ignore Patterns:      {'Enabled' if ignore_patterns else 'Disabled'}")
     if additional_extensions:
         print(f"  Custom Extensions:    {', '.join(additional_extensions)}")
+    if path_overrides:
+        print(f"  Path Overrides:       {len(path_overrides)} mapping(s)")
     
     print("\n" + "-" * 60)
     print("Creating config.yaml...")
@@ -1063,8 +1177,22 @@ def main():
     print("\nLoading configuration...")
     config = Config(CONFIG_FILE)
     
+    # Setup logging
+    try:
+        log_file = setup_logging(config)
+        print(f"✓ Logging to: {log_file}")
+        logging.info("=" * 60)
+        logging.info("LUDIS - LaunchBox Universal Data Integration System")
+        logging.info("=" * 60)
+        logging.info(f"Version: {VERSION}")
+        logging.info(f"Config: {CONFIG_FILE}")
+        logging.info("")
+    except Exception as e:
+        print(f"⚠ Warning: Logging setup failed: {e}")
+        print("  Continuing without log file...")
+    
     # Check dependencies
-    print("Checking dependencies...")
+    logging.info("Checking dependencies...")
     checker = DependencyChecker(config)
     deps = checker.check_all()
     checker.print_status()
@@ -1075,8 +1203,10 @@ def main():
     # Show menu
     while True:
         action = show_menu(config, deps)
+        logging.info(f"User selected: {action}")
         
         if action == "Exit":
+            logging.info("User exited Ludis")
             print("\nGoodbye!")
             break
         
@@ -1166,12 +1296,19 @@ def main():
         
         # Migration script generation
         elif action in ("Configure Platform Storage Defaults", "Reconfigure Platform Storage Defaults"):
+            logging.info("Starting: Configure Platform Storage Defaults")
             from scripts import migration_builder
             migration_builder.configure_storage_defaults(config)
+            # Reload config and refresh dependencies
+            config.load()
+            deps = checker.check_all()
+            logging.info("Platform storage defaults configuration complete")
         
         elif action == "Create Migration Script":
+            logging.info("Starting: Create Migration Script")
             from scripts import migration_builder
             migration_builder.run_interactive(config)
+            logging.info("Migration script generation complete")
         
         # Utility options
         elif action == "Validate Existing Data":

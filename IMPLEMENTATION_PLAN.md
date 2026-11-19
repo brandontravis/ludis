@@ -130,7 +130,7 @@ FILES:
 
 ---
 
-### 3. Add Hybrid Platform Scanner (NEXT)
+### ✅ 3. Add Hybrid Platform Scanner (COMPLETE)
 
 **Problem:** Platforms with BOTH root-level ROM files AND subfolders cannot be properly configured.
 
@@ -181,40 +181,106 @@ FILES:
 
 4. **Show Samples** at every decision point (first 5 items)
 
-**Implementation Notes:**
-- Only peek at filesystem structure (not full scan)
-- Ask user about each subfolder when "Both" selected
-- Use existing `configure_nested_path()` logic where possible
-- Keep simple cases fast (auto-detect when all files or all folders)
+**What was implemented:**
+
+1. **Created `configure_hybrid_structure()` function**
+   - Always includes root level files (path: "", type: files)
+   - Gets all subfolders (respecting ignore patterns)
+   - For each subfolder: peeks at first 5 items only (FAST)
+   - Shows sample and asks user: "Scan {folder}/ for files? (Y/n)"
+   - Builds nested config with selected scan_paths
+   - Performance: Only adds 0.1-0.5s per platform with subfolders
+
+2. **Added "Both" option to discovery flow**
+   - Mixed content detection now offers 4 choices:
+     - Files only
+     - Folders only  
+     - **Both (files + subfolders)** ← NEW
+     - Skip
+   - When "Both" selected, calls `configure_hybrid_structure()`
+
+3. **Added "Hybrid" option to reconfiguration**
+   - Users can reconfigure platforms after initial scan
+   - "Hybrid" option now available in reconfiguration menu
+   - Works identically to initial "Both" flow
+
+4. **No performance degradation**
+   - Discovery still peeks at 5 items per platform (0% increase)
+   - Hybrid config only runs when user picks "Both" (optional)
+   - No changes to actual scanning logic in audit_library.py
+   - Tested: Script imports successfully, no linter errors
+
+**Result:** Users can now properly configure platforms like Wii, PS3, Saturn that have mixed root files + subfolders.
 
 **Files:** `scripts/interactive_scanner.py`
 
 ---
 
-### 4. Fix Migration Script Generation Crash
+### ✅ 4. Fix Migration Script Generation Crash (COMPLETE)
 
-**Problem:** Migration script generation crashes after pipeline completes
+**Problem:** Migration script generation crashed after pipeline completes
 
-**Investigation needed:**
-- What's the error?
-- Where does it crash?
-- What's the stack trace?
+**Issues Found & Fixed:**
 
-**File:** Likely `scripts/migration_builder.py`
+1. **KeyError in `generate_windows_install_list()`**
+   - Problem: `game['type']` returned values not in `grouped` dict (e.g., 'lb_pc', 'storefront')
+   - Fix: Added fallback to 'unknown' if game type not recognized
+   - Line 1563: `if game_type not in grouped: game_type = 'unknown'`
+
+2. **Missing Source Path Configuration**
+   - Problem: Migration scripts assumed source ROMs accessible at same paths on target device
+   - Reality: 
+     - Computer A (Windows): Has LaunchBox with full library
+     - Computer B (Mac/Linux): Has copy of LaunchBox Data/ files, runs Ludis, generates migration scripts
+     - Computer C (Steam Deck): Receives migration scripts, runs them, needs to know where source ROMs are mounted
+   - Fix: Added **"Source ROM Base Path"** configuration during storage defaults setup
+   - Stored in: `export_targets.{target}.storage_locations.source_base.path`
+   - Used by: Generated migration runner as default prompt value for Computer C
+
+**What Was Added:**
+- New prompt in `configure_storage_defaults()`: "Where will your source ROM files be located on the target device?"
+- Examples: /mnt/nas/games/library, /run/media/deck/external/roms
+- Saved to config.yaml alongside internal_ssd and sd_card paths
+- Generated migration runner now prompts with configured path as default
+- User can override at migration time if needed
+
+**File:** `scripts/migration_builder.py`
 
 ---
 
-### 5. Add Automatic Logging
+### ✅ 5. Add Automatic Logging (COMPLETE)
 
 **Goal:** Log all operations to file for debugging
 
 **Implementation:**
-- Log file in `LB_Exports/logs/ludis_TIMESTAMP.log`
-- Capture all print statements
-- Include timestamps, step names, errors
-- Don't clutter terminal output
+- ✅ Log file in `{output_directory}/logs/ludis_TIMESTAMP.log` (uses config)
+- ✅ Timestamps on all log entries (YYYY-MM-DD HH:MM:SS format)
+- ✅ Logs pipeline steps (start/complete/error)
+- ✅ Logs user actions (menu selections)
+- ✅ Logs errors with full context
+- ✅ Dual output: file (DEBUG level) + console (INFO level)
+- ✅ Console output unchanged (no clutter)
 
-**Files:** `ludis.py` + all scripts
+**What Was Added:**
+- `setup_logging(config)` function in `ludis.py`
+- Creates logs directory automatically
+- Generates timestamped log files
+- Python logging module with dual handlers:
+  - File handler: captures everything (DEBUG)
+  - Console handler: only important stuff (INFO+)
+- Logging added to:
+  - Application startup
+  - All pipeline steps
+  - User menu selections
+  - Migration builder actions
+  - Errors and warnings
+
+**Log File Location:**
+- Reads from `config.get('paths.output_directory')`
+- Defaults to `LB_Exports/logs/` if not configured
+- Filename: `ludis_YYYYMMDD_HHMMSS.log`
+
+**File:** `ludis.py`
 
 ---
 
@@ -307,9 +373,69 @@ FILES:
 
 **Files:** Likely `scripts/audit_library.py` or inventory builder
 
+**Follow-up:** Once sizes are accurate, consider adding "Smart assignment by size" preset to storage defaults configuration (e.g., "Small platforms < 10GB → SSD, Large → SD")
+
 ---
 
-### 12. Remove "Savvy" Hardcoding (Optional)
+### 12. Document Master Inventory Audit Workflow
+
+**NOTE** The below summary is AI generated. I am not convinced that this addresses our workflow problems but I Can't be bothered to think about it yet
+
+**Problem:** Users generate `master_inventory.csv` but don't know how to use it for cleanup
+
+**Goal:** Document the recommended workflow for auditing and using the spreadsheet
+
+**What users need to know:**
+
+1. **Understanding the columns:**
+   - `Matched` = "Yes" (matched), "Expected" (known non-match), "No" (investigate)
+   - `MatchType` = Why it matched or didn't match
+   - `lb_only` = LaunchBox has it, filesystem doesn't
+   - `mame_not_game` = BIOS/device file, not a real game
+
+2. **Cleanup workflows:**
+   
+   **A. Clean up LaunchBox (lb_only entries):**
+   - Filter: `MatchType = "lb_only"`
+   - These are games LaunchBox thinks exist but don't on filesystem
+   - Action: Remove from LaunchBox OR fix the file path OR locate the missing files
+   
+   **B. Import missing games (Unknown entries):**
+   - Filter: `Matched = "No" AND MatchType NOT IN (lb_only, mame_not_game, storefront, lb_pc)`
+   - These are files on filesystem that LaunchBox doesn't know about
+   - Action: Import into LaunchBox OR ignore if intentional
+   
+   **C. Review low match rates:**
+   - Run platform-by-platform analysis
+   - Platforms with <80% match rate need attention
+   - Check for path issues, naming problems, or config errors
+
+3. **Tools to provide:**
+   - Python script to generate filtered CSVs:
+     - `cleanup_needed.csv` (lb_only by platform)
+     - `potential_imports.csv` (unknown by platform)
+     - `low_match_platforms.csv` (platforms needing attention)
+   - Excel-friendly filtering instructions in README
+
+4. **Common issues to document:**
+   - Case sensitivity in paths
+   - Special characters in filenames
+   - Regional variants (USA vs Europe)
+   - Multi-disc games
+   - Clone ROMs vs parent ROMs
+
+**Deliverables:**
+- New section in README: "Auditing Your Library"
+- Helper script: `scripts/generate_audit_reports.py`
+- Example workflows with screenshots
+
+**Files:**
+- New: `scripts/generate_audit_reports.py`
+- Update: `README.md` (or new `AUDITING.md`)
+
+---
+
+### 13. Remove "Savvy" Hardcoding (Optional)
 
 **Problem:** `scripts/build_master_inventory.py` line 568 checks for "savvy" folder
 **Impact:** Low - only affects Windows PC game detection
@@ -317,7 +443,7 @@ FILES:
 
 ---
 
-### 13. Add Interactive Path Mapper
+### 14. Add Interactive Path Mapper
 
 **Problem:** When files move after LaunchBox imports them, paths don't match
 
@@ -338,7 +464,7 @@ FILES:
 
 ---
 
-### 14. Expand Windows Storefront Detection
+### 15. Expand Windows Storefront Detection
 
 **Problem:** Only detects 5 storefronts (Steam, Epic, GOG, Origin, Ubisoft)
 
@@ -362,29 +488,178 @@ FILES:
 
 ---
 
-### 14. Create Documentation (LAST STEP)
+### 16. UX Polish & Improvements
 
-**After everything works, create:**
+**Goal:** Make the tool feel polished and professional, not just functional
+
+**Current UX Issues:**
+
+1. **Ctrl+C Handling**
+   - Problem: Ctrl+C kills the entire process
+   - Goal: Ctrl+C should cancel current task and return to menu/prompt
+   - Implementation: Catch `KeyboardInterrupt` at appropriate levels
+
+2. **Selection UI Improvements**
+   - Current library: `inquirer` - basic but functional
+   - Explore alternatives: `rich`, `questionary`, `bullet`
+   - Features needed: Select all/none, search/filter, bulk operations
+   - Consider: Pre-selection prompts ("Start with all selected?" Y/N)
+   - Goal: Make selecting 5 out of 55 items not painful
+
+3. **Visual Hierarchy**
+   - Break up walls of text with spacing and separators
+   - Use consistent header styles (═ for major sections, ─ for subsections)
+   - Add visual indicators: ✓ (success), ✗ (error), ⚠ (warning), ○/● (status)
+   - Consider progress indicators for long operations
+
+4. **Color Support** (optional, nice to have)
+   - Use `colorama` or `rich` library for cross-platform color support
+   - Color scheme:
+     - Green: Success messages, checkmarks
+     - Red: Errors, warnings
+     - Yellow: Prompts, choices
+     - Blue: Section headers
+     - Gray: Secondary information
+   - Must gracefully degrade if colors not supported
+
+5. **Menu Rework** (DEFERRED until core functionality solid)
+   - Current menu is functional but could be more intuitive
+   - Consider grouping related actions
+   - Show more context (e.g., "Step 1: ✓ Complete" vs "Step 1: ○ Not Run")
+   - Better navigation (numbered choices + arrow keys)
+   - **NOTE:** This is a bigger change, defer until Tasks 4-12 are complete
+
+**Where to Apply:**
+
+- All interactive prompts in `ludis.py`
+- Migration builder flows in `scripts/migration_builder.py`
+- Platform scanner in `scripts/interactive_scanner.py`
+- Any long-running operations (show progress)
+- Confirmation prompts throughout
+
+**Implementation Priority:**
+
+1. **High:** Ctrl+C handling (critical UX issue)
+2. **High:** Explore better prompt libraries (inquirer limitations)
+3. **Medium:** Break up walls of text, add spacing
+4. **Medium:** Consistent visual indicators (✓/✗/⚠)
+5. **Low:** Color support (nice to have)
+6. **DEFERRED:** Menu rework (wait for core stability)
+
+**Already Completed:**
+- ✅ Storage defaults UX overhaul (reduced from 55+ clicks to ~5-10 clicks via default+exceptions flow)
+
+**Files:**
+- `ludis.py` (main menu and orchestration)
+- `scripts/migration_builder.py` (all interactive flows)
+- `scripts/interactive_scanner.py` (platform discovery)
+- Any script with user prompts
+
+---
+
+### 17. Comprehensive Flow Testing & Validation
+
+**Goal:** Stress test every single interactive option and workflow path to ensure nothing is broken
+
+**Problem:** We've built many features and interactive flows, but haven't validated every possible choice combination. Features may work individually but break in specific scenarios.
+
+**Examples of Untested Paths:**
+- Gamelist generation in migration (does it actually work? are XMLs valid?)
+- "Reconfigure Platform Structure" option (does it work end-to-end?)
+- "Re-run YAML Setup" (does it properly reset state?)
+- Hybrid platform scanner for different folder structures
+- Storage defaults: "Update paths" flow
+- Storage defaults: Choosing "Custom" as default storage
+- Migration builder: Using previous configuration workflow
+- Migration builder: Modifying previous configuration (all 3 modification scopes)
+- Platform selection with filters that result in 0 games
+- Creating export target when none exist vs. when multiple exist
+- Each storefront detection type in Windows game categorization
+- Edge cases: empty playlists, platforms with 0 games, missing files
+
+**Testing Approach:**
+
+1. **Document All Interactive Flows**
+   - List every menu option
+   - List every prompt/choice within each option
+   - Create test matrix of paths to validate
+
+2. **Manual Testing Pass**
+   - Go through each workflow end-to-end
+   - Try every choice/option at each decision point
+   - Validate output files are correct
+   - Check for crashes, hangs, confusing UX
+
+3. **Edge Case Testing**
+   - Empty data (no games, no playlists)
+   - Invalid input (bad paths, special characters)
+   - Cancellation at each step (Ctrl+C, typing 'n')
+   - Very large datasets (1000+ games per platform)
+   - Very small datasets (1 game per platform)
+
+4. **Generated Output Validation**
+   - Migration scripts: Do they run on target device?
+   - Gamelist XMLs: Are they valid XML? Do they load in ES-DE?
+   - Manifest JSON: Is it parseable? Does it match actual files?
+   - CSVs: Are columns correct? Is data complete?
+
+5. **Config State Testing**
+   - Reconfiguration workflows: Does state persist correctly?
+   - Multiple targets: Does each maintain independent config?
+   - Path changes: Do they propagate everywhere needed?
+
+**Deliverable:** Test matrix document with checkboxes for each validated path
+
+**Files to Test:**
+- `ludis.py` (all menu options)
+- `scripts/migration_builder.py` (all interactive flows)
+- `scripts/interactive_scanner.py` (all discovery scenarios)
+- Generated migration scripts (run on actual target device)
+- All generated output files (CSVs, XMLs, JSON)
+
+---
+
+### 18. Create Documentation (LAST STEP)
+
+**After everything works AND is tested, create:**
 - README.md (what is this, how to install, quick start)
 - GETTING_STARTED.md (first-run guide)
 - CONFIGURATION.md (config.yaml reference)
 
-**That's it.** No more docs until it's working.
+**That's it.** No more docs until it's working and validated.
 
 ---
 
 ## Definition of Done
 
+**Core Functionality:**
 - [x] Menu allows running individual steps (not just "full pipeline")
 - [x] Playlist export works generically (no hardcoded skip rules)
-- [ ] Migration script generation doesn't crash
-- [ ] Automatic logging to file works
+- [x] Migration script generation doesn't crash
+- [x] Automatic logging to file works
 - [x] Prompts allow retry instead of exit (setup wizard improved)
 - [x] config.yaml.sample is accurate
 - [ ] No more "enrichment" language in the codebase
 - [ ] No more "NAS" language in the codebase
 - [ ] File size calculation works
+- [ ] Master inventory audit workflow documented
+- [ ] Helper scripts for filtering/auditing provided
+
+**UX & Polish:**
+- [ ] Ctrl+C cancels task (doesn't kill process)
+- [ ] Better prompt library explored (inquirer limitations addressed)
+- [ ] Consistent visual hierarchy and spacing
+- [ ] Visual indicators (✓/✗/⚠) used consistently
+- [ ] No walls of text (broken up with spacing/headers)
+- [ ] Color support (optional, graceful degradation)
+
+**Release Readiness:**
 - [ ] Tested on non-Brandon LaunchBox installation
+- [ ] Every interactive flow path validated end-to-end
+- [ ] Generated migration scripts tested on actual target device
+- [ ] Gamelist XMLs validated (parseable, load in ES-DE)
+- [ ] Edge cases tested (empty data, invalid input, cancellation)
+- [ ] Reconfiguration workflows validated
 - [ ] README exists
 - [ ] GETTING_STARTED exists
 - [ ] Can hand this to a stranger and they can use it
@@ -409,6 +684,7 @@ The CSVs are just steps to get to the migration scripts.
 
 **After shipping, we need to rethink:**
 - NAS inventory builder workflow (what's its purpose? what should it do?)
+- Menu system rework (once core functionality is proven stable)
 
 ## What We're NOT Building
 
@@ -423,33 +699,43 @@ These are future ideas, not part of public release:
 ## Priority Order
 
 **Critical (Must Fix):**
-1. Task 3: Fix migration script crash (can't ship if it crashes)
-2. Task 2: Fix playlist export filtering (genericization blocker)
+1. ~~Task 4: Fix migration script crash~~ ✅ **COMPLETE**
 
 **Important (Should Fix):**
-3. Task 4: Add logging (debugging/support)
-4. Task 6: Clean up config.yaml.sample (confusing to users)
+2. ~~Task 5: Add logging~~ ✅ **COMPLETE**
+3. Task 11: Fix file size calculation (users need storage estimates)
+4. Task 12: Document master inventory audit workflow (users need to know how to use the output)
 
 **Nice to Have:**
-5. Task 8: Remove "enrichment" language (rename things)
-6. Task 9: Remove "NAS" language (rename things)
-7. Task 10: Fix file size calculation (users need storage estimates)
-8. Task 11: Remove "Savvy" hardcoding (low impact)
+5. Task 6: Allow prompt restart instead of exit
+6. Task 7: Clean up config.yaml.sample (mostly done)
+7. Task 9: Remove "enrichment" language (rename things)
+8. Task 10: Remove "NAS" language (rename things)
+9. Task 13: Remove "Savvy" hardcoding (low impact)
+10. Task 14: Add interactive path mapper (UX improvement)
+11. Task 15: Expand Windows storefront detection (enhancement)
 
-**Final:**
-9. Task 7: Test on fresh LaunchBox
-10. Task 12: Create documentation
+**Polish & Release:**
+12. Task 16: UX polish pass (Ctrl+C, colors, visual hierarchy)
+13. Task 8: Test on fresh LaunchBox
+14. Task 17: Comprehensive flow testing (validate every option/path)
+15. Task 18: Create documentation
 
 ---
 
 ## Next Action
 
-**Start with Task 3:** Investigate and fix the migration script generation crash.
+**Continue with Important Tasks:**
 
-**YOU provide:**
-- What's the error message?
-- When does it crash (after what step)?
-- Can you reproduce it?
+Focus on core functionality before polish:
+- ~~**Task 5:** Add automatic logging to file~~ ✅ **COMPLETE**
+- **Task 11:** Fix file size calculation (users need storage estimates)
+- **Task 12:** Document master inventory audit workflow
+- **Task 9/10:** Remove "enrichment" and "NAS" language (genericize)
 
-Then we'll fix it and move down the list.
+Then polish, test & release:
+- **Task 16:** UX improvements (Ctrl+C, colors, spacing, better prompts)
+- **Task 8:** Test on fresh LaunchBox installation
+- **Task 17:** Comprehensive flow testing (validate EVERY interactive path)
+- **Task 18:** Create documentation
 

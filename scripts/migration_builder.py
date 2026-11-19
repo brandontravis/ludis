@@ -47,11 +47,11 @@ def create_export_target_interactively(config) -> Optional[Dict]:
     # Ask for target name
     print("\nWhat would you like to call this export target?")
     print("  Examples: steam_deck, retroid_pocket, anbernic, desktop")
-    target_name = input("\n  Target name: ").strip().lower()
+    target_name = input("\n  Target name [steam_deck]: ").strip().lower()
     
+    # Use default if empty
     if not target_name:
-        print("\n✗ Target name is required")
-        return None
+        target_name = "steam_deck"
     
     # Currently only ES-DE is supported
     print("\nFormat: ES-DE (EmulationStation Desktop Edition)")
@@ -221,7 +221,14 @@ def discover_playlists(config) -> List[str]:
     Returns:
         Sorted list of unique playlist names
     """
-    inventory_csv = PROJECT_ROOT / config.paths.output_directory / "master_inventory.csv"
+    output_dir = config.get('paths.output_directory')
+    if not output_dir:
+        print("\n✗ Output directory not configured")
+        return []
+    
+    inventory_csv = Path(output_dir) / "master_inventory.csv"
+    if not inventory_csv.is_absolute():
+        inventory_csv = PROJECT_ROOT / inventory_csv
     
     if not inventory_csv.exists():
         print(f"⚠ Warning: {inventory_csv} not found. No playlists available.")
@@ -1225,7 +1232,7 @@ def generate_platform_script(platform_name: str, platform_data: Dict, operation:
     return script_name
 
 
-def generate_migration_runner(dist_dir: Path, target: Dict, file_list: Dict, operation: str, script_names: List[str]):
+def generate_migration_runner(dist_dir: Path, target: Dict, file_list: Dict, operation: str, script_names: List[str], source_base_path: str = ''):
     """Generate the main ludis-migrate.py runner script."""
     from datetime import datetime
     
@@ -1311,18 +1318,27 @@ def generate_migration_runner(dist_dir: Path, target: Dict, file_list: Dict, ope
     lines.append("    print('MIGRATION OPTIONS')")
     lines.append("    print('=' * 60)")
     lines.append("    ")
-    lines.append("    # NAS base path")
-    lines.append("    print('\\nWhere is your NAS/source library mounted on this device?')")
+    lines.append("    # Source ROM base path")
+    lines.append("    print('\\nWhere are your source ROM files located on this device?')")
     lines.append("    print('Examples:')")
-    lines.append("    print('  /mnt/nas')")
+    lines.append("    print('  /mnt/nas/games/library')")
     lines.append("    print('  /media/nas/games/library')")
     lines.append("    print('  /run/media/USERNAME/DRIVE/games/library')")
-    lines.append("    ")
-    lines.append("    nas_base_path = input('\\nNAS mount path: ').strip()")
-    lines.append("    ")
-    lines.append("    if not nas_base_path:")
-    lines.append("        print('\\n✗ NAS path is required')")
-    lines.append("        return")
+    
+    # Include configured source path as a default if available
+    if source_base_path:
+        lines.append("    print(f'\\nConfigured default: {repr(source_base_path)}')")
+        lines.append("    ")
+        lines.append(f"    nas_base_path = input('\\nSource ROM path [{source_base_path}]: ').strip()")
+        lines.append("    if not nas_base_path:")
+        lines.append(f"        nas_base_path = {repr(source_base_path)}")
+    else:
+        lines.append("    ")
+        lines.append("    nas_base_path = input('\\nSource ROM path: ').strip()")
+        lines.append("    ")
+        lines.append("    if not nas_base_path:")
+        lines.append("        print('\\n✗ Source path is required')")
+        lines.append("        return")
     lines.append("    ")
     lines.append("    nas_base = Path(nas_base_path)")
     lines.append("    if not nas_base.exists():")
@@ -1553,6 +1569,9 @@ def generate_windows_install_list(dist_dir: Path, windows_games: List[Dict], tim
     
     for game in windows_games:
         game_type = game.get('type', 'unknown')
+        # Ensure the type is in our grouped dict, otherwise use 'unknown'
+        if game_type not in grouped:
+            game_type = 'unknown'
         grouped[game_type].append(game)
     
     lines = []
@@ -1732,7 +1751,20 @@ def build_file_list(config, target: Dict, migration_config: Dict) -> Dict:
     print("BUILDING FILE LIST")
     print("=" * 60)
     
-    master_inv = PROJECT_ROOT / 'LB_Exports' / 'master_inventory.csv'
+    # Get master inventory path from config
+    output_dir = config.get('paths.output_directory')
+    if not output_dir:
+        print("\n✗ Output directory not configured")
+        return {'platforms': {}, 'windows_games': []}
+    
+    master_inv = Path(output_dir) / 'master_inventory.csv'
+    if not master_inv.is_absolute():
+        master_inv = PROJECT_ROOT / master_inv
+    
+    if not master_inv.exists():
+        print(f"\n✗ Master inventory not found: {master_inv}")
+        return {'platforms': {}, 'windows_games': []}
+    
     scanner = InventoryScanner(master_inv)
     mapper = PlatformMapper()
     
@@ -2066,7 +2098,13 @@ def run_interactive(config):
     
     # Generate main migration runner
     print("\nGenerating migration runner...")
-    runner_path = generate_migration_runner(dist_dir, target, file_list, operation, script_names)
+    
+    # Get source base path from target config
+    storage_locations = target['config'].get('storage_locations', {})
+    source_base = storage_locations.get('source_base', {})
+    source_base_path = source_base.get('path', '')
+    
+    runner_path = generate_migration_runner(dist_dir, target, file_list, operation, script_names, source_base_path)
     print(f"  ✓ ludis-migrate.py")
     
     # Generate manifest
@@ -2143,7 +2181,17 @@ def configure_storage_defaults(config):
     # Step 2: Get all platforms from inventory
     print("\nScanning all platforms in your library...")
     
-    master_inv = PROJECT_ROOT / 'LB_Exports' / 'master_inventory.csv'
+    # Get master inventory path from config
+    output_dir = config.get('paths.output_directory')
+    if not output_dir:
+        print("\n✗ Output directory not configured")
+        print("\nPlease ensure config.yaml has 'paths.output_directory' set")
+        return
+    
+    master_inv = Path(output_dir) / 'master_inventory.csv'
+    if not master_inv.is_absolute():
+        master_inv = PROJECT_ROOT / master_inv
+    
     if not master_inv.exists():
         print(f"\n✗ Master inventory not found!")
         print(f"   Expected: {master_inv}")
@@ -2173,27 +2221,32 @@ def configure_storage_defaults(config):
     storage_locations = target_config.get('storage_locations', {})
     internal_ssd = storage_locations.get('internal_ssd', {})
     sd_card = storage_locations.get('sd_card', {})
+    source_base = storage_locations.get('source_base', {})
     
     internal_path = internal_ssd.get('path', '')
     sd_path = sd_card.get('path', '')
+    source_base_path = source_base.get('path', '')
     
-    needs_path_config = not internal_path or not sd_path
+    needs_path_config = not internal_path or not sd_path or not source_base_path
     
     if needs_path_config:
         print("\n" + "=" * 60)
         print("CONFIGURE STORAGE PATHS")
         print("=" * 60)
         print(f"\nYou need to configure storage paths for {target_name}.")
-        print("These are the base paths where ROMs will be stored on your device.\n")
+        print("These are the paths needed for ROM migration.\n")
         
         if not internal_path:
             print("⚠ Internal SSD path not configured")
         if not sd_path:
             print("⚠ SD Card path not configured")
+        if not source_base_path:
+            print("⚠ Source ROM base path not configured")
         
         print("\nExamples:")
         print("  Internal SSD: /home/deck/Emulation/roms")
         print("  SD Card: /run/media/mmcblk0p1/Emulation/roms")
+        print("  Source: /mnt/nas/games/library")
         
         # Prompt for Internal SSD path
         if not internal_path:
@@ -2223,6 +2276,31 @@ def configure_storage_defaults(config):
                 return
             sd_path = answer['path'].strip()
         
+        # Prompt for source base path (where ROMs are located on target device)
+        if not source_base_path:
+            print("\n" + "-" * 60)
+            print("SOURCE FILE LOCATION")
+            print("-" * 60)
+            print("\nWhere will your source ROM files be located on the target device?")
+            print("This is where the device will look for files to copy/symlink.")
+            print("\nExamples:")
+            print("  /mnt/nas/games/library")
+            print("  /run/media/deck/external/roms")
+            print("  \\\\network\\share\\games")
+            print()
+            
+            questions = [
+                inquirer.Text('path',
+                             message="Enter source ROM base path on target device",
+                             validate=lambda _, x: len(x.strip()) > 0,
+                             )
+            ]
+            answer = inquirer.prompt(questions)
+            if not answer:
+                print("\nCancelled.")
+                return
+            source_base_path = answer['path'].strip()
+        
         # Save paths to config.yaml
         import yaml
         config_file = PROJECT_ROOT / 'config.yaml'
@@ -2245,15 +2323,21 @@ def configure_storage_defaults(config):
             'path': sd_path,
             'label': 'SD Card'
         }
+        config_data['export_targets'][target_name]['storage_locations']['source_base'] = {
+            'path': source_base_path,
+            'label': 'Source ROM Base Path'
+        }
         
         with open(config_file, 'w') as f:
             yaml.dump(config_data, f, default_flow_style=False, sort_keys=False)
         
         print(f"\n✓ Storage paths saved to config.yaml")
+        print(f"  Source base: {source_base_path}")
     
     print(f"\nStorage paths configured:")
     print(f"  Internal SSD: {internal_path}")
     print(f"  SD Card: {sd_path}")
+    print(f"  Source base: {source_base_path}")
     
     # Check if we want to update existing paths
     if not needs_path_config:
@@ -2290,6 +2374,20 @@ def configure_storage_defaults(config):
                 return
             sd_path = answer['path'].strip()
             
+            # Prompt for new source base path
+            questions = [
+                inquirer.Text('path',
+                             message="Enter new source ROM base path on target device",
+                             default=source_base_path,
+                             validate=lambda _, x: len(x.strip()) > 0,
+                             )
+            ]
+            answer = inquirer.prompt(questions)
+            if not answer:
+                print("\nCancelled.")
+                return
+            source_base_path = answer['path'].strip()
+            
             # Save updated paths to config.yaml
             import yaml
             config_file = PROJECT_ROOT / 'config.yaml'
@@ -2299,6 +2397,7 @@ def configure_storage_defaults(config):
             
             config_data['export_targets'][target_name]['storage_locations']['internal_ssd']['path'] = internal_path
             config_data['export_targets'][target_name]['storage_locations']['sd_card']['path'] = sd_path
+            config_data['export_targets'][target_name]['storage_locations']['source_base']['path'] = source_base_path
             
             with open(config_file, 'w') as f:
                 yaml.dump(config_data, f, default_flow_style=False, sort_keys=False)
@@ -2306,12 +2405,14 @@ def configure_storage_defaults(config):
             print(f"\n✓ Storage paths updated in config.yaml")
             print(f"  Internal SSD: {internal_path}")
             print(f"  SD Card: {sd_path}")
+            print(f"  Source base: {source_base_path}")
     
-    # Step 4: Select platforms for Internal SSD
+    # Step 4: Choose default storage location
     print("\n" + "=" * 60)
-    print("STEP 1: SELECT PLATFORMS FOR INTERNAL SSD")
+    print("STEP 1: CHOOSE DEFAULT STORAGE")
     print("=" * 60)
-    print("Use Space to select/deselect, Enter to confirm")
+    print("\nWhere should MOST platforms go by default?")
+    print("(You'll select exceptions in the next step)")
     print()
     
     # Validate we have platforms
@@ -2320,12 +2421,18 @@ def configure_storage_defaults(config):
         print("This shouldn't happen. Please check your master_inventory.csv")
         return
     
+    default_choices = [
+        ('Internal SSD (fastest, limited space)', 'internal_ssd'),
+        ('SD Card (most storage)', 'sd_card'),
+        ('Custom paths (I\'ll specify each platform individually)', 'custom'),
+    ]
+    
     try:
         questions = [
-            inquirer.Checkbox('platforms',
-                             message="Select platforms for Internal SSD",
-                             choices=all_platforms,
-                             default=[])
+            inquirer.List('default_storage',
+                         message="Default storage location",
+                         choices=default_choices,
+                         default='sd_card')
         ]
         
         answers = inquirer.prompt(questions)
@@ -2333,28 +2440,31 @@ def configure_storage_defaults(config):
             print("\nCancelled.")
             return
         
-        internal_platforms = answers['platforms']
+        default_storage = answers['default_storage']
     except Exception as e:
-        print(f"\n✗ Error during platform selection: {e}")
-        print(f"\nPlatforms available: {len(all_platforms)}")
-        print(f"First few platforms: {all_platforms[:5] if len(all_platforms) >= 5 else all_platforms}")
+        print(f"\n✗ Error during selection: {e}")
         return
     
-    # Step 5: Select platforms for SD Card (from remaining)
-    remaining_platforms = [p for p in all_platforms if p not in internal_platforms]
+    # Step 5: Select exceptions (move to the other tier)
+    internal_platforms = []
+    sd_platforms = []
     
-    if remaining_platforms:
+    if default_storage == 'internal_ssd':
+        # Default is Internal SSD, let them move some to SD Card
         print("\n" + "=" * 60)
-        print("STEP 2: SELECT PLATFORMS FOR SD CARD")
+        print("STEP 2: MOVE EXCEPTIONS TO SD CARD")
         print("=" * 60)
+        print(f"\n{len(all_platforms)} platforms will go to Internal SSD by default.")
+        print("Select any you want to MOVE TO SD CARD:")
+        print()
         print("Use Space to select/deselect, Enter to confirm")
         print()
         
         try:
             questions = [
                 inquirer.Checkbox('platforms',
-                                 message="Select platforms for SD Card",
-                                 choices=remaining_platforms,
+                                 message="Select platforms to move to SD Card",
+                                 choices=all_platforms,
                                  default=[])
             ]
             
@@ -2364,16 +2474,77 @@ def configure_storage_defaults(config):
                 return
             
             sd_platforms = answers['platforms']
+            internal_platforms = [p for p in all_platforms if p not in sd_platforms]
         except Exception as e:
             print(f"\n✗ Error during platform selection: {e}")
-            print(f"\nRemaining platforms: {len(remaining_platforms)}")
-            print(f"First few platforms: {remaining_platforms[:5] if len(remaining_platforms) >= 5 else remaining_platforms}")
             return
-    else:
+    
+    elif default_storage == 'sd_card':
+        # Default is SD Card, let them move some to Internal SSD
+        print("\n" + "=" * 60)
+        print("STEP 2: MOVE EXCEPTIONS TO INTERNAL SSD")
+        print("=" * 60)
+        print(f"\n{len(all_platforms)} platforms will go to SD Card by default.")
+        print("Select any you want to MOVE TO INTERNAL SSD:")
+        print()
+        print("Use Space to select/deselect, Enter to confirm")
+        print()
+        
+        try:
+            questions = [
+                inquirer.Checkbox('platforms',
+                                 message="Select platforms to move to Internal SSD",
+                                 choices=all_platforms,
+                                 default=[])
+            ]
+            
+            answers = inquirer.prompt(questions)
+            if not answers:
+                print("\nCancelled.")
+                return
+            
+            internal_platforms = answers['platforms']
+            sd_platforms = [p for p in all_platforms if p not in internal_platforms]
+        except Exception as e:
+            print(f"\n✗ Error during platform selection: {e}")
+            return
+    
+    else:  # custom
+        # All will be custom by default
+        internal_platforms = []
         sd_platforms = []
     
-    # Step 6: Show remaining platforms (will need custom paths)
-    custom_platforms = [p for p in remaining_platforms if p not in sd_platforms]
+    # Step 6: Select platforms needing custom paths
+    print("\n" + "=" * 60)
+    print("STEP 3: SELECT PLATFORMS NEEDING CUSTOM PATHS")
+    print("=" * 60)
+    print("\nSelect any platforms that need CUSTOM PATHS:")
+    print("(These will prompt for a path during migration)")
+    print()
+    print("Use Space to select/deselect, Enter to confirm")
+    print()
+    
+    try:
+        questions = [
+            inquirer.Checkbox('platforms',
+                             message="Select platforms needing custom paths",
+                             choices=all_platforms,
+                             default=[] if default_storage != 'custom' else all_platforms)
+        ]
+        
+        answers = inquirer.prompt(questions)
+        if not answers:
+            print("\nCancelled.")
+            return
+        
+        custom_platforms = answers['platforms']
+        
+        # Remove custom platforms from internal/sd lists
+        internal_platforms = [p for p in internal_platforms if p not in custom_platforms]
+        sd_platforms = [p for p in sd_platforms if p not in custom_platforms]
+    except Exception as e:
+        print(f"\n✗ Error during platform selection: {e}")
+        return
     
     print("\n" + "=" * 60)
     print("CONFIGURATION SUMMARY")

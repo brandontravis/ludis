@@ -53,11 +53,8 @@ def load_excluded_platforms():
     excluded = CONFIG.get('options', {}).get('exclude_platforms', [])
     return [p.lower() for p in excluded]
 
-# Load config first
-load_config()
-EXCLUDED_PLATFORMS = load_excluded_platforms()
-if EXCLUDED_PLATFORMS:
-    print(f"⚠ Excluding platforms: {', '.join(EXCLUDED_PLATFORMS)}")
+# Config will be loaded lazily in main() to avoid issues when config.yaml doesn't exist yet
+EXCLUDED_PLATFORMS = []
 
 def is_platform_excluded(platform_name: str) -> bool:
     """Check if a platform should be excluded"""
@@ -266,6 +263,14 @@ def write_csv(path: Path, rows: list[dict], header: list[str]):
         w.writerows(rows)
 
 def main():
+    global EXCLUDED_PLATFORMS
+    
+    # Load config at runtime (not at import time) to get fresh values
+    load_config()
+    EXCLUDED_PLATFORMS = load_excluded_platforms()
+    if EXCLUDED_PLATFORMS:
+        print(f"⚠ Excluding platforms: {', '.join(EXCLUDED_PLATFORMS)}")
+    
     import argparse
     ap = argparse.ArgumentParser(description="Export ALL LaunchBox Platforms to CSVs (+ combined).")
     ap.add_argument("--root", default=DEFAULT_ROOT, help="LaunchBox root (default: %(default)s)")

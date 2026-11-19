@@ -3,6 +3,7 @@ Data/
 
 # Generated Exports (can be regenerated)
 LB_Exports/
+/migrations/
 
 # User-specific configuration (keep sample tracked)
 config.yaml

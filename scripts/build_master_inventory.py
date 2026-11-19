@@ -62,8 +62,7 @@ def load_config():
         print(f"ERROR: Could not load config.yaml: {e}")
         sys.exit(1)
 
-# Load config on startup
-load_config()
+# Config will be loaded lazily in main() to avoid issues when config.yaml doesn't exist yet
 
 def is_platform_excluded(platform_name: str) -> bool:
     """Check if a platform should be excluded"""
@@ -119,14 +118,24 @@ _norm_re = re.compile(r"[^a-z0-9]+")
 
 def strip_metadata_tags(title: str) -> str:
     """
-    Strip region tags, revision tags, language tags, and other metadata from title.
+    Strip region tags, revision tags, language tags, version numbers, publishers,
+    and other ROM metadata from title to enable fuzzy matching.
     This helps match games that differ only in these metadata fields.
     """
     if not title:
         return ""
     
+    # Remove version numbers (v1.004, v1.008, etc.) - common in ROM file names
+    title = re.sub(r'\s+v\d+\.\d+(?:\.\d+)?', '', title, flags=re.IGNORECASE)
+    
+    # Remove years in parentheses (1999), (2000), (2001)
+    title = re.sub(r'\s*\(\d{4}\)', '', title)
+    
     # Remove region tags (USA, Europe, Japan, World, etc.)
-    title = re.sub(r'\s*\([^)]*(?:USA|Europe|Japan|World|Brazil|Germany|France|UK|Spain|Italy|Canada|Australia|Asia|Korea|China)[^)]*\)', '', title, flags=re.IGNORECASE)
+    title = re.sub(r'\s*\([^)]*(?:USA|US|Europe|Japan|World|Brazil|Germany|France|UK|Spain|Italy|Canada|Australia|Asia|Korea|China)[^)]*\)', '', title, flags=re.IGNORECASE)
+    
+    # Remove video standards (NTSC, PAL, SECAM)
+    title = re.sub(r'\s*\((?:NTSC|PAL|SECAM)\)', '', title, flags=re.IGNORECASE)
     
     # Remove revision tags
     title = re.sub(r'\s*\(Rev\s+\d+\)', '', title, flags=re.IGNORECASE)
@@ -135,13 +144,41 @@ def strip_metadata_tags(title: str) -> str:
     # Remove language tags
     title = re.sub(r'\s*\((?:En|Fr|De|Es|It|Nl|Pt|Ja|Zh|Ko)(?:,(?:En|Fr|De|Es|It|Nl|Pt|Ja|Zh|Ko))*\)', '', title, flags=re.IGNORECASE)
     
+    # Remove dump quality markers and flags [!], [b], [t], [h], etc.
+    title = re.sub(r'\s*\[[^\]]*[!bthafo\d][^\]]*\]', '', title, flags=re.IGNORECASE)
+    
+    # Remove disc markers (M5), (Disc 1), (CD1), etc.
+    title = re.sub(r'\s*\(M\d+\)', '', title, flags=re.IGNORECASE)
+    
+    # Remove serial numbers [10S 51035], [6S T-9701NGD], etc.
+    title = re.sub(r'\s*\[\d+S\s+[^\]]+\]', '', title, flags=re.IGNORECASE)
+    
+    # Remove publisher names in parentheses (Sega), (Infogrames), (EIDOS), etc.
+    # Only after more specific tags to avoid false positives
+    # Matches: (Sega), (EIDOS), (Electronic Arts), etc.
+    title = re.sub(r'\s*\([A-Z][A-Za-z]+(?:\s+[A-Z][A-Za-z]+)*\)', '', title)
+    
     # Remove "New Zealand" tags
     title = re.sub(r'\s*,\s*New\s+Zealand', '', title, flags=re.IGNORECASE)
+    
+    # Clean up any double spaces left behind
+    title = re.sub(r'\s+', ' ', title)
     
     return title.strip()
 
 def norm(s: str) -> str:
-    return _norm_re.sub("", st(s).lower())
+    """
+    Normalize string for matching:
+    - Unicode NFC normalization (handles é, smart quotes, etc.)
+    - Lowercase
+    - Strip all non-alphanumeric characters
+    """
+    # Apply Unicode normalization (NFC) to handle:
+    # - Accent variations (é in NFC vs NFD form)
+    # - Smart quotes (U+2019 ') vs regular quotes (U+0027 ')
+    s = unicodedata.normalize('NFC', st(s))
+    # Convert to lowercase and strip all non-alphanumeric characters
+    return _norm_re.sub("", s.lower())
 
 def norm_fuzzy(s: str) -> str:
     """
@@ -236,7 +273,8 @@ def read_all_platforms(csv_path: Path):
         for row in r:
             plat = st(row.get("Platform"))
             title = st(row.get("Title"))
-            fpath = st(row.get("FilePath"))
+            # LBFilePath contains the full Windows path (e.g., Z:\...\game.exe)
+            fpath = st(row.get("LBFilePath"))
             shortname = st(row.get("Shortname"))
             gid = st(row.get("ID"))
             if not plat:
@@ -253,7 +291,7 @@ def read_all_platforms(csv_path: Path):
                 "by_basetitle": defaultdict(list),  # title with disc number stripped
                 "rows": [],
             })
-            # Use FilePath if available, otherwise fall back to Filename
+            # Use LBFilePath if available, otherwise fall back to Filename
             base = leafbase(fpath) if fpath else leafbase(st(row.get("Filename")))
             pidx["rows"].append(row)
             nas_rel = st(row.get("NASPath"))
@@ -278,9 +316,20 @@ def read_all_platforms(csv_path: Path):
             if nas_rel:
                 key = normalize_path(nas_rel)
                 by_naspath[key].append(row)
-                parent = os.path.dirname(nas_rel)
-                if parent:
-                    by_parent[normalize_path(parent)].append(row)
+                
+                # For folder-based platforms (PS3, MS-DOS, etc.), also index by ALL ancestor folders
+                # This allows inventory folders to match against LaunchBox files deep inside those folders
+                # Example: Inventory has "Game", LB has "Game/Sub/Deep/file.bin"
+                #          Add entries for: "Game/Sub/Deep", "Game/Sub", and "Game"
+                current = nas_rel
+                for _ in range(10):  # Limit depth
+                    parent = os.path.dirname(current)
+                    if not parent or parent == current:
+                        break
+                    parent_key = normalize_path(parent)
+                    by_parent[parent_key].append(row)
+                    by_naspath[parent_key].append(row)
+                    current = parent
     return by_platform, lb_headers, by_naspath, by_parent
 
 def read_inventory(csv_path: Path):
@@ -383,34 +432,7 @@ def build_master(by_platform, lb_headers, by_naspath, by_parent, inventory_items
             match_kind = "relpath"
             matched = True
             lb_used_keys.add(lb_row_key(match_row))
-        else:
-            # Heuristic: if this looks like a folder path (no common file extension), try parent-dir match
-            # Check if the path ends with a known game file extension
-            common_extensions = {'.cue', '.iso', '.bin', '.chd', '.zip', '.7z', '.rar', 
-                               '.ccd', '.mds', '.nrg', '.img', '.rom', '.nes', '.sfc', 
-                               '.smc', '.gb', '.gbc', '.gba', '.n64', '.z64', '.v64'}
-            basename = os.path.basename(rel).lower()
-            has_game_ext = any(basename.endswith(ext) for ext in common_extensions)
-            
-            if not has_game_ext:
-                # First try exact parent match
-                pcands = by_parent.get(rel_key, [])
-                if pcands:
-                    match_row = pcands[0]
-                    match_kind = "parent"
-                    matched = True
-                    lb_used_keys.add(lb_row_key(match_row))
-                else:
-                    # For deep folder structures (like PS3), check if NAS path is an ancestor
-                    # This handles cases where NAS has "game_folder" but LB has "game_folder/subdir/file"
-                    for nas_path_key, rows in by_naspath.items():
-                        # Note: rel_key and nas_path_key are already normalized
-                        if nas_path_key.startswith(rel_key + "/"):
-                            match_row = rows[0]
-                            match_kind = "ancestor"
-                            matched = True
-                            lb_used_keys.add(lb_row_key(match_row))
-                            break
+            # No direct path match found - will fall through to title-based matching
         # Fallback to title-based within guessed platform
         if pidx and inv_title and not matched:
             t = norm(inv_title)
@@ -631,6 +653,9 @@ def write_csv(path: Path, rows: list[dict], lb_headers: list[str]):
             w.writerow(r)
 
 def main():
+    # Load config at runtime (not at import time) to get fresh values
+    load_config()
+    
     print("Loading all_platforms ...")
     by_platform, lb_headers, by_naspath, by_parent = read_all_platforms(PLATFORMS_CSV)
     print(f"  ✓ Loaded {len(by_platform)} platform(s)")
